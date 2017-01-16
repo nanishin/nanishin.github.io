@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://nanishin.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2017-01-16T22:48:34+09:00</updated><id>http://nanishin.github.io//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">마크다운에서 유튜브 링크하는 방법</title><link href="http://nanishin.github.io/tip/2017/01/14/how-to-embed-youtube-in-markdown.html" rel="alternate" type="text/html" title="마크다운에서 유튜브 링크하는 방법" /><published>2017-01-14T20:12:00+09:00</published><updated>2017-01-14T20:12:00+09:00</updated><id>http://nanishin.github.io/tip/2017/01/14/how-to-embed-youtube-in-markdown</id><content type="html" xml:base="http://nanishin.github.io/tip/2017/01/14/how-to-embed-youtube-in-markdown.html">&lt;p&gt;구글링으로 찾은 마크다운에서 유튜브 링크를 추가하는 방법&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/11804820/embed-a-youtube-video&quot;&gt;Embed a YouTube video&lt;/a&gt;&lt;/p&gt;</content><summary type="html">구글링으로 찾은 마크다운에서 유튜브 링크를 추가하는 방법</summary></entry><entry><title type="html">귀요미 어항 지붕 먹이통 2차 버전</title><link href="http://nanishin.github.io/maker/2017/01/11/fishbowl-diy-fish-house-roof-feeder-v2.html" rel="alternate" type="text/html" title="귀요미 어항 지붕 먹이통 2차 버전" /><published>2017-01-11T01:30:00+09:00</published><updated>2017-01-11T01:30:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/11/fishbowl-diy-fish-house-roof-feeder-v2</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/11/fishbowl-diy-fish-house-roof-feeder-v2.html">&lt;p&gt;C-Lab 팀동료의 아이디어를 받아들여 기어를 활용해서 기어바에 있는 0.3mm 구멍으로&lt;/p&gt;
+
+&lt;p&gt;먹이를 떨어뜨리는 먹이통 2차 버전을 만들었다.&lt;/p&gt;
+
+&lt;p&gt;그러나 실제 돌려보니 2가지 문제가 발견되었다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;기어바의 홈으로 먹이가 새는 현상&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;구멍 안에서 먹이가 뭉쳐서 떨어지지 않는 현상&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;기본 디자인은 유지하면서 위 문제를 해결할 마이너 개량 버전이 필요해졌다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20170110_234142.jpg&quot; alt=&quot;먹이통 2차 버전 구성물&quot; /&gt;
+&lt;img src=&quot;/assets/20170111_010941.jpg&quot; alt=&quot;먹이통 2차 버전 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20170111_011924.jpg&quot; alt=&quot;먹이통 2차 버전 먹이 새는 문제&quot; /&gt;&lt;/p&gt;</content><summary type="html">C-Lab 팀동료의 아이디어를 받아들여 기어를 활용해서 기어바에 있는 0.3mm 구멍으로</summary></entry><entry><title type="html">귀요미 어항 지붕 먹이통 1차 버전</title><link href="http://nanishin.github.io/maker/2017/01/08/fishbowl-diy-fish-house-roof-feeder-v1.html" rel="alternate" type="text/html" title="귀요미 어항 지붕 먹이통 1차 버전" /><published>2017-01-08T22:00:00+09:00</published><updated>2017-01-08T22:00:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/08/fishbowl-diy-fish-house-roof-feeder-v1</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/08/fishbowl-diy-fish-house-roof-feeder-v1.html">&lt;p&gt;아두이노 나노와 서보모터를 이용해서 자동 먹이통 1차 버전을 적용했다.&lt;/p&gt;
+
+&lt;p&gt;그러나 단순히 입구를 여닫는 것 만으로는 중력으로 미끄러질 거라고 예상했던 먹이들이 뭉쳐있는 현상이 자주 발생했다.&lt;/p&gt;
+
+&lt;p&gt;먹이통 2차 버전 적용이 시급하다. &amp;gt;_&amp;lt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20170108_192213.jpg&quot; alt=&quot;귀요미 어항에 설치된 자동먹이통 1차 버전&quot; /&gt;
+&lt;img src=&quot;/assets/20170108_213505.jpg&quot; alt=&quot;자동 먹이통 1차 버전 확대&quot; /&gt;&lt;/p&gt;</content><summary type="html">아두이노 나노와 서보모터를 이용해서 자동 먹이통 1차 버전을 적용했다.</summary></entry><entry><title type="html">귀요미 어항 지붕 조명 공사</title><link href="http://nanishin.github.io/maker/2017/01/07/fishbowl-diy-fish-house-roof-lighting.html" rel="alternate" type="text/html" title="귀요미 어항 지붕 조명 공사" /><published>2017-01-07T11:30:00+09:00</published><updated>2017-01-07T11:30:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/07/fishbowl-diy-fish-house-roof-lighting</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/07/fishbowl-diy-fish-house-roof-lighting.html">&lt;p&gt;아두이노 나노와 LED 스트립을 이용해서 간단하게 귀요미 어항 지붕에 조명을 달았다.&lt;/p&gt;
+
+&lt;p&gt;LED 색이 바뀌는 문제 원인을 찾다가 어설픈 납땜 실력으로 인한 data 선 간섭임을 확인하고 재작업…&lt;/p&gt;
+
+&lt;p&gt;빛이 좌우로 새는 문제는 면발광을 위해 덧댄 A4 용지 자른 종이에 LED 스트립을 밀착시켜서 해결!!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20170107_100934.jpg&quot; alt=&quot;납땜한 LED스트립&quot; /&gt;
+&lt;img src=&quot;/assets/20170107_110238.jpg&quot; alt=&quot;귀요미 어항 지붕 조명 초기&quot; /&gt;&lt;/p&gt;</content><summary type="html">아두이노 나노와 LED 스트립을 이용해서 간단하게 귀요미 어항 지붕에 조명을 달았다.</summary></entry><entry><title type="html">귀요미 어항 지붕 덮은 날</title><link href="http://nanishin.github.io/maker/2017/01/06/fishbowl-diy-fish-house-roof.html" rel="alternate" type="text/html" title="귀요미 어항 지붕 덮은 날" /><published>2017-01-06T22:30:00+09:00</published><updated>2017-01-06T22:30:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/06/fishbowl-diy-fish-house-roof</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/06/fishbowl-diy-fish-house-roof.html">&lt;p&gt;베타 물고기를 검색하다 보니 자주 등장하는 점프사 이야기들…&lt;/p&gt;
+
+&lt;p&gt;그래서 점프사를 방지하기 위해 제작한 3D 프린팅 귀요미 어항 지붕!!!&lt;/p&gt;
+
+&lt;p&gt;기왕 지붕 생긴 거 조명과 먹이 주는 것을 고려해서 디자인했는데…과연???&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20170106_213027.jpg&quot; alt=&quot;귀요미 어항 지붕으로 덮은 모습&quot; /&gt;
+&lt;img src=&quot;/assets/20170106_220023.jpg&quot; alt=&quot;귀요미 어항 지붕 풀샷&quot; /&gt;
+&lt;img src=&quot;/assets/20170106_220118.jpg&quot; alt=&quot;귀요미 어항 지붕 먹이통&quot; /&gt;&lt;/p&gt;</content><summary type="html">베타 물고기를 검색하다 보니 자주 등장하는 점프사 이야기들…</summary></entry><entry><title type="html">귀요미 어항 입주 완료</title><link href="http://nanishin.github.io/maker/2016/12/31/fishbowl-diy-fish-house-open.html" rel="alternate" type="text/html" title="귀요미 어항 입주 완료" /><published>2016-12-31T11:00:00+09:00</published><updated>2016-12-31T11:00:00+09:00</updated><id>http://nanishin.github.io/maker/2016/12/31/fishbowl-diy-fish-house-open</id><content type="html" xml:base="http://nanishin.github.io/maker/2016/12/31/fishbowl-diy-fish-house-open.html">&lt;p&gt;드디어 메이커 활동을 결심하고 진행한 첫 결과물인 자작어항에 귀요미가 무사히 입주하였다.&lt;/p&gt;
+
+&lt;p&gt;기존 곡면 보석통과 달리 투명 아크릴로 외부가 잘 보여서인지 거울을 보여주자 그동안 한번도&lt;/p&gt;
+
+&lt;p&gt;보여주지 않던 플레어링을 시전…&lt;/p&gt;
+
+&lt;p&gt;그러나 우리집에 온 한달 반 동안 한번도 안해서인지 지느러미가 많이 붙어있어 안타깝다. ㅠ_ㅠ&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20161231_094938.jpg&quot; alt=&quot;귀요미 어항 단체컷&quot; /&gt;
+&lt;img src=&quot;/assets/20161231_103440.jpg&quot; alt=&quot;귀요미 플레어링&quot; /&gt;&lt;/p&gt;</content><summary type="html">드디어 메이커 활동을 결심하고 진행한 첫 결과물인 자작어항에 귀요미가 무사히 입주하였다.</summary></entry><entry><title type="html">귀요미 어항 실내 인테리어</title><link href="http://nanishin.github.io/maker/2016/12/29/fishbowl-diy-fish-house-interior.html" rel="alternate" type="text/html" title="귀요미 어항 실내 인테리어" /><published>2016-12-29T19:30:00+09:00</published><updated>2016-12-29T19:30:00+09:00</updated><id>http://nanishin.github.io/maker/2016/12/29/fishbowl-diy-fish-house-interior</id><content type="html" xml:base="http://nanishin.github.io/maker/2016/12/29/fishbowl-diy-fish-house-interior.html">&lt;p&gt;처음 귀요미가 우리집에 온 뒤 물만 있는 보석통에 덩그러니 있던 게 못내 가슴 아팠다.&lt;/p&gt;
+
+&lt;p&gt;그래서 귀요미 어항을 꾸며주기 위해 주문한 실내 인테리어 소품 겸 식물 친구들!!!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;3mm 흑사&lt;/li&gt;
+  &lt;li&gt;훗카이도 아칸 호 마리모 L&lt;/li&gt;
+  &lt;li&gt;형광 스킨답서스&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;과연 귀요미는 새집이 어떤 느낌으로 다가올 지 궁금하다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20161229_185422.jpg&quot; alt=&quot;3mm 흑사&quot; /&gt;
+&lt;img src=&quot;/assets/20161229_185739.jpg&quot; alt=&quot;후쿠오카 마리모 L&quot; /&gt;
+&lt;img src=&quot;/assets/20161229_185855.jpg&quot; alt=&quot;형광 스킨답서스&quot; /&gt;&lt;/p&gt;</content><summary type="html">처음 귀요미가 우리집에 온 뒤 물만 있는 보석통에 덩그러니 있던 게 못내 가슴 아팠다.</summary></entry><entry><title type="html">귀요미 어항 제작 시작</title><link href="http://nanishin.github.io/maker/2016/12/27/fishbowl-diy-fish-house-start.html" rel="alternate" type="text/html" title="귀요미 어항 제작 시작" /><published>2016-12-27T22:00:00+09:00</published><updated>2016-12-27T22:00:00+09:00</updated><id>http://nanishin.github.io/maker/2016/12/27/fishbowl-diy-fish-house-start</id><content type="html" xml:base="http://nanishin.github.io/maker/2016/12/27/fishbowl-diy-fish-house-start.html">&lt;p&gt;폼프리츠 감자튀김을 담아주던 모양에서 영감을 받아 시작된 귀요미 어항 디자인.&lt;/p&gt;
+
+&lt;p&gt;C-Lab 동료 기구 엔지니어에게 컨셉 디자인을 보여준 뒤 아크릴 5T 원단이 올 때까지 초조하게 기다렸다.&lt;/p&gt;
+
+&lt;p&gt;크리스마스 선물로 아크릴본드 기본접합이 완료된 귀요미 어항을 받은 뒤 기분이 너무 좋았다.&lt;/p&gt;
+
+&lt;p&gt;원래 이브에 실리콘 실링 작업을 진행하려고 동네 홈플러스에 가보았으나 어항에 사용할 수 있는&lt;/p&gt;
+
+&lt;p&gt;초산 실리콘은 판매하지 않았다. 인터넷에서 주문 후 시작한 실링 작업…&lt;/p&gt;
+
+&lt;p&gt;실링 결과물은 덕지덕지였지만 초산 냄새 날리고 방수테스트까지 큰문제 없이 진행할 수 있었다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20161227_082814.jpg&quot; alt=&quot;귀요미 어항 초산실리콘 실링 후 양생&quot; /&gt;
+&lt;img src=&quot;/assets/20161227_212624.jpg&quot; alt=&quot;귀요미 어항 방수테스트&quot; /&gt;
+&lt;img src=&quot;/assets/20161227_212633.jpg&quot; alt=&quot;귀요미 어항 아이들 사진 음각&quot; /&gt;&lt;/p&gt;</content><summary type="html">폼프리츠 감자튀김을 담아주던 모양에서 영감을 받아 시작된 귀요미 어항 디자인.</summary></entry><entry><title type="html">귀요미 어항 제작 약속</title><link href="http://nanishin.github.io/maker/2016/12/19/fishbowl-diy-fish-house-promise.html" rel="alternate" type="text/html" title="귀요미 어항 제작 약속" /><published>2016-12-19T21:30:00+09:00</published><updated>2016-12-19T21:30:00+09:00</updated><id>http://nanishin.github.io/maker/2016/12/19/fishbowl-diy-fish-house-promise</id><content type="html" xml:base="http://nanishin.github.io/maker/2016/12/19/fishbowl-diy-fish-house-promise.html">&lt;p&gt;귀요미가 한달 정도 보석통에서 단순 물갈이와 먹이 먹기로 하루하루 지내는 모습을 보다 못해&lt;/p&gt;
+
+&lt;p&gt;딸들과 귀요미 어항을 새로 만들기로 약속하고 아크릴 음각에 들어갈 사진까지 촬영!!!&lt;/p&gt;
+
+&lt;p&gt;귀요미는 멋진 새집으로 이사해서 행복하게 살 수 있을 것인가…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20161219_211509.jpg&quot; alt=&quot;물갈이 동안 컵에 있는 귀요미&quot; /&gt;
+&lt;img src=&quot;/assets/20161219_211656.jpg&quot; alt=&quot;귀요미 어항에 들어갈 아크릴 음각 사진&quot; /&gt;&lt;/p&gt;</content><summary type="html">귀요미가 한달 정도 보석통에서 단순 물갈이와 먹이 먹기로 하루하루 지내는 모습을 보다 못해</summary></entry><entry><title type="html">정신차려 (김수철 Cover)</title><link href="http://nanishin.github.io/music/2016/12/10/homerecording-vr-wake-cover.html" rel="alternate" type="text/html" title="정신차려 (김수철 Cover)" /><published>2016-12-10T14:30:00+09:00</published><updated>2016-12-10T14:30:00+09:00</updated><id>http://nanishin.github.io/music/2016/12/10/homerecording-vr-wake-cover</id><content type="html" xml:base="http://nanishin.github.io/music/2016/12/10/homerecording-vr-wake-cover.html">&lt;p&gt;홈레코딩 기록 #5 - 정신차려 (김수철 Cover)&lt;/p&gt;
+
+&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
+
+&lt;p&gt;VR 지원하는 브라우저(크롬, 파이어폭스 등)에서 360도 영상 회전 가능&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-LVvlI1TEqA&quot; title=&quot;It's changing&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/-LVvlI1TEqA/0.jpg&quot; alt=&quot;It's changing&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;기타 : 아빠&lt;/p&gt;
+
+&lt;p&gt;젬베 : 큰딸&lt;/p&gt;
+
+&lt;p&gt;보컬 : 아빠, 큰딸, 작은딸&lt;/p&gt;</content><summary type="html">홈레코딩 기록 #5 - 정신차려 (김수철 Cover)</summary></entry></feed>
