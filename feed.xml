@@ -1,5 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://nanishin.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2017-01-17T02:58:45+09:00</updated><id>http://nanishin.github.io//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">GitHub Pages에 custom jekyll plugin 적용 방법</title><link href="http://nanishin.github.io/tip/2017/01/17/how-to-use-custom-jekyll-plugins-in-github-pages.html" rel="alternate" type="text/html" title="GitHub Pages에 custom jekyll plugin 적용 방법" /><published>2017-01-17T02:55:00+09:00</published><updated>2017-01-17T02:55:00+09:00</updated><id>http://nanishin.github.io/tip/2017/01/17/how-to-use-custom-jekyll-plugins-in-github-pages</id><content type="html" xml:base="http://nanishin.github.io/tip/2017/01/17/how-to-use-custom-jekyll-plugins-in-github-pages.html">&lt;p&gt;구글링으로 찾은 GitHub Pages에 custom jekyll plugin 적용 방법&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://nanishin.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2017-01-26T22:38:51+09:00</updated><id>http://nanishin.github.io//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">25큐브어항 측면 천장 설치 후 귀요미 입주</title><link href="http://nanishin.github.io/maker/2017/01/26/25cube-fish-house-open.html" rel="alternate" type="text/html" title="25큐브어항 측면 천장 설치 후 귀요미 입주" /><published>2017-01-26T00:30:00+09:00</published><updated>2017-01-26T00:30:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/26/25cube-fish-house-open</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/26/25cube-fish-house-open.html">&lt;p&gt;하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~&lt;/p&gt;
+
+&lt;p&gt;첫 자작어항에서 사용하던 조명과 먹이통을 적용하기 위해 측면 천장을 새로 찍었다.&lt;/p&gt;
+
+&lt;p&gt;3D 프린터 베드 사이즈 제한으로 25큐브를 전체 덮을 지붕 찍기는 무리여서 측면만 우선 적용…&lt;/p&gt;
+
+&lt;p&gt;이제 튼튼한 25큐브어항 위에 얹을 다양한 지붕 디자인을 계속 고민해 봐야쥐~ ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/25cube_fish_house_side_roof.png&quot; alt=&quot;측면 지붕 결합샷&quot; /&gt;
+&lt;img src=&quot;/assets/25cube_fish_house_side_roof_light_and_feeder.png&quot; alt=&quot;조명 및 먹이통V2.1 설치&quot; /&gt;
+&lt;img src=&quot;/assets/25cube_fish_house_side_roof_night_light.png&quot; alt=&quot;조명 시험&quot; /&gt;
+&lt;img src=&quot;/assets/25cube_fish_house_open.png&quot; alt=&quot;귀요미 25큐브 새집 개장&quot; /&gt;&lt;/p&gt;</content><summary type="html">하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~</summary></entry><entry><title type="html">25큐브어항 도착 및 물잡이 시작</title><link href="http://nanishin.github.io/maker/2017/01/25/25cube-fish_house_decorating.html" rel="alternate" type="text/html" title="25큐브어항 도착 및 물잡이 시작" /><published>2017-01-25T00:30:00+09:00</published><updated>2017-01-25T00:30:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/25/25cube-fish_house_decorating</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/25/25cube-fish_house_decorating.html">&lt;p&gt;며칠 간 조바심을 가지고 기다리다가 드디어 25큐브어항 도착!!!&lt;/p&gt;
+
+&lt;p&gt;사실 자작어항의 누수가 시작되기 전 수질 문제가 먼저 발생했었다.&lt;/p&gt;
+
+&lt;p&gt;귀요미 이마쪽에 흰색이 보여서 백점병인가 해서 어항전문가인 씨랩 옆팀 HW엔지니어에게&lt;/p&gt;
+
+&lt;p&gt;물어보니 수질 악화로 발생된 흰곰팡이일 가능성이 크다면서 여러 도구들을 지원 받았었다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;바닥 환수를 위한 실리콘 튜브&lt;/li&gt;
+  &lt;li&gt;암모니아를 분해해주는 박테리아 펌핑&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;그러나 그당시에도 수질오염에 대처하려면 좀 더 큰 어항과 여과기를 필요하다고 했었다.&lt;/p&gt;
+
+&lt;p&gt;그래서 이번에 25큐브어항으로 가면서 물용량만 2리터에서 15리터로 증가!!!&lt;/p&gt;
+
+&lt;p&gt;그리고 1자 어항 이하에서 사용하는 아마존 3W 걸이식여과기!!!&lt;/p&gt;
+
+&lt;p&gt;새로운 식물 식구로 개운죽도 합세!!!&lt;/p&gt;
+
+&lt;p&gt;여과기를 처음 써보다 보니 여과재를 채워넣고 물순환이 되지 않아서 30분 넘게 낑낑대다가&lt;/p&gt;
+
+&lt;p&gt;동작하는 거 확인하고 박테리아도 펌핑 팍팍 해준 뒤 물잡이 시작!!!&lt;/p&gt;
+
+&lt;p&gt;이제 펜트하우스급으로 넓어진 새집에서 귀요미가 제대로 지느러미들을 다 펼치고 살길~ :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20170124_214347.jpg&quot; alt=&quot;혼합여과재 500g&quot; /&gt;
+&lt;img src=&quot;/assets/20170124_214428.jpg&quot; alt=&quot;아마존 걸이식여과기 상자 전면&quot; /&gt;
+&lt;img src=&quot;/assets/20170124_214451.jpg&quot; alt=&quot;아마존 걸이식여과기 상자 후면&quot; /&gt;
+&lt;img src=&quot;/assets/20170124_215454.jpg&quot; alt=&quot;아마존 걸이식여과기 내용물&quot; /&gt;
+&lt;img src=&quot;/assets/20170124_220131.jpg&quot; alt=&quot;개운죽 3촉&quot; /&gt;
+&lt;img src=&quot;/assets/25cube_fish_house_ready.png&quot; alt=&quot;물잡이 시작&quot; /&gt;&lt;/p&gt;</content><summary type="html">며칠 간 조바심을 가지고 기다리다가 드디어 25큐브어항 도착!!!</summary></entry><entry><title type="html">첫 자작어항 한달을 앞두고 누수로 해체</title><link href="http://nanishin.github.io/maker/2017/01/22/fishbowl-diy-fish-house_water_leak.html" rel="alternate" type="text/html" title="첫 자작어항 한달을 앞두고 누수로 해체" /><published>2017-01-22T17:00:00+09:00</published><updated>2017-01-22T17:00:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/22/fishbowl-diy-fish-house_water_leak</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/22/fishbowl-diy-fish-house_water_leak.html">&lt;p&gt;1월 21일 토요일 약 25일을 버티고 첫 자작어항에 누수가 발생했다.&lt;/p&gt;
+
+&lt;p&gt;최상단을 잡아주는 지지대가 없어서 아크릴 커팅과 접착을 도와준 기구엔지니어가 직교형&lt;/p&gt;
+
+&lt;p&gt;어항보다 힘을 더 받기 때문에 갈라질 수 있다고 했는데 그게 현실이 될 줄이야…&lt;/p&gt;
+
+&lt;p&gt;최상단 누수로 전체 수위가 2/3 정도로 낮아져서 버텨봤는데 결국 중간부위에서도 퐁퐁퐁&lt;/p&gt;
+
+&lt;p&gt;물방물이 새기 시작하면서 귀요미를 원래 보석통으로 긴급 이송시키고 아쉽지만 해체…&lt;/p&gt;
+
+&lt;p&gt;직교형으로 다시 만들어 볼까 했지만 기성품과 동일한 디자인은 만들어도 별 재미가 없고&lt;/p&gt;
+
+&lt;p&gt;결정적으로 지붕에 여러가지 응용을 하려면 어항 자체가 튼튼해야 한다는 결론에 도달!&lt;/p&gt;
+
+&lt;p&gt;그래서 25큐브어항으로 주문 결정…튼튼한 어항에 맞게 지붕쪽을 새로 만들어 봐야지~&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20170121_085412.jpg&quot; alt=&quot;최상단 누수로 수위가 낮아진 상태&quot; /&gt;
+&lt;img src=&quot;/assets/20170122_135147.jpg&quot; alt=&quot;해체된 첫 자작어항&quot; /&gt;
+&lt;img src=&quot;/assets/20170122_163247.jpg&quot; alt=&quot;결정에 도움을 준 팹랩서울 스티커&quot; /&gt;&lt;/p&gt;</content><summary type="html">1월 21일 토요일 약 25일을 버티고 첫 자작어항에 누수가 발생했다.</summary></entry><entry><title type="html">GitHub Pages에 custom jekyll plugin 적용 방법</title><link href="http://nanishin.github.io/tip/2017/01/17/how-to-use-custom-jekyll-plugins-in-github-pages.html" rel="alternate" type="text/html" title="GitHub Pages에 custom jekyll plugin 적용 방법" /><published>2017-01-17T02:55:00+09:00</published><updated>2017-01-17T02:55:00+09:00</updated><id>http://nanishin.github.io/tip/2017/01/17/how-to-use-custom-jekyll-plugins-in-github-pages</id><content type="html" xml:base="http://nanishin.github.io/tip/2017/01/17/how-to-use-custom-jekyll-plugins-in-github-pages.html">&lt;p&gt;구글링으로 찾은 GitHub Pages에 custom jekyll plugin 적용 방법&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://gumpcha.github.io/blog/github-pages-with-jekyll-custom-plugin&quot;&gt;Github Pages에 Jekyll custom plugin 적용하기&lt;/a&gt;&lt;/p&gt;</content><summary type="html">구글링으로 찾은 GitHub Pages에 custom jekyll plugin 적용 방법</summary></entry><entry><title type="html">마크다운에서 유튜브 링크하는 방법</title><link href="http://nanishin.github.io/tip/2017/01/14/how-to-embed-youtube-in-markdown.html" rel="alternate" type="text/html" title="마크다운에서 유튜브 링크하는 방법" /><published>2017-01-14T20:12:00+09:00</published><updated>2017-01-14T20:12:00+09:00</updated><id>http://nanishin.github.io/tip/2017/01/14/how-to-embed-youtube-in-markdown</id><content type="html" xml:base="http://nanishin.github.io/tip/2017/01/14/how-to-embed-youtube-in-markdown.html">&lt;p&gt;구글링으로 찾은 마크다운에서 유튜브 링크를 추가하는 방법&lt;/p&gt;
 
@@ -53,39 +114,4 @@
 &lt;p&gt;그러나 우리집에 온 한달 반 동안 한번도 안해서인지 지느러미가 많이 붙어있어 안타깝다. ㅠ_ㅠ&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/20161231_094938.jpg&quot; alt=&quot;귀요미 어항 단체컷&quot; /&gt;
-&lt;img src=&quot;/assets/20161231_103440.jpg&quot; alt=&quot;귀요미 플레어링&quot; /&gt;&lt;/p&gt;</content><summary type="html">드디어 메이커 활동을 결심하고 진행한 첫 결과물인 자작어항에 귀요미가 무사히 입주하였다.</summary></entry><entry><title type="html">귀요미 어항 실내 인테리어</title><link href="http://nanishin.github.io/maker/2016/12/29/fishbowl-diy-fish-house-interior.html" rel="alternate" type="text/html" title="귀요미 어항 실내 인테리어" /><published>2016-12-29T19:30:00+09:00</published><updated>2016-12-29T19:30:00+09:00</updated><id>http://nanishin.github.io/maker/2016/12/29/fishbowl-diy-fish-house-interior</id><content type="html" xml:base="http://nanishin.github.io/maker/2016/12/29/fishbowl-diy-fish-house-interior.html">&lt;p&gt;처음 귀요미가 우리집에 온 뒤 물만 있는 보석통에 덩그러니 있던 게 못내 가슴 아팠다.&lt;/p&gt;
-
-&lt;p&gt;그래서 귀요미 어항을 꾸며주기 위해 주문한 실내 인테리어 소품 겸 식물 친구들!!!&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;3mm 흑사&lt;/li&gt;
-  &lt;li&gt;훗카이도 아칸 호 마리모 L&lt;/li&gt;
-  &lt;li&gt;형광 스킨답서스&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;과연 귀요미는 새집이 어떤 느낌으로 다가올 지 궁금하다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20161229_185422.jpg&quot; alt=&quot;3mm 흑사&quot; /&gt;
-&lt;img src=&quot;/assets/20161229_185739.jpg&quot; alt=&quot;후쿠오카 마리모 L&quot; /&gt;
-&lt;img src=&quot;/assets/20161229_185855.jpg&quot; alt=&quot;형광 스킨답서스&quot; /&gt;&lt;/p&gt;</content><summary type="html">처음 귀요미가 우리집에 온 뒤 물만 있는 보석통에 덩그러니 있던 게 못내 가슴 아팠다.</summary></entry><entry><title type="html">귀요미 어항 제작 시작</title><link href="http://nanishin.github.io/maker/2016/12/27/fishbowl-diy-fish-house-start.html" rel="alternate" type="text/html" title="귀요미 어항 제작 시작" /><published>2016-12-27T22:00:00+09:00</published><updated>2016-12-27T22:00:00+09:00</updated><id>http://nanishin.github.io/maker/2016/12/27/fishbowl-diy-fish-house-start</id><content type="html" xml:base="http://nanishin.github.io/maker/2016/12/27/fishbowl-diy-fish-house-start.html">&lt;p&gt;폼프리츠 감자튀김을 담아주던 모양에서 영감을 받아 시작된 귀요미 어항 디자인.&lt;/p&gt;
-
-&lt;p&gt;C-Lab 동료 기구 엔지니어에게 컨셉 디자인을 보여준 뒤 아크릴 5T 원단이 올 때까지 초조하게 기다렸다.&lt;/p&gt;
-
-&lt;p&gt;크리스마스 선물로 아크릴본드 기본접합이 완료된 귀요미 어항을 받은 뒤 기분이 너무 좋았다.&lt;/p&gt;
-
-&lt;p&gt;원래 이브에 실리콘 실링 작업을 진행하려고 동네 홈플러스에 가보았으나 어항에 사용할 수 있는&lt;/p&gt;
-
-&lt;p&gt;초산 실리콘은 판매하지 않았다. 인터넷에서 주문 후 시작한 실링 작업…&lt;/p&gt;
-
-&lt;p&gt;실링 결과물은 덕지덕지였지만 초산 냄새 날리고 방수테스트까지 큰문제 없이 진행할 수 있었다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20161227_082814.jpg&quot; alt=&quot;귀요미 어항 초산실리콘 실링 후 양생&quot; /&gt;
-&lt;img src=&quot;/assets/20161227_212624.jpg&quot; alt=&quot;귀요미 어항 방수테스트&quot; /&gt;
-&lt;img src=&quot;/assets/20161227_212633.jpg&quot; alt=&quot;귀요미 어항 아이들 사진 음각&quot; /&gt;&lt;/p&gt;</content><summary type="html">폼프리츠 감자튀김을 담아주던 모양에서 영감을 받아 시작된 귀요미 어항 디자인.</summary></entry><entry><title type="html">귀요미 어항 제작 약속</title><link href="http://nanishin.github.io/maker/2016/12/19/fishbowl-diy-fish-house-promise.html" rel="alternate" type="text/html" title="귀요미 어항 제작 약속" /><published>2016-12-19T21:30:00+09:00</published><updated>2016-12-19T21:30:00+09:00</updated><id>http://nanishin.github.io/maker/2016/12/19/fishbowl-diy-fish-house-promise</id><content type="html" xml:base="http://nanishin.github.io/maker/2016/12/19/fishbowl-diy-fish-house-promise.html">&lt;p&gt;귀요미가 한달 정도 보석통에서 단순 물갈이와 먹이 먹기로 하루하루 지내는 모습을 보다 못해&lt;/p&gt;
-
-&lt;p&gt;딸들과 귀요미 어항을 새로 만들기로 약속하고 아크릴 음각에 들어갈 사진까지 촬영!!!&lt;/p&gt;
-
-&lt;p&gt;귀요미는 멋진 새집으로 이사해서 행복하게 살 수 있을 것인가…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20161219_211509.jpg&quot; alt=&quot;물갈이 동안 컵에 있는 귀요미&quot; /&gt;
-&lt;img src=&quot;/assets/20161219_211656.jpg&quot; alt=&quot;귀요미 어항에 들어갈 아크릴 음각 사진&quot; /&gt;&lt;/p&gt;</content><summary type="html">귀요미가 한달 정도 보석통에서 단순 물갈이와 먹이 먹기로 하루하루 지내는 모습을 보다 못해</summary></entry></feed>
+&lt;img src=&quot;/assets/20161231_103440.jpg&quot; alt=&quot;귀요미 플레어링&quot; /&gt;&lt;/p&gt;</content><summary type="html">드디어 메이커 활동을 결심하고 진행한 첫 결과물인 자작어항에 귀요미가 무사히 입주하였다.</summary></entry></feed>
