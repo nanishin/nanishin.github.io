@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://nanishin.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2017-01-26T22:38:51+09:00</updated><id>http://nanishin.github.io//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">25큐브어항 측면 천장 설치 후 귀요미 입주</title><link href="http://nanishin.github.io/maker/2017/01/26/25cube-fish-house-open.html" rel="alternate" type="text/html" title="25큐브어항 측면 천장 설치 후 귀요미 입주" /><published>2017-01-26T00:30:00+09:00</published><updated>2017-01-26T00:30:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/26/25cube-fish-house-open</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/26/25cube-fish-house-open.html">&lt;p&gt;하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://nanishin.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2017-03-02T02:28:26+09:00</updated><id>http://nanishin.github.io//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">25큐브 귀요미 어항 조명 개선</title><link href="http://nanishin.github.io/maker/2017/02/28/25cube-fish-house_light_renewal.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 조명 개선" /><published>2017-02-28T10:00:00+09:00</published><updated>2017-02-28T10:00:00+09:00</updated><id>http://nanishin.github.io/maker/2017/02/28/25cube-fish-house_light_renewal</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/02/28/25cube-fish-house_light_renewal.html">&lt;p&gt;귀요미 어항 조명으로 사용 중인 LED 스트립이 2개만 사용하고 있어서&lt;/p&gt;
+
+&lt;p&gt;광량이 부족하다는 생각을 계속하고 있었다. 드디어 새로운 지지대를 3D 프린터로&lt;/p&gt;
+
+&lt;p&gt;뽑은 뒤 LED 스트립 7개를 사용하니 훨씬 밝아지고 텔레그램 근황 메시지의 사진도&lt;/p&gt;
+
+&lt;p&gt;거의 포토제닉 수준으로 찍히는 걸 확인해서 기분이 좋다. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20170227_215658.jpg&quot; alt=&quot;지지대와 LED 스트립 7개&quot; /&gt;
+&lt;img src=&quot;/assets/20170227_230850.jpg&quot; alt=&quot;설치 후 광량&quot; /&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012711.jpg&quot; alt=&quot;귀요미 형광등 100개 아우라?&quot; /&gt;&lt;/p&gt;</content><summary type="html">귀요미 어항 조명으로 사용 중인 LED 스트립이 2개만 사용하고 있어서</summary></entry><entry><title type="html">25큐브 귀요미 어항과 C-Lab 프로젝트 콜라보 진행 중</title><link href="http://nanishin.github.io/maker/2017/02/24/25cube-fish-house_clab_project_collaboration.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항과 C-Lab 프로젝트 콜라보 진행 중" /><published>2017-02-24T21:00:00+09:00</published><updated>2017-02-24T21:00:00+09:00</updated><id>http://nanishin.github.io/maker/2017/02/24/25cube-fish-house_clab_project_collaboration</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/02/24/25cube-fish-house_clab_project_collaboration.html">&lt;p&gt;사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에&lt;/p&gt;
+
+&lt;p&gt;연동하여 사이판 가족여행 동안 약 일주일 간의 에이징 시험을 진행했다.&lt;/p&gt;
+
+&lt;p&gt;5일차 때 밥통 기어와 바에 설치해둔 테이핑이 떨어지면서 귀요미가 3일 굶게 된 건&lt;/p&gt;
+
+&lt;p&gt;돌아와서도 참 미안한 마음이 들었다. 밥통 디자인을 테이핑 필요없게 개선해서 다시&lt;/p&gt;
+
+&lt;p&gt;출력해야지…&lt;/p&gt;
+
+&lt;p&gt;그래도 이제 귀요미 근황을 외출 중에도 텔레그램 메시지로 받을 수 있으니 마음이 한결 놓인다. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Screenshot_20170302-012048.jpg&quot; alt=&quot;17일 오전 근황&quot; /&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012155.jpg&quot; alt=&quot;18일 오전 근황&quot; /&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012233.jpg&quot; alt=&quot;19일 오전 근황&quot; /&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012310.jpg&quot; alt=&quot;20일 오전 근황&quot; /&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012337.jpg&quot; alt=&quot;21일 오전 근황&quot; /&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012357.jpg&quot; alt=&quot;22일 오전 근황&quot; /&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012419.jpg&quot; alt=&quot;23일 오전 근황&quot; /&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012501.jpg&quot; alt=&quot;24일 오전 근황&quot; /&gt;&lt;/p&gt;</content><summary type="html">사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에</summary></entry><entry><title type="html">25큐브어항 측면 천장 설치 후 귀요미 입주</title><link href="http://nanishin.github.io/maker/2017/01/26/25cube-fish-house_open.html" rel="alternate" type="text/html" title="25큐브어항 측면 천장 설치 후 귀요미 입주" /><published>2017-01-26T00:30:00+09:00</published><updated>2017-01-26T00:30:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/26/25cube-fish-house_open</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/26/25cube-fish-house_open.html">&lt;p&gt;하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~&lt;/p&gt;
 
 &lt;p&gt;첫 자작어항에서 사용하던 조명과 먹이통을 적용하기 위해 측면 천장을 새로 찍었다.&lt;/p&gt;
 
@@ -97,21 +126,4 @@
 &lt;p&gt;빛이 좌우로 새는 문제는 면발광을 위해 덧댄 A4 용지 자른 종이에 LED 스트립을 밀착시켜서 해결!!!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/20170107_100934.jpg&quot; alt=&quot;납땜한 LED스트립&quot; /&gt;
-&lt;img src=&quot;/assets/20170107_110238.jpg&quot; alt=&quot;귀요미 어항 지붕 조명 초기&quot; /&gt;&lt;/p&gt;</content><summary type="html">아두이노 나노와 LED 스트립을 이용해서 간단하게 귀요미 어항 지붕에 조명을 달았다.</summary></entry><entry><title type="html">귀요미 어항 지붕 덮은 날</title><link href="http://nanishin.github.io/maker/2017/01/06/fishbowl-diy-fish-house-roof.html" rel="alternate" type="text/html" title="귀요미 어항 지붕 덮은 날" /><published>2017-01-06T22:30:00+09:00</published><updated>2017-01-06T22:30:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/06/fishbowl-diy-fish-house-roof</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/06/fishbowl-diy-fish-house-roof.html">&lt;p&gt;베타 물고기를 검색하다 보니 자주 등장하는 점프사 이야기들…&lt;/p&gt;
-
-&lt;p&gt;그래서 점프사를 방지하기 위해 제작한 3D 프린팅 귀요미 어항 지붕!!!&lt;/p&gt;
-
-&lt;p&gt;기왕 지붕 생긴 거 조명과 먹이 주는 것을 고려해서 디자인했는데…과연???&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20170106_213027.jpg&quot; alt=&quot;귀요미 어항 지붕으로 덮은 모습&quot; /&gt;
-&lt;img src=&quot;/assets/20170106_220023.jpg&quot; alt=&quot;귀요미 어항 지붕 풀샷&quot; /&gt;
-&lt;img src=&quot;/assets/20170106_220118.jpg&quot; alt=&quot;귀요미 어항 지붕 먹이통&quot; /&gt;&lt;/p&gt;</content><summary type="html">베타 물고기를 검색하다 보니 자주 등장하는 점프사 이야기들…</summary></entry><entry><title type="html">귀요미 어항 입주 완료</title><link href="http://nanishin.github.io/maker/2016/12/31/fishbowl-diy-fish-house-open.html" rel="alternate" type="text/html" title="귀요미 어항 입주 완료" /><published>2016-12-31T11:00:00+09:00</published><updated>2016-12-31T11:00:00+09:00</updated><id>http://nanishin.github.io/maker/2016/12/31/fishbowl-diy-fish-house-open</id><content type="html" xml:base="http://nanishin.github.io/maker/2016/12/31/fishbowl-diy-fish-house-open.html">&lt;p&gt;드디어 메이커 활동을 결심하고 진행한 첫 결과물인 자작어항에 귀요미가 무사히 입주하였다.&lt;/p&gt;
-
-&lt;p&gt;기존 곡면 보석통과 달리 투명 아크릴로 외부가 잘 보여서인지 거울을 보여주자 그동안 한번도&lt;/p&gt;
-
-&lt;p&gt;보여주지 않던 플레어링을 시전…&lt;/p&gt;
-
-&lt;p&gt;그러나 우리집에 온 한달 반 동안 한번도 안해서인지 지느러미가 많이 붙어있어 안타깝다. ㅠ_ㅠ&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20161231_094938.jpg&quot; alt=&quot;귀요미 어항 단체컷&quot; /&gt;
-&lt;img src=&quot;/assets/20161231_103440.jpg&quot; alt=&quot;귀요미 플레어링&quot; /&gt;&lt;/p&gt;</content><summary type="html">드디어 메이커 활동을 결심하고 진행한 첫 결과물인 자작어항에 귀요미가 무사히 입주하였다.</summary></entry></feed>
+&lt;img src=&quot;/assets/20170107_110238.jpg&quot; alt=&quot;귀요미 어항 지붕 조명 초기&quot; /&gt;&lt;/p&gt;</content><summary type="html">아두이노 나노와 LED 스트립을 이용해서 간단하게 귀요미 어항 지붕에 조명을 달았다.</summary></entry></feed>
