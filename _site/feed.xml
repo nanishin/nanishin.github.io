@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://nanishin.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2017-03-27T00:44:32+09:00</updated><id>http://nanishin.github.io//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">25큐브 귀요미 어항 지붕 먹이통 개선</title><link href="http://nanishin.github.io/maker/2017/03/22/25cube-fish-house_feeder_renewal.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 지붕 먹이통 개선" /><published>2017-03-22T11:00:00+09:00</published><updated>2017-03-22T11:00:00+09:00</updated><id>http://nanishin.github.io/maker/2017/03/22/25cube-fish-house_feeder_renewal</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/03/22/25cube-fish-house_feeder_renewal.html">&lt;p&gt;기존 먹이통은 기어와 바 고정이 제대로 되지 않아서 테이핑의 한계가 있었다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://nanishin.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2017-05-14T00:08:42+09:00</updated><id>http://nanishin.github.io//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">25큐브 귀요미 어항 2차 조명 개선</title><link href="http://nanishin.github.io/maker/2017/05/04/25cube-fish-house_light_renewal2.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 2차 조명 개선" /><published>2017-05-04T21:00:00+09:00</published><updated>2017-05-04T21:00:00+09:00</updated><id>http://nanishin.github.io/maker/2017/05/04/25cube-fish-house_light_renewal2</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/05/04/25cube-fish-house_light_renewal2.html">&lt;p&gt;3주 전 옆팀 하드웨어엔지니어 아저씨 어항에서 분양받은 부상수초가 조명 부족으로 죽어갔다.&lt;/p&gt;
+
+&lt;p&gt;보다 못해 LED 3줄을 백색/적색/청색으로 설정해서 2차 조명 개선 작업 완료!!!&lt;/p&gt;
+
+&lt;p&gt;조명덮개까지 씌워준 뒤 빛이 제법 수조로 모아지는 듯 하니 부상수초가 다시 잘 살아나길~ :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20170501_151618.jpg&quot; alt=&quot;LED줄 3개를 지탱할 기본 지지대&quot; /&gt;
+&lt;img src=&quot;/assets/20170501_151734.jpg&quot; alt=&quot;NeoPixels LED 3줄&quot; /&gt;
+&lt;img src=&quot;/assets/20170501_210358.jpg&quot; alt=&quot;VHB 양면테이핑 작업&quot; /&gt;
+&lt;img src=&quot;/assets/20170502_074051.jpg&quot; alt=&quot;1단계 부착 완료&quot; /&gt;
+&lt;img src=&quot;/assets/20170504_201945.jpg&quot; alt=&quot;조명 덮개&quot; /&gt;
+&lt;img src=&quot;/assets/20170504_202104.jpg&quot; alt=&quot;기본 설치&quot; /&gt;
+&lt;img src=&quot;/assets/20170504_203319.jpg&quot; alt=&quot;덮개 설치&quot; /&gt;&lt;/p&gt;</content><summary type="html">3주 전 옆팀 하드웨어엔지니어 아저씨 어항에서 분양받은 부상수초가 조명 부족으로 죽어갔다.</summary></entry><entry><title type="html">25큐브 귀요미 어항 지붕 먹이통 개선</title><link href="http://nanishin.github.io/maker/2017/03/22/25cube-fish-house_feeder_renewal.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 지붕 먹이통 개선" /><published>2017-03-22T11:00:00+09:00</published><updated>2017-03-22T11:00:00+09:00</updated><id>http://nanishin.github.io/maker/2017/03/22/25cube-fish-house_feeder_renewal</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/03/22/25cube-fish-house_feeder_renewal.html">&lt;p&gt;기존 먹이통은 기어와 바 고정이 제대로 되지 않아서 테이핑의 한계가 있었다.&lt;/p&gt;
 
 &lt;p&gt;씨랩 동료인 기구엔지니어의 기구 재설계로 몰라보게 단단해진 먹이통!!!&lt;/p&gt;
 
@@ -123,11 +135,4 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/20170110_234142.jpg&quot; alt=&quot;먹이통 2차 버전 구성물&quot; /&gt;
 &lt;img src=&quot;/assets/20170111_010941.jpg&quot; alt=&quot;먹이통 2차 버전 조립&quot; /&gt;
-&lt;img src=&quot;/assets/20170111_011924.jpg&quot; alt=&quot;먹이통 2차 버전 먹이 새는 문제&quot; /&gt;&lt;/p&gt;</content><summary type="html">C-Lab 팀동료의 아이디어를 받아들여 기어를 활용해서 기어바에 있는 0.3mm 구멍으로</summary></entry><entry><title type="html">귀요미 어항 지붕 먹이통 1차 버전</title><link href="http://nanishin.github.io/maker/2017/01/08/fishbowl-diy-fish-house-roof-feeder-v1.html" rel="alternate" type="text/html" title="귀요미 어항 지붕 먹이통 1차 버전" /><published>2017-01-08T22:00:00+09:00</published><updated>2017-01-08T22:00:00+09:00</updated><id>http://nanishin.github.io/maker/2017/01/08/fishbowl-diy-fish-house-roof-feeder-v1</id><content type="html" xml:base="http://nanishin.github.io/maker/2017/01/08/fishbowl-diy-fish-house-roof-feeder-v1.html">&lt;p&gt;아두이노 나노와 서보모터를 이용해서 자동 먹이통 1차 버전을 적용했다.&lt;/p&gt;
-
-&lt;p&gt;그러나 단순히 입구를 여닫는 것 만으로는 중력으로 미끄러질 거라고 예상했던 먹이들이 뭉쳐있는 현상이 자주 발생했다.&lt;/p&gt;
-
-&lt;p&gt;먹이통 2차 버전 적용이 시급하다. &amp;gt;_&amp;lt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20170108_192213.jpg&quot; alt=&quot;귀요미 어항에 설치된 자동먹이통 1차 버전&quot; /&gt;
-&lt;img src=&quot;/assets/20170108_213505.jpg&quot; alt=&quot;자동 먹이통 1차 버전 확대&quot; /&gt;&lt;/p&gt;</content><summary type="html">아두이노 나노와 서보모터를 이용해서 자동 먹이통 1차 버전을 적용했다.</summary></entry></feed>
+&lt;img src=&quot;/assets/20170111_011924.jpg&quot; alt=&quot;먹이통 2차 버전 먹이 새는 문제&quot; /&gt;&lt;/p&gt;</content><summary type="html">C-Lab 팀동료의 아이디어를 받아들여 기어를 활용해서 기어바에 있는 0.3mm 구멍으로</summary></entry></feed>
