@@ -11,4 +11,4 @@ categories: music
 
 [![First Live Performance](http://img.youtube.com/vi/LJYumaSMJqU/0.jpg)](https://www.youtube.com/watch?v=LJYumaSMJqU "First Live Performance")
 
-언플러드 동호회 기타 강습 후 제 1회 정기 발표회에서 A반 공연 참석
+언플러그드 동호회 기타 강습 후 제 1회 정기 발표회에서 A반 공연 참석
