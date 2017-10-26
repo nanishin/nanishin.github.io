@@ -11,4 +11,4 @@ categories: music
 
 [![When I look into your eyes](http://img.youtube.com/vi/DU4bUABq3BM/0.jpg)](https://www.youtube.com/watch?v=DU4bUABq3BM "When I look into your eyes")
 
-언플러드 동호회 2016년 9월 작은음악회(주제 : 2000년대 이전 팝송 기준) 발표
+언플러그드 동호회 2016년 9월 작은음악회(주제 : 2000년대 이전 팝송 기준) 발표
