@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-29T00:18:42-07:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">Galaxy Upcycling project open</title><link href="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html" rel="alternate" type="text/html" title="Galaxy Upcycling project open" /><published>2017-10-27T04:30:00-07:00</published><updated>2017-10-27T04:30:00-07:00</updated><id>http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html">&lt;p&gt;창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-29T15:50:23-07:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">Upcycling JackOLantern</title><link href="http://localhost:4000/maker/2017/10/29/halloween-upcycling-jackolantern.html" rel="alternate" type="text/html" title="Upcycling JackOLantern" /><published>2017-10-29T15:40:00-07:00</published><updated>2017-10-29T15:40:00-07:00</updated><id>http://localhost:4000/maker/2017/10/29/halloween-upcycling-jackolantern</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/29/halloween-upcycling-jackolantern.html">&lt;p&gt;큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!&lt;/p&gt;
+
+&lt;p&gt;기왕 작업한 거 github에도 정리 완료~&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/upcycling-jackolantern&quot;&gt;How to make upcycling JackOLantern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GI45QyvkgNQ&quot; title=&quot;Upcycling JackOLantern&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/GI45QyvkgNQ/0.jpg&quot; alt=&quot;Upcycling JackOLantern&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!</summary></entry><entry><title type="html">Galaxy Upcycling project open</title><link href="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html" rel="alternate" type="text/html" title="Galaxy Upcycling project open" /><published>2017-10-27T04:30:00-07:00</published><updated>2017-10-27T04:30:00-07:00</updated><id>http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html">&lt;p&gt;창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.&lt;/p&gt;
 
 &lt;p&gt;순환경제(Circular Economy)라는 메가트랜드와 IoT/IoE라 불리는 새로운 혁명이 버무려졌을 떄 어떤&lt;/p&gt;
 
@@ -155,22 +165,4 @@
 &lt;img src=&quot;/assets/20170124_214451.jpg&quot; alt=&quot;아마존 걸이식여과기 상자 후면&quot; /&gt;
 &lt;img src=&quot;/assets/20170124_215454.jpg&quot; alt=&quot;아마존 걸이식여과기 내용물&quot; /&gt;
 &lt;img src=&quot;/assets/20170124_220131.jpg&quot; alt=&quot;개운죽 3촉&quot; /&gt;
-&lt;img src=&quot;/assets/25cube_fish_house_ready.png&quot; alt=&quot;물잡이 시작&quot; /&gt;&lt;/p&gt;</content><summary type="html">며칠 간 조바심을 가지고 기다리다가 드디어 25큐브어항 도착!!!</summary></entry><entry><title type="html">첫 자작어항 한달을 앞두고 누수로 해체</title><link href="http://localhost:4000/maker/2017/01/22/fishbowl-diy-fish-house_water_leak.html" rel="alternate" type="text/html" title="첫 자작어항 한달을 앞두고 누수로 해체" /><published>2017-01-22T00:00:00-08:00</published><updated>2017-01-22T00:00:00-08:00</updated><id>http://localhost:4000/maker/2017/01/22/fishbowl-diy-fish-house_water_leak</id><content type="html" xml:base="http://localhost:4000/maker/2017/01/22/fishbowl-diy-fish-house_water_leak.html">&lt;p&gt;1월 21일 토요일 약 25일을 버티고 첫 자작어항에 누수가 발생했다.&lt;/p&gt;
-
-&lt;p&gt;최상단을 잡아주는 지지대가 없어서 아크릴 커팅과 접착을 도와준 기구엔지니어가 직교형&lt;/p&gt;
-
-&lt;p&gt;어항보다 힘을 더 받기 때문에 갈라질 수 있다고 했는데 그게 현실이 될 줄이야…&lt;/p&gt;
-
-&lt;p&gt;최상단 누수로 전체 수위가 2/3 정도로 낮아져서 버텨봤는데 결국 중간부위에서도 퐁퐁퐁&lt;/p&gt;
-
-&lt;p&gt;물방물이 새기 시작하면서 귀요미를 원래 보석통으로 긴급 이송시키고 아쉽지만 해체…&lt;/p&gt;
-
-&lt;p&gt;직교형으로 다시 만들어 볼까 했지만 기성품과 동일한 디자인은 만들어도 별 재미가 없고&lt;/p&gt;
-
-&lt;p&gt;결정적으로 지붕에 여러가지 응용을 하려면 어항 자체가 튼튼해야 한다는 결론에 도달!&lt;/p&gt;
-
-&lt;p&gt;그래서 25큐브어항으로 주문 결정…튼튼한 어항에 맞게 지붕쪽을 새로 만들어 봐야지~&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20170121_085412.jpg&quot; alt=&quot;최상단 누수로 수위가 낮아진 상태&quot; /&gt;
-&lt;img src=&quot;/assets/20170122_135147.jpg&quot; alt=&quot;해체된 첫 자작어항&quot; /&gt;
-&lt;img src=&quot;/assets/20170122_163247.jpg&quot; alt=&quot;결정에 도움을 준 팹랩서울 스티커&quot; /&gt;&lt;/p&gt;</content><summary type="html">1월 21일 토요일 약 25일을 버티고 첫 자작어항에 누수가 발생했다.</summary></entry></feed>
+&lt;img src=&quot;/assets/25cube_fish_house_ready.png&quot; alt=&quot;물잡이 시작&quot; /&gt;&lt;/p&gt;</content><summary type="html">며칠 간 조바심을 가지고 기다리다가 드디어 25큐브어항 도착!!!</summary></entry></feed>
