@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-29T15:50:23-07:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">Upcycling JackOLantern</title><link href="http://localhost:4000/maker/2017/10/29/halloween-upcycling-jackolantern.html" rel="alternate" type="text/html" title="Upcycling JackOLantern" /><published>2017-10-29T15:40:00-07:00</published><updated>2017-10-29T15:40:00-07:00</updated><id>http://localhost:4000/maker/2017/10/29/halloween-upcycling-jackolantern</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/29/halloween-upcycling-jackolantern.html">&lt;p&gt;큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-15T01:30:18+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">Tizen Studio 2.X 실행 시 workspace 선택창에서 멈추는 상황 해결 방법</title><link href="http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing.html" rel="alternate" type="text/html" title="Tizen Studio 2.X 실행 시 workspace 선택창에서 멈추는 상황 해결 방법" /><published>2018-01-15T01:25:00+09:00</published><updated>2018-01-15T01:25:00+09:00</updated><id>http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing</id><content type="html" xml:base="http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing.html">&lt;p&gt;Tizen Studio 2.X 설치 시 Oracle JDK8 필요&lt;/p&gt;
+
+&lt;p&gt;그러나 매번 실행만 하면 workspace 선택창에서 멈춰버리는 문제 발생&lt;/p&gt;
+
+&lt;p&gt;Tizen Developer 포럼에서 Mac에서 JDK8 152와 부딪치는 이슈로 151 다운그레이드 설치하면 이슈 해결 확인&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developer.tizen.org/ko/forums/sdk-ide/tizen-studio-2.0-not-working-on-macos-sierra&quot;&gt;Mac에서 Tizen Studio 2.X 동작 안할 떄 조치하기&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Tizen Studio 2.X 설치 시 Oracle JDK8 필요</summary></entry><entry><title type="html">Upcycling JackOLantern</title><link href="http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern.html" rel="alternate" type="text/html" title="Upcycling JackOLantern" /><published>2017-10-30T07:40:00+09:00</published><updated>2017-10-30T07:40:00+09:00</updated><id>http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern.html">&lt;p&gt;큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!&lt;/p&gt;
 
 &lt;p&gt;기왕 작업한 거 github에도 정리 완료~&lt;/p&gt;
 
@@ -9,7 +15,7 @@
 
 &lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GI45QyvkgNQ&quot; title=&quot;Upcycling JackOLantern&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/GI45QyvkgNQ/0.jpg&quot; alt=&quot;Upcycling JackOLantern&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!</summary></entry><entry><title type="html">Galaxy Upcycling project open</title><link href="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html" rel="alternate" type="text/html" title="Galaxy Upcycling project open" /><published>2017-10-27T04:30:00-07:00</published><updated>2017-10-27T04:30:00-07:00</updated><id>http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html">&lt;p&gt;창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GI45QyvkgNQ&quot; title=&quot;Upcycling JackOLantern&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/GI45QyvkgNQ/0.jpg&quot; alt=&quot;Upcycling JackOLantern&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!</summary></entry><entry><title type="html">Galaxy Upcycling project open</title><link href="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html" rel="alternate" type="text/html" title="Galaxy Upcycling project open" /><published>2017-10-27T20:30:00+09:00</published><updated>2017-10-27T20:30:00+09:00</updated><id>http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html">&lt;p&gt;창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.&lt;/p&gt;
 
 &lt;p&gt;순환경제(Circular Economy)라는 메가트랜드와 IoT/IoE라 불리는 새로운 혁명이 버무려졌을 떄 어떤&lt;/p&gt;
 
@@ -29,13 +35,13 @@
 
 &lt;p&gt;SDC2017 Galaxy Upcycling 부스&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cWIC97RhyNU&quot; title=&quot;SDC2017 Galaxy Upcycling Booth&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/cWIC97RhyNU/0.jpg&quot; alt=&quot;SDC2017 Galaxy Upcycling Booth&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.</summary></entry><entry><title type="html">라이브 공연 (양희은 - 내 나이 마흔살에는)</title><link href="http://localhost:4000/music/2017/09/13/performance-in-my-40-ages-cover.html" rel="alternate" type="text/html" title="라이브 공연 (양희은 - 내 나이 마흔살에는)" /><published>2017-09-13T07:30:00-07:00</published><updated>2017-09-13T07:30:00-07:00</updated><id>http://localhost:4000/music/2017/09/13/performance-in-my-40-ages-cover</id><content type="html" xml:base="http://localhost:4000/music/2017/09/13/performance-in-my-40-ages-cover.html">&lt;p&gt;라이브공연 기록 #? - 양희은 : 내 나이 마흔살에는&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cWIC97RhyNU&quot; title=&quot;SDC2017 Galaxy Upcycling Booth&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/cWIC97RhyNU/0.jpg&quot; alt=&quot;SDC2017 Galaxy Upcycling Booth&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.</summary></entry><entry><title type="html">라이브 공연 (양희은 - 내 나이 마흔살에는)</title><link href="http://localhost:4000/music/2017/09/13/performance-in-my-40-ages-cover.html" rel="alternate" type="text/html" title="라이브 공연 (양희은 - 내 나이 마흔살에는)" /><published>2017-09-13T23:30:00+09:00</published><updated>2017-09-13T23:30:00+09:00</updated><id>http://localhost:4000/music/2017/09/13/performance-in-my-40-ages-cover</id><content type="html" xml:base="http://localhost:4000/music/2017/09/13/performance-in-my-40-ages-cover.html">&lt;p&gt;라이브공연 기록 #? - 양희은 : 내 나이 마흔살에는&lt;/p&gt;
 
 &lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ASiYgmpLyaQ&quot; title=&quot;In my 40 ages&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/ASiYgmpLyaQ/0.jpg&quot; alt=&quot;In my 40 ages&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;언플러그드 동호회 2017년 9월 작은음악회 발표&lt;/p&gt;</content><summary type="html">라이브공연 기록 #? - 양희은 : 내 나이 마흔살에는</summary></entry><entry><title type="html">가재 귀호미용 2차 자작 어항 개시</title><link href="http://localhost:4000/maker/2017/05/10/diy-crayfish-house_open.html" rel="alternate" type="text/html" title="가재 귀호미용 2차 자작 어항 개시" /><published>2017-05-10T04:30:00-07:00</published><updated>2017-05-10T04:30:00-07:00</updated><id>http://localhost:4000/maker/2017/05/10/diy-crayfish-house_open</id><content type="html" xml:base="http://localhost:4000/maker/2017/05/10/diy-crayfish-house_open.html">&lt;p&gt;베타 귀요미 어항 때와 마찬가지로 3월 말 큰딸이 초등학교 방과 후 생명과학시간에서 민물가재를&lt;/p&gt;
+&lt;p&gt;언플러그드 동호회 2017년 9월 작은음악회 발표&lt;/p&gt;</content><summary type="html">라이브공연 기록 #? - 양희은 : 내 나이 마흔살에는</summary></entry><entry><title type="html">가재 귀호미용 2차 자작 어항 개시</title><link href="http://localhost:4000/maker/2017/05/10/diy-crayfish-house_open.html" rel="alternate" type="text/html" title="가재 귀호미용 2차 자작 어항 개시" /><published>2017-05-10T20:30:00+09:00</published><updated>2017-05-10T20:30:00+09:00</updated><id>http://localhost:4000/maker/2017/05/10/diy-crayfish-house_open</id><content type="html" xml:base="http://localhost:4000/maker/2017/05/10/diy-crayfish-house_open.html">&lt;p&gt;베타 귀요미 어항 때와 마찬가지로 3월 말 큰딸이 초등학교 방과 후 생명과학시간에서 민물가재를&lt;/p&gt;
 
 &lt;p&gt;데리고 왔다. 이름이 귀호미란다. 한달 가량 곤충 관찰통에서 버티면서 탈피까지 성공했다.&lt;/p&gt;
 
@@ -70,7 +76,7 @@
 &lt;img src=&quot;/assets/20170509_172904.jpg&quot; alt=&quot;귀호미어항 꾸미기2&quot; /&gt;
 &lt;img src=&quot;/assets/20170509_173528.jpg&quot; alt=&quot;귀호미어항 물잡이&quot; /&gt;
 &lt;img src=&quot;/assets/20170509_180702.jpg&quot; alt=&quot;귀호미어항 물잡이2&quot; /&gt;
-&lt;img src=&quot;/assets/20170510_202201.jpg&quot; alt=&quot;귀호미 입수&quot; /&gt;&lt;/p&gt;</content><summary type="html">베타 귀요미 어항 때와 마찬가지로 3월 말 큰딸이 초등학교 방과 후 생명과학시간에서 민물가재를</summary></entry><entry><title type="html">25큐브 귀요미 어항 2차 조명 개선</title><link href="http://localhost:4000/maker/2017/05/04/25cube-fish-house_light_renewal2.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 2차 조명 개선" /><published>2017-05-04T05:00:00-07:00</published><updated>2017-05-04T05:00:00-07:00</updated><id>http://localhost:4000/maker/2017/05/04/25cube-fish-house_light_renewal2</id><content type="html" xml:base="http://localhost:4000/maker/2017/05/04/25cube-fish-house_light_renewal2.html">&lt;p&gt;3주 전 옆팀 하드웨어엔지니어 아저씨 어항에서 분양받은 부상수초가 조명 부족으로 죽어갔다.&lt;/p&gt;
+&lt;img src=&quot;/assets/20170510_202201.jpg&quot; alt=&quot;귀호미 입수&quot; /&gt;&lt;/p&gt;</content><summary type="html">베타 귀요미 어항 때와 마찬가지로 3월 말 큰딸이 초등학교 방과 후 생명과학시간에서 민물가재를</summary></entry><entry><title type="html">25큐브 귀요미 어항 2차 조명 개선</title><link href="http://localhost:4000/maker/2017/05/04/25cube-fish-house_light_renewal2.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 2차 조명 개선" /><published>2017-05-04T21:00:00+09:00</published><updated>2017-05-04T21:00:00+09:00</updated><id>http://localhost:4000/maker/2017/05/04/25cube-fish-house_light_renewal2</id><content type="html" xml:base="http://localhost:4000/maker/2017/05/04/25cube-fish-house_light_renewal2.html">&lt;p&gt;3주 전 옆팀 하드웨어엔지니어 아저씨 어항에서 분양받은 부상수초가 조명 부족으로 죽어갔다.&lt;/p&gt;
 
 &lt;p&gt;보다 못해 LED 3줄을 백색/적색/청색으로 설정해서 2차 조명 개선 작업 완료!!!&lt;/p&gt;
 
@@ -82,7 +88,7 @@
 &lt;img src=&quot;/assets/20170502_074051.jpg&quot; alt=&quot;1단계 부착 완료&quot; /&gt;
 &lt;img src=&quot;/assets/20170504_201945.jpg&quot; alt=&quot;조명 덮개&quot; /&gt;
 &lt;img src=&quot;/assets/20170504_202104.jpg&quot; alt=&quot;기본 설치&quot; /&gt;
-&lt;img src=&quot;/assets/20170504_203319.jpg&quot; alt=&quot;덮개 설치&quot; /&gt;&lt;/p&gt;</content><summary type="html">3주 전 옆팀 하드웨어엔지니어 아저씨 어항에서 분양받은 부상수초가 조명 부족으로 죽어갔다.</summary></entry><entry><title type="html">25큐브 귀요미 어항 지붕 먹이통 개선</title><link href="http://localhost:4000/maker/2017/03/21/25cube-fish-house_feeder_renewal.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 지붕 먹이통 개선" /><published>2017-03-21T19:00:00-07:00</published><updated>2017-03-21T19:00:00-07:00</updated><id>http://localhost:4000/maker/2017/03/21/25cube-fish-house_feeder_renewal</id><content type="html" xml:base="http://localhost:4000/maker/2017/03/21/25cube-fish-house_feeder_renewal.html">&lt;p&gt;기존 먹이통은 기어와 바 고정이 제대로 되지 않아서 테이핑의 한계가 있었다.&lt;/p&gt;
+&lt;img src=&quot;/assets/20170504_203319.jpg&quot; alt=&quot;덮개 설치&quot; /&gt;&lt;/p&gt;</content><summary type="html">3주 전 옆팀 하드웨어엔지니어 아저씨 어항에서 분양받은 부상수초가 조명 부족으로 죽어갔다.</summary></entry><entry><title type="html">25큐브 귀요미 어항 지붕 먹이통 개선</title><link href="http://localhost:4000/maker/2017/03/22/25cube-fish-house_feeder_renewal.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 지붕 먹이통 개선" /><published>2017-03-22T11:00:00+09:00</published><updated>2017-03-22T11:00:00+09:00</updated><id>http://localhost:4000/maker/2017/03/22/25cube-fish-house_feeder_renewal</id><content type="html" xml:base="http://localhost:4000/maker/2017/03/22/25cube-fish-house_feeder_renewal.html">&lt;p&gt;기존 먹이통은 기어와 바 고정이 제대로 되지 않아서 테이핑의 한계가 있었다.&lt;/p&gt;
 
 &lt;p&gt;씨랩 동료인 기구엔지니어의 기구 재설계로 몰라보게 단단해진 먹이통!!!&lt;/p&gt;
 
@@ -93,7 +99,7 @@
 &lt;img src=&quot;/assets/20170322_020318.jpg&quot; alt=&quot;고정형 나사로 안정감이 팍팍&quot; /&gt;
 &lt;img src=&quot;/assets/20170322_020328.jpg&quot; alt=&quot;기존 먹이통 디자인 컨셉은 그대로 계승&quot; /&gt;
 &lt;img src=&quot;/assets/20170322_103720.jpg&quot; alt=&quot;지붕에서 서비스 시작1&quot; /&gt;
-&lt;img src=&quot;/assets/20170322_103728.jpg&quot; alt=&quot;지붕에서 서비스 시작2&quot; /&gt;&lt;/p&gt;</content><summary type="html">기존 먹이통은 기어와 바 고정이 제대로 되지 않아서 테이핑의 한계가 있었다.</summary></entry><entry><title type="html">25큐브 귀요미 어항 조명 개선</title><link href="http://localhost:4000/maker/2017/02/27/25cube-fish-house_light_renewal.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 조명 개선" /><published>2017-02-27T17:00:00-08:00</published><updated>2017-02-27T17:00:00-08:00</updated><id>http://localhost:4000/maker/2017/02/27/25cube-fish-house_light_renewal</id><content type="html" xml:base="http://localhost:4000/maker/2017/02/27/25cube-fish-house_light_renewal.html">&lt;p&gt;귀요미 어항 조명으로 사용 중인 LED 스트립이 2개만 사용하고 있어서&lt;/p&gt;
+&lt;img src=&quot;/assets/20170322_103728.jpg&quot; alt=&quot;지붕에서 서비스 시작2&quot; /&gt;&lt;/p&gt;</content><summary type="html">기존 먹이통은 기어와 바 고정이 제대로 되지 않아서 테이핑의 한계가 있었다.</summary></entry><entry><title type="html">25큐브 귀요미 어항 조명 개선</title><link href="http://localhost:4000/maker/2017/02/28/25cube-fish-house_light_renewal.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 조명 개선" /><published>2017-02-28T10:00:00+09:00</published><updated>2017-02-28T10:00:00+09:00</updated><id>http://localhost:4000/maker/2017/02/28/25cube-fish-house_light_renewal</id><content type="html" xml:base="http://localhost:4000/maker/2017/02/28/25cube-fish-house_light_renewal.html">&lt;p&gt;귀요미 어항 조명으로 사용 중인 LED 스트립이 2개만 사용하고 있어서&lt;/p&gt;
 
 &lt;p&gt;광량이 부족하다는 생각을 계속하고 있었다. 드디어 새로운 지지대를 3D 프린터로&lt;/p&gt;
 
@@ -103,7 +109,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/20170227_215658.jpg&quot; alt=&quot;지지대와 LED 스트립 7개&quot; /&gt;
 &lt;img src=&quot;/assets/20170227_230850.jpg&quot; alt=&quot;설치 후 광량&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012711.jpg&quot; alt=&quot;귀요미 형광등 100개 아우라?&quot; /&gt;&lt;/p&gt;</content><summary type="html">귀요미 어항 조명으로 사용 중인 LED 스트립이 2개만 사용하고 있어서</summary></entry><entry><title type="html">25큐브 귀요미 어항과 C-Lab 프로젝트 콜라보 진행 중</title><link href="http://localhost:4000/maker/2017/02/24/25cube-fish-house_clab_project_collaboration.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항과 C-Lab 프로젝트 콜라보 진행 중" /><published>2017-02-24T04:00:00-08:00</published><updated>2017-02-24T04:00:00-08:00</updated><id>http://localhost:4000/maker/2017/02/24/25cube-fish-house_clab_project_collaboration</id><content type="html" xml:base="http://localhost:4000/maker/2017/02/24/25cube-fish-house_clab_project_collaboration.html">&lt;p&gt;사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에&lt;/p&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012711.jpg&quot; alt=&quot;귀요미 형광등 100개 아우라?&quot; /&gt;&lt;/p&gt;</content><summary type="html">귀요미 어항 조명으로 사용 중인 LED 스트립이 2개만 사용하고 있어서</summary></entry><entry><title type="html">25큐브 귀요미 어항과 C-Lab 프로젝트 콜라보 진행 중</title><link href="http://localhost:4000/maker/2017/02/24/25cube-fish-house_clab_project_collaboration.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항과 C-Lab 프로젝트 콜라보 진행 중" /><published>2017-02-24T21:00:00+09:00</published><updated>2017-02-24T21:00:00+09:00</updated><id>http://localhost:4000/maker/2017/02/24/25cube-fish-house_clab_project_collaboration</id><content type="html" xml:base="http://localhost:4000/maker/2017/02/24/25cube-fish-house_clab_project_collaboration.html">&lt;p&gt;사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에&lt;/p&gt;
 
 &lt;p&gt;연동하여 사이판 가족여행 동안 약 일주일 간의 에이징 시험을 진행했다.&lt;/p&gt;
 
@@ -122,7 +128,7 @@
 &lt;img src=&quot;/assets/Screenshot_20170302-012337.jpg&quot; alt=&quot;21일 오전 근황&quot; /&gt;
 &lt;img src=&quot;/assets/Screenshot_20170302-012357.jpg&quot; alt=&quot;22일 오전 근황&quot; /&gt;
 &lt;img src=&quot;/assets/Screenshot_20170302-012419.jpg&quot; alt=&quot;23일 오전 근황&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012501.jpg&quot; alt=&quot;24일 오전 근황&quot; /&gt;&lt;/p&gt;</content><summary type="html">사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에</summary></entry><entry><title type="html">25큐브어항 측면 천장 설치 후 귀요미 입주</title><link href="http://localhost:4000/maker/2017/01/25/25cube-fish-house_open.html" rel="alternate" type="text/html" title="25큐브어항 측면 천장 설치 후 귀요미 입주" /><published>2017-01-25T07:30:00-08:00</published><updated>2017-01-25T07:30:00-08:00</updated><id>http://localhost:4000/maker/2017/01/25/25cube-fish-house_open</id><content type="html" xml:base="http://localhost:4000/maker/2017/01/25/25cube-fish-house_open.html">&lt;p&gt;하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~&lt;/p&gt;
+&lt;img src=&quot;/assets/Screenshot_20170302-012501.jpg&quot; alt=&quot;24일 오전 근황&quot; /&gt;&lt;/p&gt;</content><summary type="html">사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에</summary></entry><entry><title type="html">25큐브어항 측면 천장 설치 후 귀요미 입주</title><link href="http://localhost:4000/maker/2017/01/26/25cube-fish-house_open.html" rel="alternate" type="text/html" title="25큐브어항 측면 천장 설치 후 귀요미 입주" /><published>2017-01-26T00:30:00+09:00</published><updated>2017-01-26T00:30:00+09:00</updated><id>http://localhost:4000/maker/2017/01/26/25cube-fish-house_open</id><content type="html" xml:base="http://localhost:4000/maker/2017/01/26/25cube-fish-house_open.html">&lt;p&gt;하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~&lt;/p&gt;
 
 &lt;p&gt;첫 자작어항에서 사용하던 조명과 먹이통을 적용하기 위해 측면 천장을 새로 찍었다.&lt;/p&gt;
 
@@ -133,36 +139,4 @@
 &lt;p&gt;&lt;img src=&quot;/assets/25cube_fish_house_side_roof.png&quot; alt=&quot;측면 지붕 결합샷&quot; /&gt;
 &lt;img src=&quot;/assets/25cube_fish_house_side_roof_light_and_feeder.png&quot; alt=&quot;조명 및 먹이통V2.1 설치&quot; /&gt;
 &lt;img src=&quot;/assets/25cube_fish_house_side_roof_night_light.png&quot; alt=&quot;조명 시험&quot; /&gt;
-&lt;img src=&quot;/assets/25cube_fish_house_open.png&quot; alt=&quot;귀요미 25큐브 새집 개장&quot; /&gt;&lt;/p&gt;</content><summary type="html">하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~</summary></entry><entry><title type="html">25큐브어항 도착 및 물잡이 시작</title><link href="http://localhost:4000/maker/2017/01/24/25cube-fish_house_decorating.html" rel="alternate" type="text/html" title="25큐브어항 도착 및 물잡이 시작" /><published>2017-01-24T07:30:00-08:00</published><updated>2017-01-24T07:30:00-08:00</updated><id>http://localhost:4000/maker/2017/01/24/25cube-fish_house_decorating</id><content type="html" xml:base="http://localhost:4000/maker/2017/01/24/25cube-fish_house_decorating.html">&lt;p&gt;며칠 간 조바심을 가지고 기다리다가 드디어 25큐브어항 도착!!!&lt;/p&gt;
-
-&lt;p&gt;사실 자작어항의 누수가 시작되기 전 수질 문제가 먼저 발생했었다.&lt;/p&gt;
-
-&lt;p&gt;귀요미 이마쪽에 흰색이 보여서 백점병인가 해서 어항전문가인 씨랩 옆팀 HW엔지니어에게&lt;/p&gt;
-
-&lt;p&gt;물어보니 수질 악화로 발생된 흰곰팡이일 가능성이 크다면서 여러 도구들을 지원 받았었다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;바닥 환수를 위한 실리콘 튜브&lt;/li&gt;
-  &lt;li&gt;암모니아를 분해해주는 박테리아 펌핑&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;그러나 그당시에도 수질오염에 대처하려면 좀 더 큰 어항과 여과기를 필요하다고 했었다.&lt;/p&gt;
-
-&lt;p&gt;그래서 이번에 25큐브어항으로 가면서 물용량만 2리터에서 15리터로 증가!!!&lt;/p&gt;
-
-&lt;p&gt;그리고 1자 어항 이하에서 사용하는 아마존 3W 걸이식여과기!!!&lt;/p&gt;
-
-&lt;p&gt;새로운 식물 식구로 개운죽도 합세!!!&lt;/p&gt;
-
-&lt;p&gt;여과기를 처음 써보다 보니 여과재를 채워넣고 물순환이 되지 않아서 30분 넘게 낑낑대다가&lt;/p&gt;
-
-&lt;p&gt;동작하는 거 확인하고 박테리아도 펌핑 팍팍 해준 뒤 물잡이 시작!!!&lt;/p&gt;
-
-&lt;p&gt;이제 펜트하우스급으로 넓어진 새집에서 귀요미가 제대로 지느러미들을 다 펼치고 살길~ :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20170124_214347.jpg&quot; alt=&quot;혼합여과재 500g&quot; /&gt;
-&lt;img src=&quot;/assets/20170124_214428.jpg&quot; alt=&quot;아마존 걸이식여과기 상자 전면&quot; /&gt;
-&lt;img src=&quot;/assets/20170124_214451.jpg&quot; alt=&quot;아마존 걸이식여과기 상자 후면&quot; /&gt;
-&lt;img src=&quot;/assets/20170124_215454.jpg&quot; alt=&quot;아마존 걸이식여과기 내용물&quot; /&gt;
-&lt;img src=&quot;/assets/20170124_220131.jpg&quot; alt=&quot;개운죽 3촉&quot; /&gt;
-&lt;img src=&quot;/assets/25cube_fish_house_ready.png&quot; alt=&quot;물잡이 시작&quot; /&gt;&lt;/p&gt;</content><summary type="html">며칠 간 조바심을 가지고 기다리다가 드디어 25큐브어항 도착!!!</summary></entry></feed>
+&lt;img src=&quot;/assets/25cube_fish_house_open.png&quot; alt=&quot;귀요미 25큐브 새집 개장&quot; /&gt;&lt;/p&gt;</content><summary type="html">하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~</summary></entry></feed>
