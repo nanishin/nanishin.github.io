@@ -1,5 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-15T01:30:18+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">Tizen Studio 2.X 실행 시 workspace 선택창에서 멈추는 상황 해결 방법</title><link href="http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing.html" rel="alternate" type="text/html" title="Tizen Studio 2.X 실행 시 workspace 선택창에서 멈추는 상황 해결 방법" /><published>2018-01-15T01:25:00+09:00</published><updated>2018-01-15T01:25:00+09:00</updated><id>http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing</id><content type="html" xml:base="http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing.html">&lt;p&gt;Tizen Studio 2.X 설치 시 Oracle JDK8 필요&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-11T00:30:17+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">아마존 2구 에어펌프 수리 방법</title><link href="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html" rel="alternate" type="text/html" title="아마존 2구 에어펌프 수리 방법" /><published>2018-04-10T11:56:00+09:00</published><updated>2018-04-10T11:56:00+09:00</updated><id>http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump</id><content type="html" xml:base="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html">&lt;p&gt;아침 출근 전 아마존 2구 에어펌프 중 1구가 고장나서 퇴근 후 열어보니&lt;/p&gt;
+
+&lt;p&gt;코일 진동을 통해 펌핑하는데 진동 고정부분 플라스틱이 부러진 걸 확인&lt;/p&gt;
+
+&lt;p&gt;마침 주말에 실리콘도 새로 산 김에 실리콘으로 붙여서 해결&lt;/p&gt;
+
+&lt;p&gt;진동에 얼마나 견딜지는 계속 지켜보기로…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20180410_221740.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 1&quot; /&gt;
+&lt;img src=&quot;/assets/20180410_221807.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 2&quot; /&gt;
+&lt;img src=&quot;/assets/20180410_221820.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 3&quot; /&gt;
+&lt;img src=&quot;/assets/20180410_222820.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 4&quot; /&gt;&lt;/p&gt;</content><summary type="html">아침 출근 전 아마존 2구 에어펌프 중 1구가 고장나서 퇴근 후 열어보니</summary></entry><entry><title type="html">Tizen Studio 2.X 실행 시 workspace 선택창에서 멈추는 상황 해결 방법</title><link href="http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing.html" rel="alternate" type="text/html" title="Tizen Studio 2.X 실행 시 workspace 선택창에서 멈추는 상황 해결 방법" /><published>2018-01-15T01:25:00+09:00</published><updated>2018-01-15T01:25:00+09:00</updated><id>http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing</id><content type="html" xml:base="http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing.html">&lt;p&gt;Tizen Studio 2.X 설치 시 Oracle JDK8 필요&lt;/p&gt;
 
 &lt;p&gt;그러나 매번 실행만 하면 workspace 선택창에서 멈춰버리는 문제 발생&lt;/p&gt;
 
@@ -128,15 +139,4 @@
 &lt;img src=&quot;/assets/Screenshot_20170302-012337.jpg&quot; alt=&quot;21일 오전 근황&quot; /&gt;
 &lt;img src=&quot;/assets/Screenshot_20170302-012357.jpg&quot; alt=&quot;22일 오전 근황&quot; /&gt;
 &lt;img src=&quot;/assets/Screenshot_20170302-012419.jpg&quot; alt=&quot;23일 오전 근황&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012501.jpg&quot; alt=&quot;24일 오전 근황&quot; /&gt;&lt;/p&gt;</content><summary type="html">사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에</summary></entry><entry><title type="html">25큐브어항 측면 천장 설치 후 귀요미 입주</title><link href="http://localhost:4000/maker/2017/01/26/25cube-fish-house_open.html" rel="alternate" type="text/html" title="25큐브어항 측면 천장 설치 후 귀요미 입주" /><published>2017-01-26T00:30:00+09:00</published><updated>2017-01-26T00:30:00+09:00</updated><id>http://localhost:4000/maker/2017/01/26/25cube-fish-house_open</id><content type="html" xml:base="http://localhost:4000/maker/2017/01/26/25cube-fish-house_open.html">&lt;p&gt;하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~&lt;/p&gt;
-
-&lt;p&gt;첫 자작어항에서 사용하던 조명과 먹이통을 적용하기 위해 측면 천장을 새로 찍었다.&lt;/p&gt;
-
-&lt;p&gt;3D 프린터 베드 사이즈 제한으로 25큐브를 전체 덮을 지붕 찍기는 무리여서 측면만 우선 적용…&lt;/p&gt;
-
-&lt;p&gt;이제 튼튼한 25큐브어항 위에 얹을 다양한 지붕 디자인을 계속 고민해 봐야쥐~ ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/25cube_fish_house_side_roof.png&quot; alt=&quot;측면 지붕 결합샷&quot; /&gt;
-&lt;img src=&quot;/assets/25cube_fish_house_side_roof_light_and_feeder.png&quot; alt=&quot;조명 및 먹이통V2.1 설치&quot; /&gt;
-&lt;img src=&quot;/assets/25cube_fish_house_side_roof_night_light.png&quot; alt=&quot;조명 시험&quot; /&gt;
-&lt;img src=&quot;/assets/25cube_fish_house_open.png&quot; alt=&quot;귀요미 25큐브 새집 개장&quot; /&gt;&lt;/p&gt;</content><summary type="html">하루 간 수도물 염소를 날리고 베타 귀요미와 마리모 범핑 입수~</summary></entry></feed>
+&lt;img src=&quot;/assets/Screenshot_20170302-012501.jpg&quot; alt=&quot;24일 오전 근황&quot; /&gt;&lt;/p&gt;</content><summary type="html">사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에</summary></entry></feed>
