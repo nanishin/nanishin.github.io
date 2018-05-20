@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-11T00:38:39+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-20T17:57:07+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
 </subtitle><entry><title type="html">아마존 2구 에어펌프 수리 방법</title><link href="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html" rel="alternate" type="text/html" title="아마존 2구 에어펌프 수리 방법" /><published>2018-04-10T11:56:00+09:00</published><updated>2018-04-10T11:56:00+09:00</updated><id>http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump</id><content type="html" xml:base="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html">&lt;p&gt;아침 출근 전 아마존 2구 에어펌프 중 1구가 고장나서 퇴근 후 열어보니&lt;/p&gt;
 
 &lt;p&gt;코일 진동을 통해 펌핑하는데 진동 고정부분 플라스틱이 부러진 걸 확인&lt;/p&gt;
@@ -16,7 +16,19 @@
 
 &lt;p&gt;Tizen Developer 포럼에서 Mac에서 JDK8 152와 부딪치는 이슈로 151 다운그레이드 설치하면 이슈 해결 확인&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://developer.tizen.org/ko/forums/sdk-ide/tizen-studio-2.0-not-working-on-macos-sierra&quot;&gt;Mac에서 Tizen Studio 2.X 동작 안할 떄 조치하기&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Tizen Studio 2.X 설치 시 Oracle JDK8 필요</summary></entry><entry><title type="html">Upcycling JackOLantern</title><link href="http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern.html" rel="alternate" type="text/html" title="Upcycling JackOLantern" /><published>2017-10-30T07:40:00+09:00</published><updated>2017-10-30T07:40:00+09:00</updated><id>http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern.html">&lt;p&gt;큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.tizen.org/ko/forums/sdk-ide/tizen-studio-2.0-not-working-on-macos-sierra&quot;&gt;Mac에서 Tizen Studio 2.X 동작 안할 떄 조치하기&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Tizen Studio 2.X 설치 시 Oracle JDK8 필요</summary></entry><entry><title type="html">How to modify fadecandy firmware to support RGBW LED strip</title><link href="http://localhost:4000/maker/2017/12/25/diy-modify-fadecandy-firmware-for-rgbw-led-strip.html" rel="alternate" type="text/html" title="How to modify fadecandy firmware to support RGBW LED strip" /><published>2017-12-25T12:00:00+09:00</published><updated>2017-12-25T12:00:00+09:00</updated><id>http://localhost:4000/maker/2017/12/25/diy-modify-fadecandy-firmware-for-rgbw-led-strip</id><content type="html" xml:base="http://localhost:4000/maker/2017/12/25/diy-modify-fadecandy-firmware-for-rgbw-led-strip.html">&lt;p&gt;LED 스트립을 활용한 인터렉티브 데모 제작 시 fadecandy는 좋은 오픈소스 솔루션이다.&lt;/p&gt;
+
+&lt;p&gt;그러나 RGB LED 스트립 기반 펌웨어만 제공되고 있어 알리익스프레스 등에서 싼 맛에&lt;/p&gt;
+
+&lt;p&gt;RGBW LED 스트립롤을 구매했다가 호환되지 않아서 맨붕에 빠지는 상황이 종종 리포트된다.&lt;/p&gt;
+
+&lt;p&gt;이에 구글링을 통해 확인된 기존 작업들과 당시 데모 준비로 정리된 내용을 다시 공유한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/fadecandy/tree/rgbw_support&quot;&gt;How to modify fadecandy firmware to support RGBW LED strip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/fadecandy_rgbw_digital_signage.jpg&quot; alt=&quot;Digital signage demo with fadecandy RGBW LED strip matrix&quot; /&gt;&lt;/p&gt;</content><summary type="html">LED 스트립을 활용한 인터렉티브 데모 제작 시 fadecandy는 좋은 오픈소스 솔루션이다.</summary></entry><entry><title type="html">Upcycling JackOLantern</title><link href="http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern.html" rel="alternate" type="text/html" title="Upcycling JackOLantern" /><published>2017-10-30T07:40:00+09:00</published><updated>2017-10-30T07:40:00+09:00</updated><id>http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern.html">&lt;p&gt;큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!&lt;/p&gt;
 
 &lt;p&gt;기왕 작업한 거 github에도 정리 완료~&lt;/p&gt;
 
@@ -120,23 +132,4 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/20170227_215658.jpg&quot; alt=&quot;지지대와 LED 스트립 7개&quot; /&gt;
 &lt;img src=&quot;/assets/20170227_230850.jpg&quot; alt=&quot;설치 후 광량&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012711.jpg&quot; alt=&quot;귀요미 형광등 100개 아우라?&quot; /&gt;&lt;/p&gt;</content><summary type="html">귀요미 어항 조명으로 사용 중인 LED 스트립이 2개만 사용하고 있어서</summary></entry><entry><title type="html">25큐브 귀요미 어항과 C-Lab 프로젝트 콜라보 진행 중</title><link href="http://localhost:4000/maker/2017/02/24/25cube-fish-house_clab_project_collaboration.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항과 C-Lab 프로젝트 콜라보 진행 중" /><published>2017-02-24T21:00:00+09:00</published><updated>2017-02-24T21:00:00+09:00</updated><id>http://localhost:4000/maker/2017/02/24/25cube-fish-house_clab_project_collaboration</id><content type="html" xml:base="http://localhost:4000/maker/2017/02/24/25cube-fish-house_clab_project_collaboration.html">&lt;p&gt;사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에&lt;/p&gt;
-
-&lt;p&gt;연동하여 사이판 가족여행 동안 약 일주일 간의 에이징 시험을 진행했다.&lt;/p&gt;
-
-&lt;p&gt;5일차 때 밥통 기어와 바에 설치해둔 테이핑이 떨어지면서 귀요미가 3일 굶게 된 건&lt;/p&gt;
-
-&lt;p&gt;돌아와서도 참 미안한 마음이 들었다. 밥통 디자인을 테이핑 필요없게 개선해서 다시&lt;/p&gt;
-
-&lt;p&gt;출력해야지…&lt;/p&gt;
-
-&lt;p&gt;그래도 이제 귀요미 근황을 외출 중에도 텔레그램 메시지로 받을 수 있으니 마음이 한결 놓인다. :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/Screenshot_20170302-012048.jpg&quot; alt=&quot;17일 오전 근황&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012155.jpg&quot; alt=&quot;18일 오전 근황&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012233.jpg&quot; alt=&quot;19일 오전 근황&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012310.jpg&quot; alt=&quot;20일 오전 근황&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012337.jpg&quot; alt=&quot;21일 오전 근황&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012357.jpg&quot; alt=&quot;22일 오전 근황&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012419.jpg&quot; alt=&quot;23일 오전 근황&quot; /&gt;
-&lt;img src=&quot;/assets/Screenshot_20170302-012501.jpg&quot; alt=&quot;24일 오전 근황&quot; /&gt;&lt;/p&gt;</content><summary type="html">사내 C-Lab 프로젝트의 클로즈베타 사례로 시험하기 위해 기존 아두이노 시스템에</summary></entry></feed>
+&lt;img src=&quot;/assets/Screenshot_20170302-012711.jpg&quot; alt=&quot;귀요미 형광등 100개 아우라?&quot; /&gt;&lt;/p&gt;</content><summary type="html">귀요미 어항 조명으로 사용 중인 LED 스트립이 2개만 사용하고 있어서</summary></entry></feed>
