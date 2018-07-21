@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-21T11:15:17+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">음원 루프 설정으로 아쿠아리움라이브에 BGM 추가</title><link href="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html" rel="alternate" type="text/html" title="음원 루프 설정으로 아쿠아리움라이브에 BGM 추가" /><published>2018-06-20T22:10:00+09:00</published><updated>2018-06-20T22:10:00+09:00</updated><id>http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html">&lt;p&gt;ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-21T20:49:09+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">화이트발란스 변경으로 아쿠아리움라이브의 색감 조정</title><link href="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html" rel="alternate" type="text/html" title="화이트발란스 변경으로 아쿠아리움라이브의 색감 조정" /><published>2018-07-02T20:30:00+09:00</published><updated>2018-07-02T20:30:00+09:00</updated><id>http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html">&lt;p&gt;파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니&lt;/p&gt;
+
+&lt;p&gt;raspvid의 화이트발란스 옵션을 -aws sun로 둘 때 가장 자연스러운 색감이 나오는 것을 확인하고 적용 완료!!!&lt;/p&gt;
+
+&lt;p&gt;https://www.raspberrypi.org/documentation/raspbian/applications/camera.md 에서 발췌&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;sun: sunny mode (between 5000K and 6500K)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bMGRpjKWRgI&quot; title=&quot;Aquarium Live - 2018.07.02 Monday&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/bMGRpjKWRgI/0.jpg&quot; alt=&quot;Aquarium Live - 2018.07.02 Monday&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니</summary></entry><entry><title type="html">음원 루프 설정으로 아쿠아리움라이브에 BGM 추가</title><link href="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html" rel="alternate" type="text/html" title="음원 루프 설정으로 아쿠아리움라이브에 BGM 추가" /><published>2018-06-20T22:10:00+09:00</published><updated>2018-06-20T22:10:00+09:00</updated><id>http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html">&lt;p&gt;ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고&lt;/p&gt;
 
 &lt;p&gt;기존 홈레코딩 작업하며 가지고 있던 어쿠스틱 커버곡들을 BGM으로 스트리밍에 적용하는데 성공!!!&lt;/p&gt;
 
@@ -107,10 +119,4 @@
 
 &lt;p&gt;SDC2017 Galaxy Upcycling 부스&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cWIC97RhyNU&quot; title=&quot;SDC2017 Galaxy Upcycling Booth&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/cWIC97RhyNU/0.jpg&quot; alt=&quot;SDC2017 Galaxy Upcycling Booth&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.</summary></entry><entry><title type="html">라이브 공연 (양희은 - 내 나이 마흔살에는)</title><link href="http://localhost:4000/music/2017/09/13/performance-in-my-40-ages-cover.html" rel="alternate" type="text/html" title="라이브 공연 (양희은 - 내 나이 마흔살에는)" /><published>2017-09-13T23:30:00+09:00</published><updated>2017-09-13T23:30:00+09:00</updated><id>http://localhost:4000/music/2017/09/13/performance-in-my-40-ages-cover</id><content type="html" xml:base="http://localhost:4000/music/2017/09/13/performance-in-my-40-ages-cover.html">&lt;p&gt;라이브공연 기록 #? - 양희은 : 내 나이 마흔살에는&lt;/p&gt;
-
-&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ASiYgmpLyaQ&quot; title=&quot;In my 40 ages&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/ASiYgmpLyaQ/0.jpg&quot; alt=&quot;In my 40 ages&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;언플러그드 동호회 2017년 9월 작은음악회 발표&lt;/p&gt;</content><summary type="html">라이브공연 기록 #? - 양희은 : 내 나이 마흔살에는</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cWIC97RhyNU&quot; title=&quot;SDC2017 Galaxy Upcycling Booth&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/cWIC97RhyNU/0.jpg&quot; alt=&quot;SDC2017 Galaxy Upcycling Booth&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.</summary></entry></feed>
