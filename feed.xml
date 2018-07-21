@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-21T08:48:08+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">자반어항에서 아쿠아리움라이브 방송 시작</title><link href="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html" rel="alternate" type="text/html" title="자반어항에서 아쿠아리움라이브 방송 시작" /><published>2018-05-24T21:30:00+09:00</published><updated>2018-05-24T21:30:00+09:00</updated><id>http://localhost:4000/maker/2018/05/24/start-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html">&lt;p&gt;한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-21T09:02:31+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">파이캠 초점 조절로 아쿠아리움라이브 화질 개선</title><link href="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html" rel="alternate" type="text/html" title="파이캠 초점 조절로 아쿠아리움라이브 화질 개선" /><published>2018-05-28T20:00:00+09:00</published><updated>2018-05-28T20:00:00+09:00</updated><id>http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html">&lt;p&gt;파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데&lt;/p&gt;
+
+&lt;p&gt;역시 유튜브엔 다양한 가이드가 많음&lt;/p&gt;
+
+&lt;p&gt;아래 파이캠 초점을 수동으로 조정하기 가이드를 참조해 롱루즈로 돌려서 고민 해결!!!&lt;/p&gt;
+
+&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=u6VhRVH3Z6Y&quot; title=&quot;Easy Raspberry Pi Camera refocusing&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/u6VhRVH3Z6Y/0.jpg&quot; alt=&quot;Easy Raspberry Pi Camera refocusing&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 좀 더 또렷하게 물고기들이 보인당~ :)&lt;/p&gt;
+
+&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=wTI7FMaTEgU&quot; title=&quot;Aquarium Live - 2018.05.28 Monday&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/wTI7FMaTEgU/0.jpg&quot; alt=&quot;Aquarium Live - 2018.05.28 Monday&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데</summary></entry><entry><title type="html">자반어항에서 아쿠아리움라이브 방송 시작</title><link href="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html" rel="alternate" type="text/html" title="자반어항에서 아쿠아리움라이브 방송 시작" /><published>2018-05-24T21:30:00+09:00</published><updated>2018-05-24T21:30:00+09:00</updated><id>http://localhost:4000/maker/2018/05/24/start-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html">&lt;p&gt;한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을&lt;/p&gt;
 
 &lt;p&gt;이용해서 아쿠아리움 라이브 방송 시작!!!&lt;/p&gt;
 
@@ -126,16 +140,4 @@
 &lt;img src=&quot;/assets/20170509_172904.jpg&quot; alt=&quot;귀호미어항 꾸미기2&quot; /&gt;
 &lt;img src=&quot;/assets/20170509_173528.jpg&quot; alt=&quot;귀호미어항 물잡이&quot; /&gt;
 &lt;img src=&quot;/assets/20170509_180702.jpg&quot; alt=&quot;귀호미어항 물잡이2&quot; /&gt;
-&lt;img src=&quot;/assets/20170510_202201.jpg&quot; alt=&quot;귀호미 입수&quot; /&gt;&lt;/p&gt;</content><summary type="html">베타 귀요미 어항 때와 마찬가지로 3월 말 큰딸이 초등학교 방과 후 생명과학시간에서 민물가재를</summary></entry><entry><title type="html">25큐브 귀요미 어항 2차 조명 개선</title><link href="http://localhost:4000/maker/2017/05/04/25cube-fish-house_light_renewal2.html" rel="alternate" type="text/html" title="25큐브 귀요미 어항 2차 조명 개선" /><published>2017-05-04T21:00:00+09:00</published><updated>2017-05-04T21:00:00+09:00</updated><id>http://localhost:4000/maker/2017/05/04/25cube-fish-house_light_renewal2</id><content type="html" xml:base="http://localhost:4000/maker/2017/05/04/25cube-fish-house_light_renewal2.html">&lt;p&gt;3주 전 옆팀 하드웨어엔지니어 아저씨 어항에서 분양받은 부상수초가 조명 부족으로 죽어갔다.&lt;/p&gt;
-
-&lt;p&gt;보다 못해 LED 3줄을 백색/적색/청색으로 설정해서 2차 조명 개선 작업 완료!!!&lt;/p&gt;
-
-&lt;p&gt;조명덮개까지 씌워준 뒤 빛이 제법 수조로 모아지는 듯 하니 부상수초가 다시 잘 살아나길~ :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20170501_151618.jpg&quot; alt=&quot;LED줄 3개를 지탱할 기본 지지대&quot; /&gt;
-&lt;img src=&quot;/assets/20170501_151734.jpg&quot; alt=&quot;NeoPixels LED 3줄&quot; /&gt;
-&lt;img src=&quot;/assets/20170501_210358.jpg&quot; alt=&quot;VHB 양면테이핑 작업&quot; /&gt;
-&lt;img src=&quot;/assets/20170502_074051.jpg&quot; alt=&quot;1단계 부착 완료&quot; /&gt;
-&lt;img src=&quot;/assets/20170504_201945.jpg&quot; alt=&quot;조명 덮개&quot; /&gt;
-&lt;img src=&quot;/assets/20170504_202104.jpg&quot; alt=&quot;기본 설치&quot; /&gt;
-&lt;img src=&quot;/assets/20170504_203319.jpg&quot; alt=&quot;덮개 설치&quot; /&gt;&lt;/p&gt;</content><summary type="html">3주 전 옆팀 하드웨어엔지니어 아저씨 어항에서 분양받은 부상수초가 조명 부족으로 죽어갔다.</summary></entry></feed>
+&lt;img src=&quot;/assets/20170510_202201.jpg&quot; alt=&quot;귀호미 입수&quot; /&gt;&lt;/p&gt;</content><summary type="html">베타 귀요미 어항 때와 마찬가지로 3월 말 큰딸이 초등학교 방과 후 생명과학시간에서 민물가재를</summary></entry></feed>
