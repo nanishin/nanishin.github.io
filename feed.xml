@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-21T09:02:31+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">파이캠 초점 조절로 아쿠아리움라이브 화질 개선</title><link href="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html" rel="alternate" type="text/html" title="파이캠 초점 조절로 아쿠아리움라이브 화질 개선" /><published>2018-05-28T20:00:00+09:00</published><updated>2018-05-28T20:00:00+09:00</updated><id>http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html">&lt;p&gt;파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-21T11:15:17+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">음원 루프 설정으로 아쿠아리움라이브에 BGM 추가</title><link href="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html" rel="alternate" type="text/html" title="음원 루프 설정으로 아쿠아리움라이브에 BGM 추가" /><published>2018-06-20T22:10:00+09:00</published><updated>2018-06-20T22:10:00+09:00</updated><id>http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html">&lt;p&gt;ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고&lt;/p&gt;
+
+&lt;p&gt;기존 홈레코딩 작업하며 가지고 있던 어쿠스틱 커버곡들을 BGM으로 스트리밍에 적용하는데 성공!!!&lt;/p&gt;
+
+&lt;p&gt;이렇게 또다른 취미들이 서로 크로스로 결합되는 경험을 하게 되네~ :)&lt;/p&gt;
+
+&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Gk7cwGKXwno&quot; title=&quot;Aquarium Live - 2018.06.20 Wednesday&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/Gk7cwGKXwno/0.jpg&quot; alt=&quot;Aquarium Live - 2018.06.20 Wednesday&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고</summary></entry><entry><title type="html">파이캠 초점 조절로 아쿠아리움라이브 화질 개선</title><link href="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html" rel="alternate" type="text/html" title="파이캠 초점 조절로 아쿠아리움라이브 화질 개선" /><published>2018-05-28T20:00:00+09:00</published><updated>2018-05-28T20:00:00+09:00</updated><id>http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html">&lt;p&gt;파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데&lt;/p&gt;
 
 &lt;p&gt;역시 유튜브엔 다양한 가이드가 많음&lt;/p&gt;
 
@@ -105,39 +113,4 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ASiYgmpLyaQ&quot; title=&quot;In my 40 ages&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/ASiYgmpLyaQ/0.jpg&quot; alt=&quot;In my 40 ages&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;언플러그드 동호회 2017년 9월 작은음악회 발표&lt;/p&gt;</content><summary type="html">라이브공연 기록 #? - 양희은 : 내 나이 마흔살에는</summary></entry><entry><title type="html">가재 귀호미용 2차 자작 어항 개시</title><link href="http://localhost:4000/maker/2017/05/10/diy-crayfish-house_open.html" rel="alternate" type="text/html" title="가재 귀호미용 2차 자작 어항 개시" /><published>2017-05-10T20:30:00+09:00</published><updated>2017-05-10T20:30:00+09:00</updated><id>http://localhost:4000/maker/2017/05/10/diy-crayfish-house_open</id><content type="html" xml:base="http://localhost:4000/maker/2017/05/10/diy-crayfish-house_open.html">&lt;p&gt;베타 귀요미 어항 때와 마찬가지로 3월 말 큰딸이 초등학교 방과 후 생명과학시간에서 민물가재를&lt;/p&gt;
-
-&lt;p&gt;데리고 왔다. 이름이 귀호미란다. 한달 가량 곤충 관찰통에서 버티면서 탈피까지 성공했다.&lt;/p&gt;
-
-&lt;p&gt;가재 관련 블로그에서 보던 대로 키토산(?)이 듬뿍 들어있는 자기 기존 껍질을 영양보충을 위해 일주일 동안&lt;/p&gt;
-
-&lt;p&gt;먹으면서 가장 단단한 집게발만 남기는 모습에서 자연의 신비를 느꼈다.&lt;/p&gt;
-
-&lt;p&gt;이에 탈피사하지 않는 이상 계속 클 수 있다는 가재 귀호미를 위해 울팀 기구아저씨의 도움을 받아&lt;/p&gt;
-
-&lt;p&gt;2차 자작어항을 제작했다. 이번에는 이쁜 디자인보다 수압에 견디고 이후에도 접착 균열부 유지보수를 위해&lt;/p&gt;
-
-&lt;p&gt;일반 수조처럼 직육면체를 유지했고 다만 25큐브 귀요미 어항 외에 남은 공간을 고려해서 6리터급으로 조정…&lt;/p&gt;
-
-&lt;p&gt;어째튼 이로서 장식장 1층은 아쿠아리움으로 탈바꿈 완료!!!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20170412_223730.jpg&quot; alt=&quot;탈피 후 귀호미&quot; /&gt;
-&lt;img src=&quot;/assets/20170414_204030.jpg&quot; alt=&quot;탈피 후 기존 껍질 얌냠&quot; /&gt;
-&lt;img src=&quot;/assets/20170415_105329.jpg&quot; alt=&quot;남은 집게발&quot; /&gt;
-&lt;img src=&quot;/assets/20170502_130125.jpg&quot; alt=&quot;레이저 커터로 싹둑&quot; /&gt;
-&lt;img src=&quot;/assets/20170502_133508.jpg&quot; alt=&quot;테이핑 가조립&quot; /&gt;
-&lt;img src=&quot;/assets/20170502_141014.jpg&quot; alt=&quot;뚜껑 추가&quot; /&gt;
-&lt;img src=&quot;/assets/20170504_213503.jpg&quot; alt=&quot;아크릴본드 접착 후 초산실리콘 작업준비&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_164748.jpg&quot; alt=&quot;세라믹동굴 은신처&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_164813.jpg&quot; alt=&quot;귀요미어항용 콩돌&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_164904.jpg&quot; alt=&quot;2구 아마존 에어펌프&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_164926.jpg&quot; alt=&quot;역류방지기&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_164945.jpg&quot; alt=&quot;에어호스&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_165010.jpg&quot; alt=&quot;귀호미어항용 미니쌍기&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_165124.jpg&quot; alt=&quot;에어펌프 실물&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_171543.jpg&quot; alt=&quot;역류방지기 설치&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_172848.jpg&quot; alt=&quot;귀호미어항 꾸미기&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_172904.jpg&quot; alt=&quot;귀호미어항 꾸미기2&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_173528.jpg&quot; alt=&quot;귀호미어항 물잡이&quot; /&gt;
-&lt;img src=&quot;/assets/20170509_180702.jpg&quot; alt=&quot;귀호미어항 물잡이2&quot; /&gt;
-&lt;img src=&quot;/assets/20170510_202201.jpg&quot; alt=&quot;귀호미 입수&quot; /&gt;&lt;/p&gt;</content><summary type="html">베타 귀요미 어항 때와 마찬가지로 3월 말 큰딸이 초등학교 방과 후 생명과학시간에서 민물가재를</summary></entry></feed>
+&lt;p&gt;언플러그드 동호회 2017년 9월 작은음악회 발표&lt;/p&gt;</content><summary type="html">라이브공연 기록 #? - 양희은 : 내 나이 마흔살에는</summary></entry></feed>
