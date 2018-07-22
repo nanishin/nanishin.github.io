@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DIY 아두이노 드론의 첫 시험비행까지 삽질기</title>
+  <meta name="description" content="새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone.html">
+  <link rel="alternate" type="application/rss+xml" title="申Nani?" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">申Nani?</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">about</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/archives/category/music/">music</a>
+          
+        
+          
+          <a class="page-link" href="/archives/category/maker/">maker</a>
+          
+        
+          
+          <a class="page-link" href="/archives/category/tip/">tip</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">DIY 아두이노 드론의 첫 시험비행까지 삽질기</h1>
+    <p class="post-meta"><time datetime="2018-05-27T16:48:00+09:00" itemprop="datePublished">May 27, 2018</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저</p>
+
+<p>시작한 멘토의 도움(창의랩 시절 바로 옆팀의 어항 멘토처럼…)을 받곤 한다.</p>
+
+<p>사실 드론멘토와는 이미 몇년 전부터 업무 때문에 인연을 이어왔고 멘토의 드론책도 2016년 9월 말에 구매해서</p>
+
+<p>사인까지 받아 두고 여태 시작을 못하다가 근 1년 반의 게으름을 물리치고 가이드에 맞춰 알리익스프레스에서</p>
+
+<p>DIY 250mm 드론 세트 및 연계 부품들을 호기롭게 주문한 뒤 5월 초에 도착하여 조립을 시작하였다…</p>
+
+<p>그러나 역시 삽질은 어디에나 있었으니…</p>
+
+<ul>
+  <li>별나사 드라이버 없어서 별나사 드라이버 세트 긴급 쿠팡 주문해서 카본프레임 바디 조립 하루 지연</li>
+  <li>열심히 비행시뮬레이터까지 다 돌리면서 확인했는데 ESC 하나 불량 확인하고 여분세트 주문으로 2주 지연</li>
+  <li>시험비행을 해보니 셀프락 원리를 오해해서 회전방향과 모터배치를 반대로 해서 바나나소켓 없이 재납땜이 필요해져 잠시 마음 GG</li>
+</ul>
+
+<p><img src="/assets/diy-250mm-drone-set.png" alt="알리익스프레스DIY 250mm 드론 세트" /></p>
+
+<ul>
+  <li>
+    <p>BLDC 모터 : 검정색(CCW,반시계방향), 은색(CW,시계방향)
+<img src="/assets/20180509_194858.png" alt="BLDC 모터" /></p>
+  </li>
+  <li>
+    <p>카본프레임 바디 조립 1차 (드라이버 없이 맨손으로…)
+<img src="/assets/20180509_195858.png" alt="카본프레임 바디 조립 1차" />
+<img src="/assets/20180509_204303.png" alt="카본프레임 바디 조립 1차" />
+<img src="/assets/20180509_210438.png" alt="카본프레임 바디 조립 1차" />
+<img src="/assets/20180509_210540.png" alt="별나사 인치가 너무 작아" /></p>
+  </li>
+  <li>
+    <p>별나사 드라이버 올 때까지 비행시뮬레이터 연습
+<img src="/assets/20180510_030743.png" alt="시뮬레이터 조정은 너무 이상적이야" /></p>
+  </li>
+  <li>
+    <p>로켓배송 덕분에 다시 2차 조립 진도 팍팍!!
+<img src="/assets/20180510_194357.png" alt="별나사 드라이버 세트" />
+<img src="/assets/20180510_201456.png" alt="BLDC 모터를 결합한 카본프레임 상부" />
+<img src="/assets/20180510_201734.png" alt="BLDC 모터를 결합한 카본프레임 하부" />
+<img src="/assets/20180510_202716.png" alt="ESC를 BLDC 모터에 결합" />
+<img src="/assets/20180510_204843.png" alt="리튬폴리머 배터리 충전" /></p>
+  </li>
+  <li>
+    <p>전원 분배 모듈 납땜의 시작 (TX60 모듈 존재를 처음 알고 드론멘토에게 암모듈 한개 공수받음)
+<img src="/assets/20180511_072149.png" alt="전원 분배 모듈" />
+<img src="/assets/20180511_233731.png" alt="배터리와 연결할 TX60 암모듈" />
+<img src="/assets/20180511_235521.png" alt="배터리와 연결할 TX60 암모듈 납땜 완료" />
+<img src="/assets/20180512_001807.png" alt="ESC와도 납땜 완료" />
+<img src="/assets/20180512_005123.png" alt="전원 분배 모듈을 카본프레임 하단에 결합" />
+<img src="/assets/20180512_162255.png" alt="ESC를 카본프레임 날개부에 졸대로 고정" />
+<img src="/assets/20180512_164918.png" alt="드론 전후 구분을 위한 LED 모듈 추가" /></p>
+  </li>
+  <li>
+    <p>드론 날개 방향 확인 (오해의 시작…)
+<img src="/assets/20180512_170249.png" alt="회전방향에 맞게 양력을 발생시키게 회전날 선택" /></p>
+  </li>
+  <li>
+    <p>아두이노에 MultiWii 코드 적용 (가이드에 있던 2.3은 링크 사라져 2.4를 기존 설정 참조해서 수정)
+<img src="/assets/20180512_174958.png" alt="이전 아두이노는 Old Bootloader 사용 필요" />
+<img src="/assets/20180512_175004.png" alt="MPU6050과 아두이노의 연결" />
+<img src="/assets/20180512_200755.png" alt="빵판 채로 카본프레임에 얹기" />
+<img src="/assets/20180512_213341.png" alt="아두이노와 ESC 간 배선 완료 상부" />
+<img src="/assets/20180512_213348.png" alt="아두이노와 ESC 간 배선 완료 측면" />
+<img src="/assets/20180512_213426.png" alt="아두이노와 ESC 간 배선 완료 하부" /></p>
+  </li>
+  <li>
+    <p>대망의 동작 검증 (여기서 ESC 1개 불량 확인…)
+<img src="/assets/20180512_215842.png" alt="MultiWii 설정 수정" />
+<img src="/assets/20180512_223419.png" alt="MultiWiiConf로 동작 상황 확인" />
+<img src="/assets/20180512_225129.png" alt="무선조정기의 RF 송수신을 서버모터로 확인 1" />
+<img src="/assets/20180512_225701.png" alt="무선조정기의 RF 송수신을 서버모터로 확인 2" />
+<img src="/assets/20180512_230103.png" alt="RF 수신부를 아두이노에 연결" />
+<img src="/assets/20180512_230425.png" alt="최종 연결을 MultiWiiConf로 재확인" /></p>
+  </li>
+  <li>
+    <p>ESC 1개 불량 최종 판정하고 2주 간의 기다림
+<img src="/assets/20180513_165724.png" alt="ESC 포장튜브를 까봐도 수리할 방도는 안보임" /></p>
+  </li>
+  <li>
+    <p>2주 후 ESC 부품 도착으로 재조립하고 첫 시험비행을 진행하였으나 셀프락 회전방향 오해로 프롭 고정 뚜껑 날림 경험하고 잠시 GG
+<img src="/assets/20180527_141648.png" alt="그래도 DIY가 될 정도로 조립이 편해졌구나 생각해봄" /></p>
+  </li>
+</ul>
+
+
+  </div>
+
+  
+    
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">申Nani?</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              申Nani?
+            
+            </li>
+            
+            <li><a href="mailto:nani.shin@gmail.com">nani.shin@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/nanishin"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">nanishin</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>깨달음에 이르는 삶을 살자. Let&#39;s live a life to reach spiritual enlightenment.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

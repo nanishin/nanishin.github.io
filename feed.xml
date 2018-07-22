@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-21T20:49:09+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-22T21:30:06+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
 </subtitle><entry><title type="html">화이트발란스 변경으로 아쿠아리움라이브의 색감 조정</title><link href="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html" rel="alternate" type="text/html" title="화이트발란스 변경으로 아쿠아리움라이브의 색감 조정" /><published>2018-07-02T20:30:00+09:00</published><updated>2018-07-02T20:30:00+09:00</updated><id>http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html">&lt;p&gt;파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니&lt;/p&gt;
 
 &lt;p&gt;raspvid의 화이트발란스 옵션을 -aws sun로 둘 때 가장 자연스러운 색감이 나오는 것을 확인하고 적용 완료!!!&lt;/p&gt;
@@ -33,7 +33,91 @@
 
 &lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=wTI7FMaTEgU&quot; title=&quot;Aquarium Live - 2018.05.28 Monday&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/wTI7FMaTEgU/0.jpg&quot; alt=&quot;Aquarium Live - 2018.05.28 Monday&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데</summary></entry><entry><title type="html">자반어항에서 아쿠아리움라이브 방송 시작</title><link href="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html" rel="alternate" type="text/html" title="자반어항에서 아쿠아리움라이브 방송 시작" /><published>2018-05-24T21:30:00+09:00</published><updated>2018-05-24T21:30:00+09:00</updated><id>http://localhost:4000/maker/2018/05/24/start-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html">&lt;p&gt;한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=wTI7FMaTEgU&quot; title=&quot;Aquarium Live - 2018.05.28 Monday&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/wTI7FMaTEgU/0.jpg&quot; alt=&quot;Aquarium Live - 2018.05.28 Monday&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데</summary></entry><entry><title type="html">DIY 아두이노 드론의 첫 시험비행까지 삽질기</title><link href="http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone.html" rel="alternate" type="text/html" title="DIY 아두이노 드론의 첫 시험비행까지 삽질기" /><published>2018-05-27T16:48:00+09:00</published><updated>2018-05-27T16:48:00+09:00</updated><id>http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone.html">&lt;p&gt;새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저&lt;/p&gt;
+
+&lt;p&gt;시작한 멘토의 도움(창의랩 시절 바로 옆팀의 어항 멘토처럼…)을 받곤 한다.&lt;/p&gt;
+
+&lt;p&gt;사실 드론멘토와는 이미 몇년 전부터 업무 때문에 인연을 이어왔고 멘토의 드론책도 2016년 9월 말에 구매해서&lt;/p&gt;
+
+&lt;p&gt;사인까지 받아 두고 여태 시작을 못하다가 근 1년 반의 게으름을 물리치고 가이드에 맞춰 알리익스프레스에서&lt;/p&gt;
+
+&lt;p&gt;DIY 250mm 드론 세트 및 연계 부품들을 호기롭게 주문한 뒤 5월 초에 도착하여 조립을 시작하였다…&lt;/p&gt;
+
+&lt;p&gt;그러나 역시 삽질은 어디에나 있었으니…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;별나사 드라이버 없어서 별나사 드라이버 세트 긴급 쿠팡 주문해서 카본프레임 바디 조립 하루 지연&lt;/li&gt;
+  &lt;li&gt;열심히 비행시뮬레이터까지 다 돌리면서 확인했는데 ESC 하나 불량 확인하고 여분세트 주문으로 2주 지연&lt;/li&gt;
+  &lt;li&gt;시험비행을 해보니 셀프락 원리를 오해해서 회전방향과 모터배치를 반대로 해서 바나나소켓 없이 재납땜이 필요해져 잠시 마음 GG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/diy-250mm-drone-set.png&quot; alt=&quot;알리익스프레스DIY 250mm 드론 세트&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;BLDC 모터 : 검정색(CCW,반시계방향), 은색(CW,시계방향)
+&lt;img src=&quot;/assets/20180509_194858.png&quot; alt=&quot;BLDC 모터&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;카본프레임 바디 조립 1차 (드라이버 없이 맨손으로…)
+&lt;img src=&quot;/assets/20180509_195858.png&quot; alt=&quot;카본프레임 바디 조립 1차&quot; /&gt;
+&lt;img src=&quot;/assets/20180509_204303.png&quot; alt=&quot;카본프레임 바디 조립 1차&quot; /&gt;
+&lt;img src=&quot;/assets/20180509_210438.png&quot; alt=&quot;카본프레임 바디 조립 1차&quot; /&gt;
+&lt;img src=&quot;/assets/20180509_210540.png&quot; alt=&quot;별나사 인치가 너무 작아&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;별나사 드라이버 올 때까지 비행시뮬레이터 연습
+&lt;img src=&quot;/assets/20180510_030743.png&quot; alt=&quot;시뮬레이터 조정은 너무 이상적이야&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;로켓배송 덕분에 다시 2차 조립 진도 팍팍!!
+&lt;img src=&quot;/assets/20180510_194357.png&quot; alt=&quot;별나사 드라이버 세트&quot; /&gt;
+&lt;img src=&quot;/assets/20180510_201456.png&quot; alt=&quot;BLDC 모터를 결합한 카본프레임 상부&quot; /&gt;
+&lt;img src=&quot;/assets/20180510_201734.png&quot; alt=&quot;BLDC 모터를 결합한 카본프레임 하부&quot; /&gt;
+&lt;img src=&quot;/assets/20180510_202716.png&quot; alt=&quot;ESC를 BLDC 모터에 결합&quot; /&gt;
+&lt;img src=&quot;/assets/20180510_204843.png&quot; alt=&quot;리튬폴리머 배터리 충전&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;전원 분배 모듈 납땜의 시작 (TX60 모듈 존재를 처음 알고 드론멘토에게 암모듈 한개 공수받음)
+&lt;img src=&quot;/assets/20180511_072149.png&quot; alt=&quot;전원 분배 모듈&quot; /&gt;
+&lt;img src=&quot;/assets/20180511_233731.png&quot; alt=&quot;배터리와 연결할 TX60 암모듈&quot; /&gt;
+&lt;img src=&quot;/assets/20180511_235521.png&quot; alt=&quot;배터리와 연결할 TX60 암모듈 납땜 완료&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_001807.png&quot; alt=&quot;ESC와도 납땜 완료&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_005123.png&quot; alt=&quot;전원 분배 모듈을 카본프레임 하단에 결합&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_162255.png&quot; alt=&quot;ESC를 카본프레임 날개부에 졸대로 고정&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_164918.png&quot; alt=&quot;드론 전후 구분을 위한 LED 모듈 추가&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;드론 날개 방향 확인 (오해의 시작…)
+&lt;img src=&quot;/assets/20180512_170249.png&quot; alt=&quot;회전방향에 맞게 양력을 발생시키게 회전날 선택&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;아두이노에 MultiWii 코드 적용 (가이드에 있던 2.3은 링크 사라져 2.4를 기존 설정 참조해서 수정)
+&lt;img src=&quot;/assets/20180512_174958.png&quot; alt=&quot;이전 아두이노는 Old Bootloader 사용 필요&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_175004.png&quot; alt=&quot;MPU6050과 아두이노의 연결&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_200755.png&quot; alt=&quot;빵판 채로 카본프레임에 얹기&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_213341.png&quot; alt=&quot;아두이노와 ESC 간 배선 완료 상부&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_213348.png&quot; alt=&quot;아두이노와 ESC 간 배선 완료 측면&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_213426.png&quot; alt=&quot;아두이노와 ESC 간 배선 완료 하부&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;대망의 동작 검증 (여기서 ESC 1개 불량 확인…)
+&lt;img src=&quot;/assets/20180512_215842.png&quot; alt=&quot;MultiWii 설정 수정&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_223419.png&quot; alt=&quot;MultiWiiConf로 동작 상황 확인&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_225129.png&quot; alt=&quot;무선조정기의 RF 송수신을 서버모터로 확인 1&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_225701.png&quot; alt=&quot;무선조정기의 RF 송수신을 서버모터로 확인 2&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_230103.png&quot; alt=&quot;RF 수신부를 아두이노에 연결&quot; /&gt;
+&lt;img src=&quot;/assets/20180512_230425.png&quot; alt=&quot;최종 연결을 MultiWiiConf로 재확인&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ESC 1개 불량 최종 판정하고 2주 간의 기다림
+&lt;img src=&quot;/assets/20180513_165724.png&quot; alt=&quot;ESC 포장튜브를 까봐도 수리할 방도는 안보임&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;2주 후 ESC 부품 도착으로 재조립하고 첫 시험비행을 진행하였으나 셀프락 회전방향 오해로 프롭 고정 뚜껑 날림 경험하고 잠시 GG
+&lt;img src=&quot;/assets/20180527_141648.png&quot; alt=&quot;그래도 DIY가 될 정도로 조립이 편해졌구나 생각해봄&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저</summary></entry><entry><title type="html">자반어항에서 아쿠아리움라이브 방송 시작</title><link href="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html" rel="alternate" type="text/html" title="자반어항에서 아쿠아리움라이브 방송 시작" /><published>2018-05-24T21:30:00+09:00</published><updated>2018-05-24T21:30:00+09:00</updated><id>http://localhost:4000/maker/2018/05/24/start-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html">&lt;p&gt;한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을&lt;/p&gt;
 
 &lt;p&gt;이용해서 아쿠아리움 라이브 방송 시작!!!&lt;/p&gt;
 
@@ -99,24 +183,4 @@
 
 &lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GI45QyvkgNQ&quot; title=&quot;Upcycling JackOLantern&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/GI45QyvkgNQ/0.jpg&quot; alt=&quot;Upcycling JackOLantern&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!</summary></entry><entry><title type="html">Galaxy Upcycling project open</title><link href="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html" rel="alternate" type="text/html" title="Galaxy Upcycling project open" /><published>2017-10-27T20:30:00+09:00</published><updated>2017-10-27T20:30:00+09:00</updated><id>http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/27/clab-galaxy-upcycling-open.html">&lt;p&gt;창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.&lt;/p&gt;
-
-&lt;p&gt;순환경제(Circular Economy)라는 메가트랜드와 IoT/IoE라 불리는 새로운 혁명이 버무려졌을 떄 어떤&lt;/p&gt;
-
-&lt;p&gt;빅뱅의 모습을 만들어 낼 수 있을까? 내부보다 외부에 더 많은 아이디어와 방법이 있기에 부족해도 공개하며&lt;/p&gt;
-
-&lt;p&gt;새로운 길을 걸어보려고 한다.&lt;/p&gt;
-
-&lt;p&gt;거기다 작년 겨울 큰딸이 베타 물고기를 가져오면서 시작된 어항 관련 메이킹이 개선을 거듭하여 일년 뒤&lt;/p&gt;
-
-&lt;p&gt;Galaxy Upcycling 데모 전시품의 하나인 Fish Care Service가 될 것이라고 상상이나 해봤던가… ;)&lt;/p&gt;
-
-&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
-
-&lt;p&gt;글로벌 인포그래픽 소개 영상&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Z9ujIbdi33g&quot; title=&quot;Galaxy Upcycling Introduction&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/Z9ujIbdi33g/0.jpg&quot; alt=&quot;Galaxy Upcycling Introduction&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;SDC2017 Galaxy Upcycling 부스&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cWIC97RhyNU&quot; title=&quot;SDC2017 Galaxy Upcycling Booth&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/cWIC97RhyNU/0.jpg&quot; alt=&quot;SDC2017 Galaxy Upcycling Booth&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">창의랩(C-Lab)에 참여해 진행하던 Galaxy Upcycling 프로젝트가 드디어 SDC2017 통해서 공식으로 오픈되었다.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GI45QyvkgNQ&quot; title=&quot;Upcycling JackOLantern&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/GI45QyvkgNQ/0.jpg&quot; alt=&quot;Upcycling JackOLantern&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!</summary></entry></feed>
