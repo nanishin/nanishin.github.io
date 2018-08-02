@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-22T21:30:06+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-02T12:36:09+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
 </subtitle><entry><title type="html">화이트발란스 변경으로 아쿠아리움라이브의 색감 조정</title><link href="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html" rel="alternate" type="text/html" title="화이트발란스 변경으로 아쿠아리움라이브의 색감 조정" /><published>2018-07-02T20:30:00+09:00</published><updated>2018-07-02T20:30:00+09:00</updated><id>http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html">&lt;p&gt;파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니&lt;/p&gt;
 
 &lt;p&gt;raspvid의 화이트발란스 옵션을 -aws sun로 둘 때 가장 자연스러운 색감이 나오는 것을 확인하고 적용 완료!!!&lt;/p&gt;
@@ -145,6 +145,8 @@
 &lt;p&gt;마침 주말에 실리콘도 새로 산 김에 실리콘으로 붙여서 해결&lt;/p&gt;
 
 &lt;p&gt;진동에 얼마나 견딜지는 계속 지켜보기로…&lt;/p&gt;
+
+&lt;p&gt;P.S. 결국 몇시간 만에 진동을 못 견디고 다시 떨어짐. 그래서 순간접착제로 녹여서 붙인 뒤에야 진짜 해결!!!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/20180410_221740.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 1&quot; /&gt;
 &lt;img src=&quot;/assets/20180410_221807.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 2&quot; /&gt;
