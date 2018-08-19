@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-02T12:36:09+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">화이트발란스 변경으로 아쿠아리움라이브의 색감 조정</title><link href="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html" rel="alternate" type="text/html" title="화이트발란스 변경으로 아쿠아리움라이브의 색감 조정" /><published>2018-07-02T20:30:00+09:00</published><updated>2018-07-02T20:30:00+09:00</updated><id>http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html">&lt;p&gt;파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-19T22:55:41+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료</title><link href="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html" rel="alternate" type="text/html" title="구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료" /><published>2018-08-12T17:32:00+09:00</published><updated>2018-08-12T17:32:00+09:00</updated><id>http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html">&lt;p&gt;고쳐서 다시 해봐야지 하다가 3개월이 되어서야 셀프락 수정을 위해&lt;/p&gt;
+
+&lt;p&gt;모터 재배치 및 재납땜을 하면서 ESC도 상부로 위치 변경해서 이리저리 시험…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20180805_152439.png&quot; alt=&quot;셀프락 수정 및 ESC 위치변경 상부&quot; /&gt;
+&lt;img src=&quot;/assets/20180805_152453.png&quot; alt=&quot;셀프락 수정 및 ESC 위치변경 후면&quot; /&gt;
+&lt;img src=&quot;/assets/20180805_152502.png&quot; alt=&quot;셀프락 수정 및 ESC 위치변경 전면&quot; /&gt;
+&lt;img src=&quot;/assets/20180805_152518.png&quot; alt=&quot;셀프락 수정 및 ESC 위치변경 하부&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;역시 이번에도 에이징 시험을 해보니 파워분배보드 내 스위치 부분이 열 때문에 녹는 사태 발생…&lt;/p&gt;
+
+&lt;p&gt;결국 스위치 부분까지 납땜으로 붙여서 수정 완료&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20180805_232816.png&quot; alt=&quot;파워분배 스위치 납땜 수정&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이후 대충 찍찍이로 X자로 고정 후 첫 야외비행을 시도했고 몇번의 추락과 나무에 들이받고&lt;/p&gt;
+
+&lt;p&gt;뒤집어졌는데도 어느정도 버텨서 첫 공식 야외비행으로 기록!!! :D&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20180812_152516.png&quot; alt=&quot;첫 공식 야외비행 당시 상부&quot; /&gt;
+&lt;img src=&quot;/assets/20180812_152530.png&quot; alt=&quot;첫 공식 야외비행 당시 하부&quot; /&gt;&lt;/p&gt;</content><summary type="html">고쳐서 다시 해봐야지 하다가 3개월이 되어서야 셀프락 수정을 위해</summary></entry><entry><title type="html">화이트발란스 변경으로 아쿠아리움라이브의 색감 조정</title><link href="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html" rel="alternate" type="text/html" title="화이트발란스 변경으로 아쿠아리움라이브의 색감 조정" /><published>2018-07-02T20:30:00+09:00</published><updated>2018-07-02T20:30:00+09:00</updated><id>http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/07/02/change-white-balance-of-aquarium-live.html">&lt;p&gt;파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니&lt;/p&gt;
 
 &lt;p&gt;raspvid의 화이트발란스 옵션을 -aws sun로 둘 때 가장 자연스러운 색감이 나오는 것을 확인하고 적용 완료!!!&lt;/p&gt;
 
@@ -175,14 +195,4 @@
   &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/fadecandy/tree/rgbw_support&quot;&gt;How to modify fadecandy firmware to support RGBW LED strip&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/fadecandy_rgbw_digital_signage.jpg&quot; alt=&quot;Digital signage demo with fadecandy RGBW LED strip matrix&quot; /&gt;&lt;/p&gt;</content><summary type="html">LED 스트립을 활용한 인터렉티브 데모 제작 시 fadecandy는 좋은 오픈소스 솔루션이다.</summary></entry><entry><title type="html">Upcycling JackOLantern</title><link href="http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern.html" rel="alternate" type="text/html" title="Upcycling JackOLantern" /><published>2017-10-30T07:40:00+09:00</published><updated>2017-10-30T07:40:00+09:00</updated><id>http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern</id><content type="html" xml:base="http://localhost:4000/maker/2017/10/30/halloween-upcycling-jackolantern.html">&lt;p&gt;큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!&lt;/p&gt;
-
-&lt;p&gt;기왕 작업한 거 github에도 정리 완료~&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/upcycling-jackolantern&quot;&gt;How to make upcycling JackOLantern&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GI45QyvkgNQ&quot; title=&quot;Upcycling JackOLantern&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/GI45QyvkgNQ/0.jpg&quot; alt=&quot;Upcycling JackOLantern&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">큰딸이 영어학원에서 할로윈파티를 한다기에 업사이클링 아이디어를 적용해서 잭오렌턴 업그레이드!</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/fadecandy_rgbw_digital_signage.jpg&quot; alt=&quot;Digital signage demo with fadecandy RGBW LED strip matrix&quot; /&gt;&lt;/p&gt;</content><summary type="html">LED 스트립을 활용한 인터렉티브 데모 제작 시 fadecandy는 좋은 오픈소스 솔루션이다.</summary></entry></feed>
