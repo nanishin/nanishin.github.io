@@ -1,5 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-19T22:55:41+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료</title><link href="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html" rel="alternate" type="text/html" title="구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료" /><published>2018-08-12T17:32:00+09:00</published><updated>2018-08-12T17:32:00+09:00</updated><id>http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html">&lt;p&gt;고쳐서 다시 해봐야지 하다가 3개월이 되어서야 셀프락 수정을 위해&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-20T00:08:37+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">DIY 아두이노 드론에 초음파센서 추가 후 2차 야외비행</title><link href="http://localhost:4000/maker/2018/08/19/add-ultrasonic-sensor-to-diy-drone.html" rel="alternate" type="text/html" title="DIY 아두이노 드론에 초음파센서 추가 후 2차 야외비행" /><published>2018-08-19T23:01:00+09:00</published><updated>2018-08-19T23:01:00+09:00</updated><id>http://localhost:4000/maker/2018/08/19/add-ultrasonic-sensor-to-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/08/19/add-ultrasonic-sensor-to-diy-drone.html">&lt;p&gt;지난 첫 야외비행 후 쓰로틀 조정을 통한 호버링 유지가 너무나 힘들다는 사실을 깨닫고 이를 보정하기 위해&lt;/p&gt;
+
+&lt;p&gt;초음파센서를 하단에 적용!!!&lt;/p&gt;
+
+&lt;p&gt;역시나 감사하게도 MultiWii2.4에 적용한 필리핀 메이커 덕분에 2.4 코드를 눈머징해서 패치 완료&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.multiwii.com/forum/viewtopic.php?t=6282&quot;&gt;Sonar HC-SR04 Support now implemented in MW2.4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20180816_025935.png&quot; alt=&quot;초음파센서 배선 적용 후 상부&quot; /&gt;
+&lt;img src=&quot;/assets/20180816_025945.png&quot; alt=&quot;하부 초음파센서 설치 위치&quot; /&gt;
+&lt;img src=&quot;/assets/20180816_025952.png&quot; alt=&quot;초음파센서 적용 후 측면&quot; /&gt;
+&lt;img src=&quot;/assets/20180816_030015.png&quot; alt=&quot;수신기 고정을 위해 절연테이프 적용한 후면&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2차 야외비행으로 좀 더 안정화된 호버링 동작 확인!!! ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20180819_134023.png&quot; alt=&quot;초음파센서 고려해 찍찍이 고정&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=v8UkYDHHhgw&quot; title=&quot;초음파센서 적용한 2차 야외비행&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/v8UkYDHHhgw/0.jpg&quot; alt=&quot;초음파센서 적용한 2차 야외비행&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">지난 첫 야외비행 후 쓰로틀 조정을 통한 호버링 유지가 너무나 힘들다는 사실을 깨닫고 이를 보정하기 위해</summary></entry><entry><title type="html">구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료</title><link href="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html" rel="alternate" type="text/html" title="구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료" /><published>2018-08-12T17:32:00+09:00</published><updated>2018-08-12T17:32:00+09:00</updated><id>http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html">&lt;p&gt;고쳐서 다시 해봐야지 하다가 3개월이 되어서야 셀프락 수정을 위해&lt;/p&gt;
 
 &lt;p&gt;모터 재배치 및 재납땜을 하면서 ESC도 상부로 위치 변경해서 이리저리 시험…&lt;/p&gt;
 
@@ -183,16 +204,4 @@
 
 &lt;p&gt;Tizen Developer 포럼에서 Mac에서 JDK8 152와 부딪치는 이슈로 151 다운그레이드 설치하면 이슈 해결 확인&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://developer.tizen.org/ko/forums/sdk-ide/tizen-studio-2.0-not-working-on-macos-sierra&quot;&gt;Mac에서 Tizen Studio 2.X 동작 안할 떄 조치하기&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Tizen Studio 2.X 설치 시 Oracle JDK8 필요</summary></entry><entry><title type="html">How to modify fadecandy firmware to support RGBW LED strip</title><link href="http://localhost:4000/maker/2017/12/25/diy-modify-fadecandy-firmware-for-rgbw-led-strip.html" rel="alternate" type="text/html" title="How to modify fadecandy firmware to support RGBW LED strip" /><published>2017-12-25T12:00:00+09:00</published><updated>2017-12-25T12:00:00+09:00</updated><id>http://localhost:4000/maker/2017/12/25/diy-modify-fadecandy-firmware-for-rgbw-led-strip</id><content type="html" xml:base="http://localhost:4000/maker/2017/12/25/diy-modify-fadecandy-firmware-for-rgbw-led-strip.html">&lt;p&gt;LED 스트립을 활용한 인터렉티브 데모 제작 시 fadecandy는 좋은 오픈소스 솔루션이다.&lt;/p&gt;
-
-&lt;p&gt;그러나 RGB LED 스트립 기반 펌웨어만 제공되고 있어 알리익스프레스 등에서 싼 맛에&lt;/p&gt;
-
-&lt;p&gt;RGBW LED 스트립롤을 구매했다가 호환되지 않아서 맨붕에 빠지는 상황이 종종 리포트된다.&lt;/p&gt;
-
-&lt;p&gt;이에 구글링을 통해 확인된 기존 작업들과 당시 데모 준비로 정리된 내용을 다시 공유한다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/fadecandy/tree/rgbw_support&quot;&gt;How to modify fadecandy firmware to support RGBW LED strip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/fadecandy_rgbw_digital_signage.jpg&quot; alt=&quot;Digital signage demo with fadecandy RGBW LED strip matrix&quot; /&gt;&lt;/p&gt;</content><summary type="html">LED 스트립을 활용한 인터렉티브 데모 제작 시 fadecandy는 좋은 오픈소스 솔루션이다.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://developer.tizen.org/ko/forums/sdk-ide/tizen-studio-2.0-not-working-on-macos-sierra&quot;&gt;Mac에서 Tizen Studio 2.X 동작 안할 떄 조치하기&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Tizen Studio 2.X 설치 시 Oracle JDK8 필요</summary></entry></feed>
