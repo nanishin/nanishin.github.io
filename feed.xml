@@ -1,5 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-20T00:08:37+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">DIY 아두이노 드론에 초음파센서 추가 후 2차 야외비행</title><link href="http://localhost:4000/maker/2018/08/19/add-ultrasonic-sensor-to-diy-drone.html" rel="alternate" type="text/html" title="DIY 아두이노 드론에 초음파센서 추가 후 2차 야외비행" /><published>2018-08-19T23:01:00+09:00</published><updated>2018-08-19T23:01:00+09:00</updated><id>http://localhost:4000/maker/2018/08/19/add-ultrasonic-sensor-to-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/08/19/add-ultrasonic-sensor-to-diy-drone.html">&lt;p&gt;지난 첫 야외비행 후 쓰로틀 조정을 통한 호버링 유지가 너무나 힘들다는 사실을 깨닫고 이를 보정하기 위해&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-28T21:44:47+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">업사이클링 나무로봇 LED아트 일단락</title><link href="http://localhost:4000/maker/2018/09/28/mfs2018-upcycling-wood-robot-led.html" rel="alternate" type="text/html" title="업사이클링 나무로봇 LED아트 일단락" /><published>2018-09-28T21:30:00+09:00</published><updated>2018-09-28T21:30:00+09:00</updated><id>http://localhost:4000/maker/2018/09/28/mfs2018-upcycling-wood-robot-led</id><content type="html" xml:base="http://localhost:4000/maker/2018/09/28/mfs2018-upcycling-wood-robot-led.html">&lt;p&gt;둘째딸이 나무로 만들어진 장난감들을 유치원에서 하나하나 가져온 지 벌써 1년이 지났다.&lt;/p&gt;
+
+&lt;p&gt;그중 나무로봇은 뭔가 아이들과 같이 꾸미면 재미있겠다는 생각만 머리 한켠에 가지고 있었다.&lt;/p&gt;
+
+&lt;p&gt;그러다 메이커페어서울2018에 전시하게 되면서 집안에 남아있던 물품들과 재조합을 시작하였다.&lt;/p&gt;
+
+&lt;p&gt;우선 큰딸은 1년 정도 지나서 색이 바랜지라 다시 물감으로 예쁘게 칠해주었고&lt;/p&gt;
+
+&lt;p&gt;난 LED스트립을 후면에 배치해서 간접광을 시험하다가 결국 2년 전 창의랩 동료가 만들어 준 뒤&lt;/p&gt;
+
+&lt;p&gt;서랍에 묵혀두던 아케이드 버튼 박스까지 꺼내들어 색깔 연동 작업하다가 전시 전날 완료 ;)&lt;/p&gt;
+
+&lt;p&gt;GitHub에도 반영했는데 설명은 차차 업데이트하기로…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/upcycling-wood-robot-led&quot;&gt;Upcycling Wood Robot LED&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20180812_160141.png&quot; alt=&quot;종이로 간접광 경로 만들기&quot; /&gt;
+&lt;img src=&quot;/assets/20180812_162825.png&quot; alt=&quot;굴러다니던 LED 스트립&quot; /&gt;
+&lt;img src=&quot;/assets/20180812_163217.png&quot; alt=&quot;LED 스트립을 간접광 경로에 설치&quot; /&gt;
+&lt;img src=&quot;/assets/20180901_150559.png&quot; alt=&quot;아케이드 버튼 박스 수리&quot; /&gt;
+&lt;img src=&quot;/assets/20180901_152615.png&quot; alt=&quot;아케이드 버튼 내 LED&quot; /&gt;
+&lt;img src=&quot;/assets/20180901_152831.png&quot; alt=&quot;아케이드 버튼 내 LED 소켓&quot; /&gt;
+&lt;img src=&quot;/assets/20180901_194100.png&quot; alt=&quot;아케이드 버튼 내 LED 재설치&quot; /&gt;
+&lt;img src=&quot;/assets/20180928_181634.png&quot; alt=&quot;파랑 버튼 확인&quot; /&gt;
+&lt;img src=&quot;/assets/20180928_181637.png&quot; alt=&quot;빨강 버튼 확인&quot; /&gt;
+&lt;img src=&quot;/assets/20180928_181639.png&quot; alt=&quot;노랑 버튼 확인&quot; /&gt;
+&lt;img src=&quot;/assets/20180928_181648.png&quot; alt=&quot;레인보우 확인&quot; /&gt;&lt;/p&gt;</content><summary type="html">둘째딸이 나무로 만들어진 장난감들을 유치원에서 하나하나 가져온 지 벌써 1년이 지났다.</summary></entry><entry><title type="html">DIY 아두이노 드론에 초음파센서 추가 후 2차 야외비행</title><link href="http://localhost:4000/maker/2018/08/19/add-ultrasonic-sensor-to-diy-drone.html" rel="alternate" type="text/html" title="DIY 아두이노 드론에 초음파센서 추가 후 2차 야외비행" /><published>2018-08-19T23:01:00+09:00</published><updated>2018-08-19T23:01:00+09:00</updated><id>http://localhost:4000/maker/2018/08/19/add-ultrasonic-sensor-to-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/08/19/add-ultrasonic-sensor-to-diy-drone.html">&lt;p&gt;지난 첫 야외비행 후 쓰로틀 조정을 통한 호버링 유지가 너무나 힘들다는 사실을 깨닫고 이를 보정하기 위해&lt;/p&gt;
 
 &lt;p&gt;초음파센서를 하단에 적용!!!&lt;/p&gt;
 
@@ -198,10 +226,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/upcycling-interactive-humidifier&quot;&gt;How to make Upcycling Interactive Humidifier&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">LED 아트 실내 활용방안을 시험하면서 온습도 센서와 연동해 습도를 엠비언트 칼라로 상시 보여주면서</summary></entry><entry><title type="html">Tizen Studio 2.X 실행 시 workspace 선택창에서 멈추는 상황 해결 방법</title><link href="http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing.html" rel="alternate" type="text/html" title="Tizen Studio 2.X 실행 시 workspace 선택창에서 멈추는 상황 해결 방법" /><published>2018-01-15T01:25:00+09:00</published><updated>2018-01-15T01:25:00+09:00</updated><id>http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing</id><content type="html" xml:base="http://localhost:4000/tip/2018/01/15/how-to-fix-tizen-studio-freezing.html">&lt;p&gt;Tizen Studio 2.X 설치 시 Oracle JDK8 필요&lt;/p&gt;
-
-&lt;p&gt;그러나 매번 실행만 하면 workspace 선택창에서 멈춰버리는 문제 발생&lt;/p&gt;
-
-&lt;p&gt;Tizen Developer 포럼에서 Mac에서 JDK8 152와 부딪치는 이슈로 151 다운그레이드 설치하면 이슈 해결 확인&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developer.tizen.org/ko/forums/sdk-ide/tizen-studio-2.0-not-working-on-macos-sierra&quot;&gt;Mac에서 Tizen Studio 2.X 동작 안할 떄 조치하기&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Tizen Studio 2.X 설치 시 Oracle JDK8 필요</summary></entry></feed>
+&lt;/ul&gt;</content><summary type="html">LED 아트 실내 활용방안을 시험하면서 온습도 센서와 연동해 습도를 엠비언트 칼라로 상시 보여주면서</summary></entry></feed>
