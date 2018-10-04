@@ -7,9 +7,7 @@ categories: music
 ---
 홈레코딩 기록 #4 - 변해가네 (김광석 Cover)
 
-이미지 클릭 시 유튜브 재생
-
-[![It's changing](http://img.youtube.com/vi/WScYm2FLKrI/0.jpg)](https://www.youtube.com/watch?v=WScYm2FLKrI "It's changing")
-
 노래&기타 : 아빠
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WScYm2FLKrI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

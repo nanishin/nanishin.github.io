@@ -11,7 +11,5 @@ categories: maker
 
 - [How to make upcycling JackOLantern](https://github.com/nanishin/upcycling-jackolantern)
 
-이미지 클릭 시 유튜브 재생
-
-[![Upcycling JackOLantern](http://img.youtube.com/vi/GI45QyvkgNQ/0.jpg)](https://www.youtube.com/watch?v=GI45QyvkgNQ "Upcycling JackOLantern")
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GI45QyvkgNQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

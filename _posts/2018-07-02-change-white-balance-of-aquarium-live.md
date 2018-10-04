@@ -13,6 +13,5 @@ https://www.raspberrypi.org/documentation/raspbian/applications/camera.md 에서
 
 > sun: sunny mode (between 5000K and 6500K)
 
-이미지 클릭 시 유튜브 재생
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bMGRpjKWRgI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[![Aquarium Live - 2018.07.02 Monday](http://img.youtube.com/vi/bMGRpjKWRgI/0.jpg)](https://www.youtube.com/watch?v=bMGRpjKWRgI "Aquarium Live - 2018.07.02 Monday")

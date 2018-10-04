@@ -22,6 +22,5 @@ categories: maker
 
 튜닝은 방송 에이징을 하면서 계속 하는 것으로...
 
-이미지 클릭 시 유튜브 재생
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/C8eJjoeYZ6k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[![Aquarium Live - 2018.05.24 Thursday](http://img.youtube.com/vi/C8eJjoeYZ6k/0.jpg)](https://www.youtube.com/watch?v=C8eJjoeYZ6k "Aquarium Live - 2018.05.24 Thursday")

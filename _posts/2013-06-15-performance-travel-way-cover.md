@@ -7,10 +7,9 @@ categories: music
 ---
 라이브공연 기록 #? - 부가킹즈 : 여행길
 
-이미지 클릭 시 유튜브 재생
-
-[![Travel Way](http://img.youtube.com/vi/Sp7D7ksLxFI/0.jpg)](https://www.youtube.com/watch?v=Sp7D7ksLxFI "Travel Way")
-
 풀밴드 편곡 버전 UMC2013 공연
 
 베이스&코러스
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Sp7D7ksLxFI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+

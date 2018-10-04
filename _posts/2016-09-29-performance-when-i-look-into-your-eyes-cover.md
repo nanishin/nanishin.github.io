@@ -7,8 +7,7 @@ categories: music
 ---
 라이브공연 기록 #? - Firehouse : When I look into your eyes
 
-이미지 클릭 시 유튜브 재생
-
-[![When I look into your eyes](http://img.youtube.com/vi/DU4bUABq3BM/0.jpg)](https://www.youtube.com/watch?v=DU4bUABq3BM "When I look into your eyes")
-
 언플러그드 동호회 2016년 9월 작은음악회(주제 : 2000년대 이전 팝송 기준) 발표
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DU4bUABq3BM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+

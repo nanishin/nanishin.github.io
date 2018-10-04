@@ -7,9 +7,7 @@ categories: music
 ---
 홈레코딩 기록 #3 - 회상 (산울림 Cover)
 
-이미지 클릭 시 유튜브 재생
-
-[![Reminisce](http://img.youtube.com/vi/h5zEqgXz77M/0.jpg)](https://www.youtube.com/watch?v=h5zEqgXz77M "Reminisce")
-
 노래&기타 : 아빠
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h5zEqgXz77M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

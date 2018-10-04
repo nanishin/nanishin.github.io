@@ -22,7 +22,4 @@ categories: maker
 
 ![초음파센서 고려해 찍찍이 고정](/assets/20180819_134023.png)
 
-이미지 클릭 시 유튜브 재생
-
-[![초음파센서 적용한 2차 야외비행](http://img.youtube.com/vi/v8UkYDHHhgw/0.jpg)](https://www.youtube.com/watch?v=v8UkYDHHhgw "초음파센서 적용한 2차 야외비행")
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v8UkYDHHhgw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

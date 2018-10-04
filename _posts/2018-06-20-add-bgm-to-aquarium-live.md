@@ -11,6 +11,5 @@ ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설
 
 이렇게 또다른 취미들이 서로 크로스로 결합되는 경험을 하게 되네~ :)
 
-이미지 클릭 시 유튜브 재생
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gk7cwGKXwno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[![Aquarium Live - 2018.06.20 Wednesday](http://img.youtube.com/vi/Gk7cwGKXwno/0.jpg)](https://www.youtube.com/watch?v=Gk7cwGKXwno "Aquarium Live - 2018.06.20 Wednesday")

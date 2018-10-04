@@ -17,13 +17,11 @@ categories: maker
 
 Galaxy Upcycling 데모 전시품의 하나인 Fish Care Service가 될 것이라고 상상이나 해봤던가... ;)
 
-이미지 클릭 시 유튜브 재생
-
 글로벌 인포그래픽 소개 영상
 
-[![Galaxy Upcycling Introduction](http://img.youtube.com/vi/Z9ujIbdi33g/0.jpg)](https://www.youtube.com/watch?v=Z9ujIbdi33g "Galaxy Upcycling Introduction")
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z9ujIbdi33g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 SDC2017 Galaxy Upcycling 부스
 
-[![SDC2017 Galaxy Upcycling Booth](http://img.youtube.com/vi/cWIC97RhyNU/0.jpg)](https://www.youtube.com/watch?v=cWIC97RhyNU "SDC2017 Galaxy Upcycling Booth")
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cWIC97RhyNU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
