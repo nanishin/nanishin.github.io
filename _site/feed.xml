@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-05T01:28:54+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">메이커페어서울2018 전시/세미나 무사 완료</title><link href="http://localhost:4000/maker/2018/10/01/mfs2018-well-done.html" rel="alternate" type="text/html" title="메이커페어서울2018 전시/세미나 무사 완료" /><published>2018-10-01T21:00:00+09:00</published><updated>2018-10-01T21:00:00+09:00</updated><id>http://localhost:4000/maker/2018/10/01/mfs2018-well-done</id><content type="html" xml:base="http://localhost:4000/maker/2018/10/01/mfs2018-well-done.html">&lt;p&gt;메이커페어서울2018 전시/세미나 진행으로 지난 주말 이틀은 정말 순삭…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-05T01:47:41+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">마크다운에서 유튜브 링크하는 방법2</title><link href="http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2.html" rel="alternate" type="text/html" title="마크다운에서 유튜브 링크하는 방법2" /><published>2018-10-05T01:35:00+09:00</published><updated>2018-10-05T01:35:00+09:00</updated><id>http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2</id><content type="html" xml:base="http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2.html">&lt;p&gt;한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…&lt;/p&gt;
+
+&lt;p&gt;공유 -&amp;gt; 퍼가기 -&amp;gt; 마크다운 파일 내 iframe 태그 내용 그대로 복사 적용&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/youtube_embed_menu.png&quot; alt=&quot;유튜브 퍼기가 메뉴&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/youtube_embed_iframe.png&quot; alt=&quot;유튜브 임베드 iframe&quot; /&gt;&lt;/p&gt;</content><summary type="html">한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…</summary></entry><entry><title type="html">메이커페어서울2018 전시/세미나 무사 완료</title><link href="http://localhost:4000/maker/2018/10/01/mfs2018-well-done.html" rel="alternate" type="text/html" title="메이커페어서울2018 전시/세미나 무사 완료" /><published>2018-10-01T21:00:00+09:00</published><updated>2018-10-01T21:00:00+09:00</updated><id>http://localhost:4000/maker/2018/10/01/mfs2018-well-done</id><content type="html" xml:base="http://localhost:4000/maker/2018/10/01/mfs2018-well-done.html">&lt;p&gt;메이커페어서울2018 전시/세미나 진행으로 지난 주말 이틀은 정말 순삭…&lt;/p&gt;
 
 &lt;p&gt;그래도 무사 완료하고 오랜만에 하얗게 불태운지라 돌아와서 계속 삭신이 쑤심…&lt;/p&gt;
 
@@ -202,17 +208,4 @@
 
 &lt;p&gt;튜닝은 방송 에이징을 하면서 계속 하는 것으로…&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/C8eJjoeYZ6k&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을</summary></entry><entry><title type="html">아마존 2구 에어펌프 수리 방법</title><link href="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html" rel="alternate" type="text/html" title="아마존 2구 에어펌프 수리 방법" /><published>2018-04-10T11:56:00+09:00</published><updated>2018-04-10T11:56:00+09:00</updated><id>http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump</id><content type="html" xml:base="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html">&lt;p&gt;아침 출근 전 아마존 2구 에어펌프 중 1구가 고장나서 퇴근 후 열어보니&lt;/p&gt;
-
-&lt;p&gt;코일 진동을 통해 펌핑하는데 진동 고정부분 플라스틱이 부러진 걸 확인&lt;/p&gt;
-
-&lt;p&gt;마침 주말에 실리콘도 새로 산 김에 실리콘으로 붙여서 해결&lt;/p&gt;
-
-&lt;p&gt;진동에 얼마나 견딜지는 계속 지켜보기로…&lt;/p&gt;
-
-&lt;p&gt;P.S. 결국 몇시간 만에 진동을 못 견디고 다시 떨어짐. 그래서 순간접착제로 녹여서 붙인 뒤에야 진짜 해결!!!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20180410_221740.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 1&quot; /&gt;
-&lt;img src=&quot;/assets/20180410_221807.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 2&quot; /&gt;
-&lt;img src=&quot;/assets/20180410_221820.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 3&quot; /&gt;
-&lt;img src=&quot;/assets/20180410_222820.jpg&quot; alt=&quot;아마존 2구 에어펌프 분해 - 4&quot; /&gt;&lt;/p&gt;</content><summary type="html">아침 출근 전 아마존 2구 에어펌프 중 1구가 고장나서 퇴근 후 열어보니</summary></entry></feed>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/C8eJjoeYZ6k&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을</summary></entry></feed>
