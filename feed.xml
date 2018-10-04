@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-05T00:25:26+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-05T01:28:54+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
 </subtitle><entry><title type="html">메이커페어서울2018 전시/세미나 무사 완료</title><link href="http://localhost:4000/maker/2018/10/01/mfs2018-well-done.html" rel="alternate" type="text/html" title="메이커페어서울2018 전시/세미나 무사 완료" /><published>2018-10-01T21:00:00+09:00</published><updated>2018-10-01T21:00:00+09:00</updated><id>http://localhost:4000/maker/2018/10/01/mfs2018-well-done</id><content type="html" xml:base="http://localhost:4000/maker/2018/10/01/mfs2018-well-done.html">&lt;p&gt;메이커페어서울2018 전시/세미나 진행으로 지난 주말 이틀은 정말 순삭…&lt;/p&gt;
 
 &lt;p&gt;그래도 무사 완료하고 오랜만에 하얗게 불태운지라 돌아와서 계속 삭신이 쑤심…&lt;/p&gt;
@@ -53,9 +53,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/20180819_134023.png&quot; alt=&quot;초음파센서 고려해 찍찍이 고정&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=v8UkYDHHhgw&quot; title=&quot;초음파센서 적용한 2차 야외비행&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/v8UkYDHHhgw/0.jpg&quot; alt=&quot;초음파센서 적용한 2차 야외비행&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">지난 첫 야외비행 후 쓰로틀 조정을 통한 호버링 유지가 너무나 힘들다는 사실을 깨닫고 이를 보정하기 위해</summary></entry><entry><title type="html">구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료</title><link href="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html" rel="alternate" type="text/html" title="구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료" /><published>2018-08-12T17:32:00+09:00</published><updated>2018-08-12T17:32:00+09:00</updated><id>http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html">&lt;p&gt;고쳐서 다시 해봐야지 하다가 3개월이 되어서야 셀프락 수정을 위해&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v8UkYDHHhgw&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">지난 첫 야외비행 후 쓰로틀 조정을 통한 호버링 유지가 너무나 힘들다는 사실을 깨닫고 이를 보정하기 위해</summary></entry><entry><title type="html">구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료</title><link href="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html" rel="alternate" type="text/html" title="구조 수정 뒤 DIY 아두이노 드론의 첫 야외비행 완료" /><published>2018-08-12T17:32:00+09:00</published><updated>2018-08-12T17:32:00+09:00</updated><id>http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/08/12/1st-outdoor-flight-of-diy-drone.html">&lt;p&gt;고쳐서 다시 해봐야지 하다가 3개월이 되어서야 셀프락 수정을 위해&lt;/p&gt;
 
 &lt;p&gt;모터 재배치 및 재납땜을 하면서 ESC도 상부로 위치 변경해서 이리저리 시험…&lt;/p&gt;
 
@@ -85,31 +83,23 @@
   &lt;p&gt;sun: sunny mode (between 5000K and 6500K)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bMGRpjKWRgI&quot; title=&quot;Aquarium Live - 2018.07.02 Monday&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/bMGRpjKWRgI/0.jpg&quot; alt=&quot;Aquarium Live - 2018.07.02 Monday&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니</summary></entry><entry><title type="html">음원 루프 설정으로 아쿠아리움라이브에 BGM 추가</title><link href="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html" rel="alternate" type="text/html" title="음원 루프 설정으로 아쿠아리움라이브에 BGM 추가" /><published>2018-06-20T22:10:00+09:00</published><updated>2018-06-20T22:10:00+09:00</updated><id>http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html">&lt;p&gt;ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/bMGRpjKWRgI&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니</summary></entry><entry><title type="html">음원 루프 설정으로 아쿠아리움라이브에 BGM 추가</title><link href="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html" rel="alternate" type="text/html" title="음원 루프 설정으로 아쿠아리움라이브에 BGM 추가" /><published>2018-06-20T22:10:00+09:00</published><updated>2018-06-20T22:10:00+09:00</updated><id>http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html">&lt;p&gt;ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고&lt;/p&gt;
 
 &lt;p&gt;기존 홈레코딩 작업하며 가지고 있던 어쿠스틱 커버곡들을 BGM으로 스트리밍에 적용하는데 성공!!!&lt;/p&gt;
 
 &lt;p&gt;이렇게 또다른 취미들이 서로 크로스로 결합되는 경험을 하게 되네~ :)&lt;/p&gt;
 
-&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Gk7cwGKXwno&quot; title=&quot;Aquarium Live - 2018.06.20 Wednesday&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/Gk7cwGKXwno/0.jpg&quot; alt=&quot;Aquarium Live - 2018.06.20 Wednesday&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고</summary></entry><entry><title type="html">파이캠 초점 조절로 아쿠아리움라이브 화질 개선</title><link href="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html" rel="alternate" type="text/html" title="파이캠 초점 조절로 아쿠아리움라이브 화질 개선" /><published>2018-05-28T20:00:00+09:00</published><updated>2018-05-28T20:00:00+09:00</updated><id>http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html">&lt;p&gt;파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/Gk7cwGKXwno&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고</summary></entry><entry><title type="html">파이캠 초점 조절로 아쿠아리움라이브 화질 개선</title><link href="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html" rel="alternate" type="text/html" title="파이캠 초점 조절로 아쿠아리움라이브 화질 개선" /><published>2018-05-28T20:00:00+09:00</published><updated>2018-05-28T20:00:00+09:00</updated><id>http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/28/adjust-focus-of-aquarium-live.html">&lt;p&gt;파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데&lt;/p&gt;
 
 &lt;p&gt;역시 유튜브엔 다양한 가이드가 많음&lt;/p&gt;
 
 &lt;p&gt;아래 파이캠 초점을 수동으로 조정하기 가이드를 참조해 롱루즈로 돌려서 고민 해결!!!&lt;/p&gt;
 
-&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=u6VhRVH3Z6Y&quot; title=&quot;Easy Raspberry Pi Camera refocusing&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/u6VhRVH3Z6Y/0.jpg&quot; alt=&quot;Easy Raspberry Pi Camera refocusing&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/u6VhRVH3Z6Y&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;이제 좀 더 또렷하게 물고기들이 보인당~ :)&lt;/p&gt;
 
-&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=wTI7FMaTEgU&quot; title=&quot;Aquarium Live - 2018.05.28 Monday&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/wTI7FMaTEgU/0.jpg&quot; alt=&quot;Aquarium Live - 2018.05.28 Monday&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데</summary></entry><entry><title type="html">DIY 아두이노 드론의 첫 시험비행까지 삽질기</title><link href="http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone.html" rel="alternate" type="text/html" title="DIY 아두이노 드론의 첫 시험비행까지 삽질기" /><published>2018-05-27T16:48:00+09:00</published><updated>2018-05-27T16:48:00+09:00</updated><id>http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone.html">&lt;p&gt;새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/wTI7FMaTEgU&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데</summary></entry><entry><title type="html">DIY 아두이노 드론의 첫 시험비행까지 삽질기</title><link href="http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone.html" rel="alternate" type="text/html" title="DIY 아두이노 드론의 첫 시험비행까지 삽질기" /><published>2018-05-27T16:48:00+09:00</published><updated>2018-05-27T16:48:00+09:00</updated><id>http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone.html">&lt;p&gt;새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저&lt;/p&gt;
 
 &lt;p&gt;시작한 멘토의 도움(창의랩 시절 바로 옆팀의 어항 멘토처럼…)을 받곤 한다.&lt;/p&gt;
 
@@ -212,9 +202,7 @@
 
 &lt;p&gt;튜닝은 방송 에이징을 하면서 계속 하는 것으로…&lt;/p&gt;
 
-&lt;p&gt;이미지 클릭 시 유튜브 재생&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=C8eJjoeYZ6k&quot; title=&quot;Aquarium Live - 2018.05.24 Thursday&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/C8eJjoeYZ6k/0.jpg&quot; alt=&quot;Aquarium Live - 2018.05.24 Thursday&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><summary type="html">한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을</summary></entry><entry><title type="html">아마존 2구 에어펌프 수리 방법</title><link href="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html" rel="alternate" type="text/html" title="아마존 2구 에어펌프 수리 방법" /><published>2018-04-10T11:56:00+09:00</published><updated>2018-04-10T11:56:00+09:00</updated><id>http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump</id><content type="html" xml:base="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html">&lt;p&gt;아침 출근 전 아마존 2구 에어펌프 중 1구가 고장나서 퇴근 후 열어보니&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/C8eJjoeYZ6k&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을</summary></entry><entry><title type="html">아마존 2구 에어펌프 수리 방법</title><link href="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html" rel="alternate" type="text/html" title="아마존 2구 에어펌프 수리 방법" /><published>2018-04-10T11:56:00+09:00</published><updated>2018-04-10T11:56:00+09:00</updated><id>http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump</id><content type="html" xml:base="http://localhost:4000/maker/2018/04/10/diy-fix-aquarium-air-pump.html">&lt;p&gt;아침 출근 전 아마존 2구 에어펌프 중 1구가 고장나서 퇴근 후 열어보니&lt;/p&gt;
 
 &lt;p&gt;코일 진동을 통해 펌핑하는데 진동 고정부분 플라스틱이 부러진 걸 확인&lt;/p&gt;
 
