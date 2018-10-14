@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-05T01:47:41+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">마크다운에서 유튜브 링크하는 방법2</title><link href="http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2.html" rel="alternate" type="text/html" title="마크다운에서 유튜브 링크하는 방법2" /><published>2018-10-05T01:35:00+09:00</published><updated>2018-10-05T01:35:00+09:00</updated><id>http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2</id><content type="html" xml:base="http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2.html">&lt;p&gt;한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-14T16:53:11+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">Upcycling Jack-O-Lantern to instructables site</title><link href="http://localhost:4000/maker/2018/10/14/upcycling-jackolantern_to_instructables.html" rel="alternate" type="text/html" title="Upcycling Jack-O-Lantern to instructables site" /><published>2018-10-14T16:40:00+09:00</published><updated>2018-10-14T16:40:00+09:00</updated><id>http://localhost:4000/maker/2018/10/14/upcycling-jackolantern_to_instructables</id><content type="html" xml:base="http://localhost:4000/maker/2018/10/14/upcycling-jackolantern_to_instructables.html">&lt;p&gt;MakerFaireSeoul2018 기간 동안 간단한 아이디어를 적용한 Upcycling Jack-O-Lantern에 대한 반응이 좋아&lt;/p&gt;
+
+&lt;p&gt;용기를 얻었고 마침 10월 한달 Halloween 관련 콘텐츠 모집 중인 instructables 사이트에도 등록 완료!!! :)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.instructables.com/id/Upcycling-Jack-O-Lantern/&quot;&gt;instructables - Upcycling Jack-O-Lantern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/GI45QyvkgNQ&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">MakerFaireSeoul2018 기간 동안 간단한 아이디어를 적용한 Upcycling Jack-O-Lantern에 대한 반응이 좋아</summary></entry><entry><title type="html">마크다운에서 유튜브 링크하는 방법2</title><link href="http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2.html" rel="alternate" type="text/html" title="마크다운에서 유튜브 링크하는 방법2" /><published>2018-10-05T01:35:00+09:00</published><updated>2018-10-05T01:35:00+09:00</updated><id>http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2</id><content type="html" xml:base="http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2.html">&lt;p&gt;한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…&lt;/p&gt;
 
 &lt;p&gt;공유 -&amp;gt; 퍼가기 -&amp;gt; 마크다운 파일 내 iframe 태그 내용 그대로 복사 적용&lt;/p&gt;
 
@@ -189,23 +197,4 @@
     &lt;p&gt;2주 후 ESC 부품 도착으로 재조립하고 첫 시험비행을 진행하였으나 셀프락 회전방향 오해로 프롭 고정 뚜껑 날림 경험하고 잠시 GG
 &lt;img src=&quot;/assets/20180527_141648.png&quot; alt=&quot;그래도 DIY가 될 정도로 조립이 편해졌구나 생각해봄&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저</summary></entry><entry><title type="html">자반어항에서 아쿠아리움라이브 방송 시작</title><link href="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html" rel="alternate" type="text/html" title="자반어항에서 아쿠아리움라이브 방송 시작" /><published>2018-05-24T21:30:00+09:00</published><updated>2018-05-24T21:30:00+09:00</updated><id>http://localhost:4000/maker/2018/05/24/start-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/24/start-aquarium-live.html">&lt;p&gt;한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을&lt;/p&gt;
-
-&lt;p&gt;이용해서 아쿠아리움 라이브 방송 시작!!!&lt;/p&gt;
-
-&lt;p&gt;대략 경험한 이슈들만 나열하면&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;AWS IoT Core에 Thing 등록 및 MQTT 동작&lt;/li&gt;
-  &lt;li&gt;AWS Lambda 구성 및 SmartThings C2C Connector 동작&lt;/li&gt;
-  &lt;li&gt;SmartThings devWS로 C2C device 생성 방법&lt;/li&gt;
-  &lt;li&gt;SmartThings PPK Plugin 생성 및 사이드로딩 방법&lt;/li&gt;
-  &lt;li&gt;Raspbian headless 이미지 사용하면서 WiFi 연결 처리&lt;/li&gt;
-  &lt;li&gt;RPI3가 2.4GHz만 지원하는데 2.4GHz Steering Band로 동작하는 SmartThings WiFi Home Hub에는
-붙지를 않아 결국 거실에 있는 KT Giga WiFi Hub에 붙이는 삽질&lt;/li&gt;
-  &lt;li&gt;어항벽에 붙여둔 기구물이 바닥에 떨어져서 1시간 가량 검은 화면이 송출되어 방송정지 먹고 해명하면서 확인한 유튜브 AI 모니터링 시스템&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;튜닝은 방송 에이징을 하면서 계속 하는 것으로…&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/C8eJjoeYZ6k&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">한달 간 삽질 끝에 드디어 자반어항에 설치한 라즈베리파이3와 파이캠을</summary></entry></feed>
+&lt;/ul&gt;</content><summary type="html">새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저</summary></entry></feed>
