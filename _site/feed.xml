@@ -1,5 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-14T16:53:11+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">Upcycling Jack-O-Lantern to instructables site</title><link href="http://localhost:4000/maker/2018/10/14/upcycling-jackolantern_to_instructables.html" rel="alternate" type="text/html" title="Upcycling Jack-O-Lantern to instructables site" /><published>2018-10-14T16:40:00+09:00</published><updated>2018-10-14T16:40:00+09:00</updated><id>http://localhost:4000/maker/2018/10/14/upcycling-jackolantern_to_instructables</id><content type="html" xml:base="http://localhost:4000/maker/2018/10/14/upcycling-jackolantern_to_instructables.html">&lt;p&gt;MakerFaireSeoul2018 기간 동안 간단한 아이디어를 적용한 Upcycling Jack-O-Lantern에 대한 반응이 좋아&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-18T00:01:04+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">이젠 집에서도 DIY 3D 프린터로 메이킹</title><link href="http://localhost:4000/maker/2018/11/18/diy-3d-printer-at-home.html" rel="alternate" type="text/html" title="이젠 집에서도 DIY 3D 프린터로 메이킹" /><published>2018-11-18T00:00:00+09:00</published><updated>2018-11-18T00:00:00+09:00</updated><id>http://localhost:4000/maker/2018/11/18/diy-3d-printer-at-home</id><content type="html" xml:base="http://localhost:4000/maker/2018/11/18/diy-3d-printer-at-home.html">&lt;p&gt;배송사고까지 겹쳐 한달을 기다리다 드디어 지난주에 도착한 DIY 3D 프린터&lt;/p&gt;
+
+&lt;p&gt;이정도 베드사이즈(220 L x 220 D x 240 H mm) 기준에 십만원대 가격은&lt;/p&gt;
+
+&lt;p&gt;완제품 가격대와 비교하기에는 넘사벽인지라 다른 여지 없이 선택했지만&lt;/p&gt;
+
+&lt;p&gt;다 조립하고 팁들을 찾다 보니 온갖 부품 안전 이슈로 안정화 글들이 많았다.&lt;/p&gt;
+
+&lt;p&gt;그런데 2018년 하반기(?) 물건을 알리 내 ANET에서 직접 구매해서일까?&lt;/p&gt;
+
+&lt;p&gt;주요 이슈였던 스탭모터용 베어링이나 히트베드 커넥터는 어느정도 수정된 상태였다.&lt;/p&gt;
+
+&lt;p&gt;이젠 필요한 추가 보강 부품들을 Thingiverse에서 하나씩 출력 시작&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20181109_205103.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_205613.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_205757.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_215010.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_215047.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_215207.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_220218.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_220232.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_220237.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_221219.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_221306.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_221939.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_222315.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_222324.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_225039.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_230303.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_230951.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_231505.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_231951.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_234648.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181109_235750.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_000742.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_001653.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_002530.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_002556.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_003603.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_005124.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_005129.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_005133.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_005353.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_005413.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_010445.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_011307.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_011315.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_011322.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_012705.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_020546.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_020552.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_020631.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_021608.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_022408.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_023424.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_023804.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_025457.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_025854.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_025904.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_030117.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_031404.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_031414.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_032215.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_032820.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_033016.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_033100.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_033337.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_033546.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_033845.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_033850.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_040209.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_040221.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_040227.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_041250.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_041722.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_042325.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_042332.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_042642.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_042659.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_042706.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_042713.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_043425.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_044049.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_044546.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_044930.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_044936.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_045839.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_074328.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_095258.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181110_153223.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181112_213555.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181112_215607.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181114_212656.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181115_001947.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181115_004030.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181117_122349.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181117_123404.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181117_123411.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181117_123416.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181117_123422.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181117_123428.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181117_123537.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181117_123554.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;
+&lt;img src=&quot;/assets/20181117_130404.png&quot; alt=&quot;조립 조립 조립&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;자 이제 본격적으로 한계비용 제로 사회를 집에서부터 실천해보자~ :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/the-zero-marginal-cost-society.jpg&quot; alt=&quot;조립 조립 조립&quot; /&gt;&lt;/p&gt;</content><summary type="html">배송사고까지 겹쳐 한달을 기다리다 드디어 지난주에 도착한 DIY 3D 프린터</summary></entry><entry><title type="html">Upcycling Jack-O-Lantern to instructables site</title><link href="http://localhost:4000/maker/2018/10/14/upcycling-jackolantern_to_instructables.html" rel="alternate" type="text/html" title="Upcycling Jack-O-Lantern to instructables site" /><published>2018-10-14T16:40:00+09:00</published><updated>2018-10-14T16:40:00+09:00</updated><id>http://localhost:4000/maker/2018/10/14/upcycling-jackolantern_to_instructables</id><content type="html" xml:base="http://localhost:4000/maker/2018/10/14/upcycling-jackolantern_to_instructables.html">&lt;p&gt;MakerFaireSeoul2018 기간 동안 간단한 아이디어를 적용한 Upcycling Jack-O-Lantern에 대한 반응이 좋아&lt;/p&gt;
 
 &lt;p&gt;용기를 얻었고 마침 10월 한달 Halloween 관련 콘텐츠 모집 중인 instructables 사이트에도 등록 완료!!! :)&lt;/p&gt;
 
@@ -113,88 +221,4 @@
 
 &lt;p&gt;이제 좀 더 또렷하게 물고기들이 보인당~ :)&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/wTI7FMaTEgU&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데</summary></entry><entry><title type="html">DIY 아두이노 드론의 첫 시험비행까지 삽질기</title><link href="http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone.html" rel="alternate" type="text/html" title="DIY 아두이노 드론의 첫 시험비행까지 삽질기" /><published>2018-05-27T16:48:00+09:00</published><updated>2018-05-27T16:48:00+09:00</updated><id>http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone</id><content type="html" xml:base="http://localhost:4000/maker/2018/05/27/flight-test-of-diy-drone.html">&lt;p&gt;새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저&lt;/p&gt;
-
-&lt;p&gt;시작한 멘토의 도움(창의랩 시절 바로 옆팀의 어항 멘토처럼…)을 받곤 한다.&lt;/p&gt;
-
-&lt;p&gt;사실 드론멘토와는 이미 몇년 전부터 업무 때문에 인연을 이어왔고 멘토의 드론책도 2016년 9월 말에 구매해서&lt;/p&gt;
-
-&lt;p&gt;사인까지 받아 두고 여태 시작을 못하다가 근 1년 반의 게으름을 물리치고 가이드에 맞춰 알리익스프레스에서&lt;/p&gt;
-
-&lt;p&gt;DIY 250mm 드론 세트 및 연계 부품들을 호기롭게 주문한 뒤 5월 초에 도착하여 조립을 시작하였다…&lt;/p&gt;
-
-&lt;p&gt;그러나 역시 삽질은 어디에나 있었으니…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;별나사 드라이버 없어서 별나사 드라이버 세트 긴급 쿠팡 주문해서 카본프레임 바디 조립 하루 지연&lt;/li&gt;
-  &lt;li&gt;열심히 비행시뮬레이터까지 다 돌리면서 확인했는데 ESC 하나 불량 확인하고 여분세트 주문으로 2주 지연&lt;/li&gt;
-  &lt;li&gt;시험비행을 해보니 셀프락 원리를 오해해서 회전방향과 모터배치를 반대로 해서 바나나소켓 없이 재납땜이 필요해져 잠시 마음 GG&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/diy-250mm-drone-set.png&quot; alt=&quot;알리익스프레스DIY 250mm 드론 세트&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;BLDC 모터 : 검정색(CCW,반시계방향), 은색(CW,시계방향)
-&lt;img src=&quot;/assets/20180509_194858.png&quot; alt=&quot;BLDC 모터&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;카본프레임 바디 조립 1차 (드라이버 없이 맨손으로…)
-&lt;img src=&quot;/assets/20180509_195858.png&quot; alt=&quot;카본프레임 바디 조립 1차&quot; /&gt;
-&lt;img src=&quot;/assets/20180509_204303.png&quot; alt=&quot;카본프레임 바디 조립 1차&quot; /&gt;
-&lt;img src=&quot;/assets/20180509_210438.png&quot; alt=&quot;카본프레임 바디 조립 1차&quot; /&gt;
-&lt;img src=&quot;/assets/20180509_210540.png&quot; alt=&quot;별나사 인치가 너무 작아&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;별나사 드라이버 올 때까지 비행시뮬레이터 연습
-&lt;img src=&quot;/assets/20180510_030743.png&quot; alt=&quot;시뮬레이터 조정은 너무 이상적이야&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;로켓배송 덕분에 다시 2차 조립 진도 팍팍!!
-&lt;img src=&quot;/assets/20180510_194357.png&quot; alt=&quot;별나사 드라이버 세트&quot; /&gt;
-&lt;img src=&quot;/assets/20180510_201456.png&quot; alt=&quot;BLDC 모터를 결합한 카본프레임 상부&quot; /&gt;
-&lt;img src=&quot;/assets/20180510_201734.png&quot; alt=&quot;BLDC 모터를 결합한 카본프레임 하부&quot; /&gt;
-&lt;img src=&quot;/assets/20180510_202716.png&quot; alt=&quot;ESC를 BLDC 모터에 결합&quot; /&gt;
-&lt;img src=&quot;/assets/20180510_204843.png&quot; alt=&quot;리튬폴리머 배터리 충전&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;전원 분배 모듈 납땜의 시작 (TX60 모듈 존재를 처음 알고 드론멘토에게 암모듈 한개 공수받음)
-&lt;img src=&quot;/assets/20180511_072149.png&quot; alt=&quot;전원 분배 모듈&quot; /&gt;
-&lt;img src=&quot;/assets/20180511_233731.png&quot; alt=&quot;배터리와 연결할 TX60 암모듈&quot; /&gt;
-&lt;img src=&quot;/assets/20180511_235521.png&quot; alt=&quot;배터리와 연결할 TX60 암모듈 납땜 완료&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_001807.png&quot; alt=&quot;ESC와도 납땜 완료&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_005123.png&quot; alt=&quot;전원 분배 모듈을 카본프레임 하단에 결합&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_162255.png&quot; alt=&quot;ESC를 카본프레임 날개부에 졸대로 고정&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_164918.png&quot; alt=&quot;드론 전후 구분을 위한 LED 모듈 추가&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;드론 날개 방향 확인 (오해의 시작…)
-&lt;img src=&quot;/assets/20180512_170249.png&quot; alt=&quot;회전방향에 맞게 양력을 발생시키게 회전날 선택&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;아두이노에 MultiWii 코드 적용 (가이드에 있던 2.3은 링크 사라져 2.4를 기존 설정 참조해서 수정)
-&lt;img src=&quot;/assets/20180512_174958.png&quot; alt=&quot;이전 아두이노는 Old Bootloader 사용 필요&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_175004.png&quot; alt=&quot;MPU6050과 아두이노의 연결&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_200755.png&quot; alt=&quot;빵판 채로 카본프레임에 얹기&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_213341.png&quot; alt=&quot;아두이노와 ESC 간 배선 완료 상부&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_213348.png&quot; alt=&quot;아두이노와 ESC 간 배선 완료 측면&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_213426.png&quot; alt=&quot;아두이노와 ESC 간 배선 완료 하부&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;대망의 동작 검증 (여기서 ESC 1개 불량 확인…)
-&lt;img src=&quot;/assets/20180512_215842.png&quot; alt=&quot;MultiWii 설정 수정&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_223419.png&quot; alt=&quot;MultiWiiConf로 동작 상황 확인&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_225129.png&quot; alt=&quot;무선조정기의 RF 송수신을 서버모터로 확인 1&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_225701.png&quot; alt=&quot;무선조정기의 RF 송수신을 서버모터로 확인 2&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_230103.png&quot; alt=&quot;RF 수신부를 아두이노에 연결&quot; /&gt;
-&lt;img src=&quot;/assets/20180512_230425.png&quot; alt=&quot;최종 연결을 MultiWiiConf로 재확인&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;ESC 1개 불량 최종 판정하고 2주 간의 기다림
-&lt;img src=&quot;/assets/20180513_165724.png&quot; alt=&quot;ESC 포장튜브를 까봐도 수리할 방도는 안보임&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;2주 후 ESC 부품 도착으로 재조립하고 첫 시험비행을 진행하였으나 셀프락 회전방향 오해로 프롭 고정 뚜껑 날림 경험하고 잠시 GG
-&lt;img src=&quot;/assets/20180527_141648.png&quot; alt=&quot;그래도 DIY가 될 정도로 조립이 편해졌구나 생각해봄&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">새로운 취미를 시작할 때는 항상 좋은 인연을 찾기 위해 동호회를 찾거나 혹은 주변에 먼저</summary></entry></feed>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/wTI7FMaTEgU&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">파이캠은 무한대 초점으로 고정(v1.3 기준)되어 출시되고 있는지라 계속 고민이었는데</summary></entry></feed>
