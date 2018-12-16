@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-12T02:30:07+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">이젠 집에서도 DIY 3D 프린터로 메이킹</title><link href="http://localhost:4000/maker/2018/11/18/diy-3d-printer-at-home.html" rel="alternate" type="text/html" title="이젠 집에서도 DIY 3D 프린터로 메이킹" /><published>2018-11-18T00:07:00+09:00</published><updated>2018-11-18T00:07:00+09:00</updated><id>http://localhost:4000/maker/2018/11/18/diy-3d-printer-at-home</id><content type="html" xml:base="http://localhost:4000/maker/2018/11/18/diy-3d-printer-at-home.html">&lt;p&gt;배송사고까지 겹쳐 한달을 기다리다 드디어 지난주에 도착한 DIY 3D 프린터&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-17T02:48:17+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">타임랩스로 DIY 3D 프린터 메이킹 과정 정리</title><link href="http://localhost:4000/maker/2018/12/17/diy-3d-printer-timelapse.html" rel="alternate" type="text/html" title="타임랩스로 DIY 3D 프린터 메이킹 과정 정리" /><published>2018-12-17T02:30:00+09:00</published><updated>2018-12-17T02:30:00+09:00</updated><id>http://localhost:4000/maker/2018/12/17/diy-3d-printer-timelapse</id><content type="html" xml:base="http://localhost:4000/maker/2018/12/17/diy-3d-printer-timelapse.html">&lt;p&gt;ANET A8을 조립하고 업그레이드하면서 이런저런 과정들을 거쳤는데&lt;/p&gt;
+
+&lt;p&gt;그걸 하나하나 나열하자니 귀찮고 그래서 만들기 시작한 1분 타임랩스&lt;/p&gt;
+
+&lt;p&gt;자세히 설명은 없지만 과정 상 주요한 화면 위주로 구성하니 대략 과정 요약 완료 ;)&lt;/p&gt;
+
+&lt;h3 id=&quot;1-anet-a8-조립-과정&quot;&gt;1. ANET A8 조립 과정&lt;/h3&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/ADr8TcDRfSk&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;2-부품-업그레이드-과정&quot;&gt;2. 부품 업그레이드 과정&lt;/h3&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/Z5kMEkhfQUM&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;3-sw-업그레이드-과정&quot;&gt;3. SW 업그레이드 과정&lt;/h3&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/i4WokzqDuUo&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">ANET A8을 조립하고 업그레이드하면서 이런저런 과정들을 거쳤는데</summary></entry><entry><title type="html">이젠 집에서도 DIY 3D 프린터로 메이킹</title><link href="http://localhost:4000/maker/2018/11/18/diy-3d-printer-at-home.html" rel="alternate" type="text/html" title="이젠 집에서도 DIY 3D 프린터로 메이킹" /><published>2018-11-18T00:07:00+09:00</published><updated>2018-11-18T00:07:00+09:00</updated><id>http://localhost:4000/maker/2018/11/18/diy-3d-printer-at-home</id><content type="html" xml:base="http://localhost:4000/maker/2018/11/18/diy-3d-printer-at-home.html">&lt;p&gt;배송사고까지 겹쳐 한달을 기다리다 드디어 지난주에 도착한 DIY 3D 프린터&lt;/p&gt;
 
 &lt;p&gt;이정도 베드사이즈(220 L x 220 D x 240 H mm) 기준에 십만원대 가격은&lt;/p&gt;
 
@@ -213,10 +226,4 @@
   &lt;p&gt;sun: sunny mode (between 5000K and 6500K)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/bMGRpjKWRgI&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니</summary></entry><entry><title type="html">음원 루프 설정으로 아쿠아리움라이브에 BGM 추가</title><link href="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html" rel="alternate" type="text/html" title="음원 루프 설정으로 아쿠아리움라이브에 BGM 추가" /><published>2018-06-20T22:10:00+09:00</published><updated>2018-06-20T22:10:00+09:00</updated><id>http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live</id><content type="html" xml:base="http://localhost:4000/maker/2018/06/20/add-bgm-to-aquarium-live.html">&lt;p&gt;ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고&lt;/p&gt;
-
-&lt;p&gt;기존 홈레코딩 작업하며 가지고 있던 어쿠스틱 커버곡들을 BGM으로 스트리밍에 적용하는데 성공!!!&lt;/p&gt;
-
-&lt;p&gt;이렇게 또다른 취미들이 서로 크로스로 결합되는 경험을 하게 되네~ :)&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/Gk7cwGKXwno&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">ffmpeg의 최근 버전들은 -stream_loop -1 옵션을 통한 무한 루프 설정이 가능함을 확인하고</summary></entry></feed>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/bMGRpjKWRgI&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">파이캠의 기본 화이트발란스는 auto인데 어항조명에서 노랑색이 강하게 나타나서 해결방법을 찾다 보니</summary></entry></feed>
