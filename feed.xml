@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-29T03:44:28+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">업사이클링 덩굴식물 자석홀더</title><link href="http://localhost:4000/maker/2019/01/29/diy-magnet-holder-for-vine.html" rel="alternate" type="text/html" title="업사이클링 덩굴식물 자석홀더" /><published>2019-01-29T03:30:00+09:00</published><updated>2019-01-29T03:30:00+09:00</updated><id>http://localhost:4000/maker/2019/01/29/diy-magnet-holder-for-vine</id><content type="html" xml:base="http://localhost:4000/maker/2019/01/29/diy-magnet-holder-for-vine.html">&lt;p&gt;작년 말에 만들었던 걸 한달 지나서야 정리해서 Thingiverse에 업로드 완료&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-02T23:06:34+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">Docker 사용 중 발생한 Windows10 크래시 해결 방법</title><link href="http://localhost:4000/tip/2019/03/02/howto-fix-windows10-crash-when-docker-is-used.html" rel="alternate" type="text/html" title="Docker 사용 중 발생한 Windows10 크래시 해결 방법" /><published>2019-03-02T03:00:00+09:00</published><updated>2019-03-02T03:00:00+09:00</updated><id>http://localhost:4000/tip/2019/03/02/howto-fix-windows10-crash-when-docker-is-used</id><content type="html" xml:base="http://localhost:4000/tip/2019/03/02/howto-fix-windows10-crash-when-docker-is-used.html">&lt;p&gt;다시 Docker 기반 환경에서 적극적으로 개발해야 하는 상황이라 Windows10의 Hyper-V를&lt;/p&gt;
+
+&lt;p&gt;활성화하고 Base Container Image 빌드를 진행하던 중 계속 BSOD(Blue Screen Of Death) 발생&lt;/p&gt;
+
+&lt;p&gt;KERNEL_SECURITY_CHECK_FAILURE&lt;/p&gt;
+
+&lt;p&gt;DRIVER_IRQ_NOT_LESS_OR_EQUAL&lt;/p&gt;
+
+&lt;p&gt;여러 삽질을 거치다 아래 설정으로 어느정도 안정되어 아래 순서로 정리&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.microsoft.com/ko-kr/help/4028685/windows-10-get-the-update&quot;&gt;Windows10 1809 버전으로 업데이트&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://social.technet.microsoft.com/Forums/en-US/ee5b1d6b-09e2-49f3-a52c-820aafc316f9/hyperv-doesnt-work-after-upgrade-to-windows-10-1809?forum=win10itprovirt&quot;&gt;vmcompute.exe와 vmwp.exe에 대한 CFG(Code Flow Guard) 정책 적용 해제&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;기존 설치된 Docker Desktop Uninstall&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://success.docker.com/article/how-to-completely-remove-docker-in-windows-10&quot;&gt;Clean Remove Docker using Powershell Script&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;regedit 실행해서 Registry에서 docker 이름으로 검색되는 항목들 모두 수동 제거&lt;/li&gt;
+  &lt;li&gt;Windows 기능 켜기 / 끄기 메뉴에서 Hyper-V 체크해제 후 재시작&lt;/li&gt;
+  &lt;li&gt;Docker Hub에서 Docker Desktop Edge 버전 다운로드 후 설치&lt;/li&gt;
+  &lt;li&gt;Windows 기능 켜기 / 끄기 메뉴에서 Hyper-V 체크 후 재시작&lt;/li&gt;
+  &lt;li&gt;Docker 트레이 확인 후 사용&lt;/li&gt;
+&lt;/ol&gt;</content><summary type="html">다시 Docker 기반 환경에서 적극적으로 개발해야 하는 상황이라 Windows10의 Hyper-V를</summary></entry><entry><title type="html">업사이클링 덩굴식물 자석홀더</title><link href="http://localhost:4000/maker/2019/01/29/diy-magnet-holder-for-vine.html" rel="alternate" type="text/html" title="업사이클링 덩굴식물 자석홀더" /><published>2019-01-29T03:30:00+09:00</published><updated>2019-01-29T03:30:00+09:00</updated><id>http://localhost:4000/maker/2019/01/29/diy-magnet-holder-for-vine</id><content type="html" xml:base="http://localhost:4000/maker/2019/01/29/diy-magnet-holder-for-vine.html">&lt;p&gt;작년 말에 만들었던 걸 한달 지나서야 정리해서 Thingiverse에 업로드 완료&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.thingiverse.com/thing:3387739&quot;&gt;Thingiverse - Magnet Holder for vine&lt;/a&gt;&lt;/li&gt;
@@ -195,7 +215,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.instructables.com/id/Upcycling-Jack-O-Lantern/&quot;&gt;instructables - Upcycling Jack-O-Lantern&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/GI45QyvkgNQ&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">MakerFaireSeoul2018 기간 동안 간단한 아이디어를 적용한 Upcycling Jack-O-Lantern에 대한 반응이 좋아</summary></entry><entry><title type="html">마크다운에서 유튜브 링크하는 방법2</title><link href="http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2.html" rel="alternate" type="text/html" title="마크다운에서 유튜브 링크하는 방법2" /><published>2018-10-05T01:35:00+09:00</published><updated>2018-10-05T01:35:00+09:00</updated><id>http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2</id><content type="html" xml:base="http://localhost:4000/tip/2018/10/05/how-toembed-youtube-in-markdown2.html">&lt;p&gt;한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/GI45QyvkgNQ&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">MakerFaireSeoul2018 기간 동안 간단한 아이디어를 적용한 Upcycling Jack-O-Lantern에 대한 반응이 좋아</summary></entry><entry><title type="html">마크다운에서 유튜브 링크하는 방법2</title><link href="http://localhost:4000/tip/2018/10/05/howto-embed-youtube-in-markdown2.html" rel="alternate" type="text/html" title="마크다운에서 유튜브 링크하는 방법2" /><published>2018-10-05T01:35:00+09:00</published><updated>2018-10-05T01:35:00+09:00</updated><id>http://localhost:4000/tip/2018/10/05/howto-embed-youtube-in-markdown2</id><content type="html" xml:base="http://localhost:4000/tip/2018/10/05/howto-embed-youtube-in-markdown2.html">&lt;p&gt;한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…&lt;/p&gt;
 
 &lt;p&gt;공유 -&amp;gt; 퍼가기 -&amp;gt; 마크다운 파일 내 iframe 태그 내용 그대로 복사 적용&lt;/p&gt;
 
@@ -208,32 +228,4 @@
 &lt;p&gt;Instagram에 후기 기념샷 남겼으니 되었다~ :D&lt;/p&gt;
 
 &lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/BoYa_W_jN-g/?utm_source=ig_embed&amp;amp;utm_medium=loading&amp;amp;utm_campaign=embed_loading_state_control&quot; data-instgrm-version=&quot;9&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/BoYa_W_jN-g/?utm_source=ig_embed&amp;amp;utm_medium=loading&amp;amp;utm_campaign=embed_loading_state_control&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;Our family had really fantastic time during MakerFaireSeoul2018. Furthermore we got a great honor by blue ribbon!!! Thanks so much MakerFaireSeoul2018 team. :D And I got a lot of inspiration especially moving thing like mart kart. ;P Maybe it&amp;#39;s a kind of signal to move from small making to big making. I&amp;#39;m really exciting how the inspiration can be realized with additional idea. I will try to show new making when prepared someday. :) #Maker #Makers #MakerFaire #MakerFaireSeoul #MakerFaireSeoul2018 #메이커 #메이커스 #메이커페어 #메이커페어서울 #메이커페어서울2018 #Aquarium #AquariumControl #AquariumLive #DiyArduinoDrone #LEDart #어항 #어항관리 #어항방송 #DIY아두이노드론 #LED아트&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/nanishin/?utm_source=ig_embed&amp;amp;utm_medium=loading&amp;amp;utm_campaign=embed_loading_state_control&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;&quot; target=&quot;_blank&quot;&gt; Nani Shin&lt;/a&gt;(@nanishin)님의 공유 게시물님, &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2018-10-01T07:09:38+00:00&quot;&gt;2018 10월 1 12:09오전 PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;</content><summary type="html">메이커페어서울2018 전시/세미나 진행으로 지난 주말 이틀은 정말 순삭…</summary></entry><entry><title type="html">업사이클링 나무로봇 LED아트 일단락</title><link href="http://localhost:4000/maker/2018/09/28/mfs2018-upcycling-wood-robot-led.html" rel="alternate" type="text/html" title="업사이클링 나무로봇 LED아트 일단락" /><published>2018-09-28T21:30:00+09:00</published><updated>2018-09-28T21:30:00+09:00</updated><id>http://localhost:4000/maker/2018/09/28/mfs2018-upcycling-wood-robot-led</id><content type="html" xml:base="http://localhost:4000/maker/2018/09/28/mfs2018-upcycling-wood-robot-led.html">&lt;p&gt;둘째딸이 나무로 만들어진 장난감들을 유치원에서 하나하나 가져온 지 벌써 1년이 지났다.&lt;/p&gt;
-
-&lt;p&gt;그중 나무로봇은 뭔가 아이들과 같이 꾸미면 재미있겠다는 생각만 머리 한켠에 가지고 있었다.&lt;/p&gt;
-
-&lt;p&gt;그러다 메이커페어서울2018에 전시하게 되면서 집안에 남아있던 물품들과 재조합을 시작하였다.&lt;/p&gt;
-
-&lt;p&gt;우선 큰딸은 1년 정도 지나서 색이 바랜지라 다시 물감으로 예쁘게 칠해주었고&lt;/p&gt;
-
-&lt;p&gt;난 LED스트립을 후면에 배치해서 간접광을 시험하다가 결국 2년 전 창의랩 동료가 만들어 준 뒤&lt;/p&gt;
-
-&lt;p&gt;서랍에 묵혀두던 아케이드 버튼 박스까지 꺼내들어 색깔 연동 작업하다가 전시 전날 완료 ;)&lt;/p&gt;
-
-&lt;p&gt;GitHub에도 반영했는데 설명은 차차 업데이트하기로…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/upcycling-wood-robot-led&quot;&gt;Upcycling Wood Robot LED&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/20180812_160141.png&quot; alt=&quot;종이로 간접광 경로 만들기&quot; /&gt;
-&lt;img src=&quot;/assets/20180812_162825.png&quot; alt=&quot;굴러다니던 LED 스트립&quot; /&gt;
-&lt;img src=&quot;/assets/20180812_163217.png&quot; alt=&quot;LED 스트립을 간접광 경로에 설치&quot; /&gt;
-&lt;img src=&quot;/assets/20180901_150559.png&quot; alt=&quot;아케이드 버튼 박스 수리&quot; /&gt;
-&lt;img src=&quot;/assets/20180901_152615.png&quot; alt=&quot;아케이드 버튼 내 LED&quot; /&gt;
-&lt;img src=&quot;/assets/20180901_152831.png&quot; alt=&quot;아케이드 버튼 내 LED 소켓&quot; /&gt;
-&lt;img src=&quot;/assets/20180901_194100.png&quot; alt=&quot;아케이드 버튼 내 LED 재설치&quot; /&gt;
-&lt;img src=&quot;/assets/20180928_181634.png&quot; alt=&quot;파랑 버튼 확인&quot; /&gt;
-&lt;img src=&quot;/assets/20180928_181637.png&quot; alt=&quot;빨강 버튼 확인&quot; /&gt;
-&lt;img src=&quot;/assets/20180928_181639.png&quot; alt=&quot;노랑 버튼 확인&quot; /&gt;
-&lt;img src=&quot;/assets/20180928_181648.png&quot; alt=&quot;레인보우 확인&quot; /&gt;&lt;/p&gt;</content><summary type="html">둘째딸이 나무로 만들어진 장난감들을 유치원에서 하나하나 가져온 지 벌써 1년이 지났다.</summary></entry></feed>
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;</content><summary type="html">메이커페어서울2018 전시/세미나 진행으로 지난 주말 이틀은 정말 순삭…</summary></entry></feed>
