@@ -1,5 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-02T23:06:34+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">Docker 사용 중 발생한 Windows10 크래시 해결 방법</title><link href="http://localhost:4000/tip/2019/03/02/howto-fix-windows10-crash-when-docker-is-used.html" rel="alternate" type="text/html" title="Docker 사용 중 발생한 Windows10 크래시 해결 방법" /><published>2019-03-02T03:00:00+09:00</published><updated>2019-03-02T03:00:00+09:00</updated><id>http://localhost:4000/tip/2019/03/02/howto-fix-windows10-crash-when-docker-is-used</id><content type="html" xml:base="http://localhost:4000/tip/2019/03/02/howto-fix-windows10-crash-when-docker-is-used.html">&lt;p&gt;다시 Docker 기반 환경에서 적극적으로 개발해야 하는 상황이라 Windows10의 Hyper-V를&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-06T00:21:59+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">DIY 3D 프린터에 오토베드레벨링 적용</title><link href="http://localhost:4000/maker/2019/03/03/diy-3d-printer-auto-bed-leveling.html" rel="alternate" type="text/html" title="DIY 3D 프린터에 오토베드레벨링 적용" /><published>2019-03-03T15:30:00+09:00</published><updated>2019-03-03T15:30:00+09:00</updated><id>http://localhost:4000/maker/2019/03/03/diy-3d-printer-auto-bed-leveling</id><content type="html" xml:base="http://localhost:4000/maker/2019/03/03/diy-3d-printer-auto-bed-leveling.html">&lt;p&gt;ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…&lt;/p&gt;
+
+&lt;p&gt;그러나 OctoPrint와의 원활한 연동을 위해 Marlin 1.1.9 펌웨어로 바꾸면서 이리저리 수동 설정에 집중하느라&lt;/p&gt;
+
+&lt;p&gt;정작 4개월 가량을 그냥 버려두고 있었다는… -ㅠ- 그러다 누구나 이야기하는 수동 베드레벨링 지옥을 겪다 보니&lt;/p&gt;
+
+&lt;p&gt;결국 오랜만에 Marlin 펌웨어 설정과 일부 패치 적용 후 오토베드레벨링 활성화 완료!!!&lt;/p&gt;
+
+&lt;p&gt;처음에 저 근접센서 감도와 노즐과 베드 사이 거리를 미세하기 맞추기 위해선 여전히 휴리스틱 튜닝(일명 노가다 조정)이&lt;/p&gt;
+
+&lt;p&gt;필요했지만 일단 맞춰두고 나니 쾌적한 3D 프린팅 세상이 열림~ :D&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/20190303_105919.png&quot; alt=&quot;SN04-N&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;설정한 옵션 위주로 정리&lt;/p&gt;
+
+&lt;h1 id=&quot;marlin-119의-configurationh-파일&quot;&gt;Marlin 1.1.9의 Configuration.h 파일&lt;/h1&gt;
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cm&quot;&gt;/**
+ * Choose one of the options below to enable G29 Bed Leveling. The parameters
+ * and behavior of G29 will change depending on your selection.
+ *
+ *  If using a Probe for Z Homing, enable Z_SAFE_HOMING also!
+ *
+ * - AUTO_BED_LEVELING_3POINT
+ *   Probe 3 arbitrary points on the bed (that aren't collinear)
+ *   You specify the XY coordinates of all 3 points.
+ *   The result is a single tilted plane. Best for a flat bed.
+ *
+ * - AUTO_BED_LEVELING_LINEAR
+ *   Probe several points in a grid.
+ *   You specify the rectangle and the density of sample points.
+ *   The result is a single tilted plane. Best for a flat bed.
+ *
+ * - AUTO_BED_LEVELING_BILINEAR
+ *   Probe several points in a grid.
+ *   You specify the rectangle and the density of sample points.
+ *   The result is a mesh, best for large or uneven beds.
+ *
+ * - AUTO_BED_LEVELING_UBL (Unified Bed Leveling)
+ *   A comprehensive bed leveling system combining the features and benefits
+ *   of other systems. UBL also includes integrated Mesh Generation, Mesh
+ *   Validation and Mesh Editing systems.
+ *
+ * - MESH_BED_LEVELING
+ *   Probe a grid manually
+ *   The result is a mesh, suitable for large or uneven beds. (See BILINEAR.)
+ *   For machines without a probe, Mesh Bed Leveling provides a method to perform
+ *   leveling in steps so you can manually adjust the Z height at each grid-point.
+ *   With an LCD controller the process is guided step-by-step.
+ */&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//#define AUTO_BED_LEVELING_3POINT&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//#define AUTO_BED_LEVELING_LINEAR&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define AUTO_BED_LEVELING_BILINEAR
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//#define AUTO_BED_LEVELING_UBL&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//#define MESH_BED_LEVELING&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/**
+ *   Z Probe to nozzle (X,Y) offset, relative to (0, 0).
+ *   X and Y offsets must be integers.
+ *
+ *   In the following example the X and Y offsets are both positive:
+ *   #define X_PROBE_OFFSET_FROM_EXTRUDER 10
+ *   #define Y_PROBE_OFFSET_FROM_EXTRUDER 10
+ *
+ *      +-- BACK ---+
+ *      |           |
+ *    L |    (+) P  | R &amp;lt;-- probe (20,20)
+ *    E |           | I
+ *    F | (-) N (+) | G &amp;lt;-- nozzle (10,10)
+ *    T |           | H
+ *      |    (-)    | T
+ *      |           |
+ *      O-- FRONT --+
+ *    (0,0)
+ */&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define X_PROBE_OFFSET_FROM_EXTRUDER 15   // X offset: -left  +right  [of the nozzle]
+#define Y_PROBE_OFFSET_FROM_EXTRUDER 55   // Y offset: -front +behind [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle]
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// The size of the print bed&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Set the boundaries for probing (where the probe can reach).&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//#define LEFT_PROBE_BED_POSITION MIN_PROBE_EDGE&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - MIN_PROBE_EDGE)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//#define FRONT_PROBE_BED_POSITION MIN_PROBE_EDGE&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - MIN_PROBE_EDGE)&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#if X_PROBE_OFFSET_FROM_EXTRUDER &amp;lt; 0
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define LEFT_PROBE_BED_POSITION (MIN_PROBE_EDGE)
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - 1 - MIN_PROBE_EDGE + X_PROBE_OFFSET_FROM_EXTRUDER)
+#else
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define LEFT_PROBE_BED_POSITION (X_PROBE_OFFSET_FROM_EXTRUDER + MIN_PROBE_EDGE)
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - 1 - MIN_PROBE_EDGE)
+#endif
+#if Y_PROBE_OFFSET_FROM_EXTRUDER &amp;lt; 0
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define FRONT_PROBE_BED_POSITION (MIN_PROBE_EDGE)
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - 1 - MIN_PROBE_EDGE + Y_PROBE_OFFSET_FROM_EXTRUDER)
+#else
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define FRONT_PROBE_BED_POSITION (Y_PROBE_OFFSET_FROM_EXTRUDER + MIN_PROBE_EDGE)
+&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - 1 - MIN_PROBE_EDGE)
+#endif
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Use &quot;Z Safe Homing&quot; to avoid homing with a Z probe outside the bed area.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// With this feature enabled:&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// - Allow Z homing only after X and Y homing AND stepper drivers still enabled.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// - If stepper drivers time out, it will need X and Y homing again before Z homing.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// - Move the Z probe (or nozzle) to a defined XY point before Z Homing when homing all axes (G28).&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// - Prevent Z homing when the Z probe is outside bed area.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define Z_SAFE_HOMING
+&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/**
+ * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
+ *   (e.g., an inductive probe or a nozzle-based probe-switch.)
+ */&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define FIX_MOUNTED_PROBE
+&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/**
+ * Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+ *
+ * Enable this option for a probe connected to the Z Min endstop pin.
+ */&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;g29-g-code-명령어-적용&quot;&gt;G29 G-Code 명령어 적용&lt;/h1&gt;
+&lt;p&gt;항상 프린팅 시작하기 전에 오토베드레벨링을 수행하기 위해 G28 X/Y/X 축 초기화 명령 후 적용
+&lt;img src=&quot;/assets/g29_gcode_auto_level.png&quot; alt=&quot;G29 G-Code&quot; /&gt;&lt;/p&gt;</content><summary type="html">ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…</summary></entry><entry><title type="html">Docker 사용 중 발생한 Windows10 크래시 해결 방법</title><link href="http://localhost:4000/tip/2019/03/02/howto-fix-windows10-crash-when-docker-is-used.html" rel="alternate" type="text/html" title="Docker 사용 중 발생한 Windows10 크래시 해결 방법" /><published>2019-03-02T03:00:00+09:00</published><updated>2019-03-02T03:00:00+09:00</updated><id>http://localhost:4000/tip/2019/03/02/howto-fix-windows10-crash-when-docker-is-used</id><content type="html" xml:base="http://localhost:4000/tip/2019/03/02/howto-fix-windows10-crash-when-docker-is-used.html">&lt;p&gt;다시 Docker 기반 환경에서 적극적으로 개발해야 하는 상황이라 Windows10의 Hyper-V를&lt;/p&gt;
 
 &lt;p&gt;활성화하고 Base Container Image 빌드를 진행하던 중 계속 BSOD(Blue Screen Of Death) 발생&lt;/p&gt;
 
@@ -221,11 +351,4 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/youtube_embed_menu.png&quot; alt=&quot;유튜브 퍼기가 메뉴&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/youtube_embed_iframe.png&quot; alt=&quot;유튜브 임베드 iframe&quot; /&gt;&lt;/p&gt;</content><summary type="html">한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…</summary></entry><entry><title type="html">메이커페어서울2018 전시/세미나 무사 완료</title><link href="http://localhost:4000/maker/2018/10/01/mfs2018-well-done.html" rel="alternate" type="text/html" title="메이커페어서울2018 전시/세미나 무사 완료" /><published>2018-10-01T21:00:00+09:00</published><updated>2018-10-01T21:00:00+09:00</updated><id>http://localhost:4000/maker/2018/10/01/mfs2018-well-done</id><content type="html" xml:base="http://localhost:4000/maker/2018/10/01/mfs2018-well-done.html">&lt;p&gt;메이커페어서울2018 전시/세미나 진행으로 지난 주말 이틀은 정말 순삭…&lt;/p&gt;
-
-&lt;p&gt;그래도 무사 완료하고 오랜만에 하얗게 불태운지라 돌아와서 계속 삭신이 쑤심…&lt;/p&gt;
-
-&lt;p&gt;Instagram에 후기 기념샷 남겼으니 되었다~ :D&lt;/p&gt;
-
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/BoYa_W_jN-g/?utm_source=ig_embed&amp;amp;utm_medium=loading&amp;amp;utm_campaign=embed_loading_state_control&quot; data-instgrm-version=&quot;9&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/BoYa_W_jN-g/?utm_source=ig_embed&amp;amp;utm_medium=loading&amp;amp;utm_campaign=embed_loading_state_control&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;Our family had really fantastic time during MakerFaireSeoul2018. Furthermore we got a great honor by blue ribbon!!! Thanks so much MakerFaireSeoul2018 team. :D And I got a lot of inspiration especially moving thing like mart kart. ;P Maybe it&amp;#39;s a kind of signal to move from small making to big making. I&amp;#39;m really exciting how the inspiration can be realized with additional idea. I will try to show new making when prepared someday. :) #Maker #Makers #MakerFaire #MakerFaireSeoul #MakerFaireSeoul2018 #메이커 #메이커스 #메이커페어 #메이커페어서울 #메이커페어서울2018 #Aquarium #AquariumControl #AquariumLive #DiyArduinoDrone #LEDart #어항 #어항관리 #어항방송 #DIY아두이노드론 #LED아트&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/nanishin/?utm_source=ig_embed&amp;amp;utm_medium=loading&amp;amp;utm_campaign=embed_loading_state_control&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;&quot; target=&quot;_blank&quot;&gt; Nani Shin&lt;/a&gt;(@nanishin)님의 공유 게시물님, &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2018-10-01T07:09:38+00:00&quot;&gt;2018 10월 1 12:09오전 PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;</content><summary type="html">메이커페어서울2018 전시/세미나 진행으로 지난 주말 이틀은 정말 순삭…</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/youtube_embed_iframe.png&quot; alt=&quot;유튜브 임베드 iframe&quot; /&gt;&lt;/p&gt;</content><summary type="html">한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…</summary></entry></feed>
