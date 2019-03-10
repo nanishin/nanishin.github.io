@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-06T00:32:22+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
-</subtitle><entry><title type="html">DIY 3D 프린터에 오토베드레벨링 적용</title><link href="http://localhost:4000/maker/2019/03/03/diy-3d-printer-auto-bed-leveling.html" rel="alternate" type="text/html" title="DIY 3D 프린터에 오토베드레벨링 적용" /><published>2019-03-03T15:30:00+09:00</published><updated>2019-03-03T15:30:00+09:00</updated><id>http://localhost:4000/maker/2019/03/03/diy-3d-printer-auto-bed-leveling</id><content type="html" xml:base="http://localhost:4000/maker/2019/03/03/diy-3d-printer-auto-bed-leveling.html">&lt;p&gt;ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-10T18:44:11+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+</subtitle><entry><title type="html">메이커 인터뷰이로 참여해본 사회학과 학생의 석사학위논문</title><link href="http://localhost:4000/maker/2019/03/10/interview-thesis-about-maker-of-korea.html" rel="alternate" type="text/html" title="메이커 인터뷰이로 참여해본 사회학과 학생의 석사학위논문" /><published>2019-03-10T18:30:00+09:00</published><updated>2019-03-10T18:30:00+09:00</updated><id>http://localhost:4000/maker/2019/03/10/interview-thesis-about-maker-of-korea</id><content type="html" xml:base="http://localhost:4000/maker/2019/03/10/interview-thesis-about-maker-of-korea.html">&lt;p&gt;작년 MakerFaireSeoul2018 전시에 참석했을 때 나름 신선했던 경험은 경희대 사회학과 대학원생의&lt;/p&gt;
+
+&lt;p&gt;인터뷰 제의였다. 전시 끝낸 후 정말(?) 연락이 와서 회사 인근 카페에서 만나 두 남자가 1시간 넘게&lt;/p&gt;
+
+&lt;p&gt;한국에서 메이커 문화의 영향력 그리고 그로 인해 야기될 사회의 변화까지 정말 끊임없이 얘기했었다.&lt;/p&gt;
+
+&lt;p&gt;이후 그 친구가 무사히 석사 논문 심사를 통과했다고 한부 보내줘서 바로 그주에 다 읽었던 기억이 난다.&lt;/p&gt;
+
+&lt;p&gt;생각이 정돈되지 않아 민망한 나의 구어체 표현들이 그대로 인용되어 있어서 부끄러웠지만 재밌는 경헙이었다.&lt;/p&gt;
+
+&lt;p&gt;이제 온라인 논문 색인 검색에서도 보여서 링크 달고 정리 :D&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://khu.dcollection.net/public_resource/pdf/200000175357_20190310181111.pdf&quot;&gt;소확행(小確幸)으로서 메이커 문화: 한국의 메이커 운동(Maker Movement)을 중심으로&lt;/a&gt;&lt;/p&gt;</content><summary type="html">작년 MakerFaireSeoul2018 전시에 참석했을 때 나름 신선했던 경험은 경희대 사회학과 대학원생의</summary></entry><entry><title type="html">DIY 3D 프린터에 오토베드레벨링 적용</title><link href="http://localhost:4000/maker/2019/03/03/diy-3d-printer-auto-bed-leveling.html" rel="alternate" type="text/html" title="DIY 3D 프린터에 오토베드레벨링 적용" /><published>2019-03-03T15:30:00+09:00</published><updated>2019-03-03T15:30:00+09:00</updated><id>http://localhost:4000/maker/2019/03/03/diy-3d-printer-auto-bed-leveling</id><content type="html" xml:base="http://localhost:4000/maker/2019/03/03/diy-3d-printer-auto-bed-leveling.html">&lt;p&gt;ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…&lt;/p&gt;
 
 &lt;p&gt;그러나 OctoPrint와의 원활한 연동을 위해 Marlin 1.1.9 펌웨어로 바꾸면서 이리저리 수동 설정에 집중하느라&lt;/p&gt;
 
@@ -345,10 +357,4 @@
   &lt;li&gt;&lt;a href=&quot;https://www.instructables.com/id/Upcycling-Jack-O-Lantern/&quot;&gt;instructables - Upcycling Jack-O-Lantern&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/GI45QyvkgNQ&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">MakerFaireSeoul2018 기간 동안 간단한 아이디어를 적용한 Upcycling Jack-O-Lantern에 대한 반응이 좋아</summary></entry><entry><title type="html">마크다운에서 유튜브 링크하는 방법2</title><link href="http://localhost:4000/tip/2018/10/05/howto-embed-youtube-in-markdown2.html" rel="alternate" type="text/html" title="마크다운에서 유튜브 링크하는 방법2" /><published>2018-10-05T01:35:00+09:00</published><updated>2018-10-05T01:35:00+09:00</updated><id>http://localhost:4000/tip/2018/10/05/howto-embed-youtube-in-markdown2</id><content type="html" xml:base="http://localhost:4000/tip/2018/10/05/howto-embed-youtube-in-markdown2.html">&lt;p&gt;한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…&lt;/p&gt;
-
-&lt;p&gt;공유 -&amp;gt; 퍼가기 -&amp;gt; 마크다운 파일 내 iframe 태그 내용 그대로 복사 적용&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/youtube_embed_menu.png&quot; alt=&quot;유튜브 퍼기가 메뉴&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/youtube_embed_iframe.png&quot; alt=&quot;유튜브 임베드 iframe&quot; /&gt;&lt;/p&gt;</content><summary type="html">한동안 확인을 너무 안했나보다… 그냥 유튜브에서 제공하는 iframe 태그 넣으니까 바로 적용되네…</summary></entry></feed>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/GI45QyvkgNQ&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><summary type="html">MakerFaireSeoul2018 기간 동안 간단한 아이디어를 적용한 Upcycling Jack-O-Lantern에 대한 반응이 좋아</summary></entry></feed>
