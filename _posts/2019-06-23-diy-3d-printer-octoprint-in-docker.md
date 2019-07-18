@@ -23,15 +23,39 @@ Docker Container 안에서 OctoPrint가 동작하면서 기존처럼 프린팅�
 
 # OctoPrint Docker Container in Raspberry Pi 3
 ```shell
-pi@nani-octoprint:~ $ docker images
+pi@nani-octoprint:~/octoprint-docker $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 armhf/octoprint     latest              13a85554c7cd        3 weeks ago         943MB
-pi@nani-octoprint:~ $ docker ps
+pi@nani-octoprint:~/octoprint-docker $ cat docker-compose.yml
+version: '2'
+services:
+  octoprint:
+    build: .
+    image: armhf/octoprint
+    container_name: octoprint
+    ports:
+      - 5000:5000
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    volumes:
+     - ./config:/home/octoprint/.octoprint
+pi@nani-octoprint:~/octoprint-docker $ docker-compose up -d
+Creating network "octoprint-docker_default" with the default driver
+Creating octoprint ... done
+pi@nani-octoprint:~/octoprint-docker $ docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
-a90017d8697e        armhf/octoprint     "/opt/octoprint/venv…"   3 weeks ago         Up 3 days           0.0.0.0:5000->5000/tcp   octoprint
-pi@nani-octoprint:~ $ netstat -apt
+9df48e847f4a        armhf/octoprint     "/opt/octoprint/venv…"   47 seconds ago      Up 28 seconds       0.0.0.0:5000->5000/tcp   octoprint
+pi@nani-octoprint:~/octoprint-docker $ netstat -apt
 Active Internet connections (servers and established)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
 tcp6       0      0 [::]:5000               [::]:*                  LISTEN      -
+pi@nani-octoprint:~/octoprint-docker $ docker-compose down
+Stopping octoprint ... done
+Removing octoprint ... done
+Removing network octoprint-docker_default
+pi@nani-octoprint:~/octoprint-docker $ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+pi@nani-octoprint:~/octoprint-docker $ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 ```
 
