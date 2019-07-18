@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-18T22:14:16+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-18T22:53:41+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
 </subtitle><entry><title type="html">DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&amp;gt; Docker)</title><link href="http://localhost:4000/maker/2019/06/23/diy-3d-printer-octoprint-in-docker.html" rel="alternate" type="text/html" title="DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker)" /><published>2019-06-23T21:51:00+09:00</published><updated>2019-06-23T21:51:00+09:00</updated><id>http://localhost:4000/maker/2019/06/23/diy-3d-printer-octoprint-in-docker</id><content type="html" xml:base="http://localhost:4000/maker/2019/06/23/diy-3d-printer-octoprint-in-docker.html">&lt;p&gt;OctoPrint는 DIY 3D 프린터에 원격제어라는 날개를 달아준 너무나도 고마운 존재이다.&lt;/p&gt;
 
 &lt;p&gt;그런데 Raspbian + OctoPrint 환경이 결합된 OctoPi를 쓰면서 반복적으로 경험한 고통이 있었으니&lt;/p&gt;
@@ -16,16 +16,40 @@
 &lt;p&gt;&lt;img src=&quot;/assets/octoprint_in_docker.png&quot; alt=&quot;OctoPrint in Docker&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;octoprint-docker-container-in-raspberry-pi-3&quot;&gt;OctoPrint Docker Container in Raspberry Pi 3&lt;/h1&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pi@nani-octoprint:~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker images
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 armhf/octoprint     latest              13a85554c7cd        3 weeks ago         943MB
-pi@nani-octoprint:~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker ps
+pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;docker-compose.yml
+version: &lt;span class=&quot;s1&quot;&gt;'2'&lt;/span&gt;
+services:
+  octoprint:
+    build: &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+    image: armhf/octoprint
+    container_name: octoprint
+    ports:
+      - 5000:5000
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    volumes:
+     - ./config:/home/octoprint/.octoprint
+pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker-compose up &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;
+Creating network &lt;span class=&quot;s2&quot;&gt;&quot;octoprint-docker_default&quot;&lt;/span&gt; with the default driver
+Creating octoprint ... &lt;span class=&quot;k&quot;&gt;done
+&lt;/span&gt;pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
-a90017d8697e        armhf/octoprint     &lt;span class=&quot;s2&quot;&gt;&quot;/opt/octoprint/venv…&quot;&lt;/span&gt;   3 weeks ago         Up 3 days           0.0.0.0:5000-&amp;gt;5000/tcp   octoprint
-pi@nani-octoprint:~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;netstat &lt;span class=&quot;nt&quot;&gt;-apt&lt;/span&gt;
+9df48e847f4a        armhf/octoprint     &lt;span class=&quot;s2&quot;&gt;&quot;/opt/octoprint/venv…&quot;&lt;/span&gt;   47 seconds ago      Up 28 seconds       0.0.0.0:5000-&amp;gt;5000/tcp   octoprint
+pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;netstat &lt;span class=&quot;nt&quot;&gt;-apt&lt;/span&gt;
 Active Internet connections &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;servers and established&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
 tcp6       0      0 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;::]:5000               &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;::]:&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;                  LISTEN      -
+pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker-compose down
+Stopping octoprint ... &lt;span class=&quot;k&quot;&gt;done
+&lt;/span&gt;Removing octoprint ... &lt;span class=&quot;k&quot;&gt;done
+&lt;/span&gt;Removing network octoprint-docker_default
+pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker ps &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt;
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><summary type="html">OctoPrint는 DIY 3D 프린터에 원격제어라는 날개를 달아준 너무나도 고마운 존재이다.</summary></entry><entry><title type="html">다람쥐 LED 온습도계 만들기</title><link href="http://localhost:4000/maker/2019/05/08/diy-squirrel-led-thermometer-hygrometer.html" rel="alternate" type="text/html" title="다람쥐 LED 온습도계 만들기" /><published>2019-05-08T23:40:00+09:00</published><updated>2019-05-08T23:40:00+09:00</updated><id>http://localhost:4000/maker/2019/05/08/diy-squirrel-led-thermometer-hygrometer</id><content type="html" xml:base="http://localhost:4000/maker/2019/05/08/diy-squirrel-led-thermometer-hygrometer.html">&lt;p&gt;작년 중반 거실에 설치한 LED 습도계와 이후 연말에 추가했던 ㅋㅋ루돌프 캐릭터 크리스마스 LED 장식…&lt;/p&gt;
 
 &lt;p&gt;두가지 아이디어를 섞어서 좀 더 깔끔한 결과물을 만들고 싶었다.&lt;/p&gt;

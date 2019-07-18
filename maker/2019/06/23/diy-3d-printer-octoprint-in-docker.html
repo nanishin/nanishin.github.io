@@ -295,16 +295,40 @@
 <p><img src="/assets/octoprint_in_docker.png" alt="OctoPrint in Docker" /></p>
 
 <h1 id="octoprint-docker-container-in-raspberry-pi-3">OctoPrint Docker Container in Raspberry Pi 3</h1>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pi@nani-octoprint:~ <span class="nv">$ </span>docker images
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 armhf/octoprint     latest              13a85554c7cd        3 weeks ago         943MB
-pi@nani-octoprint:~ <span class="nv">$ </span>docker ps
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span><span class="nb">cat </span>docker-compose.yml
+version: <span class="s1">'2'</span>
+services:
+  octoprint:
+    build: <span class="nb">.</span>
+    image: armhf/octoprint
+    container_name: octoprint
+    ports:
+      - 5000:5000
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    volumes:
+     - ./config:/home/octoprint/.octoprint
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker-compose up <span class="nt">-d</span>
+Creating network <span class="s2">"octoprint-docker_default"</span> with the default driver
+Creating octoprint ... <span class="k">done
+</span>pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
-a90017d8697e        armhf/octoprint     <span class="s2">"/opt/octoprint/venv…"</span>   3 weeks ago         Up 3 days           0.0.0.0:5000-&gt;5000/tcp   octoprint
-pi@nani-octoprint:~ <span class="nv">$ </span>netstat <span class="nt">-apt</span>
+9df48e847f4a        armhf/octoprint     <span class="s2">"/opt/octoprint/venv…"</span>   47 seconds ago      Up 28 seconds       0.0.0.0:5000-&gt;5000/tcp   octoprint
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>netstat <span class="nt">-apt</span>
 Active Internet connections <span class="o">(</span>servers and established<span class="o">)</span>
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
 tcp6       0      0 <span class="o">[</span>::]:5000               <span class="o">[</span>::]:<span class="k">*</span>                  LISTEN      -
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker-compose down
+Stopping octoprint ... <span class="k">done
+</span>Removing octoprint ... <span class="k">done
+</span>Removing network octoprint-docker_default
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker ps <span class="nt">-a</span>
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 </code></pre></div></div>
 
 
