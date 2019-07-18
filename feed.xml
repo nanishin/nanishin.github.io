@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-18T22:53:41+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-18T23:30:07+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
 </subtitle><entry><title type="html">DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&amp;gt; Docker)</title><link href="http://localhost:4000/maker/2019/06/23/diy-3d-printer-octoprint-in-docker.html" rel="alternate" type="text/html" title="DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker)" /><published>2019-06-23T21:51:00+09:00</published><updated>2019-06-23T21:51:00+09:00</updated><id>http://localhost:4000/maker/2019/06/23/diy-3d-printer-octoprint-in-docker</id><content type="html" xml:base="http://localhost:4000/maker/2019/06/23/diy-3d-printer-octoprint-in-docker.html">&lt;p&gt;OctoPrint는 DIY 3D 프린터에 원격제어라는 날개를 달아준 너무나도 고마운 존재이다.&lt;/p&gt;
 
 &lt;p&gt;그런데 Raspbian + OctoPrint 환경이 결합된 OctoPi를 쓰면서 반복적으로 경험한 고통이 있었으니&lt;/p&gt;
@@ -8,6 +8,67 @@
 &lt;p&gt;몇번 디버깅 시도하다 귀찮아서 OctoPi를 다시 SDCARD에 플래싱하기를 반복…&lt;/p&gt;
 
 &lt;p&gt;그러다 결국 Docker 환경으로 가기로 결정하고 Headless Raspbian에 armhf용 docker와 docker-compose 빌드 후 적용&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2019/03/happy-pi-day-docker-raspberry-pi/&quot;&gt;Install docker in raspberry pi 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.berthon.eu/2019/revisiting-getting-docker-compose-on-raspberry-pi-arm-the-easy-way/&quot;&gt;Install docker-compose in raspberry pi 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/OctoPrint/docker&quot;&gt;Build Octoprint Docker Image&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;기본 생성되는 Octoprint Docker Image가 x86_64 기반이어서 아래처럼 arm으로 arch 변경 후 docker build 진행 필요&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git status
+On branch master
+Your branch is up-to-date with &lt;span class=&quot;s1&quot;&gt;'origin/master'&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+Changes not staged &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;commit:
+  &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;use &lt;span class=&quot;s2&quot;&gt;&quot;git add &amp;lt;file&amp;gt;...&quot;&lt;/span&gt; to update what will be committed&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;use &lt;span class=&quot;s2&quot;&gt;&quot;git checkout -- &amp;lt;file&amp;gt;...&quot;&lt;/span&gt; to discard changes &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;working directory&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+	modified:   Dockerfile
+	modified:   docker-compose.yml
+
+no changes added to commit &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;use &lt;span class=&quot;s2&quot;&gt;&quot;git add&quot;&lt;/span&gt; and/or &lt;span class=&quot;s2&quot;&gt;&quot;git commit -a&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git diff Dockerfile
+diff &lt;span class=&quot;nt&quot;&gt;--git&lt;/span&gt; a/Dockerfile b/Dockerfile
+index 9e7cd3a..b0d8e6f 100644
+&lt;span class=&quot;nt&quot;&gt;---&lt;/span&gt; a/Dockerfile
++++ b/Dockerfile
+@@ &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt;,5 +1,5 @@
+
+&lt;span class=&quot;nt&quot;&gt;-FROM&lt;/span&gt; python:2.7
++FROM arm32v7/python:2.7-stretch
+ EXPOSE 5000
+ LABEL maintainer &lt;span class=&quot;s2&quot;&gt;&quot;gaetancollaud@gmail.com&quot;&lt;/span&gt;
+
+@@ &lt;span class=&quot;nt&quot;&gt;-16&lt;/span&gt;,7 +16,7 @@ WORKDIR /opt/octoprint
+
+ &lt;span class=&quot;c&quot;&gt;#install ffmpeg&lt;/span&gt;
+ RUN &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /tmp &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+-  &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; wget &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-i686-static.tar.xz &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
++  &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; wget &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-armhf-static.tar.xz &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; /opt/ffmpeg &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;xvf ffmpeg.tar.xz &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; /opt/ffmpeg &lt;span class=&quot;nt&quot;&gt;--strip-components&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+   &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-Rf&lt;/span&gt; /tmp/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git diff docker-compose.yml
+diff &lt;span class=&quot;nt&quot;&gt;--git&lt;/span&gt; a/docker-compose.yml b/docker-compose.yml
+index b947b9a..f519f1d 100644
+&lt;span class=&quot;nt&quot;&gt;---&lt;/span&gt; a/docker-compose.yml
++++ b/docker-compose.yml
+@@ &lt;span class=&quot;nt&quot;&gt;-2&lt;/span&gt;,11 +2,11 @@ version: &lt;span class=&quot;s1&quot;&gt;'2'&lt;/span&gt;
+ services:
+   octoprint:
+     build: &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+-    image: octoprint/octoprint
++    image: armhf/octoprint
+     container_name: octoprint
+     ports:
+       - 5000:5000
+-    &lt;span class=&quot;c&quot;&gt;# devices:&lt;/span&gt;
+-    &lt;span class=&quot;c&quot;&gt;#  - /dev/ttyACM0:/dev/ttyACM0&lt;/span&gt;
++    devices:
++      - /dev/ttyUSB0:/dev/ttyUSB0
+     volumes:
+      - ./config:/home/octoprint/.octoprint
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;PiCam으로 프린팅 상황 스트리밍을 위해 mjpg-streamer에 대한 추가작업이 필요하지만 일단은&lt;/p&gt;
 
@@ -19,6 +80,7 @@
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 armhf/octoprint     latest              13a85554c7cd        3 weeks ago         943MB
+arm32v7/python      2.7-stretch         d9fb312034b9        5 weeks ago         737MB
 pi@nani-octoprint:~/octoprint-docker &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;docker-compose.yml
 version: &lt;span class=&quot;s1&quot;&gt;'2'&lt;/span&gt;
 services:
