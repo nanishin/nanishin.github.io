@@ -288,6 +288,67 @@
 
 <p>그러다 결국 Docker 환경으로 가기로 결정하고 Headless Raspbian에 armhf용 docker와 docker-compose 빌드 후 적용</p>
 
+<ol>
+  <li><a href="https://blog.docker.com/2019/03/happy-pi-day-docker-raspberry-pi/">Install docker in raspberry pi 3</a></li>
+  <li><a href="https://www.berthon.eu/2019/revisiting-getting-docker-compose-on-raspberry-pi-arm-the-easy-way/">Install docker-compose in raspberry pi 3</a></li>
+  <li><a href="https://github.com/OctoPrint/docker">Build Octoprint Docker Image</a></li>
+</ol>
+
+<p>기본 생성되는 Octoprint Docker Image가 x86_64 기반이어서 아래처럼 arm으로 arch 변경 후 docker build 진행 필요</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>git status
+On branch master
+Your branch is up-to-date with <span class="s1">'origin/master'</span><span class="nb">.</span>
+Changes not staged <span class="k">for </span>commit:
+  <span class="o">(</span>use <span class="s2">"git add &lt;file&gt;..."</span> to update what will be committed<span class="o">)</span>
+  <span class="o">(</span>use <span class="s2">"git checkout -- &lt;file&gt;..."</span> to discard changes <span class="k">in </span>working directory<span class="o">)</span>
+
+	modified:   Dockerfile
+	modified:   docker-compose.yml
+
+no changes added to commit <span class="o">(</span>use <span class="s2">"git add"</span> and/or <span class="s2">"git commit -a"</span><span class="o">)</span>
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>git diff Dockerfile
+diff <span class="nt">--git</span> a/Dockerfile b/Dockerfile
+index 9e7cd3a..b0d8e6f 100644
+<span class="nt">---</span> a/Dockerfile
++++ b/Dockerfile
+@@ <span class="nt">-1</span>,5 +1,5 @@
+
+<span class="nt">-FROM</span> python:2.7
++FROM arm32v7/python:2.7-stretch
+ EXPOSE 5000
+ LABEL maintainer <span class="s2">"gaetancollaud@gmail.com"</span>
+
+@@ <span class="nt">-16</span>,7 +16,7 @@ WORKDIR /opt/octoprint
+
+ <span class="c">#install ffmpeg</span>
+ RUN <span class="nb">cd</span> /tmp <span class="se">\</span>
+-  <span class="o">&amp;&amp;</span> wget <span class="nt">-O</span> ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-i686-static.tar.xz <span class="se">\</span>
++  <span class="o">&amp;&amp;</span> wget <span class="nt">-O</span> ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-armhf-static.tar.xz <span class="se">\</span>
+        <span class="o">&amp;&amp;</span> <span class="nb">mkdir</span> <span class="nt">-p</span> /opt/ffmpeg <span class="se">\</span>
+        <span class="o">&amp;&amp;</span> <span class="nb">tar </span>xvf ffmpeg.tar.xz <span class="nt">-C</span> /opt/ffmpeg <span class="nt">--strip-components</span><span class="o">=</span>1 <span class="se">\</span>
+   <span class="o">&amp;&amp;</span> <span class="nb">rm</span> <span class="nt">-Rf</span> /tmp/<span class="k">*</span>
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>git diff docker-compose.yml
+diff <span class="nt">--git</span> a/docker-compose.yml b/docker-compose.yml
+index b947b9a..f519f1d 100644
+<span class="nt">---</span> a/docker-compose.yml
++++ b/docker-compose.yml
+@@ <span class="nt">-2</span>,11 +2,11 @@ version: <span class="s1">'2'</span>
+ services:
+   octoprint:
+     build: <span class="nb">.</span>
+-    image: octoprint/octoprint
++    image: armhf/octoprint
+     container_name: octoprint
+     ports:
+       - 5000:5000
+-    <span class="c"># devices:</span>
+-    <span class="c">#  - /dev/ttyACM0:/dev/ttyACM0</span>
++    devices:
++      - /dev/ttyUSB0:/dev/ttyUSB0
+     volumes:
+      - ./config:/home/octoprint/.octoprint
+</code></pre></div></div>
+
 <p>PiCam으로 프린팅 상황 스트리밍을 위해 mjpg-streamer에 대한 추가작업이 필요하지만 일단은</p>
 
 <p>Docker Container 안에서 OctoPrint가 동작하면서 기존처럼 프린팅되는 것 확인 완료!!!</p>
@@ -298,6 +359,7 @@
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 armhf/octoprint     latest              13a85554c7cd        3 weeks ago         943MB
+arm32v7/python      2.7-stretch         d9fb312034b9        5 weeks ago         737MB
 pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span><span class="nb">cat </span>docker-compose.yml
 version: <span class="s1">'2'</span>
 services:

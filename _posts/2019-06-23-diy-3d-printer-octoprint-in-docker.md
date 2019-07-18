@@ -15,6 +15,66 @@ APT 패키지 업데이트를 주기적으로 하다 보면 어느순간 파일�
 
 그러다 결국 Docker 환경으로 가기로 결정하고 Headless Raspbian에 armhf용 docker와 docker-compose 빌드 후 적용
 
+1. [Install docker in raspberry pi 3](https://blog.docker.com/2019/03/happy-pi-day-docker-raspberry-pi/)
+2. [Install docker-compose in raspberry pi 3](https://www.berthon.eu/2019/revisiting-getting-docker-compose-on-raspberry-pi-arm-the-easy-way/)
+3. [Build Octoprint Docker Image](https://github.com/OctoPrint/docker)
+
+기본 생성되는 Octoprint Docker Image가 x86_64 기반이어서 아래처럼 arm으로 arch 변경 후 docker build 진행 필요
+```shell
+pi@nani-octoprint:~/octoprint-docker $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Dockerfile
+	modified:   docker-compose.yml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+pi@nani-octoprint:~/octoprint-docker $ git diff Dockerfile
+diff --git a/Dockerfile b/Dockerfile
+index 9e7cd3a..b0d8e6f 100644
+--- a/Dockerfile
++++ b/Dockerfile
+@@ -1,5 +1,5 @@
+
+-FROM python:2.7
++FROM arm32v7/python:2.7-stretch
+ EXPOSE 5000
+ LABEL maintainer "gaetancollaud@gmail.com"
+
+@@ -16,7 +16,7 @@ WORKDIR /opt/octoprint
+
+ #install ffmpeg
+ RUN cd /tmp \
+-  && wget -O ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-i686-static.tar.xz \
++  && wget -O ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-armhf-static.tar.xz \
+        && mkdir -p /opt/ffmpeg \
+        && tar xvf ffmpeg.tar.xz -C /opt/ffmpeg --strip-components=1 \
+   && rm -Rf /tmp/*
+pi@nani-octoprint:~/octoprint-docker $ git diff docker-compose.yml
+diff --git a/docker-compose.yml b/docker-compose.yml
+index b947b9a..f519f1d 100644
+--- a/docker-compose.yml
++++ b/docker-compose.yml
+@@ -2,11 +2,11 @@ version: '2'
+ services:
+   octoprint:
+     build: .
+-    image: octoprint/octoprint
++    image: armhf/octoprint
+     container_name: octoprint
+     ports:
+       - 5000:5000
+-    # devices:
+-    #  - /dev/ttyACM0:/dev/ttyACM0
++    devices:
++      - /dev/ttyUSB0:/dev/ttyUSB0
+     volumes:
+      - ./config:/home/octoprint/.octoprint
+```
+
 PiCam으로 프린팅 상황 스트리밍을 위해 mjpg-streamer에 대한 추가작업이 필요하지만 일단은
 
 Docker Container 안에서 OctoPrint가 동작하면서 기존처럼 프린팅되는 것 확인 완료!!!
@@ -26,6 +86,7 @@ Docker Container 안에서 OctoPrint가 동작하면서 기존처럼 프린팅�
 pi@nani-octoprint:~/octoprint-docker $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 armhf/octoprint     latest              13a85554c7cd        3 weeks ago         943MB
+arm32v7/python      2.7-stretch         d9fb312034b9        5 weeks ago         737MB
 pi@nani-octoprint:~/octoprint-docker $ cat docker-compose.yml
 version: '2'
 services:
