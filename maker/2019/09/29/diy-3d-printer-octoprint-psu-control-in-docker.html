@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)</title>
+  <meta name="description" content="귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/maker/2019/09/29/diy-3d-printer-octoprint-psu-control-in-docker.html">
+  <link rel="alternate" type="application/rss+xml" title="申Nani?" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">申Nani?</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">about</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/archives/category/music/">music</a>
+          
+        
+          
+          <a class="page-link" href="/archives/category/maker/">maker</a>
+          
+        
+          
+          <a class="page-link" href="/archives/category/tip/">tip</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)</h1>
+    <p class="post-meta"><time datetime="2019-09-29T02:30:00+09:00" itemprop="datePublished">Sep 29, 2019</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데</p>
+
+<p>이것도 1년 정도 반복하니 해야지 해야지 하던 Relay로 PSU 전원 제어 기능을 결국 추가…</p>
+
+<p>문제는 아두이노에서 주로 하다 라즈베리파이에서 하면서 처음에는 핀배열 헷갈려서 삽질하다</p>
+
+<p>이후에는 좀 더 꼬인 문제인 Docker Container 안에서 root가 아닌 octoprint에게 gpio 그룹 추가도</p>
+
+<p>결국 pid 관리가 다른지라 제대로 먹히질 않아서 OctoPrint의 PSU Plugin 내 직접 GPIO 제어 메뉴 사용은</p>
+
+<p>불가능하다는 것을 여러번의 삽질 끝에 확인하고 결국 sudoers에 octoprint를 추가해서 System Command</p>
+
+<p>처리로 최종동작 확인한 뒤 내용 정리!!!</p>
+
+<p><img src="/assets/psu_plugin_menu.png" alt="PSU plugin menu" /></p>
+
+<p>GPIO 지원을 위해 적용된 패치 및 스크립트</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% git diff Dockerfile
+diff <span class="nt">--git</span> a/Dockerfile b/Dockerfile
+index 765d6fa..6e3363b 100644
+<span class="nt">---</span> a/Dockerfile
++++ b/Dockerfile
+@@ <span class="nt">-33</span>,6 +33,22 @@ RUN <span class="nb">cd</span> /tmp <span class="se">\</span>
+ <span class="c">#Create an octoprint user</span>
+ RUN useradd <span class="nt">-ms</span> /bin/bash octoprint <span class="o">&amp;&amp;</span> adduser octoprint dialout
+ RUN <span class="nb">chown </span>octoprint:octoprint /opt/octoprint
++
++#To support GPIO
++RUN pip <span class="nb">install</span> <span class="nt">--upgrade</span> RPi.GPIO
++
++#To control GPIO with octoprint user <span class="k">in </span>docker container
++RUN apt-get update <span class="o">&amp;&amp;</span> apt-get <span class="nb">install</span> <span class="nt">-y</span> <span class="nb">sudo</span>
++RUN <span class="nb">echo</span> <span class="s2">"octoprint ALL=(ALL) NOPASSWD: ALL"</span> <span class="o">&gt;&gt;</span> /etc/sudoers.d/010_octoprint-nopasswd
++RUN <span class="nb">chmod </span>0440 /etc/sudoers.d/010_octoprint-nopasswd
++
++# Not worked even octoprint user is added to gpio group
++#RUN groupadd gpio
++#RUN usermod <span class="nt">-a</span> <span class="nt">-G</span> gpio octoprint
++#RUN <span class="nb">grep </span>gpio /etc/group
++#RUN <span class="nb">chown </span>root.gpio /dev/gpiomem
++#RUN <span class="nb">chmod </span>g+rw /dev/gpiomem
++
+ USER octoprint
+ <span class="c">#This fixes issues with the volume command setting wrong permissions</span>
+ RUN <span class="nb">mkdir</span> /home/octoprint/.octoprint
+@@ <span class="nt">-44</span>,5 +60,4 @@ RUN git clone <span class="nt">--branch</span> <span class="nv">$tag</span> https://github.com/foosel/OctoPrint.git /opt/octopri
+
+ VOLUME /home/octoprint/.octoprint
+
+-
+ CMD <span class="o">[</span><span class="s2">"/opt/octoprint/venv/bin/octoprint"</span>, <span class="s2">"serve"</span><span class="o">]</span>
+
+% <span class="nb">cd</span> ..
+
+% <span class="nb">cat </span>psu_power_on.py 
+import RPi.GPIO as GPIO
+import <span class="nb">time
+
+</span>PIN <span class="o">=</span> 4 
+
+GPIO.setwarnings<span class="o">(</span>False<span class="o">)</span>
+GPIO.setmode<span class="o">(</span>GPIO.BCM<span class="o">)</span> <span class="c"># GPIO Numbers instead of board numbers</span>
+GPIO.setup<span class="o">(</span>PIN, GPIO.OUT<span class="o">)</span> <span class="c"># GPIO Assign mode</span>
+
+GPIO.output<span class="o">(</span>PIN, GPIO.HIGH<span class="o">)</span> <span class="c"># on</span>
+time.sleep<span class="o">(</span>1<span class="o">)</span>
+<span class="c">#GPIO.cleanup()</span>
+
+% <span class="nb">cat </span>psu_power_off.py 
+import RPi.GPIO as GPIO
+import <span class="nb">time
+
+</span>PIN <span class="o">=</span> 4 
+
+GPIO.setwarnings<span class="o">(</span>False<span class="o">)</span>
+GPIO.setmode<span class="o">(</span>GPIO.BCM<span class="o">)</span> <span class="c"># GPIO Numbers instead of board numbers</span>
+GPIO.setup<span class="o">(</span>PIN, GPIO.OUT<span class="o">)</span> <span class="c"># GPIO Assign mode</span>
+
+GPIO.output<span class="o">(</span>PIN, GPIO.LOW<span class="o">)</span> <span class="c"># out</span>
+time.sleep<span class="o">(</span>1<span class="o">)</span>
+<span class="c">#GPIO.cleanup()</span>
+</code></pre></div></div>
+
+<p>다행히 PSU 라인은 이미 기본적으로 Live, Neutral, Earth 구분이 되어 있던지라 Live 선으로 Relay 연결 작업 진행</p>
+
+<p><img src="/assets/20190928_101608.png" alt="Check PSU Line" /></p>
+
+<p>예전에 멀티탭 케이블 자른 뒤 직접 Relay 연결하면서 남은 220V 용 전선이 있던지라 재사용</p>
+
+<p><img src="/assets/20190928_102644.png" alt="Prepare relay and wire" />
+<img src="/assets/20190928_103230.png" alt="Prepare relay and wire" /></p>
+
+<p>NO (Normal Open)과 Common으로 각각 연결</p>
+
+<p><img src="/assets/20190928_103538.png" alt="NO and Common" />
+<img src="/assets/20190928_103835.png" alt="NO and Common" /></p>
+
+<p>OctoPrint 내 PSU toggle button으로 전원 제어 동작 확인!!!</p>
+
+<p><img src="/assets/psu_toggle_button.png" alt="PSU toggle button" />
+<img src="/assets/20190929_021510.png" alt="psu control test" />
+<img src="/assets/20190929_021504.png" alt="psu control test" /></p>
+
+<p>Docker Hub에도 Container Image 적용 완료</p>
+
+<p><a href="https://cloud.docker.com/repository/docker/nanishin/arm32v7-octoprint">Docker Hub - nanishin/arm32v7-octoprint</a></p>
+
+  </div>
+
+  
+    
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">申Nani?</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              申Nani?
+            
+            </li>
+            
+            <li><a href="mailto:nani.shin@gmail.com">nani.shin@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/nanishin"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">nanishin</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>깨달음에 이르는 삶을 살자. Let&#39;s live a life to reach spiritual enlightenment.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
