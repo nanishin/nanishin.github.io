@@ -9,11 +9,11 @@ categories: maker
 
 이것도 1년 정도 반복하니 해야지 해야지 하던 Relay로 PSU 전원 제어 기능을 결국 추가...
 
-문제는 아두이노에서 주로 하다 라즈베리파이에서 하면서 처음에는 핀배열 헷갈려서 삽질하다
+그런데 평소 아두이노에서 주로 하던 GPIO 처리를 라즈베리파이에서 하면서 처음에는 핀배열 헷갈려서 삽질~
 
-이후에는 좀 더 꼬인 문제인 Docker Container 안에서 root가 아닌 octoprint에게 gpio 그룹 추가도
+이후에는 좀 더 양상이 복잡해져서 Docker Container 안에서 root가 아닌 octoprint에게 gpio 그룹 추가해도
 
-결국 pid 관리가 다른지라 제대로 먹히질 않아서 OctoPrint의 PSU Plugin 내 직접 GPIO 제어 메뉴 사용은
+결국 pid 관리 범위가 다른지라 제대로 먹히질 않아서 OctoPrint PSU Plugin에서 직접 GPIO Pin 통한 제어는
 
 불가능하다는 것을 여러번의 삽질 끝에 확인하고 결국 sudoers에 octoprint를 추가해서 System Command
 

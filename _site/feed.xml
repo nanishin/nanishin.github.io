@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-29T03:55:02+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-29T04:05:11+09:00</updated><id>http://localhost:4000//</id><title type="html">申Nani?</title><subtitle>깨달음에 이르는 삶을 살자. Let's live a life to reach spiritual enlightenment.
 </subtitle><entry><title type="html">DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)</title><link href="http://localhost:4000/maker/2019/09/29/diy-3d-printer-octoprint-psu-control-in-docker.html" rel="alternate" type="text/html" title="DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)" /><published>2019-09-29T02:30:00+09:00</published><updated>2019-09-29T02:30:00+09:00</updated><id>http://localhost:4000/maker/2019/09/29/diy-3d-printer-octoprint-psu-control-in-docker</id><content type="html" xml:base="http://localhost:4000/maker/2019/09/29/diy-3d-printer-octoprint-psu-control-in-docker.html">&lt;p&gt;귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데&lt;/p&gt;
 
 &lt;p&gt;이것도 1년 정도 반복하니 해야지 해야지 하던 Relay로 PSU 전원 제어 기능을 결국 추가…&lt;/p&gt;
 
-&lt;p&gt;문제는 아두이노에서 주로 하다 라즈베리파이에서 하면서 처음에는 핀배열 헷갈려서 삽질하다&lt;/p&gt;
+&lt;p&gt;그런데 평소 아두이노에서 주로 하던 GPIO 처리를 라즈베리파이에서 하면서 처음에는 핀배열 헷갈려서 삽질~&lt;/p&gt;
 
-&lt;p&gt;이후에는 좀 더 꼬인 문제인 Docker Container 안에서 root가 아닌 octoprint에게 gpio 그룹 추가도&lt;/p&gt;
+&lt;p&gt;이후에는 좀 더 양상이 복잡해져서 Docker Container 안에서 root가 아닌 octoprint에게 gpio 그룹 추가해도&lt;/p&gt;
 
-&lt;p&gt;결국 pid 관리가 다른지라 제대로 먹히질 않아서 OctoPrint의 PSU Plugin 내 직접 GPIO 제어 메뉴 사용은&lt;/p&gt;
+&lt;p&gt;결국 pid 관리 범위가 다른지라 제대로 먹히질 않아서 OctoPrint PSU Plugin에서 직접 GPIO Pin 통한 제어는&lt;/p&gt;
 
 &lt;p&gt;불가능하다는 것을 여러번의 삽질 끝에 확인하고 결국 sudoers에 octoprint를 추가해서 System Command&lt;/p&gt;
 
