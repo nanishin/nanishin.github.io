@@ -47,4 +47,3 @@ jekyll-archives:
     day: '/archives/:year/:month/:day/'
     tag: '/archives/tag/:name/'
     category: '/archives/category/:name/'
-
