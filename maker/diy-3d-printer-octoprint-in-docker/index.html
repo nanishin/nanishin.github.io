@@ -1,0 +1,807 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker) - 申Nani?</title>
+<meta name="description" content="OctoPrint는 DIY 3D 프린터에 원격제어라는 날개를 달아준 너무나도 고마운 존재이다. ">
+
+
+  <meta name="author" content="Nani Shin">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="申Nani?">
+<meta property="og:title" content="DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker)">
+<meta property="og:url" content="https://nanishin.github.io/maker/diy-3d-printer-octoprint-in-docker/">
+
+
+  <meta property="og:description" content="OctoPrint는 DIY 3D 프린터에 원격제어라는 날개를 달아준 너무나도 고마운 존재이다. ">
+
+
+
+  <meta property="og:image" content="https://nanishin.github.io/assets/images/nanishin.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2019-06-23T21:51:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://nanishin.github.io/maker/diy-3d-printer-octoprint-in-docker/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nani Shin",
+      "url": "https://nanishin.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="申Nani? Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          申Nani?
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" >about</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/music/" >music</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/maker/" >maker</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/tip/" >tip</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/nanishin.png" alt="Nani Shin" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Nani Shin</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Daddy of two daughthers, Maker with upcycling</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">South Korea</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:nani.shin@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://nanishin.github.io" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/nanishin" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/nanishin" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker)">
+    <meta itemprop="description" content="OctoPrint는 DIY 3D 프린터에 원격제어라는 날개를 달아준 너무나도 고마운 존재이다.">
+    <meta itemprop="datePublished" content="2019-06-23T21:51:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker)
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#octoprint-docker-container-in-raspberry-pi-3">OctoPrint Docker Container in Raspberry Pi 3</a></li>
+</ul>
+
+            </nav>
+            <nav class="toc-custom">
+              
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-8174347775628935",
+          enable_page_level_ads: true
+     });
+</script>
+
+              
+            </nav>
+          </aside>
+        
+        <p>OctoPrint는 DIY 3D 프린터에 원격제어라는 날개를 달아준 너무나도 고마운 존재이다.</p>
+
+<p>그런데 Raspbian + OctoPrint 환경이 결합된 OctoPi를 쓰면서 반복적으로 경험한 고통이 있었으니</p>
+
+<p>APT 패키지 업데이트를 주기적으로 하다 보면 어느순간 파일시스템이 깨지고 커널 패닉의 지옥으로 :’(</p>
+
+<p>몇번 디버깅 시도하다 귀찮아서 OctoPi를 다시 SDCARD에 플래싱하기를 반복…</p>
+
+<p>그러다 결국 Docker 환경으로 가기로 결정하고 Headless Raspbian에 armhf용 docker와 docker-compose 빌드 후 적용</p>
+
+<ol>
+  <li><a href="https://blog.docker.com/2019/03/happy-pi-day-docker-raspberry-pi/">Install docker in raspberry pi 3</a></li>
+  <li><a href="https://www.berthon.eu/2019/revisiting-getting-docker-compose-on-raspberry-pi-arm-the-easy-way/">Install docker-compose in raspberry pi 3</a></li>
+  <li><a href="https://github.com/OctoPrint/docker">Build Octoprint Docker Image</a></li>
+</ol>
+
+<p>기본 생성되는 Octoprint Docker Image가 x86_64 기반이어서 아래처럼 arm으로 arch 변경 후 docker build 진행 필요</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>git status
+On branch master
+Your branch is up-to-date with <span class="s1">'origin/master'</span><span class="nb">.</span>
+Changes not staged <span class="k">for </span>commit:
+  <span class="o">(</span>use <span class="s2">"git add &lt;file&gt;..."</span> to update what will be committed<span class="o">)</span>
+  <span class="o">(</span>use <span class="s2">"git checkout -- &lt;file&gt;..."</span> to discard changes <span class="k">in </span>working directory<span class="o">)</span>
+
+	modified:   Dockerfile
+	modified:   docker-compose.yml
+
+no changes added to commit <span class="o">(</span>use <span class="s2">"git add"</span> and/or <span class="s2">"git commit -a"</span><span class="o">)</span>
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>git diff Dockerfile
+diff <span class="nt">--git</span> a/Dockerfile b/Dockerfile
+index 9e7cd3a..b0d8e6f 100644
+<span class="nt">---</span> a/Dockerfile
++++ b/Dockerfile
+@@ <span class="nt">-1</span>,5 +1,5 @@
+
+<span class="nt">-FROM</span> python:2.7
++FROM arm32v7/python:2.7-stretch
+ EXPOSE 5000
+ LABEL maintainer <span class="s2">"gaetancollaud@gmail.com"</span>
+
+@@ <span class="nt">-16</span>,7 +16,7 @@ WORKDIR /opt/octoprint
+
+ <span class="c">#install ffmpeg</span>
+ RUN <span class="nb">cd</span> /tmp <span class="se">\</span>
+-  <span class="o">&amp;&amp;</span> wget <span class="nt">-O</span> ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-i686-static.tar.xz <span class="se">\</span>
++  <span class="o">&amp;&amp;</span> wget <span class="nt">-O</span> ffmpeg.tar.xz https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-armhf-static.tar.xz <span class="se">\</span>
+        <span class="o">&amp;&amp;</span> <span class="nb">mkdir</span> <span class="nt">-p</span> /opt/ffmpeg <span class="se">\</span>
+        <span class="o">&amp;&amp;</span> <span class="nb">tar </span>xvf ffmpeg.tar.xz <span class="nt">-C</span> /opt/ffmpeg <span class="nt">--strip-components</span><span class="o">=</span>1 <span class="se">\</span>
+   <span class="o">&amp;&amp;</span> <span class="nb">rm</span> <span class="nt">-Rf</span> /tmp/<span class="k">*</span>
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>git diff docker-compose.yml
+diff <span class="nt">--git</span> a/docker-compose.yml b/docker-compose.yml
+index b947b9a..f519f1d 100644
+<span class="nt">---</span> a/docker-compose.yml
++++ b/docker-compose.yml
+@@ <span class="nt">-2</span>,11 +2,11 @@ version: <span class="s1">'2'</span>
+ services:
+   octoprint:
+     build: <span class="nb">.</span>
+-    image: octoprint/octoprint
++    image: armhf/octoprint
+     container_name: octoprint
+     ports:
+       - 5000:5000
+-    <span class="c"># devices:</span>
+-    <span class="c">#  - /dev/ttyACM0:/dev/ttyACM0</span>
++    devices:
++      - /dev/ttyUSB0:/dev/ttyUSB0
+     volumes:
+      - ./config:/home/octoprint/.octoprint
+</code></pre></div></div>
+
+<p>PiCam으로 프린팅 상황 스트리밍을 위해 mjpg-streamer에 대한 추가작업이 필요하지만 일단은</p>
+
+<p>Docker Container 안에서 OctoPrint가 동작하면서 기존처럼 프린팅되는 것 확인 완료!!!</p>
+
+<p><img src="/assets/images/octoprint_in_docker.png" alt="OctoPrint in Docker" /></p>
+
+<h1 id="octoprint-docker-container-in-raspberry-pi-3">OctoPrint Docker Container in Raspberry Pi 3</h1>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+armhf/octoprint     latest              13a85554c7cd        3 weeks ago         943MB
+arm32v7/python      2.7-stretch         d9fb312034b9        5 weeks ago         737MB
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span><span class="nb">cat </span>docker-compose.yml
+version: <span class="s1">'2'</span>
+services:
+  octoprint:
+    build: <span class="nb">.</span>
+    image: armhf/octoprint
+    container_name: octoprint
+    ports:
+      - 5000:5000
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    volumes:
+     - ./config:/home/octoprint/.octoprint
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker-compose up <span class="nt">-d</span>
+Creating network <span class="s2">"octoprint-docker_default"</span> with the default driver
+Creating octoprint ... <span class="k">done
+</span>pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+9df48e847f4a        armhf/octoprint     <span class="s2">"/opt/octoprint/venv…"</span>   47 seconds ago      Up 28 seconds       0.0.0.0:5000-&gt;5000/tcp   octoprint
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>netstat <span class="nt">-apt</span>
+Active Internet connections <span class="o">(</span>servers and established<span class="o">)</span>
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp6       0      0 <span class="o">[</span>::]:5000               <span class="o">[</span>::]:<span class="k">*</span>                  LISTEN      -
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker-compose down
+Stopping octoprint ... <span class="k">done
+</span>Removing octoprint ... <span class="k">done
+</span>Removing network octoprint-docker_default
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+pi@nani-octoprint:~/octoprint-docker <span class="nv">$ </span>docker ps <span class="nt">-a</span>
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+</code></pre></div></div>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#3d-%ED%94%84%EB%A6%B0%ED%84%B0" class="page__taxonomy-item" rel="tag">3D 프린터</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#docker" class="page__taxonomy-item" rel="tag">Docker</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#octoprint" class="page__taxonomy-item" rel="tag">Octoprint</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#maker" class="page__taxonomy-item" rel="tag">maker</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-06-23T21:51:00+09:00">June 23, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=DIY+3D+%ED%94%84%EB%A6%B0%ED%84%B0%EC%9A%A9+OctoPrint+%ED%99%98%EA%B2%BD+%EB%B3%80%EA%B2%BD%28OctoPi+-%3E+Docker%29%20https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-octoprint-in-docker%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-octoprint-in-docker%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-octoprint-in-docker%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/maker/diy-squirrel-led-thermometer-hygrometer/" class="pagination--pager" title="다람쥐 LED 온습도계 만들기
+">Previous</a>
+    
+    
+      <a href="/maker/diy-3d-printer-octoprint-psu-control-in-docker/" class="pagination--pager" title="DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/music/homerecording-song-of-hope-cover/" rel="permalink">아버지 추모 영상 (BGM 희망가)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> February 07 2020</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">2019년 연말에 아버지가 별세하신 뒤 49재 막재에 맞춰 제작한 추모 영상
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/mfs2019-well-finished/" rel="permalink">메이커페어서울2019 전시/세미나 완료 후기
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> October 23 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">이번 메이커페어서울2019 전시/세미나 진행은 동시대에 벌어진 광장에 대한 고민으로
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/diy-3d-printer-octoprint-psu-control-in-docker/" rel="permalink">DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 29 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/diy-squirrel-led-thermometer-hygrometer/" rel="permalink">다람쥐 LED 온습도계 만들기
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> May 08 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">작년 중반 거실에 설치한 LED 습도계와 이후 연말에 추가했던 ㅋㅋ루돌프 캐릭터 크리스마스 LED 장식…
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Nani Shin. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90337089-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-90337089-1', { 'anonymize_ip': false});
+</script>
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://nanishin.github.io/maker/diy-3d-printer-octoprint-in-docker/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/maker/diy-3d-printer-octoprint-in-docker"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://nanishin.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

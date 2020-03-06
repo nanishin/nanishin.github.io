@@ -1,0 +1,821 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DIY 3D 프린터에 오토베드레벨링 적용 - 申Nani?</title>
+<meta name="description" content="ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트… ">
+
+
+  <meta name="author" content="Nani Shin">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="申Nani?">
+<meta property="og:title" content="DIY 3D 프린터에 오토베드레벨링 적용">
+<meta property="og:url" content="https://nanishin.github.io/maker/diy-3d-printer-auto-bed-leveling/">
+
+
+  <meta property="og:description" content="ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트… ">
+
+
+
+  <meta property="og:image" content="https://nanishin.github.io/assets/images/nanishin.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2019-03-03T15:30:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://nanishin.github.io/maker/diy-3d-printer-auto-bed-leveling/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nani Shin",
+      "url": "https://nanishin.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="申Nani? Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          申Nani?
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" >about</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/music/" >music</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/maker/" >maker</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/tip/" >tip</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/nanishin.png" alt="Nani Shin" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Nani Shin</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Daddy of two daughthers, Maker with upcycling</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">South Korea</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:nani.shin@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://nanishin.github.io" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/nanishin" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/nanishin" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="DIY 3D 프린터에 오토베드레벨링 적용">
+    <meta itemprop="description" content="ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…">
+    <meta itemprop="datePublished" content="2019-03-03T15:30:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">DIY 3D 프린터에 오토베드레벨링 적용
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#marlin-119의-configurationh-파일">Marlin 1.1.9의 Configuration.h 파일</a></li>
+  <li><a href="#g29-g-code-명령어-적용">G29 G-Code 명령어 적용</a></li>
+</ul>
+
+            </nav>
+            <nav class="toc-custom">
+              
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-8174347775628935",
+          enable_page_level_ads: true
+     });
+</script>
+
+              
+            </nav>
+          </aside>
+        
+        <p>ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…</p>
+
+<p>그러나 OctoPrint와의 원활한 연동을 위해 Marlin 1.1.9 펌웨어로 바꾸면서 이리저리 수동 설정에 집중하느라</p>
+
+<p>정작 4개월 가량을 그냥 버려두고 있었다는… -ㅠ- 그러다 누구나 이야기하는 수동 베드레벨링 지옥을 겪다 보니</p>
+
+<p>결국 오랜만에 Marlin 펌웨어 설정과 일부 패치 적용 후 오토베드레벨링 활성화 완료!!!</p>
+
+<p>처음에 저 근접센서 감도와 노즐과 베드 사이 거리를 미세하기 맞추기 위해선 여전히 휴리스틱 튜닝(일명 노가다 조정)이</p>
+
+<p>필요했지만 일단 맞춰두고 나니 쾌적한 3D 프린팅 세상이 열림~ :D</p>
+
+<p><img src="/assets/images/20190303_105919.png" alt="SN04-N" /></p>
+
+<p>설정한 옵션 위주로 정리</p>
+
+<h1 id="marlin-119의-configurationh-파일">Marlin 1.1.9의 Configuration.h 파일</h1>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+ * Choose one of the options below to enable G29 Bed Leveling. The parameters
+ * and behavior of G29 will change depending on your selection.
+ *
+ *  If using a Probe for Z Homing, enable Z_SAFE_HOMING also!
+ *
+ * - AUTO_BED_LEVELING_3POINT
+ *   Probe 3 arbitrary points on the bed (that aren't collinear)
+ *   You specify the XY coordinates of all 3 points.
+ *   The result is a single tilted plane. Best for a flat bed.
+ *
+ * - AUTO_BED_LEVELING_LINEAR
+ *   Probe several points in a grid.
+ *   You specify the rectangle and the density of sample points.
+ *   The result is a single tilted plane. Best for a flat bed.
+ *
+ * - AUTO_BED_LEVELING_BILINEAR
+ *   Probe several points in a grid.
+ *   You specify the rectangle and the density of sample points.
+ *   The result is a mesh, best for large or uneven beds.
+ *
+ * - AUTO_BED_LEVELING_UBL (Unified Bed Leveling)
+ *   A comprehensive bed leveling system combining the features and benefits
+ *   of other systems. UBL also includes integrated Mesh Generation, Mesh
+ *   Validation and Mesh Editing systems.
+ *
+ * - MESH_BED_LEVELING
+ *   Probe a grid manually
+ *   The result is a mesh, suitable for large or uneven beds. (See BILINEAR.)
+ *   For machines without a probe, Mesh Bed Leveling provides a method to perform
+ *   leveling in steps so you can manually adjust the Z height at each grid-point.
+ *   With an LCD controller the process is guided step-by-step.
+ */</span>
+<span class="c1">//#define AUTO_BED_LEVELING_3POINT</span>
+<span class="c1">//#define AUTO_BED_LEVELING_LINEAR</span>
+<span class="cp">#define AUTO_BED_LEVELING_BILINEAR
+</span><span class="c1">//#define AUTO_BED_LEVELING_UBL</span>
+<span class="c1">//#define MESH_BED_LEVELING</span>
+
+<span class="cm">/**
+ *   Z Probe to nozzle (X,Y) offset, relative to (0, 0).
+ *   X and Y offsets must be integers.
+ *
+ *   In the following example the X and Y offsets are both positive:
+ *   #define X_PROBE_OFFSET_FROM_EXTRUDER 10
+ *   #define Y_PROBE_OFFSET_FROM_EXTRUDER 10
+ *
+ *      +-- BACK ---+
+ *      |           |
+ *    L |    (+) P  | R &lt;-- probe (20,20)
+ *    E |           | I
+ *    F | (-) N (+) | G &lt;-- nozzle (10,10)
+ *    T |           | H
+ *      |    (-)    | T
+ *      |           |
+ *      O-- FRONT --+
+ *    (0,0)
+ */</span>
+<span class="cp">#define X_PROBE_OFFSET_FROM_EXTRUDER 15   // X offset: -left  +right  [of the nozzle]
+#define Y_PROBE_OFFSET_FROM_EXTRUDER 55   // Y offset: -front +behind [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle]
+</span>
+<span class="c1">// The size of the print bed</span>
+<span class="cp">#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
+</span>
+<span class="c1">// Set the boundaries for probing (where the probe can reach).</span>
+<span class="c1">//#define LEFT_PROBE_BED_POSITION MIN_PROBE_EDGE</span>
+<span class="c1">//#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - MIN_PROBE_EDGE)</span>
+<span class="c1">//#define FRONT_PROBE_BED_POSITION MIN_PROBE_EDGE</span>
+<span class="c1">//#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - MIN_PROBE_EDGE)</span>
+<span class="cp">#if X_PROBE_OFFSET_FROM_EXTRUDER &lt; 0
+</span>  <span class="cp">#define LEFT_PROBE_BED_POSITION (MIN_PROBE_EDGE)
+</span>  <span class="cp">#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - 1 - MIN_PROBE_EDGE + X_PROBE_OFFSET_FROM_EXTRUDER)
+#else
+</span>  <span class="cp">#define LEFT_PROBE_BED_POSITION (X_PROBE_OFFSET_FROM_EXTRUDER + MIN_PROBE_EDGE)
+</span>  <span class="cp">#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - 1 - MIN_PROBE_EDGE)
+#endif
+#if Y_PROBE_OFFSET_FROM_EXTRUDER &lt; 0
+</span>  <span class="cp">#define FRONT_PROBE_BED_POSITION (MIN_PROBE_EDGE)
+</span>  <span class="cp">#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - 1 - MIN_PROBE_EDGE + Y_PROBE_OFFSET_FROM_EXTRUDER)
+#else
+</span>  <span class="cp">#define FRONT_PROBE_BED_POSITION (Y_PROBE_OFFSET_FROM_EXTRUDER + MIN_PROBE_EDGE)
+</span>  <span class="cp">#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - 1 - MIN_PROBE_EDGE)
+#endif
+</span>
+<span class="c1">// Use "Z Safe Homing" to avoid homing with a Z probe outside the bed area.</span>
+<span class="c1">//</span>
+<span class="c1">// With this feature enabled:</span>
+<span class="c1">//</span>
+<span class="c1">// - Allow Z homing only after X and Y homing AND stepper drivers still enabled.</span>
+<span class="c1">// - If stepper drivers time out, it will need X and Y homing again before Z homing.</span>
+<span class="c1">// - Move the Z probe (or nozzle) to a defined XY point before Z Homing when homing all axes (G28).</span>
+<span class="c1">// - Prevent Z homing when the Z probe is outside bed area.</span>
+<span class="c1">//</span>
+<span class="cp">#define Z_SAFE_HOMING
+</span>
+<span class="cm">/**
+ * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
+ *   (e.g., an inductive probe or a nozzle-based probe-switch.)
+ */</span>
+<span class="cp">#define FIX_MOUNTED_PROBE
+</span>
+<span class="cm">/**
+ * Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+ *
+ * Enable this option for a probe connected to the Z Min endstop pin.
+ */</span>
+<span class="cp">#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+</span></code></pre></div></div>
+
+<h1 id="g29-g-code-명령어-적용">G29 G-Code 명령어 적용</h1>
+<p>항상 프린팅 시작하기 전에 오토베드레벨링을 수행하기 위해 G28 X/Y/X 축 초기화 명령 후 적용
+<img src="/assets/images/g29_gcode_auto_level.png" alt="G29 G-Code" /></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#3d-%ED%94%84%EB%A6%B0%ED%84%B0" class="page__taxonomy-item" rel="tag">3D 프린터</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#%EC%98%A4%ED%86%A0%EB%B2%A0%EB%93%9C%EB%A0%88%EB%B2%A8%EB%A7%81" class="page__taxonomy-item" rel="tag">오토베드레벨링</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#maker" class="page__taxonomy-item" rel="tag">maker</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-03-03T15:30:00+09:00">March 3, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=DIY+3D+%ED%94%84%EB%A6%B0%ED%84%B0%EC%97%90+%EC%98%A4%ED%86%A0%EB%B2%A0%EB%93%9C%EB%A0%88%EB%B2%A8%EB%A7%81+%EC%A0%81%EC%9A%A9%20https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-auto-bed-leveling%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-auto-bed-leveling%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-auto-bed-leveling%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/tip/howto-fix-windows10-crash-when-docker-is-used/" class="pagination--pager" title="Docker 사용 중 발생한 Windows10 크래시 해결 방법
+">Previous</a>
+    
+    
+      <a href="/maker/interview-thesis-about-maker-of-korea/" class="pagination--pager" title="메이커 인터뷰이로 참여해본 사회학과 학생의 석사학위논문
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/music/homerecording-song-of-hope-cover/" rel="permalink">아버지 추모 영상 (BGM 희망가)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> February 07 2020</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">2019년 연말에 아버지가 별세하신 뒤 49재 막재에 맞춰 제작한 추모 영상
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/mfs2019-well-finished/" rel="permalink">메이커페어서울2019 전시/세미나 완료 후기
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> October 23 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">이번 메이커페어서울2019 전시/세미나 진행은 동시대에 벌어진 광장에 대한 고민으로
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/diy-3d-printer-octoprint-psu-control-in-docker/" rel="permalink">DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 29 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/diy-3d-printer-octoprint-in-docker/" rel="permalink">DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> June 23 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">OctoPrint는 DIY 3D 프린터에 원격제어라는 날개를 달아준 너무나도 고마운 존재이다.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Nani Shin. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90337089-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-90337089-1', { 'anonymize_ip': false});
+</script>
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://nanishin.github.io/maker/diy-3d-printer-auto-bed-leveling/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/maker/diy-3d-printer-auto-bed-leveling"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://nanishin.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>
