@@ -1,0 +1,802 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반) - 申Nani?</title>
+<meta name="description" content="귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데 ">
+
+
+  <meta name="author" content="Nani Shin">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="申Nani?">
+<meta property="og:title" content="DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)">
+<meta property="og:url" content="https://nanishin.github.io/maker/diy-3d-printer-octoprint-psu-control-in-docker/">
+
+
+  <meta property="og:description" content="귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데 ">
+
+
+
+  <meta property="og:image" content="https://nanishin.github.io/assets/images/nanishin.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2019-09-29T02:30:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://nanishin.github.io/maker/diy-3d-printer-octoprint-psu-control-in-docker/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Nani Shin",
+      "url": "https://nanishin.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="申Nani? Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          申Nani?
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" >about</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/music/" >music</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/maker/" >maker</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/tip/" >tip</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/nanishin.png" alt="Nani Shin" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Nani Shin</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Daddy of two daughthers, Maker with upcycling</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">South Korea</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:nani.shin@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://nanishin.github.io" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/nanishin" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/nanishin" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)">
+    <meta itemprop="description" content="귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데">
+    <meta itemprop="datePublished" content="2019-09-29T02:30:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#gpio-지원을-위해-적용된-패치-및-스크립트">GPIO 지원을 위해 적용된 패치 및 스크립트</a></li>
+</ul>
+
+            </nav>
+            <nav class="toc-custom">
+              
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-8174347775628935",
+          enable_page_level_ads: true
+     });
+</script>
+
+              
+            </nav>
+          </aside>
+        
+        <p>귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데</p>
+
+<p>이것도 1년 정도 반복하니 해야지 해야지 하던 Relay로 PSU 전원 제어 기능을 결국 추가…</p>
+
+<p>그런데 평소 아두이노에서 주로 하던 GPIO 처리를 라즈베리파이에서 하면서 처음에는 핀배열 헷갈려서 삽질~</p>
+
+<p>이후에는 좀 더 양상이 복잡해져서 Docker Container 안에서 root가 아닌 octoprint에게 gpio 그룹 추가해도</p>
+
+<p>결국 pid 관리 범위가 다른지라 제대로 먹히질 않아서 OctoPrint PSU Plugin에서 직접 GPIO Pin 통한 제어는</p>
+
+<p>불가능하다는 것을 여러번의 삽질 끝에 확인하고 결국 sudoers에 octoprint를 추가해서 System Command</p>
+
+<p>처리로 최종동작 확인한 뒤 내용 정리!!!</p>
+
+<p><img src="/assets/images/psu_plugin_menu.png" alt="PSU plugin menu" /></p>
+
+<h2 id="gpio-지원을-위해-적용된-패치-및-스크립트">GPIO 지원을 위해 적용된 패치 및 스크립트</h2>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% git diff Dockerfile
+diff <span class="nt">--git</span> a/Dockerfile b/Dockerfile
+index 765d6fa..6e3363b 100644
+<span class="nt">---</span> a/Dockerfile
++++ b/Dockerfile
+@@ <span class="nt">-33</span>,6 +33,22 @@ RUN <span class="nb">cd</span> /tmp <span class="se">\</span>
+ <span class="c">#Create an octoprint user</span>
+ RUN useradd <span class="nt">-ms</span> /bin/bash octoprint <span class="o">&amp;&amp;</span> adduser octoprint dialout
+ RUN <span class="nb">chown </span>octoprint:octoprint /opt/octoprint
++
++#To support GPIO
++RUN pip <span class="nb">install</span> <span class="nt">--upgrade</span> RPi.GPIO
++
++#To control GPIO with octoprint user <span class="k">in </span>docker container
++RUN apt-get update <span class="o">&amp;&amp;</span> apt-get <span class="nb">install</span> <span class="nt">-y</span> <span class="nb">sudo</span>
++RUN <span class="nb">echo</span> <span class="s2">"octoprint ALL=(ALL) NOPASSWD: ALL"</span> <span class="o">&gt;&gt;</span> /etc/sudoers.d/010_octoprint-nopasswd
++RUN <span class="nb">chmod </span>0440 /etc/sudoers.d/010_octoprint-nopasswd
++
++# Not worked even octoprint user is added to gpio group
++#RUN groupadd gpio
++#RUN usermod <span class="nt">-a</span> <span class="nt">-G</span> gpio octoprint
++#RUN <span class="nb">grep </span>gpio /etc/group
++#RUN <span class="nb">chown </span>root.gpio /dev/gpiomem
++#RUN <span class="nb">chmod </span>g+rw /dev/gpiomem
++
+ USER octoprint
+ <span class="c">#This fixes issues with the volume command setting wrong permissions</span>
+ RUN <span class="nb">mkdir</span> /home/octoprint/.octoprint
+@@ <span class="nt">-44</span>,5 +60,4 @@ RUN git clone <span class="nt">--branch</span> <span class="nv">$tag</span> https://github.com/foosel/OctoPrint.git /opt/octopri
+
+ VOLUME /home/octoprint/.octoprint
+
+-
+ CMD <span class="o">[</span><span class="s2">"/opt/octoprint/venv/bin/octoprint"</span>, <span class="s2">"serve"</span><span class="o">]</span>
+
+% <span class="nb">cd</span> ..
+
+% <span class="nb">cat </span>psu_power_on.py 
+import RPi.GPIO as GPIO
+import <span class="nb">time
+
+</span>PIN <span class="o">=</span> 4 
+
+GPIO.setwarnings<span class="o">(</span>False<span class="o">)</span>
+GPIO.setmode<span class="o">(</span>GPIO.BCM<span class="o">)</span> <span class="c"># GPIO Numbers instead of board numbers</span>
+GPIO.setup<span class="o">(</span>PIN, GPIO.OUT<span class="o">)</span> <span class="c"># GPIO Assign mode</span>
+
+GPIO.output<span class="o">(</span>PIN, GPIO.HIGH<span class="o">)</span> <span class="c"># on</span>
+time.sleep<span class="o">(</span>1<span class="o">)</span>
+<span class="c">#GPIO.cleanup()</span>
+
+% <span class="nb">cat </span>psu_power_off.py 
+import RPi.GPIO as GPIO
+import <span class="nb">time
+
+</span>PIN <span class="o">=</span> 4 
+
+GPIO.setwarnings<span class="o">(</span>False<span class="o">)</span>
+GPIO.setmode<span class="o">(</span>GPIO.BCM<span class="o">)</span> <span class="c"># GPIO Numbers instead of board numbers</span>
+GPIO.setup<span class="o">(</span>PIN, GPIO.OUT<span class="o">)</span> <span class="c"># GPIO Assign mode</span>
+
+GPIO.output<span class="o">(</span>PIN, GPIO.LOW<span class="o">)</span> <span class="c"># out</span>
+time.sleep<span class="o">(</span>1<span class="o">)</span>
+<span class="c">#GPIO.cleanup()</span>
+</code></pre></div></div>
+
+<p>다행히 PSU 라인은 이미 기본적으로 Live, Neutral, Earth 구분이 되어 있던지라 Live 선으로 Relay 연결 작업 진행</p>
+
+<p><img src="/assets/images/20190928_101608.png" alt="Check PSU Line" /></p>
+
+<p>예전에 멀티탭 케이블 자른 뒤 직접 Relay 연결하면서 남은 220V 용 전선이 있던지라 재사용</p>
+
+<p><img src="/assets/images/20190928_102644.png" alt="Prepare relay and wire" />
+<img src="/assets/images/20190928_103230.png" alt="Prepare relay and wire" /></p>
+
+<p>NO (Normal Open)과 Common으로 각각 연결</p>
+
+<p><img src="/assets/images/20190928_103538.png" alt="NO and Common" />
+<img src="/assets/images/20190928_103835.png" alt="NO and Common" /></p>
+
+<p>OctoPrint 내 PSU toggle button으로 전원 제어 동작 확인!!!</p>
+
+<p><img src="/assets/images/psu_toggle_button.png" alt="PSU toggle button" />
+<img src="/assets/images/20190929_021510.png" alt="psu control test" />
+<img src="/assets/images/20190929_021504.png" alt="psu control test" /></p>
+
+<p>Docker Hub에도 Container Image 적용 완료</p>
+
+<p><a href="https://cloud.docker.com/repository/docker/nanishin/arm32v7-octoprint">Docker Hub - nanishin/arm32v7-octoprint</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#3d-print" class="page__taxonomy-item" rel="tag">3D Print</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#docker" class="page__taxonomy-item" rel="tag">Docker</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#octoprint" class="page__taxonomy-item" rel="tag">Octoprint</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#psu" class="page__taxonomy-item" rel="tag">PSU</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#maker" class="page__taxonomy-item" rel="tag">maker</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-09-29T02:30:00+09:00">September 29, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=DIY+3D+%ED%94%84%EB%A6%B0%ED%84%B0%EC%9A%A9+OctoPrint+PSU+%EC%A0%9C%EC%96%B4+%EC%B6%94%EA%B0%80+%28Docker+%EA%B8%B0%EB%B0%98%29%20https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-octoprint-psu-control-in-docker%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-octoprint-psu-control-in-docker%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-octoprint-psu-control-in-docker%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/maker/diy-3d-printer-octoprint-in-docker/" class="pagination--pager" title="DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker)
+">Previous</a>
+    
+    
+      <a href="/maker/mfs2019-well-finished/" class="pagination--pager" title="메이커페어서울2019 전시/세미나 완료 후기
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/music/homerecording-song-of-hope-cover/" rel="permalink">아버지 추모 영상 (BGM 희망가)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> February 07 2020</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">2019년 연말에 아버지가 별세하신 뒤 49재 막재에 맞춰 제작한 추모 영상
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/mfs2019-well-finished/" rel="permalink">메이커페어서울2019 전시/세미나 완료 후기
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> October 23 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">이번 메이커페어서울2019 전시/세미나 진행은 동시대에 벌어진 광장에 대한 고민으로
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/diy-3d-printer-octoprint-in-docker/" rel="permalink">DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> June 23 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">OctoPrint는 DIY 3D 프린터에 원격제어라는 날개를 달아준 너무나도 고마운 존재이다.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/diy-squirrel-led-thermometer-hygrometer/" rel="permalink">다람쥐 LED 온습도계 만들기
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> May 08 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">작년 중반 거실에 설치한 LED 습도계와 이후 연말에 추가했던 ㅋㅋ루돌프 캐릭터 크리스마스 LED 장식…
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Nani Shin. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90337089-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-90337089-1', { 'anonymize_ip': false});
+</script>
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://nanishin.github.io/maker/diy-3d-printer-octoprint-psu-control-in-docker/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/maker/diy-3d-printer-octoprint-psu-control-in-docker"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://nanishin.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

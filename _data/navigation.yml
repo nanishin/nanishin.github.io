@@ -1,0 +1,18 @@
+# main links
+main:
+  - title: "about"
+    url: "/about/"
+  - title: "music"
+    url: "/categories/music/"
+  - title: "maker"
+    url: "/categories/maker/"
+  - title: "tip"
+    url: "/categories/tip/"
+  #- title: "posts"
+  #  url: "/year-archive/"
+  #- title: "categories"
+  #  url: "/categories/"
+  #- title: "Sample Collections"
+  #   url: /collection-archive/
+  #- title: "sitemap"
+  #  url: "/sitemap/"
