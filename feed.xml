@@ -578,4 +578,25 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 &lt;img src=&quot;/assets/images/20181230_161655.png&quot; alt=&quot;비트가 원자로&quot; /&gt;
 &lt;img src=&quot;/assets/images/20181230_161729.png&quot; alt=&quot;비트가 원자로&quot; /&gt;
 &lt;img src=&quot;/assets/images/20181230_174810.png&quot; alt=&quot;비트가 원자로&quot; /&gt;
-&lt;img src=&quot;/assets/images/20190129_020208.png&quot; alt=&quot;비트가 원자로&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="Upcycling" /><category term="자석홀더" /><summary type="html">작년 말에 만들었던 걸 한달 지나서야 정리해서 Thingiverse에 업로드 완료</summary></entry></feed>
+&lt;img src=&quot;/assets/images/20190129_020208.png&quot; alt=&quot;비트가 원자로&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="Upcycling" /><category term="자석홀더" /><summary type="html">작년 말에 만들었던 걸 한달 지나서야 정리해서 Thingiverse에 업로드 완료</summary></entry><entry><title type="html">온수제어용 SIMENS SSK 21.1C 구동기 밸브 간단 수리</title><link href="https://nanishin.github.io/maker/diy-siemens-ssk21.c-valve-fix/" rel="alternate" type="text/html" title="온수제어용 SIMENS SSK 21.1C 구동기 밸브 간단 수리" /><published>2019-01-15T09:00:00+09:00</published><updated>2019-01-15T09:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-siemens-ssk21.c-valve-fix</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-siemens-ssk21.c-valve-fix/">&lt;p&gt;가족여행 다녀오니 안방 바닥 절반이 온도가 올라가지 않는 현상 발생…&lt;/p&gt;
+
+&lt;p&gt;그러나 피곤해서 일단 아이들 방에서 모두 취침…&lt;/p&gt;
+
+&lt;p&gt;다음날 일어나 평소 전기실 아저씨들의 방문수리 패턴을 복기해본 뒤 온수 밸브를 제어하는 구동기를 검색&lt;/p&gt;
+
+&lt;p&gt;SIMENS SSK 21.1C라는 모터 구동기가 밸브 핀을 밀거나(밸브닫힘) 놓는(밸브열림) 구조인데 10년 넘게 사용하면서&lt;/p&gt;
+
+&lt;p&gt;밸브핀이 들어간 상태에서 고정되는 상황으로 추정…&lt;/p&gt;
+
+&lt;p&gt;일단 구동기와 밸브 간 나사 풀어서 분리 후 핀 길이 차이를 육안으로 확인&lt;/p&gt;
+
+&lt;p&gt;핀 들어가서 고정된 밸브쪽을 롱노즈로 잡아 빼고 WD40 뿌려서 핀동작 반복 확인 뒤 다시 구동기 연결&lt;/p&gt;
+
+&lt;p&gt;이후 안방 바닥 절반도 정상적으로 온도가 올라가서 문제 해결&lt;/p&gt;
+
+&lt;p&gt;메이커가 되면서 점점 구조가 간단한 경우 자가수리에 도전 중 ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20190115_075652.png&quot; alt=&quot;방별 밸브 동작 상태&quot; /&gt;
+&lt;img src=&quot;/assets/images/20190115_080429.png&quot; alt=&quot;방별 밸브 동작 상태&quot; /&gt;
+&lt;img src=&quot;/assets/images/20190115_081545.png&quot; alt=&quot;방별 밸브 동작 상태&quot; /&gt;
+&lt;img src=&quot;/assets/images/20190115_083931.png&quot; alt=&quot;방별 밸브 동작 상태&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="온수제어" /><category term="지멘스" /><category term="구동기 벨브" /><summary type="html">가족여행 다녀오니 안방 바닥 절반이 온도가 올라가지 않는 현상 발생…</summary></entry></feed>
