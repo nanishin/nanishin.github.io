@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2020-03-07T02:32:54+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">아버지 추모 영상 (BGM 희망가)</title><link href="https://nanishin.github.io/music/homerecording-song-of-hope-cover/" rel="alternate" type="text/html" title="아버지 추모 영상 (BGM 희망가)" /><published>2020-02-07T22:30:00+09:00</published><updated>2020-02-07T22:30:00+09:00</updated><id>https://nanishin.github.io/music/homerecording-song-of-hope-cover</id><content type="html" xml:base="https://nanishin.github.io/music/homerecording-song-of-hope-cover/">&lt;p&gt;2019년 연말에 아버지가 별세하신 뒤 49재 막재에 맞춰 제작한 추모 영상&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2020-03-08T13:59:18+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">네스프레소 에어로치노3 수리 실패기</title><link href="https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/" rel="alternate" type="text/html" title="네스프레소 에어로치노3 수리 실패기" /><published>2020-03-05T22:00:00+09:00</published><updated>2020-03-05T22:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/">&lt;p&gt;2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;amp;밀크…&lt;/p&gt;
+
+&lt;p&gt;작년 말부터 따뜻한 우유 뎁히기가 동작하지 않아서 이리저리 구글링을&lt;/p&gt;
+
+&lt;p&gt;해보니 아래 2가지 수리 시도가 가능함을 확인&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;전열판을 동작시키는 릴레이 스위치 모듈 교체&lt;/li&gt;
+  &lt;li&gt;휘스크를 돌려주는 모터가 동작 안하는 경우 +/- 전선 변경&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;1-일단-분해&quot;&gt;1. 일단 분해&lt;/h2&gt;
+
+&lt;p&gt;에어로치노3의 나사가 특이해서 집에 있는 공구들을 다 동원해서 나사 풀기!!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_192608.jpg&quot; alt=&quot;Use hexagon wrench&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_192619.jpg&quot; alt=&quot;hexagon wrench size&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_195013.jpg&quot; alt=&quot;star driver size&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_200809.jpg&quot; alt=&quot;minus driver size&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_201106.jpg&quot; alt=&quot;Remove screw&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202235.jpg&quot; alt=&quot;internal circuit&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202247.jpg&quot; alt=&quot;internal circuit close up&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202300.jpg&quot; alt=&quot;power female connector&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202322.jpg&quot; alt=&quot;power male connector&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202615.jpg&quot; alt=&quot;motor plus wire&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202621.jpg&quot; alt=&quot;motor plus wire close up&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202642.jpg&quot; alt=&quot;internal circuit right side&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202650.jpg&quot; alt=&quot;internal circuit left side&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202932.jpg&quot; alt=&quot;button front&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202935.jpg&quot; alt=&quot;button side&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_202946.jpg&quot; alt=&quot;button hole&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_204802.jpg&quot; alt=&quot;heating board&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_204929.jpg&quot; alt=&quot;motor with magnet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_212720.jpg&quot; alt=&quot;board connectors&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191110_213117.jpg&quot; alt=&quot;board connected&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-릴레이-스위치-모듈-교체-시도&quot;&gt;2. 릴레이 스위치 모듈 교체 시도&lt;/h2&gt;
+
+&lt;p&gt;알리익스프레스에서 동일한 릴레이 스위치 모듈을 주문해서 한달 뒤&lt;/p&gt;
+
+&lt;p&gt;받은 뒤 교체 작업 진행&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191226_165749.jpg&quot; alt=&quot;Remove relay switch back&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191226_181129.jpg&quot; alt=&quot;Remove relay switch front&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191226_194655.jpg&quot; alt=&quot;Soldered relay switch back&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20191226_194702.jpg&quot; alt=&quot;Soldered relay switch front&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-모터---전선-변경-시도&quot;&gt;3. 모터 +/- 전선 변경 시도&lt;/h2&gt;
+
+&lt;p&gt;휘스크 없이 하면 전열판이 동작하는데 휘스크 연결하면 잠깐 돌다&lt;/p&gt;
+
+&lt;p&gt;멈추는 현상에 전선 바꾸기와 회전부에 윤활유 추가 작업 진행&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200303_222952.jpg&quot; alt=&quot;Check motor wire&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200303_223320.jpg&quot; alt=&quot;Detach motor wire&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200303_223451.jpg&quot; alt=&quot;Attach motor wire&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200303_223628.jpg&quot; alt=&quot;Connect motor wire&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200304_002936.jpg&quot; alt=&quot;Check motor rotation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200304_002944.jpg&quot; alt=&quot;Use WD-40&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-모든-시도의-실패-후-결국&quot;&gt;4. 모든 시도의 실패 후 결국…&lt;/h2&gt;
+
+&lt;p&gt;고치는 건 아쉽게도 실패했지만 모든 수리 시도는 해봤으니..여한(?)은 없었다.&lt;/p&gt;
+
+&lt;p&gt;결국 네스프레소클럽에 전화해서 맞교환 보상판매로 6만원에 에어로치노3 재구입으로 일단락… -ㅠ-&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_085807.jpg&quot; alt=&quot;Check aeroccino3 spec&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_204215.jpg&quot; alt=&quot;New aeroccino3 label&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_204219.jpg&quot; alt=&quot;New aeroccino3 label2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_204225.jpg&quot; alt=&quot;New aeroccino3 label2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_204610.jpg&quot; alt=&quot;Check new aeroccino3 spec&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_204625.jpg&quot; alt=&quot;Check new aeroccino3 shape&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_204637.jpg&quot; alt=&quot;Check new whisk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_204933.jpg&quot; alt=&quot;Check new one whisk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_205034.jpg&quot; alt=&quot;Attach new one whisk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_205546.jpg&quot; alt=&quot;Check with real milk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_205632.jpg&quot; alt=&quot;Check with real milk2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_205648.jpg&quot; alt=&quot;Check with real milk3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_205758.jpg&quot; alt=&quot;Check with real milk4&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="Nespresso" /><category term="Aeroccino3" /><category term="Fail to repair" /><category term="네스프레소" /><category term="에어로치노3" /><category term="자가수리" /><category term="실패기" /><summary type="html">2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;amp;밀크…</summary></entry><entry><title type="html">아버지 추모 영상 (BGM 희망가)</title><link href="https://nanishin.github.io/music/homerecording-song-of-hope-cover/" rel="alternate" type="text/html" title="아버지 추모 영상 (BGM 희망가)" /><published>2020-02-07T22:30:00+09:00</published><updated>2020-02-07T22:30:00+09:00</updated><id>https://nanishin.github.io/music/homerecording-song-of-hope-cover</id><content type="html" xml:base="https://nanishin.github.io/music/homerecording-song-of-hope-cover/">&lt;p&gt;2019년 연말에 아버지가 별세하신 뒤 49재 막재에 맞춰 제작한 추모 영상&lt;/p&gt;
 
 &lt;p&gt;나니신 : 기타 반주 및 보컬&lt;/p&gt;
 
@@ -461,25 +578,4 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 &lt;img src=&quot;/assets/images/20181230_161655.png&quot; alt=&quot;비트가 원자로&quot; /&gt;
 &lt;img src=&quot;/assets/images/20181230_161729.png&quot; alt=&quot;비트가 원자로&quot; /&gt;
 &lt;img src=&quot;/assets/images/20181230_174810.png&quot; alt=&quot;비트가 원자로&quot; /&gt;
-&lt;img src=&quot;/assets/images/20190129_020208.png&quot; alt=&quot;비트가 원자로&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="Upcycling" /><category term="자석홀더" /><summary type="html">작년 말에 만들었던 걸 한달 지나서야 정리해서 Thingiverse에 업로드 완료</summary></entry><entry><title type="html">온수제어용 SIMENS SSK 21.1C 구동기 밸브 간단 수리</title><link href="https://nanishin.github.io/maker/diy-siemens-ssk21.c-valve-fix/" rel="alternate" type="text/html" title="온수제어용 SIMENS SSK 21.1C 구동기 밸브 간단 수리" /><published>2019-01-15T09:00:00+09:00</published><updated>2019-01-15T09:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-siemens-ssk21.c-valve-fix</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-siemens-ssk21.c-valve-fix/">&lt;p&gt;가족여행 다녀오니 안방 바닥 절반이 온도가 올라가지 않는 현상 발생…&lt;/p&gt;
-
-&lt;p&gt;그러나 피곤해서 일단 아이들 방에서 모두 취침…&lt;/p&gt;
-
-&lt;p&gt;다음날 일어나 평소 전기실 아저씨들의 방문수리 패턴을 복기해본 뒤 온수 밸브를 제어하는 구동기를 검색&lt;/p&gt;
-
-&lt;p&gt;SIMENS SSK 21.1C라는 모터 구동기가 밸브 핀을 밀거나(밸브닫힘) 놓는(밸브열림) 구조인데 10년 넘게 사용하면서&lt;/p&gt;
-
-&lt;p&gt;밸브핀이 들어간 상태에서 고정되는 상황으로 추정…&lt;/p&gt;
-
-&lt;p&gt;일단 구동기와 밸브 간 나사 풀어서 분리 후 핀 길이 차이를 육안으로 확인&lt;/p&gt;
-
-&lt;p&gt;핀 들어가서 고정된 밸브쪽을 롱노즈로 잡아 빼고 WD40 뿌려서 핀동작 반복 확인 뒤 다시 구동기 연결&lt;/p&gt;
-
-&lt;p&gt;이후 안방 바닥 절반도 정상적으로 온도가 올라가서 문제 해결&lt;/p&gt;
-
-&lt;p&gt;메이커가 되면서 점점 구조가 간단한 경우 자가수리에 도전 중 ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20190115_075652.png&quot; alt=&quot;방별 밸브 동작 상태&quot; /&gt;
-&lt;img src=&quot;/assets/images/20190115_080429.png&quot; alt=&quot;방별 밸브 동작 상태&quot; /&gt;
-&lt;img src=&quot;/assets/images/20190115_081545.png&quot; alt=&quot;방별 밸브 동작 상태&quot; /&gt;
-&lt;img src=&quot;/assets/images/20190115_083931.png&quot; alt=&quot;방별 밸브 동작 상태&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="온수제어" /><category term="지멘스" /><category term="구동기 벨브" /><summary type="html">가족여행 다녀오니 안방 바닥 절반이 온도가 올라가지 않는 현상 발생…</summary></entry></feed>
+&lt;img src=&quot;/assets/images/20190129_020208.png&quot; alt=&quot;비트가 원자로&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="Upcycling" /><category term="자석홀더" /><summary type="html">작년 말에 만들었던 걸 한달 지나서야 정리해서 Thingiverse에 업로드 완료</summary></entry></feed>
