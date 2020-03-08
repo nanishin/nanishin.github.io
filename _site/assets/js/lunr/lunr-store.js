@@ -308,4 +308,9 @@ var store = [{
         "excerpt":"2019년 연말에 아버지가 별세하신 뒤 49재 막재에 맞춰 제작한 추모 영상   나니신 : 기타 반주 및 보컬     ","categories": ["music"],
         "tags": ["추모","희망가"],
         "url": "https://nanishin.github.io/music/homerecording-song-of-hope-cover/",
-        "teaser":"https://nanishin.github.io/assets/images/nanishin.png"}]
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.png"},{
+        "title": "네스프레소 에어로치노3 수리 실패기",
+        "excerpt":"2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;밀크… 작년 말부터 따뜻한 우유 뎁히기가 동작하지 않아서 이리저리 구글링을 해보니 아래 2가지 수리 시도가 가능함을 확인 전열판을 동작시키는 릴레이 스위치 모듈 교체 휘스크를 돌려주는 모터가 동작 안하는 경우 +/- 전선 변경 1. 일단 분해 에어로치노3의 나사가 특이해서 집에 있는 공구들을 다...","categories": ["maker"],
+        "tags": ["Nespresso","Aeroccino3","Fail to repair","네스프레소","에어로치노3","자가수리","실패기"],
+        "url": "https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"}]

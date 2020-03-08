@@ -20,7 +20,7 @@ title                    : "申Nani?"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Nani Shin"
-description              : "Daddy of two daughters, Maker with upcycling, Let's live a spiritual enlightenment"
+description              : "Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment"
 url                      : "https://nanishin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Nani Shin"
   avatar           : "/assets/images/nanishin.png"
-  bio              : "Daddy of two daughters, Maker with upcycling, Let's live a spiritual enlightenment"
+  bio              : "Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment"
   location         : "South Korea"
   email            :
   links:
