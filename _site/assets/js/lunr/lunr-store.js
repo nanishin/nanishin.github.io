@@ -311,7 +311,7 @@ var store = [{
         "teaser":"https://nanishin.github.io/assets/images/nanishin.png"},{
         "title": "Jenkins Docker-in-Docker 환경 사용하기",
         "excerpt":"정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다… Jenkins 역시 jenkins docker base를 활용하면 Job 백업/복원이 수월하면서 docker-in-docker까지 가능하기에 docker client 관련 패키지들까지 포함된 이미지 만든 뒤 docker hub에 push까지 완료!!! Jenkins Job에서 Docker 지원용 Dockerfile 구성 Reference blog of nestybox FROM jenkins/jenkins # Docker install USER root RUN apt-get...","categories": ["tip"],
-        "tags": ["Jenkins","Docker-in-Docker"],
+        "tags": ["Jenkins","Docker-in-Docker","젠킨스","도커"],
         "url": "https://nanishin.github.io/tip/howto-use-docker-jenkins/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.png"},{
         "title": "네스프레소 에어로치노3 수리 실패기",
