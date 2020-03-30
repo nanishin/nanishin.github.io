@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>라이브 공연 (김광석 - 바람이 불어오는 곳, 이선희 - 그중에 그대를 만나) - 申Nani?</title>
-<meta name="description" content="라이브공연 기록 #? - 김광석 : 바람이 불어오는 곳, 이선희 : 그중에 그대를 만나 ">
+<!-- begin _includes/seo.html --><title>Jenkins Docker-in-Docker 환경 사용하기 - 申Nani?</title>
+<meta name="description" content="정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다… ">
 
 
   <meta name="author" content="Nani Shin">
@@ -19,11 +19,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="申Nani?">
-<meta property="og:title" content="라이브 공연 (김광석 - 바람이 불어오는 곳, 이선희 - 그중에 그대를 만나)">
-<meta property="og:url" content="https://nanishin.github.io/music/performance-where-the-wind-blows-and-meet-him-among-them-cover/">
+<meta property="og:title" content="Jenkins Docker-in-Docker 환경 사용하기">
+<meta property="og:url" content="https://nanishin.github.io/tip/howto-use-docker-jenkins/">
 
 
-  <meta property="og:description" content="라이브공연 기록 #? - 김광석 : 바람이 불어오는 곳, 이선희 : 그중에 그대를 만나 ">
+  <meta property="og:description" content="정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다… ">
 
 
 
@@ -33,7 +33,7 @@
 
 
 
-  <meta property="article:published_time" content="2015-07-04T23:30:00+09:00">
+  <meta property="article:published_time" content="2020-03-03T15:30:00+09:00">
 
 
 
@@ -44,7 +44,7 @@
   
 
 
-<link rel="canonical" href="https://nanishin.github.io/music/performance-where-the-wind-blows-and-meet-him-among-them-cover/">
+<link rel="canonical" href="https://nanishin.github.io/tip/howto-use-docker-jenkins/">
 
 
 
@@ -283,15 +283,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="라이브 공연 (김광석 - 바람이 불어오는 곳, 이선희 - 그중에 그대를 만나)">
-    <meta itemprop="description" content="라이브공연 기록 #? - 김광석 : 바람이 불어오는 곳, 이선희 : 그중에 그대를 만나">
-    <meta itemprop="datePublished" content="2015-07-04T23:30:00+09:00">
+    <meta itemprop="headline" content="Jenkins Docker-in-Docker 환경 사용하기">
+    <meta itemprop="description" content="정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다…">
+    <meta itemprop="datePublished" content="2020-03-03T15:30:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">라이브 공연 (김광석 - 바람이 불어오는 곳, 이선희 - 그중에 그대를 만나)
+          <h1 id="page-title" class="page__title" itemprop="headline">Jenkins Docker-in-Docker 환경 사용하기
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -311,7 +311,11 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              
+              <ul class="toc__menu">
+  <li><a href="#jenkins-job에서-docker-지원용-dockerfile-구성">Jenkins Job에서 Docker 지원용 Dockerfile 구성</a></li>
+  <li><a href="#jenkins-job-백업-및-docker-in-docker-지원-컨테이너-실행">Jenkins Job 백업 및 docker-in-docker 지원 컨테이너 실행</a></li>
+  <li><a href="#docker-hub에-push한-jenkins-docker-경로">Docker Hub에 push한 jenkins-docker 경로</a></li>
+</ul>
 
             </nav>
             <nav class="toc-custom">
@@ -328,13 +332,52 @@
             </nav>
           </aside>
         
-        <p>라이브공연 기록 #? - 김광석 : 바람이 불어오는 곳, 이선희 : 그중에 그대를 만나</p>
+        <p>정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다…</p>
 
-<p>플룻동호회 찬조 공연</p>
+<p>Jenkins 역시 jenkins docker base를 활용하면 Job 백업/복원이 수월하면서</p>
 
-<p>기타&amp;보컬</p>
+<p>docker-in-docker까지 가능하기에 docker client 관련 패키지들까지 포함된</p>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aJFEB24GuK4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<p>이미지 만든 뒤 docker hub에 push까지 완료!!!</p>
+
+<h2 id="jenkins-job에서-docker-지원용-dockerfile-구성">Jenkins Job에서 Docker 지원용 Dockerfile 구성</h2>
+
+<ul>
+  <li><a href="https://blog.nestybox.com/2019/09/29/jenkins.html">Reference blog of nestybox</a></li>
+</ul>
+
+<div class="language-docker highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> jenkins/jenkins</span>
+
+<span class="c"># Docker install</span>
+<span class="k">USER</span><span class="s"> root</span>
+<span class="k">RUN </span>apt-get update <span class="o">&amp;&amp;</span> apt-get <span class="nb">install</span> <span class="nt">-y</span> <span class="se">\
+</span>       apt-transport-https <span class="se">\
+</span>       ca-certificates <span class="se">\
+</span>       curl <span class="se">\
+</span>       gnupg2 <span class="se">\
+</span>       software-properties-common
+<span class="k">RUN </span>curl <span class="nt">-fsSL</span> https://download.docker.com/linux/debian/gpg | apt-key add -
+<span class="k">RUN </span>apt-key fingerprint 0EBFCD88
+<span class="k">RUN </span>add-apt-repository <span class="se">\
+</span>       <span class="s2">"deb [arch=amd64] https://download.docker.com/linux/debian </span><span class="se">\
+</span><span class="s2">       </span><span class="si">$(</span>lsb_release <span class="nt">-cs</span><span class="si">)</span><span class="s2"> </span><span class="se">\
+</span><span class="s2">       stable"</span>
+<span class="k">RUN </span>apt-get update <span class="o">&amp;&amp;</span> apt-get <span class="nb">install</span> <span class="nt">-y</span> docker-ce-cli
+
+<span class="k">USER</span><span class="s"> jenkins</span>
+</code></pre></div></div>
+
+<h2 id="jenkins-job-백업-및-docker-in-docker-지원-컨테이너-실행">Jenkins Job 백업 및 docker-in-docker 지원 컨테이너 실행</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">mkdir</span> ~/jenkins_home
+<span class="nv">$ </span>docker run <span class="nt">--rm</span> <span class="nt">-d</span> <span class="nt">--group-add</span> <span class="si">$(</span><span class="nb">stat</span> <span class="nt">-c</span> <span class="s1">'%g'</span> /var/run/docker.sock<span class="si">)</span> <span class="nt">-p</span> 8080:8080 <span class="nt">-p</span> 50000:50000 <span class="nt">-v</span> ~/jenkins_home:/var/jenkins_home <span class="nt">-v</span> /var/run/docker.sock:/var/run/docker.sock <span class="nt">-P</span> nanishin/jenkins-docker
+</code></pre></div></div>
+
+<h2 id="docker-hub에-push한-jenkins-docker-경로">Docker Hub에 push한 jenkins-docker 경로</h2>
+
+<ul>
+  <li><a href="https://hub.docker.com/r/nanishin/jenkins-docker">nanishin/jenkins-docker</a></li>
+</ul>
 
         
       </section>
@@ -355,19 +398,11 @@
     
       
       
-      <a href="/tags/#%EA%B7%B8%EC%A4%91%EC%97%90-%EA%B7%B8%EB%8C%80%EB%A5%BC-%EB%A7%8C%EB%82%98" class="page__taxonomy-item" rel="tag">그중에 그대를 만나</a><span class="sep">, </span>
+      <a href="/tags/#docker-in-docker" class="page__taxonomy-item" rel="tag">Docker-in-Docker</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#%EA%B9%80%EA%B4%91%EC%84%9D" class="page__taxonomy-item" rel="tag">김광석</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#%EB%B0%94%EB%9E%8C%EC%9D%B4-%EB%B6%88%EC%96%B4%EC%98%A4%EB%8A%94-%EA%B3%B3" class="page__taxonomy-item" rel="tag">바람이 불어오는 곳</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#%EC%9D%B4%EC%84%A0%ED%9D%AC" class="page__taxonomy-item" rel="tag">이선희</a>
+      <a href="/tags/#jenkins" class="page__taxonomy-item" rel="tag">Jenkins</a>
     
     </span>
   </p>
@@ -388,14 +423,14 @@
     
       
       
-      <a href="/categories/#music" class="page__taxonomy-item" rel="tag">music</a>
+      <a href="/categories/#tip" class="page__taxonomy-item" rel="tag">tip</a>
     
     </span>
   </p>
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2015-07-04T23:30:00+09:00">July 4, 2015</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-03-03T15:30:00+09:00">March 3, 2020</time></p>
         
       </footer>
 
@@ -404,22 +439,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=%EB%9D%BC%EC%9D%B4%EB%B8%8C+%EA%B3%B5%EC%97%B0+%28%EA%B9%80%EA%B4%91%EC%84%9D+-+%EB%B0%94%EB%9E%8C%EC%9D%B4+%EB%B6%88%EC%96%B4%EC%98%A4%EB%8A%94+%EA%B3%B3%2C+%EC%9D%B4%EC%84%A0%ED%9D%AC+-+%EA%B7%B8%EC%A4%91%EC%97%90+%EA%B7%B8%EB%8C%80%EB%A5%BC+%EB%A7%8C%EB%82%98%29%20https%3A%2F%2Fnanishin.github.io%2Fmusic%2Fperformance-where-the-wind-blows-and-meet-him-among-them-cover%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Jenkins+Docker-in-Docker+%ED%99%98%EA%B2%BD+%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0%20https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-use-docker-jenkins%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Fmusic%2Fperformance-where-the-wind-blows-and-meet-him-among-them-cover%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-use-docker-jenkins%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Fmusic%2Fperformance-where-the-wind-blows-and-meet-him-among-them-cover%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-use-docker-jenkins%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/music/homerecording-where-the-wind-blows-cover/" class="pagination--pager" title="바람이 불어오는 곳 (김광석 Live Cover)
+      <a href="/music/homerecording-song-of-hope-cover/" class="pagination--pager" title="아버지 추모 영상 (BGM 희망가)
 ">Previous</a>
     
     
-      <a href="/music/homerecording-do-not-think-too-deeply-cover/" class="pagination--pager" title="너무 깊이 생각하지마 (김광석 Cover)
+      <a href="/maker/diy-failed-to-repair-nespresso-aeroccino3/" class="pagination--pager" title="네스프레소 에어로치노3 수리 실패기
 ">Next</a>
     
   </nav>
@@ -479,46 +514,6 @@
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;밀크…
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/nanishin.png"
-          
-          alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/tip/howto-use-docker-jenkins/" rel="permalink">Jenkins Docker-in-Docker 환경 사용하기
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> March 03 2020</p>
-    
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다…
 </p>
   </article>
 </div>
@@ -604,6 +599,46 @@
 </div>
 
         
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/diy-3d-printer-octoprint-psu-control-in-docker/" rel="permalink">DIY 3D 프린터용 OctoPrint PSU 제어 추가 (Docker 기반)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 29 2019</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">귀차니즘은 결국 임계치가 있다. 왠만하면 3D 프린터 사용 후 전원을 끄기 위해 PSU 코드를 뺐는데
+</p>
+  </article>
+</div>
+
+        
       </div>
     </div>
   
@@ -678,8 +713,8 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "https://nanishin.github.io/music/performance-where-the-wind-blows-and-meet-him-among-them-cover/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/music/performance-where-the-wind-blows-and-meet-him-among-them-cover"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "https://nanishin.github.io/tip/howto-use-docker-jenkins/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tip/howto-use-docker-jenkins"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');
