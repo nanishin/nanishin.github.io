@@ -309,6 +309,11 @@ var store = [{
         "tags": ["추모","희망가"],
         "url": "https://nanishin.github.io/music/homerecording-song-of-hope-cover/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.png"},{
+        "title": "Jenkins Docker-in-Docker 환경 사용하기",
+        "excerpt":"정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다… Jenkins 역시 jenkins docker base를 활용하면 Job 백업/복원이 수월하면서 docker-in-docker까지 가능하기에 docker client 관련 패키지들까지 포함된 이미지 만든 뒤 docker hub에 push까지 완료!!! Jenkins Job에서 Docker 지원용 Dockerfile 구성 Reference blog of nestybox FROM jenkins/jenkins # Docker install USER root RUN apt-get...","categories": ["tip"],
+        "tags": ["Jenkins","Docker-in-Docker"],
+        "url": "https://nanishin.github.io/tip/howto-use-docker-jenkins/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.png"},{
         "title": "네스프레소 에어로치노3 수리 실패기",
         "excerpt":"2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;밀크… 작년 말부터 따뜻한 우유 뎁히기가 동작하지 않아서 이리저리 구글링을 해보니 아래 2가지 수리 시도가 가능함을 확인 전열판을 동작시키는 릴레이 스위치 모듈 교체 휘스크를 돌려주는 모터가 동작 안하는 경우 +/- 전선 변경 1. 일단 분해 에어로치노3의 나사가 특이해서 집에 있는 공구들을 다...","categories": ["maker"],
         "tags": ["Nespresso","Aeroccino3","Fail to repair","네스프레소","에어로치노3","자가수리","실패기"],
