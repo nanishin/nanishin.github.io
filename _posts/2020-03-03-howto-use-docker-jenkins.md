@@ -12,6 +12,8 @@ categories:
 tags:
   - Jenkins
   - Docker-in-Docker
+  - 젠킨스
+  - 도커
 ---
 정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다...
 
