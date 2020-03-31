@@ -6,7 +6,7 @@ excert : "수리 시도는 다 해봤기에 여한은 없는 걸로..."
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.jpg
+  teaser: /assets/images/nanishin.png
 date:   2020-03-05 22:00:00 +0900
 categories:
   - maker
