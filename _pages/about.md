@@ -2,6 +2,8 @@
 layout: single
 title: about
 permalink: /about/
+toc_sticky: true
+toc_ads : true
 ---
 
 #### 안녕하세요. 나니신입니다. 아래 사명서를 가슴에 품고 세상을 살아가고 있습니다.
