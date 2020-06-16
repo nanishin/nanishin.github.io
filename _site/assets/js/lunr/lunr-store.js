@@ -318,4 +318,9 @@ var store = [{
         "excerpt":"2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;밀크… 작년 말부터 따뜻한 우유 뎁히기가 동작하지 않아서 이리저리 구글링을 해보니 아래 2가지 수리 시도가 가능함을 확인 전열판을 동작시키는 릴레이 스위치 모듈 교체 휘스크를 돌려주는 모터가 동작 안하는 경우 +/- 전선 변경 1. 일단 분해 에어로치노3의 나사가 특이해서 집에 있는 공구들을 다...","categories": ["maker"],
         "tags": ["Nespresso","Aeroccino3","Fail to repair","네스프레소","에어로치노3","자가수리","실패기"],
         "url": "https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.png"},{
+        "title": "MacBook Pro 2015 Early 스피커 교체",
+        "excerpt":"2015년 하반기 쓸개와는 이별했지만 그대신 내품으로 들어와 모든 취미활동의 구심점이 되어준 MacBook Pro 2015 Early… 작년 하반기부터 스피커 소리가 조금씩 찢어지더니 더이상 듣기가 힘들어져서 알리에서 주문한 맥북 수리세트와 오리지널(?) 대체 스피커로 교체 진행!!! 1. 맥북 수리 세트 원조는 DIY 수리 문화 전파자인 북미 iFixIt 세트지만 저렴한 유사품 DiyFix 사용 2....","categories": ["maker"],
+        "tags": ["macbook pro 2015 early","speaker replacement","맥북프로 2015 얼리","스피커 교체","자가수리"],
+        "url": "https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.png"}]
