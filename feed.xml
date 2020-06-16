@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2020-03-31T23:10:13+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">네스프레소 에어로치노3 수리 실패기</title><link href="https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/" rel="alternate" type="text/html" title="네스프레소 에어로치노3 수리 실패기" /><published>2020-03-05T22:00:00+09:00</published><updated>2020-03-05T22:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/">&lt;p&gt;2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;amp;밀크…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2020-06-17T03:29:25+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">MacBook Pro 2015 Early 스피커 교체</title><link href="https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement/" rel="alternate" type="text/html" title="MacBook Pro 2015 Early 스피커 교체" /><published>2020-06-17T03:20:00+09:00</published><updated>2020-06-17T03:20:00+09:00</updated><id>https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement/">&lt;p&gt;2015년 하반기 쓸개와는 이별했지만 그대신 내품으로 들어와 모든 취미활동의&lt;/p&gt;
+
+&lt;p&gt;구심점이 되어준 MacBook Pro 2015 Early…&lt;/p&gt;
+
+&lt;p&gt;작년 하반기부터 스피커 소리가 조금씩 찢어지더니 더이상 듣기가 힘들어져서&lt;/p&gt;
+
+&lt;p&gt;알리에서 주문한 맥북 수리세트와 오리지널(?) 대체 스피커로 교체 진행!!!&lt;/p&gt;
+
+&lt;h2 id=&quot;1-맥북-수리-세트&quot;&gt;1. 맥북 수리 세트&lt;/h2&gt;
+
+&lt;p&gt;원조는 DIY 수리 문화 전파자인 북미 iFixIt 세트지만 저렴한 유사품 DiyFix 사용&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200616_235424.png&quot; alt=&quot;1.2mm P5 Pentalobe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200616_235434.png&quot; alt=&quot;T5 Torx&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200616_235450.png&quot; alt=&quot;plastic spudger&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-뒷판-분리&quot;&gt;2. 뒷판 분리&lt;/h2&gt;
+
+&lt;p&gt;뒷판 나사 제거 후 내부 보드 레이아웃 상태 확인&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200616_235947.png&quot; alt=&quot;Remove screw&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_000157.png&quot; alt=&quot;lower case&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_000318.png&quot; alt=&quot;internal board&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-배터리-전원-분리&quot;&gt;3. 배터리 전원 분리&lt;/h2&gt;
+
+&lt;p&gt;작업 중 보드에 전기 데미지를 주지 않기 위해 배터리 커넥터 분리&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_000454.png&quot; alt=&quot;power guard sticker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_000720.png&quot; alt=&quot;detach battery connector&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-오른쪽-스피커-교체&quot;&gt;4. 오른쪽 스피커 교체&lt;/h2&gt;
+
+&lt;p&gt;위에 가려진 커넥터들을 우선 분리한 뒤 오른쪽 스피커 커넥터 및 나사 분리&lt;/p&gt;
+
+&lt;p&gt;그리고 새 오른쪽 스피커로 교체&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_000817.png&quot; alt=&quot;right speaker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_000823.png&quot; alt=&quot;remove connector guard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_000950.png&quot; alt=&quot;upper connector&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_001057.png&quot; alt=&quot;detach upper connector&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_001308.png&quot; alt=&quot;detach right speaker connector&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_001839.png&quot; alt=&quot;replace with new right speaker&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5-왼쪽-스피커-교체&quot;&gt;5. 왼쪽 스피커 교체&lt;/h2&gt;
+
+&lt;p&gt;위에 가려진 커넥터가 없기에 바로 왼쪽 스피커 커넥터 및 나사 분리&lt;/p&gt;
+
+&lt;p&gt;그리고 새 왼쪽 스피커로 교체&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_000810.png&quot; alt=&quot;left speaker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_002435.png&quot; alt=&quot;detach left speaker connector&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_002745.png&quot; alt=&quot;replace with new left speaker&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;6-재조립-그리고-뿌듯함&quot;&gt;6. 재조립 그리고 뿌듯함&lt;/h2&gt;
+
+&lt;p&gt;배터리 전원 재연결 및 가드스티커 붙여주고 뒷판 중간가드 맞춰서 닫고 재조립&lt;/p&gt;
+
+&lt;p&gt;다시금 깨끗해진 소리에 대만족!!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_003136.png&quot; alt=&quot;attach battery connector&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_003300.png&quot; alt=&quot;attach guard sticker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_003342.png&quot; alt=&quot;middle male guard connector&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200617_003352.png&quot; alt=&quot;middle female guard connector&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="macbook pro 2015 early" /><category term="speaker replacement" /><category term="맥북프로 2015 얼리" /><category term="스피커 교체" /><category term="자가수리" /><summary type="html">2015년 하반기 쓸개와는 이별했지만 그대신 내품으로 들어와 모든 취미활동의</summary></entry><entry><title type="html">네스프레소 에어로치노3 수리 실패기</title><link href="https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/" rel="alternate" type="text/html" title="네스프레소 에어로치노3 수리 실패기" /><published>2020-03-05T22:00:00+09:00</published><updated>2020-03-05T22:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/">&lt;p&gt;2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;amp;밀크…&lt;/p&gt;
 
 &lt;p&gt;작년 말부터 따뜻한 우유 뎁히기가 동작하지 않아서 이리저리 구글링을&lt;/p&gt;
 
@@ -576,24 +654,4 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 
 &lt;h1 id=&quot;g29-g-code-명령어-적용&quot;&gt;G29 G-Code 명령어 적용&lt;/h1&gt;
 &lt;p&gt;항상 프린팅 시작하기 전에 오토베드레벨링을 수행하기 위해 G28 X/Y/X 축 초기화 명령 후 적용
-&lt;img src=&quot;/assets/images/g29_gcode_auto_level.png&quot; alt=&quot;G29 G-Code&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="3D 프린터" /><category term="오토베드레벨링" /><summary type="html">ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…</summary></entry><entry><title type="html">Docker 사용 중 발생한 Windows10 크래시 해결 방법</title><link href="https://nanishin.github.io/tip/howto-fix-windows10-crash-when-docker-is-used/" rel="alternate" type="text/html" title="Docker 사용 중 발생한 Windows10 크래시 해결 방법" /><published>2019-03-02T03:00:00+09:00</published><updated>2019-03-02T03:00:00+09:00</updated><id>https://nanishin.github.io/tip/howto-fix-windows10-crash-when-docker-is-used</id><content type="html" xml:base="https://nanishin.github.io/tip/howto-fix-windows10-crash-when-docker-is-used/">&lt;p&gt;다시 Docker 기반 환경에서 적극적으로 개발해야 하는 상황이라 Windows10의 Hyper-V를&lt;/p&gt;
-
-&lt;p&gt;활성화하고 Base Container Image 빌드를 진행하던 중 계속 BSOD(Blue Screen Of Death) 발생&lt;/p&gt;
-
-&lt;p&gt;KERNEL_SECURITY_CHECK_FAILURE&lt;/p&gt;
-
-&lt;p&gt;DRIVER_IRQ_NOT_LESS_OR_EQUAL&lt;/p&gt;
-
-&lt;p&gt;여러 삽질을 거치다 아래 설정으로 어느정도 안정되어 아래 순서로 정리&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://support.microsoft.com/ko-kr/help/4028685/windows-10-get-the-update&quot;&gt;Windows10 1809 버전으로 업데이트&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://social.technet.microsoft.com/Forums/en-US/ee5b1d6b-09e2-49f3-a52c-820aafc316f9/hyperv-doesnt-work-after-upgrade-to-windows-10-1809?forum=win10itprovirt&quot;&gt;vmcompute.exe와 vmwp.exe에 대한 CFG(Code Flow Guard) 정책 적용 해제&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;기존 설치된 Docker Desktop Uninstall&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://success.docker.com/article/how-to-completely-remove-docker-in-windows-10&quot;&gt;Clean Remove Docker using Powershell Script&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;regedit 실행해서 Registry에서 docker 이름으로 검색되는 항목들 모두 수동 제거&lt;/li&gt;
-  &lt;li&gt;Windows 기능 켜기 / 끄기 메뉴에서 Hyper-V 체크해제 후 재시작&lt;/li&gt;
-  &lt;li&gt;Docker Hub에서 Docker Desktop Edge 버전 다운로드 후 설치&lt;/li&gt;
-  &lt;li&gt;Windows 기능 켜기 / 끄기 메뉴에서 Hyper-V 체크 후 재시작&lt;/li&gt;
-  &lt;li&gt;Docker 트레이 확인 후 사용&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Nani Shin</name></author><category term="Docker" /><category term="Windows10" /><summary type="html">다시 Docker 기반 환경에서 적극적으로 개발해야 하는 상황이라 Windows10의 Hyper-V를</summary></entry></feed>
+&lt;img src=&quot;/assets/images/g29_gcode_auto_level.png&quot; alt=&quot;G29 G-Code&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="3D 프린터" /><category term="오토베드레벨링" /><summary type="html">ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…</summary></entry></feed>
