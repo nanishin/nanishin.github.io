@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>네스프레소 에어로치노3 수리 실패기 - 申Nani?</title>
-<meta name="description" content="2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;밀크… ">
+<!-- begin _includes/seo.html --><title>DIY 3D 프린터 레벨링 센서 교체 - 申Nani?</title>
+<meta name="description" content="지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는 ">
 
 
   <meta name="author" content="Nani Shin">
@@ -19,11 +19,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="申Nani?">
-<meta property="og:title" content="네스프레소 에어로치노3 수리 실패기">
-<meta property="og:url" content="https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/">
+<meta property="og:title" content="DIY 3D 프린터 레벨링 센서 교체">
+<meta property="og:url" content="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/">
 
 
-  <meta property="og:description" content="2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;밀크… ">
+  <meta property="og:description" content="지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는 ">
 
 
 
@@ -33,7 +33,7 @@
 
 
 
-  <meta property="article:published_time" content="2020-03-05T22:00:00+09:00">
+  <meta property="article:published_time" content="2020-07-31T23:50:00+09:00">
 
 
 
@@ -44,7 +44,7 @@
   
 
 
-<link rel="canonical" href="https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/">
+<link rel="canonical" href="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/">
 
 
 
@@ -283,15 +283,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="네스프레소 에어로치노3 수리 실패기">
-    <meta itemprop="description" content="2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;밀크…">
-    <meta itemprop="datePublished" content="2020-03-05T22:00:00+09:00">
+    <meta itemprop="headline" content="DIY 3D 프린터 레벨링 센서 교체">
+    <meta itemprop="description" content="지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는">
+    <meta itemprop="datePublished" content="2020-07-31T23:50:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">네스프레소 에어로치노3 수리 실패기
+          <h1 id="page-title" class="page__title" itemprop="headline">DIY 3D 프린터 레벨링 센서 교체
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -313,10 +313,10 @@
               
                 <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
                 <ul class="toc__menu">
-  <li><a href="#1-일단-분해">1. 일단 분해</a></li>
-  <li><a href="#2-릴레이-스위치-모듈-교체-시도">2. 릴레이 스위치 모듈 교체 시도</a></li>
-  <li><a href="#3-모터---전선-변경-시도">3. 모터 +/- 전선 변경 시도</a></li>
-  <li><a href="#4-모든-시도의-실패-후-결국">4. 모든 시도의 실패 후 결국…</a></li>
+  <li><a href="#1-기존-센서와-신규-센서-비교">1. 기존 센서와 신규 센서 비교</a></li>
+  <li><a href="#2-고정판에-연결">2. 고정판에 연결</a></li>
+  <li><a href="#3-3핀-커넥터-재사용">3. 3핀 커넥터 재사용</a></li>
+  <li><a href="#4-extruder-후면에-재설치">4. Extruder 후면에 재설치</a></li>
 </ul>
 
               
@@ -339,124 +339,51 @@
             </nav>
           </aside>
         
-        <p>2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;밀크…</p>
+        <p>지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는</p>
 
-<p>작년 말부터 따뜻한 우유 뎁히기가 동작하지 않아서 이리저리 구글링을</p>
+<p>증상 발생…Multi Meter로 확인해보니 원래 SN04-N 센서가 Metal 근접을 인지할</p>
 
-<p>해보니 아래 2가지 수리 시도가 가능함을 확인</p>
+<p>경우 5V이던 상태에서 0V로 떨어지는데 Pull-Up 상태인데도 1.35V로 나옴…</p>
 
-<ol>
-  <li>전열판을 동작시키는 릴레이 스위치 모듈 교체</li>
-  <li>휘스크를 돌려주는 모터가 동작 안하는 경우 +/- 전선 변경</li>
-</ol>
+<p>즉 로직 상 1이 아닌 0으로 인지되어 계속 올라갔던 것… :(</p>
 
-<h2 id="1-일단-분해">1. 일단 분해</h2>
+<p>비교를 위해 12V 전원을 넣어도 현상이 동일해서 3D 프린터 보드 내 FET이 터진</p>
 
-<p>에어로치노3의 나사가 특이해서 집에 있는 공구들을 다 동원해서 나사 풀기!!!</p>
+<p>상황인가 싶어서 좌절했는데 혹시나 해서 알리에서 SN04-N을 새로 주문…</p>
 
-<p><img src="/assets/images/20191110_192608.jpg" alt="Use hexagon wrench" /></p>
+<p>대략 한달 뒤 도착해서 교체하니 예전처럼 베드레벨링 잘 되는 걸 확인하고 역시</p>
 
-<p><img src="/assets/images/20191110_192619.jpg" alt="hexagon wrench size" /></p>
+<p>부품별 교체가 가능해야 유지보수에 최고라는 걸 다시 한번 경험!!!</p>
 
-<p><img src="/assets/images/20191110_195013.jpg" alt="star driver size" /></p>
+<h2 id="1-기존-센서와-신규-센서-비교">1. 기존 센서와 신규 센서 비교</h2>
 
-<p><img src="/assets/images/20191110_200809.jpg" alt="minus driver size" /></p>
+<p>기존 SN04-N은 동작 전압이 10~30V인데 신규 SN04-N은 6~36V</p>
 
-<p><img src="/assets/images/20191110_201106.jpg" alt="Remove screw" /></p>
+<p><img src="/assets/images/20200726_201734.png" alt="Compare Old and New (SN04-N)" /></p>
 
-<p><img src="/assets/images/20191110_202235.jpg" alt="internal circuit" /></p>
+<h2 id="2-고정판에-연결">2. 고정판에 연결</h2>
 
-<p><img src="/assets/images/20191110_202247.jpg" alt="internal circuit close up" /></p>
+<p>이 부분에서 노즐 대비 적절한 센서 높이를 맞춰줘야 베드를 긁지 않게 되니</p>
 
-<p><img src="/assets/images/20191110_202300.jpg" alt="power female connector" /></p>
+<p>수동으로 손이 가는 부분…</p>
 
-<p><img src="/assets/images/20191110_202322.jpg" alt="power male connector" /></p>
+<p><img src="/assets/images/20200729_214413.png" alt="Attach New SN04-N" /></p>
 
-<p><img src="/assets/images/20191110_202615.jpg" alt="motor plus wire" /></p>
+<h2 id="3-3핀-커넥터-재사용">3. 3핀 커넥터 재사용</h2>
 
-<p><img src="/assets/images/20191110_202621.jpg" alt="motor plus wire close up" /></p>
+<p>3핀 커넥터는 여분이 없는지라 기존 센서에서 전선 채 잘라서 서로 연결 뒤</p>
 
-<p><img src="/assets/images/20191110_202642.jpg" alt="internal circuit right side" /></p>
+<p>열수축튜브로 마감해서 재사용</p>
 
-<p><img src="/assets/images/20191110_202650.jpg" alt="internal circuit left side" /></p>
+<p><img src="/assets/images/20200729_214609.png" alt="Rewire 3 Pin Connector" /></p>
 
-<p><img src="/assets/images/20191110_202932.jpg" alt="button front" /></p>
+<h2 id="4-extruder-후면에-재설치">4. Extruder 후면에 재설치</h2>
 
-<p><img src="/assets/images/20191110_202935.jpg" alt="button side" /></p>
+<p>G29 명령으로 다시 오토베드레벨링 동작이 잘되는 것에서 뿌듯함을 느끼고</p>
 
-<p><img src="/assets/images/20191110_202946.jpg" alt="button hole" /></p>
+<p>다시 밀려있던 메이킹 재개… ;D</p>
 
-<p><img src="/assets/images/20191110_204802.jpg" alt="heating board" /></p>
-
-<p><img src="/assets/images/20191110_204929.jpg" alt="motor with magnet" /></p>
-
-<p><img src="/assets/images/20191110_212720.jpg" alt="board connectors" /></p>
-
-<p><img src="/assets/images/20191110_213117.jpg" alt="board connected" /></p>
-
-<h2 id="2-릴레이-스위치-모듈-교체-시도">2. 릴레이 스위치 모듈 교체 시도</h2>
-
-<p>알리익스프레스에서 동일한 릴레이 스위치 모듈을 주문해서 한달 뒤</p>
-
-<p>받은 뒤 교체 작업 진행</p>
-
-<p><img src="/assets/images/20191226_165749.jpg" alt="Remove relay switch back" /></p>
-
-<p><img src="/assets/images/20191226_181129.jpg" alt="Remove relay switch front" /></p>
-
-<p><img src="/assets/images/20191226_194655.jpg" alt="Soldered relay switch back" /></p>
-
-<p><img src="/assets/images/20191226_194702.jpg" alt="Soldered relay switch front" /></p>
-
-<h2 id="3-모터---전선-변경-시도">3. 모터 +/- 전선 변경 시도</h2>
-
-<p>휘스크 없이 하면 전열판이 동작하는데 휘스크 연결하면 잠깐 돌다</p>
-
-<p>멈추는 현상에 전선 바꾸기와 회전부에 윤활유 추가 작업 진행</p>
-
-<p><img src="/assets/images/20200303_222952.jpg" alt="Check motor wire" /></p>
-
-<p><img src="/assets/images/20200303_223320.jpg" alt="Detach motor wire" /></p>
-
-<p><img src="/assets/images/20200303_223451.jpg" alt="Attach motor wire" /></p>
-
-<p><img src="/assets/images/20200303_223628.jpg" alt="Connect motor wire" /></p>
-
-<p><img src="/assets/images/20200304_002936.jpg" alt="Check motor rotation" /></p>
-
-<p><img src="/assets/images/20200304_002944.jpg" alt="Use WD-40" /></p>
-
-<h2 id="4-모든-시도의-실패-후-결국">4. 모든 시도의 실패 후 결국…</h2>
-
-<p>고치는 건 아쉽게도 실패했지만 모든 수리 시도는 해봤으니..여한(?)은 없었다.</p>
-
-<p>결국 네스프레소클럽에 전화해서 맞교환 보상판매로 6만원에 에어로치노3 재구입으로 일단락… -ㅠ-</p>
-
-<p><img src="/assets/images/20200305_085807.jpg" alt="Check aeroccino3 spec" /></p>
-
-<p><img src="/assets/images/20200305_204215.jpg" alt="New aeroccino3 label" /></p>
-
-<p><img src="/assets/images/20200305_204219.jpg" alt="New aeroccino3 label2" /></p>
-
-<p><img src="/assets/images/20200305_204225.jpg" alt="New aeroccino3 label2" /></p>
-
-<p><img src="/assets/images/20200305_204610.jpg" alt="Check new aeroccino3 spec" /></p>
-
-<p><img src="/assets/images/20200305_204625.jpg" alt="Check new aeroccino3 shape" /></p>
-
-<p><img src="/assets/images/20200305_204637.jpg" alt="Check new whisk" /></p>
-
-<p><img src="/assets/images/20200305_204933.jpg" alt="Check new one whisk" /></p>
-
-<p><img src="/assets/images/20200305_205034.jpg" alt="Attach new one whisk" /></p>
-
-<p><img src="/assets/images/20200305_205546.jpg" alt="Check with real milk" /></p>
-
-<p><img src="/assets/images/20200305_205632.jpg" alt="Check with real milk2" /></p>
-
-<p><img src="/assets/images/20200305_205648.jpg" alt="Check with real milk3" /></p>
-
-<p><img src="/assets/images/20200305_205758.jpg" alt="Check with real milk4" /></p>
+<p><img src="/assets/images/20200731_214703.png" alt="Reassemble" /></p>
 
 
         
@@ -478,31 +405,31 @@
     
       
       
-      <a href="/tags/#aeroccino3" class="page__taxonomy-item" rel="tag">Aeroccino3</a><span class="sep">, </span>
+      <a href="/tags/#3d-printer" class="page__taxonomy-item" rel="tag">3D Printer</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#fail-to-repair" class="page__taxonomy-item" rel="tag">Fail to repair</a><span class="sep">, </span>
+      <a href="/tags/#3d-%ED%94%84%EB%A6%B0%ED%84%B0" class="page__taxonomy-item" rel="tag">3D 프린터</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#nespresso" class="page__taxonomy-item" rel="tag">Nespresso</a><span class="sep">, </span>
+      <a href="/tags/#auto-bed-labeling" class="page__taxonomy-item" rel="tag">Auto Bed Labeling</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#%EB%84%A4%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C" class="page__taxonomy-item" rel="tag">네스프레소</a><span class="sep">, </span>
+      <a href="/tags/#right-to-repair" class="page__taxonomy-item" rel="tag">Right to Repair</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#%EC%8B%A4%ED%8C%A8%EA%B8%B0" class="page__taxonomy-item" rel="tag">실패기</a><span class="sep">, </span>
+      <a href="/tags/#sn04-n-sensor-replacement" class="page__taxonomy-item" rel="tag">SN04-N Sensor Replacement</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#%EC%97%90%EC%96%B4%EB%A1%9C%EC%B9%98%EB%85%B83" class="page__taxonomy-item" rel="tag">에어로치노3</a><span class="sep">, </span>
+      <a href="/tags/#%EC%84%BC%EC%84%9C%EA%B5%90%EC%B2%B4" class="page__taxonomy-item" rel="tag">센서교체</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#%EC%9E%90%EA%B0%80%EC%88%98%EB%A6%AC" class="page__taxonomy-item" rel="tag">자가수리</a>
+      <a href="/tags/#%EC%98%A4%ED%86%A0%EB%B2%A0%EB%93%9C%EB%A0%88%EB%B2%A8%EB%A7%81" class="page__taxonomy-item" rel="tag">오토베드레벨링</a>
     
     </span>
   </p>
@@ -530,7 +457,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-03-05T22:00:00+09:00">March 5, 2020</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-07-31T23:50:00+09:00">July 31, 2020</time></p>
         
       </footer>
 
@@ -539,23 +466,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=%EB%84%A4%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C+%EC%97%90%EC%96%B4%EB%A1%9C%EC%B9%98%EB%85%B83+%EC%88%98%EB%A6%AC+%EC%8B%A4%ED%8C%A8%EA%B8%B0%20https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-failed-to-repair-nespresso-aeroccino3%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=DIY+3D+%ED%94%84%EB%A6%B0%ED%84%B0+%EB%A0%88%EB%B2%A8%EB%A7%81+%EC%84%BC%EC%84%9C+%EA%B5%90%EC%B2%B4%20https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-leveling-sensor-replacement%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-failed-to-repair-nespresso-aeroccino3%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-leveling-sensor-replacement%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-failed-to-repair-nespresso-aeroccino3%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-3d-printer-leveling-sensor-replacement%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/tip/howto-use-docker-jenkins/" class="pagination--pager" title="Jenkins Docker-in-Docker 환경 사용하기
+      <a href="/maker/diy-macbook-pro-2015-early-speaker-replacement/" class="pagination--pager" title="MacBook Pro 2015 Early 스피커 교체
 ">Previous</a>
     
     
-      <a href="/maker/diy-macbook-pro-2015-early-speaker-replacement/" class="pagination--pager" title="MacBook Pro 2015 Early 스피커 교체
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -596,12 +522,12 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/maker/diy-3d-printer-leveling-sensor-replacement/" rel="permalink">DIY 3D 프린터 레벨링 센서 교체
+        <a href="/maker/diy-macbook-pro-2015-early-speaker-replacement/" rel="permalink">MacBook Pro 2015 Early 스피커 교체
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> July 31 2020</p>
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> June 17 2020</p>
     
     
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -613,7 +539,7 @@
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는
+    <p class="archive__item-excerpt" itemprop="description">2015년 하반기 쓸개와는 이별했지만 그대신 내품으로 들어와 모든 취미활동의
 </p>
   </article>
 </div>
@@ -636,12 +562,12 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/maker/diy-macbook-pro-2015-early-speaker-replacement/" rel="permalink">MacBook Pro 2015 Early 스피커 교체
+        <a href="/maker/diy-failed-to-repair-nespresso-aeroccino3/" rel="permalink">네스프레소 에어로치노3 수리 실패기
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> June 17 2020</p>
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> March 05 2020</p>
     
     
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -649,11 +575,11 @@
 
 
 
-  1 minute read
+  less than 1 minute read
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">2015년 하반기 쓸개와는 이별했지만 그대신 내품으로 들어와 모든 취미활동의
+    <p class="archive__item-excerpt" itemprop="description">2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;밀크…
 </p>
   </article>
 </div>
@@ -826,8 +752,8 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "https://nanishin.github.io/maker/diy-failed-to-repair-nespresso-aeroccino3/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/maker/diy-failed-to-repair-nespresso-aeroccino3"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/maker/diy-3d-printer-leveling-sensor-replacement"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');
