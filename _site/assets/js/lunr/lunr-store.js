@@ -323,4 +323,9 @@ var store = [{
         "excerpt":"2015년 하반기 쓸개와는 이별했지만 그대신 내품으로 들어와 모든 취미활동의 구심점이 되어준 MacBook Pro 2015 Early… 작년 하반기부터 스피커 소리가 조금씩 찢어지더니 더이상 듣기가 힘들어져서 알리에서 주문한 맥북 수리세트와 오리지널(?) 대체 스피커로 교체 진행!!! 1. 맥북 수리 세트 원조는 DIY 수리 문화 전파자인 북미 iFixIt 세트지만 저렴한 유사품 DiyFix 사용 2....","categories": ["maker"],
         "tags": ["macbook pro 2015 early","speaker replacement","맥북프로 2015 얼리","스피커 교체","자가수리"],
         "url": "https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.png"},{
+        "title": "DIY 3D 프린터 레벨링 센서 교체",
+        "excerpt":"지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는 증상 발생…Multi Meter로 확인해보니 원래 SN04-N 센서가 Metal 근접을 인지할 경우 5V이던 상태에서 0V로 떨어지는데 Pull-Up 상태인데도 1.35V로 나옴… 즉 로직 상 1이 아닌 0으로 인지되어 계속 올라갔던 것… :( 비교를 위해 12V 전원을 넣어도 현상이 동일해서 3D 프린터 보드 내 FET이...","categories": ["maker"],
+        "tags": ["3D 프린터","오토베드레벨링","센서교체","3D Printer","Auto Bed Labeling","SN04-N Sensor Replacement","Right to Repair"],
+        "url": "https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.png"}]

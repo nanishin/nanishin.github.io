@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2020-06-17T03:29:25+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">MacBook Pro 2015 Early 스피커 교체</title><link href="https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement/" rel="alternate" type="text/html" title="MacBook Pro 2015 Early 스피커 교체" /><published>2020-06-17T03:20:00+09:00</published><updated>2020-06-17T03:20:00+09:00</updated><id>https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement/">&lt;p&gt;2015년 하반기 쓸개와는 이별했지만 그대신 내품으로 들어와 모든 취미활동의&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2020-07-31T23:51:52+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">DIY 3D 프린터 레벨링 센서 교체</title><link href="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/" rel="alternate" type="text/html" title="DIY 3D 프린터 레벨링 센서 교체" /><published>2020-07-31T23:50:00+09:00</published><updated>2020-07-31T23:50:00+09:00</updated><id>https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/">&lt;p&gt;지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는&lt;/p&gt;
+
+&lt;p&gt;증상 발생…Multi Meter로 확인해보니 원래 SN04-N 센서가 Metal 근접을 인지할&lt;/p&gt;
+
+&lt;p&gt;경우 5V이던 상태에서 0V로 떨어지는데 Pull-Up 상태인데도 1.35V로 나옴…&lt;/p&gt;
+
+&lt;p&gt;즉 로직 상 1이 아닌 0으로 인지되어 계속 올라갔던 것… :(&lt;/p&gt;
+
+&lt;p&gt;비교를 위해 12V 전원을 넣어도 현상이 동일해서 3D 프린터 보드 내 FET이 터진&lt;/p&gt;
+
+&lt;p&gt;상황인가 싶어서 좌절했는데 혹시나 해서 알리에서 SN04-N을 새로 주문…&lt;/p&gt;
+
+&lt;p&gt;대략 한달 뒤 도착해서 교체하니 예전처럼 베드레벨링 잘 되는 걸 확인하고 역시&lt;/p&gt;
+
+&lt;p&gt;부품별 교체가 가능해야 유지보수에 최고라는 걸 다시 한번 경험!!!&lt;/p&gt;
+
+&lt;h2 id=&quot;1-기존-센서와-신규-센서-비교&quot;&gt;1. 기존 센서와 신규 센서 비교&lt;/h2&gt;
+
+&lt;p&gt;기존 SN04-N은 동작 전압이 10~30V인데 신규 SN04-N은 6~36V&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200726_201734.png&quot; alt=&quot;Compare Old and New (SN04-N)&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-고정판에-연결&quot;&gt;2. 고정판에 연결&lt;/h2&gt;
+
+&lt;p&gt;이 부분에서 노즐 대비 적절한 센서 높이를 맞춰줘야 베드를 긁지 않게 되니&lt;/p&gt;
+
+&lt;p&gt;수동으로 손이 가는 부분…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200729_214413.png&quot; alt=&quot;Attach New SN04-N&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-3핀-커넥터-재사용&quot;&gt;3. 3핀 커넥터 재사용&lt;/h2&gt;
+
+&lt;p&gt;3핀 커넥터는 여분이 없는지라 기존 센서에서 전선 채 잘라서 서로 연결 뒤&lt;/p&gt;
+
+&lt;p&gt;열수축튜브로 마감해서 재사용&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200729_214609.png&quot; alt=&quot;Rewire 3 Pin Connector&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-extruder-후면에-재설치&quot;&gt;4. Extruder 후면에 재설치&lt;/h2&gt;
+
+&lt;p&gt;G29 명령으로 다시 오토베드레벨링 동작이 잘되는 것에서 뿌듯함을 느끼고&lt;/p&gt;
+
+&lt;p&gt;다시 밀려있던 메이킹 재개… ;D&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200731_214703.png&quot; alt=&quot;Reassemble&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="3D 프린터" /><category term="오토베드레벨링" /><category term="센서교체" /><category term="3D Printer" /><category term="Auto Bed Labeling" /><category term="SN04-N Sensor Replacement" /><category term="Right to Repair" /><summary type="html">지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는</summary></entry><entry><title type="html">MacBook Pro 2015 Early 스피커 교체</title><link href="https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement/" rel="alternate" type="text/html" title="MacBook Pro 2015 Early 스피커 교체" /><published>2020-06-17T03:20:00+09:00</published><updated>2020-06-17T03:20:00+09:00</updated><id>https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-macbook-pro-2015-early-speaker-replacement/">&lt;p&gt;2015년 하반기 쓸개와는 이별했지만 그대신 내품으로 들어와 모든 취미활동의&lt;/p&gt;
 
 &lt;p&gt;구심점이 되어준 MacBook Pro 2015 Early…&lt;/p&gt;
 
@@ -524,134 +568,4 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 
 &lt;p&gt;이제 온라인 논문 색인 검색에서도 보여서 링크 달고 정리 :D&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&amp;amp;control_no=980347a0997e926bffe0bdc3ef48d419&quot;&gt;소확행(小確幸)으로서 메이커 문화: 한국의 메이커 운동(Maker Movement)을 중심으로&lt;/a&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="인터뷰" /><summary type="html">작년 MakerFaireSeoul2018 전시에 참석했을 때 나름 신선했던 경험은 경희대 사회학과 대학원생의</summary></entry><entry><title type="html">DIY 3D 프린터에 오토베드레벨링 적용</title><link href="https://nanishin.github.io/maker/diy-3d-printer-auto-bed-leveling/" rel="alternate" type="text/html" title="DIY 3D 프린터에 오토베드레벨링 적용" /><published>2019-03-03T15:30:00+09:00</published><updated>2019-03-03T15:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-3d-printer-auto-bed-leveling</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-3d-printer-auto-bed-leveling/">&lt;p&gt;ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…&lt;/p&gt;
-
-&lt;p&gt;그러나 OctoPrint와의 원활한 연동을 위해 Marlin 1.1.9 펌웨어로 바꾸면서 이리저리 수동 설정에 집중하느라&lt;/p&gt;
-
-&lt;p&gt;정작 4개월 가량을 그냥 버려두고 있었다는… -ㅠ- 그러다 누구나 이야기하는 수동 베드레벨링 지옥을 겪다 보니&lt;/p&gt;
-
-&lt;p&gt;결국 오랜만에 Marlin 펌웨어 설정과 일부 패치 적용 후 오토베드레벨링 활성화 완료!!!&lt;/p&gt;
-
-&lt;p&gt;처음에 저 근접센서 감도와 노즐과 베드 사이 거리를 미세하기 맞추기 위해선 여전히 휴리스틱 튜닝(일명 노가다 조정)이&lt;/p&gt;
-
-&lt;p&gt;필요했지만 일단 맞춰두고 나니 쾌적한 3D 프린팅 세상이 열림~ :D&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20190303_105919.png&quot; alt=&quot;SN04-N&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;설정한 옵션 위주로 정리&lt;/p&gt;
-
-&lt;h1 id=&quot;marlin-119의-configurationh-파일&quot;&gt;Marlin 1.1.9의 Configuration.h 파일&lt;/h1&gt;
-&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cm&quot;&gt;/**
- * Choose one of the options below to enable G29 Bed Leveling. The parameters
- * and behavior of G29 will change depending on your selection.
- *
- *  If using a Probe for Z Homing, enable Z_SAFE_HOMING also!
- *
- * - AUTO_BED_LEVELING_3POINT
- *   Probe 3 arbitrary points on the bed (that aren't collinear)
- *   You specify the XY coordinates of all 3 points.
- *   The result is a single tilted plane. Best for a flat bed.
- *
- * - AUTO_BED_LEVELING_LINEAR
- *   Probe several points in a grid.
- *   You specify the rectangle and the density of sample points.
- *   The result is a single tilted plane. Best for a flat bed.
- *
- * - AUTO_BED_LEVELING_BILINEAR
- *   Probe several points in a grid.
- *   You specify the rectangle and the density of sample points.
- *   The result is a mesh, best for large or uneven beds.
- *
- * - AUTO_BED_LEVELING_UBL (Unified Bed Leveling)
- *   A comprehensive bed leveling system combining the features and benefits
- *   of other systems. UBL also includes integrated Mesh Generation, Mesh
- *   Validation and Mesh Editing systems.
- *
- * - MESH_BED_LEVELING
- *   Probe a grid manually
- *   The result is a mesh, suitable for large or uneven beds. (See BILINEAR.)
- *   For machines without a probe, Mesh Bed Leveling provides a method to perform
- *   leveling in steps so you can manually adjust the Z height at each grid-point.
- *   With an LCD controller the process is guided step-by-step.
- */&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//#define AUTO_BED_LEVELING_3POINT&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//#define AUTO_BED_LEVELING_LINEAR&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;#define AUTO_BED_LEVELING_BILINEAR
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//#define AUTO_BED_LEVELING_UBL&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//#define MESH_BED_LEVELING&lt;/span&gt;
-
-&lt;span class=&quot;cm&quot;&gt;/**
- *   Z Probe to nozzle (X,Y) offset, relative to (0, 0).
- *   X and Y offsets must be integers.
- *
- *   In the following example the X and Y offsets are both positive:
- *   #define X_PROBE_OFFSET_FROM_EXTRUDER 10
- *   #define Y_PROBE_OFFSET_FROM_EXTRUDER 10
- *
- *      +-- BACK ---+
- *      |           |
- *    L |    (+) P  | R &amp;lt;-- probe (20,20)
- *    E |           | I
- *    F | (-) N (+) | G &amp;lt;-- nozzle (10,10)
- *    T |           | H
- *      |    (-)    | T
- *      |           |
- *      O-- FRONT --+
- *    (0,0)
- */&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;#define X_PROBE_OFFSET_FROM_EXTRUDER 15   // X offset: -left  +right  [of the nozzle]
-#define Y_PROBE_OFFSET_FROM_EXTRUDER 55   // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle]
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// The size of the print bed&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;#define X_BED_SIZE 220
-#define Y_BED_SIZE 220
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// Set the boundaries for probing (where the probe can reach).&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//#define LEFT_PROBE_BED_POSITION MIN_PROBE_EDGE&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - MIN_PROBE_EDGE)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//#define FRONT_PROBE_BED_POSITION MIN_PROBE_EDGE&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - MIN_PROBE_EDGE)&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;#if X_PROBE_OFFSET_FROM_EXTRUDER &amp;lt; 0
-&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define LEFT_PROBE_BED_POSITION (MIN_PROBE_EDGE)
-&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - 1 - MIN_PROBE_EDGE + X_PROBE_OFFSET_FROM_EXTRUDER)
-#else
-&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define LEFT_PROBE_BED_POSITION (X_PROBE_OFFSET_FROM_EXTRUDER + MIN_PROBE_EDGE)
-&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define RIGHT_PROBE_BED_POSITION (X_BED_SIZE - 1 - MIN_PROBE_EDGE)
-#endif
-#if Y_PROBE_OFFSET_FROM_EXTRUDER &amp;lt; 0
-&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define FRONT_PROBE_BED_POSITION (MIN_PROBE_EDGE)
-&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - 1 - MIN_PROBE_EDGE + Y_PROBE_OFFSET_FROM_EXTRUDER)
-#else
-&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define FRONT_PROBE_BED_POSITION (Y_PROBE_OFFSET_FROM_EXTRUDER + MIN_PROBE_EDGE)
-&lt;/span&gt;  &lt;span class=&quot;cp&quot;&gt;#define BACK_PROBE_BED_POSITION (Y_BED_SIZE - 1 - MIN_PROBE_EDGE)
-#endif
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// Use &quot;Z Safe Homing&quot; to avoid homing with a Z probe outside the bed area.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// With this feature enabled:&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// - Allow Z homing only after X and Y homing AND stepper drivers still enabled.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// - If stepper drivers time out, it will need X and Y homing again before Z homing.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// - Move the Z probe (or nozzle) to a defined XY point before Z Homing when homing all axes (G28).&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// - Prevent Z homing when the Z probe is outside bed area.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;#define Z_SAFE_HOMING
-&lt;/span&gt;
-&lt;span class=&quot;cm&quot;&gt;/**
- * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
- *   (e.g., an inductive probe or a nozzle-based probe-switch.)
- */&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;#define FIX_MOUNTED_PROBE
-&lt;/span&gt;
-&lt;span class=&quot;cm&quot;&gt;/**
- * Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
- *
- * Enable this option for a probe connected to the Z Min endstop pin.
- */&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;g29-g-code-명령어-적용&quot;&gt;G29 G-Code 명령어 적용&lt;/h1&gt;
-&lt;p&gt;항상 프린팅 시작하기 전에 오토베드레벨링을 수행하기 위해 G28 X/Y/X 축 초기화 명령 후 적용
-&lt;img src=&quot;/assets/images/g29_gcode_auto_level.png&quot; alt=&quot;G29 G-Code&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="3D 프린터" /><category term="오토베드레벨링" /><summary type="html">ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드레벨링 센서 세트…</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&amp;amp;control_no=980347a0997e926bffe0bdc3ef48d419&quot;&gt;소확행(小確幸)으로서 메이커 문화: 한국의 메이커 운동(Maker Movement)을 중심으로&lt;/a&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="인터뷰" /><summary type="html">작년 MakerFaireSeoul2018 전시에 참석했을 때 나름 신선했던 경험은 경희대 사회학과 대학원생의</summary></entry></feed>
