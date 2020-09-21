@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2020-07-31T23:51:52+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">DIY 3D 프린터 레벨링 센서 교체</title><link href="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/" rel="alternate" type="text/html" title="DIY 3D 프린터 레벨링 센서 교체" /><published>2020-07-31T23:50:00+09:00</published><updated>2020-07-31T23:50:00+09:00</updated><id>https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/">&lt;p&gt;지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2020-09-21T23:06:07+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">PS4 Pro 죽음의 파란불 자가수리</title><link href="https://nanishin.github.io/maker/diy-power-module-fix-of-ps4-pro/" rel="alternate" type="text/html" title="PS4 Pro 죽음의 파란불 자가수리" /><published>2020-09-15T23:30:00+09:00</published><updated>2020-09-15T23:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-power-module-fix-of-ps4-pro</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-power-module-fix-of-ps4-pro/">&lt;p&gt;이번 장마를 거친 뒤 시작된 플스4 프로의 죽음의 파란불 (Blue Light of Death)&lt;/p&gt;
+
+&lt;p&gt;내부 파워모듈이 저온상태에서 정상적인 전원 공급을 하지 못해서 전원 버튼을&lt;/p&gt;
+
+&lt;p&gt;누르면 파란불이 1초 정도 들어왔다가 바로 꺼지기를 반복…&lt;/p&gt;
+
+&lt;p&gt;이리저리 찾아본 팁을 적용해 드라이어기로 파워모듈 송풍구 부분에 1분 정도&lt;/p&gt;
+
+&lt;p&gt;뜨거운 바람을 불어넣으니 정상 부팅 확인….&lt;/p&gt;
+
+&lt;p&gt;그러나 이걸 게임할 때마다 해줘야 하다니.. :’(&lt;/p&gt;
+
+&lt;p&gt;결국 분해해서 파워모듈을 교체할지 아니면 수리 가능한지 확인작업 돌입!!!&lt;/p&gt;
+
+&lt;h2 id=&quot;1-분해용-드라이버-확보&quot;&gt;1. 분해용 드라이버 확보&lt;/h2&gt;
+
+&lt;p&gt;다양한 사이즈 확보를 위해 유명하다는 샤오미 드라이버 세트로 주문&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200819_093043.png&quot; alt=&quot;Mi x Whia Precision Screwdriver - 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200915_222653.png&quot; alt=&quot;Mi x Whia Precision Screwdriver - 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;실제로 사용되는 사이즈는 가운데 심이 있는 별나사 T8H&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_232707.png&quot; alt=&quot;TORX T8H - 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_232646.png&quot; alt=&quot;TORX T8H - 2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-분해는-차근차근&quot;&gt;2. 분해는 차근차근&lt;/h2&gt;
+
+&lt;p&gt;외관 플라스틱 케이스를 분해할 때 부술까 두려웠지만 언제나 친절한 레퍼런스인&lt;/p&gt;
+
+&lt;p&gt;iFixIt의 가이드대로 과감하게 뚜둑 소리나게 뜯어서 파워모듈 분리까지 완료&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ko.ifixit.com/Guide/PlayStation+4+Pro+Power+Supply+Unit+Replacement/89196&quot;&gt;PlayStation 4 Pro Power Supply Unit Replacement&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_231843.png&quot; alt=&quot;PS4 Pro Power Disaseemble Top - 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_232508.png&quot; alt=&quot;PS4 Pro Power Disaseemble Top - 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_232759.png&quot; alt=&quot;PS4 Pro Power Disaseemble Top - 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이미 무상 보증기간도 지났으니 후면 봉인씰 제거 후 나사 1개도 풀어줌&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_233229.png&quot; alt=&quot;PS4 Pro Power Disaseemble Rear&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;바닥면에서 나사 2개를 풀어야 파워모듈 분리 가능&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_000013.png&quot; alt=&quot;PS4 Pro Power Disaseemble Back - 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_001818.png&quot; alt=&quot;PS4 Pro Power Disaseemble Back - 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;파워모듈 분리!!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_000937.png&quot; alt=&quot;PS4 Pro Power Disaseemble Top - 4&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-역시-기계는-쓸고-닦아줘야-한다&quot;&gt;3. 역시 기계는 쓸고 닦아줘야 한다&lt;/h2&gt;
+
+&lt;p&gt;이리저리 파워모듈 내부 회로를 보다가 MOSFET 부분에 먼지 덩어리들이 붙어있는&lt;/p&gt;
+
+&lt;p&gt;상황 발견해서 진공청소기로 제거한 뒤 뒤늦게 찍어서 남진 않았지만 이 부분이&lt;/p&gt;
+
+&lt;p&gt;문제를 일으켰던 원인으로 확인됨&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_001221.png&quot; alt=&quot;Inside of Power Module&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_001225.png&quot; alt=&quot;MOSFET Close Up&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-재조립-후-찾아온-평화&quot;&gt;4. 재조립 후 찾아온 평화&lt;/h2&gt;
+
+&lt;p&gt;다시 조립하기 전 본체와의 커넥터 부분과 파워모듈 모델번호 ADP-300ER까지&lt;/p&gt;
+
+&lt;p&gt;확인 뒤 분해의 역순으로 재조립하고 문제없이 잘 부팅되는 거 확인!!!&lt;/p&gt;
+
+&lt;p&gt;코로나19 집콕에 맞춰 다시금 평화롭게 폴가이즈와 위쳐3 게임 속으로… :D&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_004800.png&quot; alt=&quot;Connector of Power Module&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_004919.png&quot; alt=&quot;Model Number of Power Module&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="플스4 프로" /><category term="PS4 Pro CUH-7117B" /><category term="파워모듈" /><category term="PowerModule ADP-300ER" /><category term="죽음의 파란불" /><category term="Blue Light of Death" /><category term="DIY Fix" /><category term="자가수리" /><category term="Right to Repair" /><summary type="html">이번 장마를 거친 뒤 시작된 플스4 프로의 죽음의 파란불 (Blue Light of Death)</summary></entry><entry><title type="html">DIY 3D 프린터 레벨링 센서 교체</title><link href="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/" rel="alternate" type="text/html" title="DIY 3D 프린터 레벨링 센서 교체" /><published>2020-07-31T23:50:00+09:00</published><updated>2020-07-31T23:50:00+09:00</updated><id>https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/">&lt;p&gt;지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는&lt;/p&gt;
 
 &lt;p&gt;증상 발생…Multi Meter로 확인해보니 원래 SN04-N 센서가 Metal 근접을 인지할&lt;/p&gt;
 
@@ -556,16 +636,4 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/squirrel-led-thermometer-hygrometer&quot;&gt;squirrel-led-squirrel-led-thermometer-hygrometer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nani Shin</name></author><category term="다람쥐" /><category term="온습도계" /><summary type="html">작년 중반 거실에 설치한 LED 습도계와 이후 연말에 추가했던 ㅋㅋ루돌프 캐릭터 크리스마스 LED 장식…</summary></entry><entry><title type="html">메이커 인터뷰이로 참여해본 사회학과 학생의 석사학위논문</title><link href="https://nanishin.github.io/maker/interview-thesis-about-maker-of-korea/" rel="alternate" type="text/html" title="메이커 인터뷰이로 참여해본 사회학과 학생의 석사학위논문" /><published>2019-03-10T18:30:00+09:00</published><updated>2019-03-10T18:30:00+09:00</updated><id>https://nanishin.github.io/maker/interview-thesis-about-maker-of-korea</id><content type="html" xml:base="https://nanishin.github.io/maker/interview-thesis-about-maker-of-korea/">&lt;p&gt;작년 MakerFaireSeoul2018 전시에 참석했을 때 나름 신선했던 경험은 경희대 사회학과 대학원생의&lt;/p&gt;
-
-&lt;p&gt;인터뷰 제의였다. 전시 끝낸 후 정말(?) 연락이 와서 회사 인근 카페에서 만나 두 남자가 1시간 넘게&lt;/p&gt;
-
-&lt;p&gt;한국에서 메이커 문화의 영향력 그리고 그로 인해 야기될 사회의 변화까지 정말 끊임없이 얘기했었다.&lt;/p&gt;
-
-&lt;p&gt;이후 그 친구가 무사히 석사 논문 심사를 통과했다고 한부 보내줘서 바로 그주에 다 읽었던 기억이 난다.&lt;/p&gt;
-
-&lt;p&gt;생각이 정돈되지 않아 민망한 나의 구어체 표현들이 그대로 인용되어 있어서 부끄러웠지만 재밌는 경험이었다.&lt;/p&gt;
-
-&lt;p&gt;이제 온라인 논문 색인 검색에서도 보여서 링크 달고 정리 :D&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&amp;amp;control_no=980347a0997e926bffe0bdc3ef48d419&quot;&gt;소확행(小確幸)으로서 메이커 문화: 한국의 메이커 운동(Maker Movement)을 중심으로&lt;/a&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="인터뷰" /><summary type="html">작년 MakerFaireSeoul2018 전시에 참석했을 때 나름 신선했던 경험은 경희대 사회학과 대학원생의</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Nani Shin</name></author><category term="다람쥐" /><category term="온습도계" /><summary type="html">작년 중반 거실에 설치한 LED 습도계와 이후 연말에 추가했던 ㅋㅋ루돌프 캐릭터 크리스마스 LED 장식…</summary></entry></feed>
