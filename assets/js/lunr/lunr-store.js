@@ -328,4 +328,9 @@ var store = [{
         "excerpt":"지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는 증상 발생…Multi Meter로 확인해보니 원래 SN04-N 센서가 Metal 근접을 인지할 경우 5V이던 상태에서 0V로 떨어지는데 Pull-Up 상태인데도 1.35V로 나옴… 즉 로직 상 1이 아닌 0으로 인지되어 계속 올라갔던 것… :( 비교를 위해 12V 전원을 넣어도 현상이 동일해서 3D 프린터 보드 내 FET이...","categories": ["maker"],
         "tags": ["3D 프린터","오토베드레벨링","센서교체","3D Printer","Auto Bed Labeling","SN04-N Sensor Replacement","Right to Repair"],
         "url": "https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.png"},{
+        "title": "PS4 Pro 죽음의 파란불 자가수리",
+        "excerpt":"이번 장마를 거친 뒤 시작된 플스4 프로의 죽음의 파란불 (Blue Light of Death) 내부 파워모듈이 저온상태에서 정상적인 전원 공급을 하지 못해서 전원 버튼을 누르면 파란불이 1초 정도 들어왔다가 바로 꺼지기를 반복… 이리저리 찾아본 팁을 적용해 드라이어기로 파워모듈 송풍구 부분에 1분 정도 뜨거운 바람을 불어넣으니 정상 부팅 확인…. 그러나 이걸 게임할...","categories": ["maker"],
+        "tags": ["플스4 프로","PS4 Pro CUH-7117B","파워모듈","PowerModule ADP-300ER","죽음의 파란불","Blue Light of Death","DIY Fix","자가수리","Right to Repair"],
+        "url": "https://nanishin.github.io/maker/diy-power-module-fix-of-ps4-pro/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.png"}]
