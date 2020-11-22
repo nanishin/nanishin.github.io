@@ -5,7 +5,7 @@ title:  "음원 루프 설정으로 아쿠아리움라이브에 BGM 추가"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-06-20 22:10:00 +0900
 categories:
   - maker

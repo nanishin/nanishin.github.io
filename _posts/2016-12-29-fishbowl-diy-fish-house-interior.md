@@ -5,7 +5,7 @@ title:  "귀요미 어항 실내 인테리어"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2016-12-29 19:30:00 +0900
 categories:
   - maker

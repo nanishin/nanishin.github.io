@@ -6,14 +6,14 @@ excert : "수리 시도는 다 해봤기에 여한은 없는 걸로..."
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/20200305_205758.jpg
 date:   2020-03-05 22:00:00 +0900
 categories:
   - maker
 tags:
   - Nespresso
   - Aeroccino3
-  - Fail to repair
+  - Failed to repair
   - 네스프레소
   - 에어로치노3
   - 자가수리

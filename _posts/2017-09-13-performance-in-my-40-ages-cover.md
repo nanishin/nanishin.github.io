@@ -5,7 +5,7 @@ title:  "라이브 공연 (양희은 - 내 나이 마흔살에는)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-09-13 23:30:00 +0900
 categories:
   - music

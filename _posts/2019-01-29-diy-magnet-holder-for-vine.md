@@ -5,7 +5,7 @@ title:  "업사이클링 덩굴식물 자석홀더"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2019-01-29 03:30:00 +0900
 categories:
   - maker
@@ -29,14 +29,14 @@ tags:
 
 확실히 집에 3D프린터가 있으니 작은 소품인 경우 아이디어가 생기면 직접 만들기 수월해졌다~ :D
 
-![비트가 원자로](/assets/images/20181230_135847.png)
-![비트가 원자로](/assets/images/20181230_140010.png)
-![비트가 원자로](/assets/images/20181230_140023.png)
-![비트가 원자로](/assets/images/20181230_140056.png)
-![비트가 원자로](/assets/images/20181230_161421.png)
-![비트가 원자로](/assets/images/20181230_161442.png)
-![비트가 원자로](/assets/images/20181230_161655.png)
-![비트가 원자로](/assets/images/20181230_161729.png)
-![비트가 원자로](/assets/images/20181230_174810.png)
-![비트가 원자로](/assets/images/20190129_020208.png)
+![비트가 원자로](/assets/images/20181230_135847.jpg)
+![비트가 원자로](/assets/images/20181230_140010.jpg)
+![비트가 원자로](/assets/images/20181230_140023.jpg)
+![비트가 원자로](/assets/images/20181230_140056.jpg)
+![비트가 원자로](/assets/images/20181230_161421.jpg)
+![비트가 원자로](/assets/images/20181230_161442.jpg)
+![비트가 원자로](/assets/images/20181230_161655.jpg)
+![비트가 원자로](/assets/images/20181230_161729.jpg)
+![비트가 원자로](/assets/images/20181230_174810.jpg)
+![비트가 원자로](/assets/images/20190129_020208.jpg)
 

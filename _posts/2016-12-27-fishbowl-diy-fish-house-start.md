@@ -5,7 +5,7 @@ title:  "귀요미 어항 제작 시작"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2016-12-27 22:00:00 +0900
 categories:
   - maker

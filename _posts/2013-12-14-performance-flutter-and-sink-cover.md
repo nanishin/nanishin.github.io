@@ -5,7 +5,7 @@ title:  "라이브 공연 (데이브레이크 - 들었다 놨다)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2013-12-14 23:30:00 +0900
 categories:
   - music

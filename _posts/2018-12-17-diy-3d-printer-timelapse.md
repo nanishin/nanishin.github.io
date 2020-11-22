@@ -5,7 +5,7 @@ title:  "타임랩스로 DIY 3D 프린터 메이킹 과정 정리"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-12-17 02:30:00 +0900
 categories:
   - maker

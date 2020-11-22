@@ -5,7 +5,7 @@ title:  "귀요미 어항 지붕 조명 공사"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-01-07 11:30:00 +0900
 categories:
   - maker

@@ -5,7 +5,7 @@ title:  "DIY 3D 프린터 레벨링 센서 교체"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/20200726_201734.jpg
 date:   2020-07-31 23:50:00 +0900
 categories:
   - maker
@@ -38,7 +38,7 @@ tags:
 
 기존 SN04-N은 동작 전압이 10~30V인데 신규 SN04-N은 6~36V
 
-![Compare Old and New (SN04-N)](/assets/images/20200726_201734.png)
+![Compare Old and New (SN04-N)](/assets/images/20200726_201734.jpg)
 
 ## 2. 고정판에 연결
 
@@ -46,7 +46,7 @@ tags:
 
 수동으로 손이 가는 부분...
 
-![Attach New SN04-N](/assets/images/20200729_214413.png)
+![Attach New SN04-N](/assets/images/20200729_214413.jpg)
 
 ## 3. 3핀 커넥터 재사용
 
@@ -54,7 +54,7 @@ tags:
 
 열수축튜브로 마감해서 재사용
 
-![Rewire 3 Pin Connector](/assets/images/20200729_214609.png)
+![Rewire 3 Pin Connector](/assets/images/20200729_214609.jpg)
 
 ## 4. Extruder 후면에 재설치
 
@@ -62,5 +62,5 @@ G29 명령으로 다시 오토베드레벨링 동작이 잘되는 것에서 뿌�
 
 다시 밀려있던 메이킹 재개... ;D
 
-![Reassemble](/assets/images/20200731_214703.png)
+![Reassemble](/assets/images/20200731_214703.jpg)
 

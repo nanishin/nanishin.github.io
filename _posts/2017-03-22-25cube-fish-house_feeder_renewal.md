@@ -5,7 +5,7 @@ title:  "25큐브 귀요미 어항 지붕 먹이통 개선"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-03-22 11:00:00 +0900
 categories:
   - maker

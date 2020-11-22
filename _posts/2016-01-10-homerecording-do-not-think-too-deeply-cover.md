@@ -5,7 +5,7 @@ title:  "너무 깊이 생각하지마 (김광석 Cover)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2016-01-10 14:30:00 +0900
 categories:
   - music

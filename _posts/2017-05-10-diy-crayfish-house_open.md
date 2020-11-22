@@ -5,7 +5,7 @@ title:  "가재 귀호미용 2차 자작 어항 개시"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-05-10 20:30:00 +0900
 categories:
   - maker
@@ -33,7 +33,7 @@ tags:
 ![탈피 후 귀호미](/assets/images/20170412_223730.jpg)
 ![탈피 후 기존 껍질 얌냠](/assets/images/20170414_204030.jpg)
 ![남은 집게발](/assets/images/20170415_105329.jpg)
-![레이저 커터로 싹둑](/assets/images/20170502_130125.png)
+![레이저 커터로 싹둑](/assets/images/20170502_130125.jpg)
 ![테이핑 가조립](/assets/images/20170502_133508.jpg)
 ![뚜껑 추가](/assets/images/20170502_141014.jpg)
 ![아크릴본드 접착 후 초산실리콘 작업준비](/assets/images/20170504_213503.jpg)

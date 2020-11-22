@@ -5,7 +5,7 @@ title:  "자반어항에서 아쿠아리움라이브 방송 시작"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-05-24 21:30:00 +0900
 categories:
   - maker

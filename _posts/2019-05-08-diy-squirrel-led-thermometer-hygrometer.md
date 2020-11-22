@@ -5,7 +5,7 @@ title:  "다람쥐 LED 온습도계 만들기"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2019-05-08 23:40:00 +0900
 categories:
   - maker

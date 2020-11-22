@@ -5,7 +5,7 @@ title:  "메이커페어서울2019 전시/세미나 완료 후기"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2019-10-23 21:00:00 +0900
 toc: true
 toc_sticky: true

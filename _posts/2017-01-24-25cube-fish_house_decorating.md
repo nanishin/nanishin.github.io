@@ -5,7 +5,7 @@ title:  "25큐브어항 도착 및 물잡이 시작"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-01-25 00:30:00 +0900
 categories:
   - maker
@@ -43,5 +43,5 @@ tags:
 ![아마존 걸이식여과기 상자 후면](/assets/images/20170124_214451.jpg)
 ![아마존 걸이식여과기 내용물](/assets/images/20170124_215454.jpg)
 ![개운죽 3촉](/assets/images/20170124_220131.jpg)
-![물잡이 시작](/assets/images/25cube_fish_house_ready.png)
+![물잡이 시작](/assets/images/25cube_fish_house_ready.jpg)
 

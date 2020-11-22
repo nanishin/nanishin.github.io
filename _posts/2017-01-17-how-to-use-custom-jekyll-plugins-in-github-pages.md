@@ -5,7 +5,7 @@ title:  "GitHub Pages에 custom jekyll plugin 적용 방법"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-01-17 02:55:00 +0900
 categories:
   - tip

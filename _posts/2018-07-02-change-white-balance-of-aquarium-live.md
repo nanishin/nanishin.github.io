@@ -5,7 +5,7 @@ title:  "화이트발란스 변경으로 아쿠아리움라이브의 색감 조�
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-07-02 20:30:00 +0900
 categories:
   - maker

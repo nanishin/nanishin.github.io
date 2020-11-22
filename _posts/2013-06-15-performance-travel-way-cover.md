@@ -5,7 +5,7 @@ title:  "라이브 공연 (부가킹즈 - 여행길)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2013-06-15 23:30:00 +0900
 categories:
   - music

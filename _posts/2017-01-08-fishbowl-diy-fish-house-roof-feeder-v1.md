@@ -5,7 +5,7 @@ title:  "귀요미 어항 지붕 먹이통 1차 버전"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-01-08 22:00:00 +0900
 categories:
   - maker

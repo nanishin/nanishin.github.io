@@ -5,7 +5,7 @@ title:  "온수제어용 SIMENS SSK 21.1C 구동기 밸브 간단 수리"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2019-01-15 09:00:00 +0900
 categories:
   - maker
@@ -32,8 +32,8 @@ SIMENS SSK 21.1C라는 모터 구동기가 밸브 핀을 밀거나(밸브닫힘)
 
 메이커가 되면서 점점 구조가 간단한 경우 자가수리에 도전 중 ;)
 
-![방별 밸브 동작 상태](/assets/images/20190115_075652.png)
-![방별 밸브 동작 상태](/assets/images/20190115_080429.png)
-![방별 밸브 동작 상태](/assets/images/20190115_081545.png)
-![방별 밸브 동작 상태](/assets/images/20190115_083931.png)
+![방별 밸브 동작 상태](/assets/images/20190115_075652.jpg)
+![방별 밸브 동작 상태](/assets/images/20190115_080429.jpg)
+![방별 밸브 동작 상태](/assets/images/20190115_081545.jpg)
+![방별 밸브 동작 상태](/assets/images/20190115_083931.jpg)
 

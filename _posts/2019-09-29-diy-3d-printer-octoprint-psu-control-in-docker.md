@@ -6,7 +6,7 @@ excert : "모든 서비스는 컨테이너 속으로..."
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2019-09-29 02:30:00 +0900
 categories:
   - maker
@@ -30,7 +30,7 @@ tags:
 
 처리로 최종동작 확인한 뒤 내용 정리!!!
 
-![PSU plugin menu](/assets/images/psu_plugin_menu.png)
+![PSU plugin menu](/assets/images/psu_plugin_menu.jpg)
 
 ## GPIO 지원을 위해 적용된 패치 및 스크립트 
 ```shell
@@ -102,23 +102,23 @@ time.sleep(1)
 
 다행히 PSU 라인은 이미 기본적으로 Live, Neutral, Earth 구분이 되어 있던지라 Live 선으로 Relay 연결 작업 진행
 
-![Check PSU Line](/assets/images/20190928_101608.png)
+![Check PSU Line](/assets/images/20190928_101608.jpg)
 
 예전에 멀티탭 케이블 자른 뒤 직접 Relay 연결하면서 남은 220V 용 전선이 있던지라 재사용
 
-![Prepare relay and wire](/assets/images/20190928_102644.png)
-![Prepare relay and wire](/assets/images/20190928_103230.png)
+![Prepare relay and wire](/assets/images/20190928_102644.jpg)
+![Prepare relay and wire](/assets/images/20190928_103230.jpg)
 
 NO (Normal Open)과 Common으로 각각 연결
 
-![NO and Common](/assets/images/20190928_103538.png)
-![NO and Common](/assets/images/20190928_103835.png)
+![NO and Common](/assets/images/20190928_103538.jpg)
+![NO and Common](/assets/images/20190928_103835.jpg)
 
 OctoPrint 내 PSU toggle button으로 전원 제어 동작 확인!!!
 
-![PSU toggle button](/assets/images/psu_toggle_button.png)
-![psu control test](/assets/images/20190929_021510.png)
-![psu control test](/assets/images/20190929_021504.png)
+![PSU toggle button](/assets/images/psu_toggle_button.jpg)
+![psu control test](/assets/images/20190929_021510.jpg)
+![psu control test](/assets/images/20190929_021504.jpg)
 
 Docker Hub에도 Container Image 적용 완료
 

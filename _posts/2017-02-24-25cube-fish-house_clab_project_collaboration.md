@@ -5,7 +5,7 @@ title:  "25큐브 귀요미 어항과 C-Lab 프로젝트 콜라보 진행 중"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-02-24 21:00:00 +0900
 categories:
   - maker

@@ -5,7 +5,7 @@ title:  "파이캠 초점 조절로 아쿠아리움라이브 화질 개선"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-05-28 20:00:00 +0900
 categories:
   - maker

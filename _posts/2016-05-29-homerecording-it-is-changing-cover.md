@@ -5,7 +5,7 @@ title:  "변해가네 (김광석 Cover)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2016-05-29 14:30:00 +0900
 categories:
   - music

@@ -5,7 +5,7 @@ title:  "크리스마스장식 만들기(3D프린트+LED아트+종이공작)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-12-24 02:10:00 +0900
 categories:
   - maker
@@ -23,7 +23,7 @@ tags:
 
 메리 크리스마스~ :D
 
-![ㅋㅋ루돌프 컨셉 도안](/assets/images/kk_rudolph_concept.jpeg)
+![ㅋㅋ루돌프 컨셉 도안](/assets/images/kk_rudolph_concept.jpg)
 
 ### 1분 요약 제작과정
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LMZz60gd4co" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

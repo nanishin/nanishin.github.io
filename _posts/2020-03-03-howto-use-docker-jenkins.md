@@ -5,7 +5,7 @@ title:  "Jenkins Docker-in-Docker 환경 사용하기"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2020-03-03 15:30:00 +0900
 categories:
   - tip

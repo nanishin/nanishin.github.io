@@ -5,7 +5,7 @@ title:  "첫 라이브 공연 (N.EX.T - 날아라 병아리, McFly - All About Y
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2010-07-28 23:30:00 +0900
 categories:
   - music

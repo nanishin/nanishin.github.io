@@ -5,7 +5,7 @@ title:  "PS4 Pro 죽음의 파란불 자가수리"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/20200905_000937.jpg
 date:   2020-09-15 23:30:00 +0900
 categories:
   - maker
@@ -38,15 +38,15 @@ tags:
 
 다양한 사이즈 확보를 위해 유명하다는 샤오미 드라이버 세트로 주문
 
-![Mi x Whia Precision Screwdriver - 1](/assets/images/20200819_093043.png)
+![Mi x Whia Precision Screwdriver - 1](/assets/images/20200819_093043.jpg)
 
-![Mi x Whia Precision Screwdriver - 2](/assets/images/20200915_222653.png)
+![Mi x Whia Precision Screwdriver - 2](/assets/images/20200915_222653.jpg)
 
 실제로 사용되는 사이즈는 가운데 심이 있는 별나사 T8H
 
-![TORX T8H - 1](/assets/images/20200904_232707.png)
+![TORX T8H - 1](/assets/images/20200904_232707.jpg)
 
-![TORX T8H - 2](/assets/images/20200904_232646.png)
+![TORX T8H - 2](/assets/images/20200904_232646.jpg)
 
 ## 2. 분해는 차근차근
 
@@ -56,25 +56,25 @@ iFixIt의 가이드대로 과감하게 뚜둑 소리나게 뜯어서 파워모�
 
 - [PlayStation 4 Pro Power Supply Unit Replacement](https://ko.ifixit.com/Guide/PlayStation+4+Pro+Power+Supply+Unit+Replacement/89196)
 
-![PS4 Pro Power Disaseemble Top - 1](/assets/images/20200904_231843.png)
+![PS4 Pro Power Disaseemble Top - 1](/assets/images/20200904_231843.jpg)
 
-![PS4 Pro Power Disaseemble Top - 2](/assets/images/20200904_232508.png)
+![PS4 Pro Power Disaseemble Top - 2](/assets/images/20200904_232508.jpg)
 
-![PS4 Pro Power Disaseemble Top - 3](/assets/images/20200904_232759.png)
+![PS4 Pro Power Disaseemble Top - 3](/assets/images/20200904_232759.jpg)
 
 이미 무상 보증기간도 지났으니 후면 봉인씰 제거 후 나사 1개도 풀어줌
 
-![PS4 Pro Power Disaseemble Rear](/assets/images/20200904_233229.png)
+![PS4 Pro Power Disaseemble Rear](/assets/images/20200904_233229.jpg)
 
 바닥면에서 나사 2개를 풀어야 파워모듈 분리 가능
 
-![PS4 Pro Power Disaseemble Back - 1](/assets/images/20200905_000013.png)
+![PS4 Pro Power Disaseemble Back - 1](/assets/images/20200905_000013.jpg)
 
-![PS4 Pro Power Disaseemble Back - 2](/assets/images/20200905_001818.png)
+![PS4 Pro Power Disaseemble Back - 2](/assets/images/20200905_001818.jpg)
 
 파워모듈 분리!!!
 
-![PS4 Pro Power Disaseemble Top - 4](/assets/images/20200905_000937.png)
+![PS4 Pro Power Disaseemble Top - 4](/assets/images/20200905_000937.jpg)
 
 ## 3. 역시 기계는 쓸고 닦아줘야 한다
 
@@ -84,9 +84,9 @@ iFixIt의 가이드대로 과감하게 뚜둑 소리나게 뜯어서 파워모�
 
 문제를 일으켰던 원인으로 확인됨
 
-![Inside of Power Module](/assets/images/20200905_001221.png)
+![Inside of Power Module](/assets/images/20200905_001221.jpg)
 
-![MOSFET Close Up](/assets/images/20200905_001225.png)
+![MOSFET Close Up](/assets/images/20200905_001225.jpg)
 
 ## 4. 재조립 후 찾아온 평화
 
@@ -96,6 +96,6 @@ iFixIt의 가이드대로 과감하게 뚜둑 소리나게 뜯어서 파워모�
 
 코로나19 집콕에 맞춰 다시금 평화롭게 폴가이즈와 위쳐3 게임 속으로... :D
 
-![Connector of Power Module](/assets/images/20200905_004800.png)
+![Connector of Power Module](/assets/images/20200905_004800.jpg)
 
-![Model Number of Power Module](/assets/images/20200905_004919.png)
+![Model Number of Power Module](/assets/images/20200905_004919.jpg)

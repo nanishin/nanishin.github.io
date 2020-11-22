@@ -5,7 +5,7 @@ title:  "버스킹 공연 (센과 치히로의 행방불명 OST - 언제나 몇�
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-10-20 18:30:00 +0900
 categories:
   - music

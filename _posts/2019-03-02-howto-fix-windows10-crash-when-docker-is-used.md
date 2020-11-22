@@ -5,7 +5,7 @@ title:  "Docker 사용 중 발생한 Windows10 크래시 해결 방법"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2019-03-02 03:00:00 +0900
 categories:
   - tip

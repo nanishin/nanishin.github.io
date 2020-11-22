@@ -5,7 +5,7 @@ title:  "아마존 2구 에어펌프 수리 방법"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-04-10 11:56:00 +0900
 categories:
   - maker

@@ -5,7 +5,7 @@ title:  "회상 (산울림 Cover)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2016-05-01 14:30:00 +0900
 categories:
   - music

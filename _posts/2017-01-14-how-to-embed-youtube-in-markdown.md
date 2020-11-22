@@ -5,7 +5,7 @@ title:  "마크다운에서 유튜브 링크하는 방법"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-01-14 20:12:00 +0900
 categories:
   - tip

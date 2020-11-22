@@ -5,7 +5,7 @@ title:  "귀요미 어항 지붕 덮은 날"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-01-06 22:30:00 +0900
 categories:
   - maker

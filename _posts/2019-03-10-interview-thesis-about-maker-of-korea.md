@@ -5,7 +5,7 @@ title:  "메이커 인터뷰이로 참여해본 사회학과 학생의 석사학
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2019-03-10 18:30:00 +0900
 categories:
   - maker

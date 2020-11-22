@@ -5,7 +5,7 @@ title:  "첫 자작어항 한달을 앞두고 누수로 해체"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-01-22 17:00:00 +0900
 categories:
   - maker

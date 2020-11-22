@@ -5,7 +5,7 @@ title:  "DIY 아두이노 드론에 초음파센서 추가 후 2차 야외비행
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-08-19 23:01:00 +0900
 categories:
   - maker
@@ -22,13 +22,13 @@ tags:
 
 - [Sonar HC-SR04 Support now implemented in MW2.4](http://www.multiwii.com/forum/viewtopic.php?t=6282)
 
-![초음파센서 배선 적용 후 상부](/assets/images/20180816_025935.png)
-![하부 초음파센서 설치 위치](/assets/images/20180816_025945.png)
-![초음파센서 적용 후 측면](/assets/images/20180816_025952.png)
-![수신기 고정을 위해 절연테이프 적용한 후면](/assets/images/20180816_030015.png)
+![초음파센서 배선 적용 후 상부](/assets/images/20180816_025935.jpg)
+![하부 초음파센서 설치 위치](/assets/images/20180816_025945.jpg)
+![초음파센서 적용 후 측면](/assets/images/20180816_025952.jpg)
+![수신기 고정을 위해 절연테이프 적용한 후면](/assets/images/20180816_030015.jpg)
 
 2차 야외비행으로 좀 더 안정화된 호버링 동작 확인!!! ;)
 
-![초음파센서 고려해 찍찍이 고정](/assets/images/20180819_134023.png)
+![초음파센서 고려해 찍찍이 고정](/assets/images/20180819_134023.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v8UkYDHHhgw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

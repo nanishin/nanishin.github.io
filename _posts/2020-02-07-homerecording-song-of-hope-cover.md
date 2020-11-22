@@ -5,7 +5,7 @@ title:  "아버지 추모 영상 (BGM 희망가)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2020-02-07 22:30:00 +0900
 categories: 
   - music

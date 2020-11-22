@@ -5,7 +5,7 @@ title:  "귀요미 어항 입주 완료"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2016-12-31 11:00:00 +0900
 categories:
   - maker

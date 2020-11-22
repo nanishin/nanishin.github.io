@@ -5,7 +5,7 @@ title:  "물질의 시작 - 3D 프린팅 어항 받침대"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2016-12-01 23:30:00 +0900
 categories:
   - maker

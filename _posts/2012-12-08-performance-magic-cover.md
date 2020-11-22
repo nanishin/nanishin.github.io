@@ -5,7 +5,7 @@ title:  "라이브 공연 (시크릿 - Magic)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2012-12-08 23:30:00 +0900
 categories:
   - music

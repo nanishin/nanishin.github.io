@@ -5,7 +5,7 @@ title:  "Upcycling JackOLantern"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-10-30 07:40:00 +0900
 categories:
   - maker

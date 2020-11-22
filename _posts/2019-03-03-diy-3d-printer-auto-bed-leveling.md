@@ -5,7 +5,7 @@ title:  "DIY 3D 프린터에 오토베드레벨링 적용"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2019-03-03 15:30:00 +0900
 categories:
   - maker
@@ -25,7 +25,7 @@ ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드�
 
 필요했지만 일단 맞춰두고 나니 쾌적한 3D 프린팅 세상이 열림~ :D
 
-![SN04-N](/assets/images/20190303_105919.png)
+![SN04-N](/assets/images/20190303_105919.jpg)
 
 설정한 옵션 위주로 정리
 
@@ -144,5 +144,5 @@ ANET A8을 주문할 당시 처음부터 옵션으로 선택했던 오토베드�
 
 # G29 G-Code 명령어 적용
 항상 프린팅 시작하기 전에 오토베드레벨링을 수행하기 위해 G28 X/Y/X 축 초기화 명령 후 적용
-![G29 G-Code](/assets/images/g29_gcode_auto_level.png)
+![G29 G-Code](/assets/images/g29_gcode_auto_level.jpg)
 

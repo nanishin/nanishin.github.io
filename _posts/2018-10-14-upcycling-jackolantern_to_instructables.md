@@ -5,7 +5,7 @@ title:  "Upcycling Jack-O-Lantern to instructables site"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-10-14 16:40:00 +0900
 categories:
   - maker

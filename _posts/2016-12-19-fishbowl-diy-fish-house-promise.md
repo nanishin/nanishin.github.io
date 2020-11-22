@@ -5,7 +5,7 @@ title:  "귀요미 어항 제작 약속"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2016-12-19 21:30:00 +0900
 categories:
   - maker

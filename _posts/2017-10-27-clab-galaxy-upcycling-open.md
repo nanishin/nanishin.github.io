@@ -5,7 +5,7 @@ title:  "Galaxy Upcycling project open"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-10-27 20:30:00 +0900
 categories:
   - maker

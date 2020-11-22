@@ -5,7 +5,7 @@ title:  "Tizen Studio 2.X 실행 시 workspace 선택창에서 멈추는 상황 
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2018-01-15 01:25:00 +0900
 categories:
   - tip

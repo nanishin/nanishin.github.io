@@ -24,7 +24,7 @@ description              : "Daddy of two daughters, Maker with upcycling, Let's 
 url                      : "https://nanishin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/nanishin.png"
+teaser                   : "/assets/images/nanishin.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -89,7 +89,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/nanishin.png"
+og_image                 : "/assets/images/nanishin.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Nani Shin"
-  avatar           : "/assets/images/nanishin.png"
+  avatar           : "/assets/images/nanishin.jpg"
   bio              : "Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment"
   location         : "South Korea"
   email            :

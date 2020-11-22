@@ -5,7 +5,7 @@ title:  "DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -> Docker)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2019-06-23 21:51:00 +0900
 categories:
   - maker
@@ -88,7 +88,7 @@ PiCam으로 프린팅 상황 스트리밍을 위해 mjpg-streamer에 대한 추�
 
 Docker Container 안에서 OctoPrint가 동작하면서 기존처럼 프린팅되는 것 확인 완료!!!
 
-![OctoPrint in Docker](/assets/images/octoprint_in_docker.png)
+![OctoPrint in Docker](/assets/images/octoprint_in_docker.jpg)
 
 # OctoPrint Docker Container in Raspberry Pi 3
 ```shell

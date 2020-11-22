@@ -5,7 +5,7 @@ title:  "25큐브어항 측면 천장 설치 후 귀요미 입주"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-01-26 00:30:00 +0900
 categories:
   - maker
@@ -20,8 +20,8 @@ tags:
 
 이제 튼튼한 25큐브어항 위에 얹을 다양한 지붕 디자인을 계속 고민해 봐야쥐~ ;)
 
-![측면 지붕 결합샷](/assets/images/25cube_fish_house_side_roof.png)
-![조명 및 먹이통V2.1 설치](/assets/images/25cube_fish_house_side_roof_light_and_feeder.png)
-![조명 시험](/assets/images/25cube_fish_house_side_roof_night_light.png)
-![귀요미 25큐브 새집 개장](/assets/images/25cube_fish_house_open.png)
+![측면 지붕 결합샷](/assets/images/25cube_fish_house_side_roof.jpg)
+![조명 및 먹이통V2.1 설치](/assets/images/25cube_fish_house_side_roof_light_and_feeder.jpg)
+![조명 시험](/assets/images/25cube_fish_house_side_roof_night_light.jpg)
+![귀요미 25큐브 새집 개장](/assets/images/25cube_fish_house_open.jpg)
 

@@ -5,7 +5,7 @@ title:  "How to modify fadecandy firmware to support RGBW LED strip"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.png
+  teaser: /assets/images/nanishin.jpg
 date:   2017-12-25 12:00:00 +0900
 categories:
   - maker
