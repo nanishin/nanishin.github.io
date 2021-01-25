@@ -343,4 +343,9 @@ var store = [{
         "excerpt":"2008년 아파트 완공 시점부터 설치되어 있던 욕실 샤워수전을 사용한 지 13년… 점점 냉온수 조절기 부분은 뻑뻑해지고 샤워기 호스 보호부분도 끊어지는 사태가… 가족들의 평화로운 욕실 사용을 위해 샤워수전 교체 진행!!! 1. 샤워수전 상태 체크 가급적 고쳐서 오래 써보려고 해도 샤워수전은 수압 처리를 위한 일체화된 구조 상 신품으로 교체 필요… 새 샤워수전...","categories": ["maker"],
         "tags": ["샤워수전","Bath Shower","DIY Replacement","자가교체","Right to Repair"],
         "url": "https://nanishin.github.io/maker/diy-bath-shower-replacement/",
-        "teaser":"https://nanishin.github.io/assets/images/20201122_190404.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/20201122_190404.jpg"},{
+        "title": "삼성프린터 페이퍼패스 자가교체",
+        "excerpt":"예전 본가에 들여뒀던 삼성복합기 SL-C463W 아버지 1주기 제사 준비를 위해 축문 출력에 사용하려고 했지만 종이가 올라가지 않는 동작 발생. 그래서 그날은 형이 한지에 붓펜으로 쓰고 내가 독음 써서 진행 예전 기억이 떠오른게 유사 모델로 집에 있던 삼성복합기도 10년 정도 사용한 뒤 종이급지가 잘 안되고 이전 출력 내용이 묻은 상태에서 출력되어...","categories": ["maker"],
+        "tags": ["삼성프린터","Samsung Printer","SL-C463W","페이퍼패스","Paper Path","DIY Replacement","자가교체","Right to Repair"],
+        "url": "https://nanishin.github.io/maker/diy-samsung-printer-paper-path-replacement/",
+        "teaser":"https://nanishin.github.io/assets/images/20210117_183844.jpg"}]
