@@ -348,4 +348,14 @@ var store = [{
         "excerpt":"예전 본가에 들여뒀던 삼성복합기 SL-C463W 아버지 1주기 제사 준비를 위해 축문 출력에 사용하려고 했지만 종이가 올라가지 않는 동작 발생. 그래서 그날은 형이 한지에 붓펜으로 쓰고 내가 독음 써서 진행 예전 기억이 떠오른게 유사 모델로 집에 있던 삼성복합기도 10년 정도 사용한 뒤 종이급지가 잘 안되고 이전 출력 내용이 묻은 상태에서 출력되어...","categories": ["maker"],
         "tags": ["삼성프린터","Samsung Printer","SL-C463W","페이퍼패스","Paper Path","DIY Replacement","자가교체","Right to Repair"],
         "url": "https://nanishin.github.io/maker/diy-samsung-printer-paper-path-replacement/",
-        "teaser":"https://nanishin.github.io/assets/images/20210117_183844.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/20210117_183844.jpg"},{
+        "title": "부러진 헤드셋을 3D 프린팅으로 업사이클링",
+        "excerpt":"8년 가까이 잘 사용하던 자브라 헤드셋… 중간에 이어패드도 바꿔서 계속 수명을 연장하다가 결국 헤드밴드까지 부러지고 한동안 방치… 그러다 Thingiverse에서 BOSE 헤드셋 유사 디자인을 발견해서 업사이클링 결정!!! 3D Printed Headphones 1. 헤드밴드 및 이어패드 지지대 출력 우드 PLM이 남아있어서 나무 느낌으로 해봤으나 여전히 순수 PLM 대비 낙하 충격에 약해 바로 깨져서...","categories": ["maker"],
+        "tags": ["헤드셋","Headset","업사이클링","Upcycling","3D 프린팅","3D Printing","고쳐쓰기","Right to Repair"],
+        "url": "https://nanishin.github.io/maker/upcycling-headphone/",
+        "teaser":"https://nanishin.github.io/assets/images/20210606_231705.jpg"},{
+        "title": "세면대 배관 자가교체",
+        "excerpt":"메이커 활동을 시작한 2017년 초기 직접 교체했던 화장실 세면대 배관… 그당시 배관 조절 방법이 익숙치 않아서 세면대에 직접 연결하는 일자 배관은 플라스틱 부품 쓰고 P자 금속배관은 아파트 기계실에서 자른 뒤 연결했었는데 올해 조금씩 부서지더니 결국 세면대 아래쪽으로 물이 새기 시작해서 동네 철물점에서 모두 금속 배관으로 사다가 2차 교체 진행!!! 1....","categories": ["maker"],
+        "tags": ["세면대 배관","Bath Wash Basin Plumbing","DIY Replacement","자가교체","Right to Repair"],
+        "url": "https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement/",
+        "teaser":"https://nanishin.github.io/assets/images/20210726_221231.jpg"}]
