@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>다람쥐 LED 온습도계 만들기 - 申Nani?</title>
-<meta name="description" content="작년 중반 거실에 설치한 LED 습도계와 이후 연말에 추가했던 ㅋㅋ루돌프 캐릭터 크리스마스 LED 장식… ">
+<!-- begin _includes/seo.html --><title>Docker로 라즈베리파이용 ffmpeg 빌드하기 - 申Nani?</title>
+<meta name="description" content="2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년… ">
 
 
   <meta name="author" content="Nani Shin">
@@ -19,11 +19,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="申Nani?">
-<meta property="og:title" content="다람쥐 LED 온습도계 만들기">
-<meta property="og:url" content="https://nanishin.github.io/maker/diy-squirrel-led-thermometer-hygrometer/">
+<meta property="og:title" content="Docker로 라즈베리파이용 ffmpeg 빌드하기">
+<meta property="og:url" content="https://nanishin.github.io/tip/howto-build-rpi-ffmpeg-with-docker/">
 
 
-  <meta property="og:description" content="작년 중반 거실에 설치한 LED 습도계와 이후 연말에 추가했던 ㅋㅋ루돌프 캐릭터 크리스마스 LED 장식… ">
+  <meta property="og:description" content="2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년… ">
 
 
 
@@ -33,7 +33,7 @@
 
 
 
-  <meta property="article:published_time" content="2019-05-08T23:40:00+09:00">
+  <meta property="article:published_time" content="2021-09-12T23:50:00+09:00">
 
 
 
@@ -44,7 +44,7 @@
   
 
 
-<link rel="canonical" href="https://nanishin.github.io/maker/diy-squirrel-led-thermometer-hygrometer/">
+<link rel="canonical" href="https://nanishin.github.io/tip/howto-build-rpi-ffmpeg-with-docker/">
 
 
 
@@ -283,15 +283,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="다람쥐 LED 온습도계 만들기">
-    <meta itemprop="description" content="작년 중반 거실에 설치한 LED 습도계와 이후 연말에 추가했던 ㅋㅋ루돌프 캐릭터 크리스마스 LED 장식…">
-    <meta itemprop="datePublished" content="2019-05-08T23:40:00+09:00">
+    <meta itemprop="headline" content="Docker로 라즈베리파이용 ffmpeg 빌드하기">
+    <meta itemprop="description" content="2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년…">
+    <meta itemprop="datePublished" content="2021-09-12T23:50:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">다람쥐 LED 온습도계 만들기
+          <h1 id="page-title" class="page__title" itemprop="headline">Docker로 라즈베리파이용 ffmpeg 빌드하기
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -334,43 +334,46 @@
             </nav>
           </aside>
         
-        <p>작년 중반 거실에 설치한 LED 습도계와 이후 연말에 추가했던 ㅋㅋ루돌프 캐릭터 크리스마스 LED 장식…</p>
+        <p>2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년…</p>
 
-<p>두가지 아이디어를 섞어서 좀 더 깔끔한 결과물을 만들고 싶었다.</p>
+<p>그러다 일주일 전 잦은 스트리밍 처리로 SD카드 파티션에 에러가 누적되었는지 file io error 발생하면서 부팅 안됨…</p>
 
-<p>그래서 4월 말 주말에 마침 일찍 일어난 김에 거실 식탁에서 이리저리 캐릭터 디자인 초안을 그려보고 있는데</p>
+<p>이거이거 스트리밍으로 SD카드 수명이 단축된건가 했는데 다행히 다른 라즈베리파이에 마운트해서 fsck로 수정 처리하고 기존 데이터들 백업한 뒤 몇번의 포맷을 거쳐 다시 정상 부팅 확인…</p>
 
-<p>둘째딸도 일어나서 오더니 내 얘기를 듣고나서 자기가 알고 있는 여러 캐릭터들을 그려서 보여주었다.</p>
-
-<p>그중 처음에 그려준 아래 다람쥐 형상에 색칠한 부분들에서 빛효과를 내면 좋겠다는 아이디어가 마음에 들었다.</p>
-
-<p><img src="https://github.com/nanishin/squirrel-led-thermometer-hygrometer/blob/master/media/squirrel_initial_design.png?raw=true" alt="다람쥐 컨셉 도안" /></p>
-
-<p>결국 둘째딸 디자인 초안을 바탕으로 다람쥐 형상을 만들었고</p>
-
-<p>몸통빛은 온도계를 나타내고 꼬리빛은 습도계를 나타내는 걸로 정리…</p>
-
-<p><img src="https://github.com/nanishin/squirrel-led-thermometer-hygrometer/blob/master/media/design_squirrel_shape.png?raw=true" alt="다람쥐 최종 도안" /></p>
-
-<p>이후 몇주 간 이래저래 바뻐서 마무리를 짓지 못하고 있었는데 마침내 이번주에 최종 완료!!!</p>
-
-<p>기존 설치물들을 제거하고 다람쥐 LED 온습도계 하나만 붙여두니 큰딸은 뭔가 허전한 느낌이라는데</p>
-
-<p>다시 하나씩 만들어 보자고 위로~ :D</p>
-
-<p>기존과 동일하게 습도 상태에 따른 릴레이 동작으로 가습기 제어할 수 있어서 대만족…</p>
-
-<p>이렇게 또 반년을 돌려보면서 개선점을 찾아보자!!!</p>
-
-<p><img src="https://github.com/nanishin/squirrel-led-thermometer-hygrometer/blob/master/media/after_installed_to_wall.png?raw=true" alt="다람쥐 벽면 설치" />
-<img src="https://github.com/nanishin/squirrel-led-thermometer-hygrometer/blob/master/media/squirrel_to_control_humidifier.png?raw=true" alt="다람쥐 가습기 제어" />
-<img src="https://github.com/nanishin/squirrel-led-thermometer-hygrometer/blob/master/media/squirrel_final_lighting.png?raw=true" alt="다람쥐 야간 조명" /></p>
-
-<p>우선은 GitHub에만 정리했고 이후 추가로 다른 사이트들에도 업데이트 예정</p>
+<p>기왕 오랜만에 업데이트한 김에 ffmpeg도 최신 버전 빌드하기 수월하게 docker 환경으로 정리 완료!!!</p>
 
 <ul>
-  <li><a href="https://github.com/nanishin/squirrel-led-thermometer-hygrometer">squirrel-led-squirrel-led-thermometer-hygrometer</a></li>
+  <li><a href="https://github.com/nanishin/rpi-ffmpeg-docker-build">RPI FFmpeg Docker Build</a></li>
 </ul>
+
+<p>그러나 아쉽게도 하드웨어 가속용 OMX 옵션(–enable-omx –enable-omx-rpi)은 아래 raspbian 환경과 달리 docker 이미지 내 libraspberrypi-dev 패키지에는 관련 헤더파일들이 없어서 뺀 상태로만 빌드 가능하다는 제약이 있음… :’( 그러니 빌드 과정 참고용으로만 활용…</p>
+
+<p>현재 어항방송에 사용 중인 최신 버전 ffmpeg은 OMX 옵션을 사용하기 위해 raspbian 환경에서 직접 빌드한 건 안비밀 ;P</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pi@raspberrypi:~ <span class="nv">$ </span>dpkg <span class="nt">-L</span> libraspberrypi-dev | <span class="nb">grep </span>OMX
+/opt/vc/include/IL/OMX_Audio.h
+/opt/vc/include/IL/OMX_Broadcom.h
+/opt/vc/include/IL/OMX_Component.h
+/opt/vc/include/IL/OMX_Core.h
+/opt/vc/include/IL/OMX_ILCS.h
+/opt/vc/include/IL/OMX_IVCommon.h
+/opt/vc/include/IL/OMX_Image.h
+/opt/vc/include/IL/OMX_Index.h
+/opt/vc/include/IL/OMX_Other.h
+/opt/vc/include/IL/OMX_Types.h
+/opt/vc/include/IL/OMX_Video.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Audio.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Broadcom.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Component.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Core.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_ILCS.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_IVCommon.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Image.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Index.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Other.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Types.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Video.h
+</code></pre></div></div>
 
 
         
@@ -392,11 +395,27 @@
     
       
       
-      <a href="/tags/#%EB%8B%A4%EB%9E%8C%EC%A5%90" class="page__taxonomy-item" rel="tag">다람쥐</a><span class="sep">, </span>
+      <a href="/tags/#docker" class="page__taxonomy-item" rel="tag">Docker</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#%EC%98%A8%EC%8A%B5%EB%8F%84%EA%B3%84" class="page__taxonomy-item" rel="tag">온습도계</a>
+      <a href="/tags/#ffmpeg" class="page__taxonomy-item" rel="tag">FFmpeg</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#raspberry-pi" class="page__taxonomy-item" rel="tag">Raspberry Pi</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#rpi" class="page__taxonomy-item" rel="tag">RPI</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#%EB%8F%84%EC%BB%A4" class="page__taxonomy-item" rel="tag">도커</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4" class="page__taxonomy-item" rel="tag">라즈베리파이</a>
     
     </span>
   </p>
@@ -417,14 +436,14 @@
     
       
       
-      <a href="/categories/#maker" class="page__taxonomy-item" rel="tag">maker</a>
+      <a href="/categories/#tip" class="page__taxonomy-item" rel="tag">tip</a>
     
     </span>
   </p>
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-05-08T23:40:00+09:00">May 8, 2019</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-09-12T23:50:00+09:00">September 12, 2021</time></p>
         
       </footer>
 
@@ -433,23 +452,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=%EB%8B%A4%EB%9E%8C%EC%A5%90+LED+%EC%98%A8%EC%8A%B5%EB%8F%84%EA%B3%84+%EB%A7%8C%EB%93%A4%EA%B8%B0%20https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-squirrel-led-thermometer-hygrometer%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Docker%EB%A1%9C+%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4%EC%9A%A9+ffmpeg+%EB%B9%8C%EB%93%9C%ED%95%98%EA%B8%B0%20https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-build-rpi-ffmpeg-with-docker%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-squirrel-led-thermometer-hygrometer%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-build-rpi-ffmpeg-with-docker%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Fmaker%2Fdiy-squirrel-led-thermometer-hygrometer%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-build-rpi-ffmpeg-with-docker%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/maker/interview-thesis-about-maker-of-korea/" class="pagination--pager" title="메이커 인터뷰이로 참여해본 사회학과 학생의 석사학위논문
+      <a href="/maker/diy-bath-wash-basin-plumbing-replacement/" class="pagination--pager" title="세면대 배관 자가교체
 ">Previous</a>
     
     
-      <a href="/maker/diy-3d-printer-octoprint-in-docker/" class="pagination--pager" title="DIY 3D 프린터용 OctoPrint 환경 변경(OctoPi -&gt; Docker)
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -483,46 +501,6 @@
       <div class="archive__item-teaser">
         <img src=
           
-            "/assets/images/nanishin.jpg"
-          
-          alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/tip/howto-build-rpi-ffmpeg-with-docker/" rel="permalink">Docker로 라즈베리파이용 ffmpeg 빌드하기
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 12 2021</p>
-    
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년…
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src=
-          
             "/assets/images/20210726_221231.jpg"
           
           alt="">
@@ -543,7 +521,7 @@
 
 
 
-  1 minute read
+  less than 1 minute read
 
 </p>
     
@@ -583,7 +561,7 @@
 
 
 
-  1 minute read
+  less than 1 minute read
 
 </p>
     
@@ -628,6 +606,46 @@
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">예전 본가에 들여뒀던 삼성복합기 SL-C463W
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/20201122_190404.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/diy-bath-shower-replacement/" rel="permalink">욕실 샤워수전 자가교체
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> November 22 2020</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">2008년 아파트 완공 시점부터 설치되어 있던 욕실 샤워수전을 사용한 지 13년…
 </p>
   </article>
 </div>
@@ -720,8 +738,8 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "https://nanishin.github.io/maker/diy-squirrel-led-thermometer-hygrometer/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/maker/diy-squirrel-led-thermometer-hygrometer"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "https://nanishin.github.io/tip/howto-build-rpi-ffmpeg-with-docker/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tip/howto-build-rpi-ffmpeg-with-docker"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');
