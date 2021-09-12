@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2021-09-02T00:57:40+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">세면대 배관 자가교체</title><link href="https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement/" rel="alternate" type="text/html" title="세면대 배관 자가교체" /><published>2021-07-26T23:00:00+09:00</published><updated>2021-07-26T23:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement/">&lt;p&gt;메이커 활동을 시작한 2017년 초기 직접 교체했던 화장실 세면대 배관…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2021-09-13T00:08:05+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">Docker로 라즈베리파이용 ffmpeg 빌드하기</title><link href="https://nanishin.github.io/tip/howto-build-rpi-ffmpeg-with-docker/" rel="alternate" type="text/html" title="Docker로 라즈베리파이용 ffmpeg 빌드하기" /><published>2021-09-12T23:50:00+09:00</published><updated>2021-09-12T23:50:00+09:00</updated><id>https://nanishin.github.io/tip/howto-build-rpi-ffmpeg-with-docker</id><content type="html" xml:base="https://nanishin.github.io/tip/howto-build-rpi-ffmpeg-with-docker/">&lt;p&gt;2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년…&lt;/p&gt;
+
+&lt;p&gt;그러다 일주일 전 잦은 스트리밍 처리로 SD카드 파티션에 에러가 누적되었는지 file io error 발생하면서 부팅 안됨…&lt;/p&gt;
+
+&lt;p&gt;이거이거 스트리밍으로 SD카드 수명이 단축된건가 했는데 다행히 다른 라즈베리파이에 마운트해서 fsck로 수정 처리하고 기존 데이터들 백업한 뒤 몇번의 포맷을 거쳐 다시 정상 부팅 확인…&lt;/p&gt;
+
+&lt;p&gt;기왕 오랜만에 업데이트한 김에 ffmpeg도 최신 버전 빌드하기 수월하게 docker 환경으로 정리 완료!!!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/rpi-ffmpeg-docker-build&quot;&gt;RPI FFmpeg Docker Build&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;그러나 아쉽게도 하드웨어 가속용 OMX 옵션(–enable-omx –enable-omx-rpi)은 아래 raspbian 환경과 달리 docker 이미지 내 libraspberrypi-dev 패키지에는 관련 헤더파일들이 없어서 뺀 상태로만 빌드 가능하다는 제약이 있음… :’( 그러니 빌드 과정 참고용으로만 활용…&lt;/p&gt;
+
+&lt;p&gt;현재 어항방송에 사용 중인 최신 버전 ffmpeg은 OMX 옵션을 사용하기 위해 raspbian 환경에서 직접 빌드한 건 안비밀 ;P&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pi@raspberrypi:~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;dpkg &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; libraspberrypi-dev | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;OMX
+/opt/vc/include/IL/OMX_Audio.h
+/opt/vc/include/IL/OMX_Broadcom.h
+/opt/vc/include/IL/OMX_Component.h
+/opt/vc/include/IL/OMX_Core.h
+/opt/vc/include/IL/OMX_ILCS.h
+/opt/vc/include/IL/OMX_IVCommon.h
+/opt/vc/include/IL/OMX_Image.h
+/opt/vc/include/IL/OMX_Index.h
+/opt/vc/include/IL/OMX_Other.h
+/opt/vc/include/IL/OMX_Types.h
+/opt/vc/include/IL/OMX_Video.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Audio.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Broadcom.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Component.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Core.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_ILCS.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_IVCommon.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Image.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Index.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Other.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Types.h
+/opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Video.h
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Nani Shin</name></author><category term="Raspberry Pi" /><category term="RPI" /><category term="FFmpeg" /><category term="Docker" /><category term="라즈베리파이" /><category term="도커" /><summary type="html">2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년…</summary></entry><entry><title type="html">세면대 배관 자가교체</title><link href="https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement/" rel="alternate" type="text/html" title="세면대 배관 자가교체" /><published>2021-07-26T23:00:00+09:00</published><updated>2021-07-26T23:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement/">&lt;p&gt;메이커 활동을 시작한 2017년 초기 직접 교체했던 화장실 세면대 배관…&lt;/p&gt;
 
 &lt;p&gt;그당시 배관 조절 방법이 익숙치 않아서 세면대에 직접 연결하는 일자 배관은&lt;/p&gt;
 
@@ -731,49 +770,4 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/20200305_205648.jpg&quot; alt=&quot;Check with real milk3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_205758.jpg&quot; alt=&quot;Check with real milk4&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="Nespresso" /><category term="Aeroccino3" /><category term="Failed to repair" /><category term="네스프레소" /><category term="에어로치노3" /><category term="자가수리" /><category term="실패기" /><summary type="html">2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;amp;밀크…</summary></entry><entry><title type="html">Jenkins Docker-in-Docker 환경 사용하기</title><link href="https://nanishin.github.io/tip/howto-use-docker-jenkins/" rel="alternate" type="text/html" title="Jenkins Docker-in-Docker 환경 사용하기" /><published>2020-03-03T15:30:00+09:00</published><updated>2020-03-03T15:30:00+09:00</updated><id>https://nanishin.github.io/tip/howto-use-docker-jenkins</id><content type="html" xml:base="https://nanishin.github.io/tip/howto-use-docker-jenkins/">&lt;p&gt;정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다…&lt;/p&gt;
-
-&lt;p&gt;Jenkins 역시 jenkins docker base를 활용하면 Job 백업/복원이 수월하면서&lt;/p&gt;
-
-&lt;p&gt;docker-in-docker까지 가능하기에 docker client 관련 패키지들까지 포함된&lt;/p&gt;
-
-&lt;p&gt;이미지 만든 뒤 docker hub에 push까지 완료!!!&lt;/p&gt;
-
-&lt;h2 id=&quot;jenkins-job에서-docker-지원용-dockerfile-구성&quot;&gt;Jenkins Job에서 Docker 지원용 Dockerfile 구성&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.nestybox.com/2019/09/29/jenkins.html&quot;&gt;Reference blog of nestybox&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-docker highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; jenkins/jenkins&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Docker install&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;USER&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; root&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;RUN &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\
-&lt;/span&gt;       apt-transport-https &lt;span class=&quot;se&quot;&gt;\
-&lt;/span&gt;       ca-certificates &lt;span class=&quot;se&quot;&gt;\
-&lt;/span&gt;       curl &lt;span class=&quot;se&quot;&gt;\
-&lt;/span&gt;       gnupg2 &lt;span class=&quot;se&quot;&gt;\
-&lt;/span&gt;       software-properties-common
-&lt;span class=&quot;k&quot;&gt;RUN &lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://download.docker.com/linux/debian/gpg | apt-key add -
-&lt;span class=&quot;k&quot;&gt;RUN &lt;/span&gt;apt-key fingerprint 0EBFCD88
-&lt;span class=&quot;k&quot;&gt;RUN &lt;/span&gt;add-apt-repository &lt;span class=&quot;se&quot;&gt;\
-&lt;/span&gt;       &lt;span class=&quot;s2&quot;&gt;&quot;deb [arch=amd64] https://download.docker.com/linux/debian &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\
-&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;       &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;lsb_release &lt;span class=&quot;nt&quot;&gt;-cs&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\
-&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;       stable&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;RUN &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; docker-ce-cli
-
-&lt;span class=&quot;k&quot;&gt;USER&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; jenkins&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;jenkins-job-백업-및-docker-in-docker-지원-컨테이너-실행&quot;&gt;Jenkins Job 백업 및 docker-in-docker 지원 컨테이너 실행&lt;/h2&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; ~/jenkins_home
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;docker run &lt;span class=&quot;nt&quot;&gt;--rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--group-add&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;stat&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'%g'&lt;/span&gt; /var/run/docker.sock&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 8080:8080 &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 50000:50000 &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; ~/jenkins_home:/var/jenkins_home &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; /var/run/docker.sock:/var/run/docker.sock &lt;span class=&quot;nt&quot;&gt;-P&lt;/span&gt; nanishin/jenkins-docker
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;docker-hub에-push한-jenkins-docker-경로&quot;&gt;Docker Hub에 push한 jenkins-docker 경로&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/nanishin/jenkins-docker&quot;&gt;nanishin/jenkins-docker&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nani Shin</name></author><category term="Jenkins" /><category term="Docker-in-Docker" /><category term="젠킨스" /><category term="도커" /><summary type="html">정말 docker는 기존 한땀한땀 서비스 구성방식을 초간단하게 바꿔놨다…</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200305_205758.jpg&quot; alt=&quot;Check with real milk4&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="Nespresso" /><category term="Aeroccino3" /><category term="Failed to repair" /><category term="네스프레소" /><category term="에어로치노3" /><category term="자가수리" /><category term="실패기" /><summary type="html">2010년에 구입해서 10년 동안 잘 사용하던 네스프레소 초기 시티즈&amp;amp;밀크…</summary></entry></feed>

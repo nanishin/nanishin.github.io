@@ -358,4 +358,9 @@ var store = [{
         "excerpt":"메이커 활동을 시작한 2017년 초기 직접 교체했던 화장실 세면대 배관… 그당시 배관 조절 방법이 익숙치 않아서 세면대에 직접 연결하는 일자 배관은 플라스틱 부품 쓰고 P자 금속배관은 아파트 기계실에서 자른 뒤 연결했었는데 올해 조금씩 부서지더니 결국 세면대 아래쪽으로 물이 새기 시작해서 동네 철물점에서 모두 금속 배관으로 사다가 2차 교체 진행!!! 1....","categories": ["maker"],
         "tags": ["세면대 배관","Bath Wash Basin Plumbing","DIY Replacement","자가교체","Right to Repair"],
         "url": "https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement/",
-        "teaser":"https://nanishin.github.io/assets/images/20210726_221231.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/20210726_221231.jpg"},{
+        "title": "Docker로 라즈베리파이용 ffmpeg 빌드하기",
+        "excerpt":"2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년… 그러다 일주일 전 잦은 스트리밍 처리로 SD카드 파티션에 에러가 누적되었는지 file io error 발생하면서 부팅 안됨… 이거이거 스트리밍으로 SD카드 수명이 단축된건가 했는데 다행히...","categories": ["tip"],
+        "tags": ["Raspberry Pi","RPI","FFmpeg","Docker","라즈베리파이","도커"],
+        "url": "https://nanishin.github.io/tip/howto-build-rpi-ffmpeg-with-docker/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"}]
