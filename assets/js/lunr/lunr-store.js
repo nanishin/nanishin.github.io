@@ -34,13 +34,18 @@ var store = [{
         "tags": ["김광석","너무 깊이 생각하지마"],
         "url": "https://nanishin.github.io/music/homerecording-do-not-think-too-deeply-cover/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
+        "title": "사랑이 지나가면 (이문세 Cover)",
+        "excerpt":"홈레코딩 기록 #3 - 사랑이 지나가면 (이문세 Cover)   노래&amp;기타 : 아빠     ","categories": ["music"],
+        "tags": ["이문세","사랑이 지나가면"],
+        "url": "https://nanishin.github.io/music/homerecording-when-love-passes/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
         "title": "회상 (산울림 Cover)",
-        "excerpt":"홈레코딩 기록 #3 - 회상 (산울림 Cover)   노래&amp;기타 : 아빠     ","categories": ["music"],
+        "excerpt":"홈레코딩 기록 #4 - 회상 (산울림 Cover)   노래&amp;기타 : 아빠     ","categories": ["music"],
         "tags": ["산울림","회상"],
         "url": "https://nanishin.github.io/music/homerecording-reminisce-cover/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
         "title": "변해가네 (김광석 Cover)",
-        "excerpt":"홈레코딩 기록 #4 - 변해가네 (김광석 Cover)   노래&amp;기타 : 아빠     ","categories": ["music"],
+        "excerpt":"홈레코딩 기록 #5 - 변해가네 (김광석 Cover)   노래&amp;기타 : 아빠     ","categories": ["music"],
         "tags": ["김광석","변해가네"],
         "url": "https://nanishin.github.io/music/homerecording-it-is-changing-cover/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
@@ -55,7 +60,7 @@ var store = [{
         "url": "https://nanishin.github.io/maker/fishbowl-first-holder-made-by-3d-printer/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
         "title": "정신차려 (김수철 Cover)",
-        "excerpt":"홈레코딩 기록 #5 - 정신차려 (김수철 Cover)   VR 지원하는 브라우저(크롬, 파이어폭스 등)에서 360도 영상 회전 가능   기타 : 아빠   젬베 : 큰딸   보컬 : 아빠, 큰딸, 작은딸     ","categories": ["music"],
+        "excerpt":"홈레코딩 기록 #6 - 정신차려 (김수철 Cover)   VR 지원하는 브라우저(크롬, 파이어폭스 등)에서 360도 영상 회전 가능   기타 : 아빠   젬베 : 큰딸   보컬 : 아빠, 큰딸, 작은딸     ","categories": ["music"],
         "tags": ["김수철","정신차려"],
         "url": "https://nanishin.github.io/music/homerecording-vr-wake-cover/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
@@ -300,7 +305,7 @@ var store = [{
         "url": "https://nanishin.github.io/maker/diy-3d-printer-octoprint-psu-control-in-docker/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
         "title": "메이커페어서울2019 전시/세미나 완료 후기",
-        "excerpt":"이번 메이커페어서울2019 전시/세미나 진행은 동시대에 벌어진 광장에 대한 고민으로 작년보다 상대적으로 차분하게 준비하고 완료… 여전히 셀프홍보는 익숙치 않지만 기록 차원에서 Instagram에 올린 게시물들 정리하고 일단락!!! Instagram에서 이 게시물 보기 Our family well finished exhibition&amp;seminar presentation at MakerFaireSeoul2019. Personally, I was very proud of my presentation which is more natural than...","categories": ["maker"],
+        "excerpt":"이번 메이커페어서울2019 전시/세미나 진행은 동시대에 벌어진 광장에 대한 고민으로 작년보다 상대적으로 차분하게 준비하고 완료… 여전히 셀프홍보는 익숙치 않지만 기록 차원에서 Featured Maker로 진행했던 인터뷰 기사와 Instagram에 올린 게시물들 정리하고 일단락!!! [2019 메이커] 온 가족이 만드는 또 하나의 우주 Instagram에서 이 게시물 보기 Our family well finished exhibition&amp;seminar presentation at MakerFaireSeoul2019....","categories": ["maker"],
         "tags": ["메이커페어","전시","세미나"],
         "url": "https://nanishin.github.io/maker/mfs2019-well-finished/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
@@ -363,4 +368,9 @@ var store = [{
         "excerpt":"2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년… 그러다 일주일 전 잦은 스트리밍 처리로 SD카드 파티션에 에러가 누적되었는지 file io error 발생하면서 부팅 안됨… 이거이거 스트리밍으로 SD카드 수명이 단축된건가 했는데 다행히...","categories": ["tip"],
         "tags": ["Raspberry Pi","RPI","FFmpeg","Docker","라즈베리파이","도커"],
         "url": "https://nanishin.github.io/tip/howto-build-rpi-ffmpeg-with-docker/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
+        "title": "오징어게임 네모 관리자 마스크 출력",
+        "excerpt":"오징어게임의 전세계적인 열풍에 2021년 할로윈 시즌도 다가오고 해서 자연스레 마스크 출력에 관심을 가지던 중 발빠른 한국인 메이커가 실제 드라마처럼 접고 펼 수 있는 고퀄의 마스크를 올려서 바로 다운로드 후 며칠에 걸쳐 출력~ Soldier Masks(Squid Game) 동그라미 일꾼이나 세모 군인보다 네모 관리자모가 낫지 하면서 아크릴물감으로 색칠 후 마무리~ 오징어게임 관리자 2분을...","categories": ["maker"],
+        "tags": ["오징어게임","네모 관리자 마스크","싱기버스","3D 프린팅","Squid Game","Square Manager Mask","Thingiverse","3D Printing"],
+        "url": "https://nanishin.github.io/maker/diy-squid-game-square-manager-mask/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"}]
