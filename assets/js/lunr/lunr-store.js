@@ -373,4 +373,9 @@ var store = [{
         "excerpt":"오징어게임의 전세계적인 열풍에 2021년 할로윈 시즌도 다가오고 해서 자연스레 마스크 출력에 관심을 가지던 중 발빠른 한국인 메이커가 실제 드라마처럼 접고 펼 수 있는 고퀄의 마스크를 올려서 바로 다운로드 후 며칠에 걸쳐 출력~ Soldier Masks(Squid Game) 동그라미 일꾼이나 세모 군인보다 네모 관리자모가 낫지 하면서 아크릴물감으로 색칠 후 마무리~ 오징어게임 관리자 2분을...","categories": ["maker"],
         "tags": ["오징어게임","네모 관리자 마스크","싱기버스","3D 프린팅","Squid Game","Square Manager Mask","Thingiverse","3D Printing"],
         "url": "https://nanishin.github.io/maker/diy-squid-game-square-manager-mask/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
+        "title": "TeslaMate Telegram Bot으로 테슬라 상태 정보 얻기",
+        "excerpt":"메이커 입장에서 테슬라 차량은 Arduino/RaspberryPi/ESP 등을 활용하는 실험/재미를 넘어서서 상업적인 대량생산까지 성공한 최신 IoT 기기의 끝판왕이라 할 수 있음. 특히나 제로마진을 설파했던 제러미 리프킨이 언급한 좌초자산의 관점에서 보더라도 더이상 신규 내연기관차량은 선택지가 될 수 없음 진정한 21세기 미래 디자인을 몇개월 간 경험하면서 느낀 부분은 기존 내연기관 제조사들이 뒤늦게 테슬라를 쫓아...","categories": ["tip"],
+        "tags": ["Raspberry Pi","RPI","TeslaMate","MQTT","Telegram Bot","Docker","Tesla","라즈베리파이","테슬라메이트","텔레그램 봇","도커","테슬라"],
+        "url": "https://nanishin.github.io/tip/howto-use-teslamate-telegram-bot/",
         "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"}]
