@@ -5,7 +5,7 @@ title:  "TeslaMate Telegram Bot으로 테슬라 상태 정보 얻기"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/nanishin.jpg
+  teaser: /assets/images/teslamate_telegram_bot.png
 date:   2021-10-25 02:45:00 +0900
 categories:
   - tip

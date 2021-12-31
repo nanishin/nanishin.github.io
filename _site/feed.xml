@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2021-10-25T02:51:23+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">TeslaMate Telegram Bot으로 테슬라 상태 정보 얻기</title><link href="https://nanishin.github.io/tip/howto-use-teslamate-telegram-bot/" rel="alternate" type="text/html" title="TeslaMate Telegram Bot으로 테슬라 상태 정보 얻기" /><published>2021-10-25T02:45:00+09:00</published><updated>2021-10-25T02:45:00+09:00</updated><id>https://nanishin.github.io/tip/howto-use-teslamate-telegram-bot</id><content type="html" xml:base="https://nanishin.github.io/tip/howto-use-teslamate-telegram-bot/">&lt;p&gt;메이커 입장에서 테슬라 차량은 Arduino/RaspberryPi/ESP 등을 활용하는 실험/재미를 넘어서서 상업적인 대량생산까지 성공한 최신 IoT 기기의 끝판왕이라 할 수 있음. 특히나 제로마진을 설파했던 제러미 리프킨이 언급한 좌초자산의 관점에서 보더라도 더이상 신규 내연기관차량은 선택지가 될 수 없음&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2021-12-31T20:26:29+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">Tesla Custom Light Show 만들기 (BTS 피땀눈물 리믹스)</title><link href="https://nanishin.github.io/maker/diy-tesla-lightshow-custom/" rel="alternate" type="text/html" title="Tesla Custom Light Show 만들기 (BTS 피땀눈물 리믹스)" /><published>2021-12-31T20:20:00+09:00</published><updated>2021-12-31T20:20:00+09:00</updated><id>https://nanishin.github.io/maker/diy-tesla-lightshow-custom</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-tesla-lightshow-custom/">&lt;p&gt;V10 이후 2년 만에 2021년 크리스마스 선물로 월드와이드 배포된 Tesla OS V11&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tesla.com/blog/introducing-software-v11-0&quot;&gt;Introducing Software V11.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;UI 룩앤필이 전반적으로 모두 바뀐 상황이라 완전히 새로워진 차량의 경험을 매일 하고 있는 요즘 특히 메이커의 혼을 불러일으킨 가장 재밌는 기능인 라이트쇼 커스텀 지원&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/teslamotors/light-show&quot;&gt;Tesla Light Show xLights Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;마침 2020년 크리스마스 선물이었던 주행중 붐박스에 사용하기 위해 아미인 가족들 요청으로 만들었던 BTS 피땀눈물 리믹스는 결국 국내법 제약으로 주행중 기능이 사라져서 아쉬워하던 차였는데 커스텀 라이트쇼로 재탄생시키기로 결정!!!&lt;/p&gt;
+
+&lt;h2 id=&quot;1-xlights-설치하고-tesla-리소스-로딩하기&quot;&gt;1. xLights 설치하고 Tesla 리소스 로딩하기&lt;/h2&gt;
+
+&lt;p&gt;우선 PC OS 환경에 맞는 xLights 최신버전 설치&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://xlights.org/releases/&quot;&gt;xLights Releases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tesla 리소스 파일을 풀어준 뒤 가이드 설명처럼 Show Folder로 지정해주면 Tesla S 외관의 3D 모델 리소스 로딩 완료&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/teslamotors/light-show/blob/master/xlights/tesla_xlights_show_folder.zip?raw=true&quot;&gt;Tesla xLights Show Folder Zip File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-음원-로딩하고-시퀀서로-열심히-박자-쪼개며-창작혼-불태우기&quot;&gt;2. 음원 로딩하고 시퀀서로 열심히 박자 쪼개며 창작혼 불태우기&lt;/h2&gt;
+
+&lt;p&gt;음원까지 로딩되면 첫단계는 New Timing 라인 선택하고 열심히 음원 들으며 T 키 눌러서 라이트쇼에 사용할 박자 쪼개는 사전 작업 진행&lt;/p&gt;
+
+&lt;p&gt;이후 테슬라 차량에 있는 라이트들을 박자 상황에 맞춰 켜고 끌지를 시퀀서 내에 차례대로 인내심을 가지면서 한땀한땀 표기&lt;/p&gt;
+
+&lt;p&gt;첫 시도인지라 안전(?)을 위해 물리적인 장치인 트렁크/윈도우4개/좌우사이드미러/충전구덮개 제어는 일부러 빼둠…다음에 좀 더 장엄(?)한 곡으로 도전하기로…&lt;/p&gt;
+
+&lt;p&gt;전면 헤드라이트의 TESLA 프로젝션 문구 역시 프로젝션 지원 모델이 아닌지라 직접 확인하진 못했지만 현재는 기능 설명 상 문구 변경 미지원…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/final_sequencer_of_bts_oh_nae_money.png&quot; alt=&quot;Final Sequencer of BTS Oh Nae Money&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-파일-로딩하고-지하주차장에서-쇼타임&quot;&gt;3. 파일 로딩하고 지하주차장에서 쇼타임!&lt;/h2&gt;
+
+&lt;p&gt;테슬라 차량에 실제 적용 전 lightshow.fseq와 lightshow.wav로 이름 맞춘 뒤 로딩 과정에 문제 없을지 파일 무결성 체크!!!&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-al&lt;/span&gt;
+total 8152
+drwxr-xr-x 2 nani nani    4096 Dec 31 19:34 &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+drwxr-xr-x 3 nani nani    4096 Dec 26 23:29 ..
+&lt;span class=&quot;nt&quot;&gt;-rwxr-xr-x&lt;/span&gt; 1 nani nani  112052 Dec 26 23:32 lightshow.fseq
+&lt;span class=&quot;nt&quot;&gt;-rwxr-xr-x&lt;/span&gt; 1 nani nani 8226428 Dec 26 23:32 lightshow.wav
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python3.9 ../../validator.py lightshow.fseq
+Found 2331 frames, step &lt;span class=&quot;nb&quot;&gt;time &lt;/span&gt;of 20 ms &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;a total duration of 0:00:46.620000.
+Used 59.32% of the available memory
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이제 USB 메모리에 LightShow 폴더(TeslaCam 폴더와는 다른 파티션 사용) 만들어서 복사하고 차량 내 USB 포트에 꽂고 라이트쇼 메뉴에서 로딩하면 짜잔~&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/121ZwuLArdM&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Nani Shin</name></author><category term="Tesla Light Show" /><category term="테슬라 라이트쇼" /><category term="Custom" /><category term="커스텀" /><category term="Tesla" /><category term="테슬라" /><category term="BTS" /><category term="방탄소년단" /><category term="피땀눈물" /><category term="Blood Sweat and Tears" /><summary type="html">V10 이후 2년 만에 2021년 크리스마스 선물로 월드와이드 배포된 Tesla OS V11</summary></entry><entry><title type="html">TeslaMate Telegram Bot으로 테슬라 상태 정보 얻기</title><link href="https://nanishin.github.io/tip/howto-use-teslamate-telegram-bot/" rel="alternate" type="text/html" title="TeslaMate Telegram Bot으로 테슬라 상태 정보 얻기" /><published>2021-10-25T02:45:00+09:00</published><updated>2021-10-25T02:45:00+09:00</updated><id>https://nanishin.github.io/tip/howto-use-teslamate-telegram-bot</id><content type="html" xml:base="https://nanishin.github.io/tip/howto-use-teslamate-telegram-bot/">&lt;p&gt;메이커 입장에서 테슬라 차량은 Arduino/RaspberryPi/ESP 등을 활용하는 실험/재미를 넘어서서 상업적인 대량생산까지 성공한 최신 IoT 기기의 끝판왕이라 할 수 있음. 특히나 제로마진을 설파했던 제러미 리프킨이 언급한 좌초자산의 관점에서 보더라도 더이상 신규 내연기관차량은 선택지가 될 수 없음&lt;/p&gt;
 
 &lt;p&gt;진정한 21세기 미래 디자인을 몇개월 간 경험하면서 느낀 부분은 기존 내연기관 제조사들이 뒤늦게 테슬라를 쫓아 전기차로의 전환을 진행하면서 하드웨어 플래폼은 얼추 비슷한 형태로 올라온 듯 보이나 소프트웨어 부분에서는 OTA 업데이트를 통해 개선되거나 추가되는 기능들을 보면 여전히 차이가 크다는 걸 실감하게 됨&lt;/p&gt;
 
@@ -687,48 +744,4 @@ def on_message&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;client, userdata, ms
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/20200905_004800.jpg&quot; alt=&quot;Connector of Power Module&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_004919.jpg&quot; alt=&quot;Model Number of Power Module&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="플스4 프로" /><category term="PS4 Pro CUH-7117B" /><category term="파워모듈" /><category term="PowerModule ADP-300ER" /><category term="죽음의 파란불" /><category term="Blue Light of Death" /><category term="DIY Fix" /><category term="자가수리" /><category term="Right to Repair" /><summary type="html">이번 장마를 거친 뒤 시작된 플스4 프로의 죽음의 파란불 (Blue Light of Death)</summary></entry><entry><title type="html">DIY 3D 프린터 레벨링 센서 교체</title><link href="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/" rel="alternate" type="text/html" title="DIY 3D 프린터 레벨링 센서 교체" /><published>2020-07-31T23:50:00+09:00</published><updated>2020-07-31T23:50:00+09:00</updated><id>https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-3d-printer-leveling-sensor-replacement/">&lt;p&gt;지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는&lt;/p&gt;
-
-&lt;p&gt;증상 발생…Multi Meter로 확인해보니 원래 SN04-N 센서가 Metal 근접을 인지할&lt;/p&gt;
-
-&lt;p&gt;경우 5V이던 상태에서 0V로 떨어지는데 Pull-Up 상태인데도 1.35V로 나옴…&lt;/p&gt;
-
-&lt;p&gt;즉 로직 상 1이 아닌 0으로 인지되어 계속 올라갔던 것… :(&lt;/p&gt;
-
-&lt;p&gt;비교를 위해 12V 전원을 넣어도 현상이 동일해서 3D 프린터 보드 내 FET이 터진&lt;/p&gt;
-
-&lt;p&gt;상황인가 싶어서 좌절했는데 혹시나 해서 알리에서 SN04-N을 새로 주문…&lt;/p&gt;
-
-&lt;p&gt;대략 한달 뒤 도착해서 교체하니 예전처럼 베드레벨링 잘 되는 걸 확인하고 역시&lt;/p&gt;
-
-&lt;p&gt;부품별 교체가 가능해야 유지보수에 최고라는 걸 다시 한번 경험!!!&lt;/p&gt;
-
-&lt;h2 id=&quot;1-기존-센서와-신규-센서-비교&quot;&gt;1. 기존 센서와 신규 센서 비교&lt;/h2&gt;
-
-&lt;p&gt;기존 SN04-N은 동작 전압이 10~30V인데 신규 SN04-N은 6~36V&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200726_201734.jpg&quot; alt=&quot;Compare Old and New (SN04-N)&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-고정판에-연결&quot;&gt;2. 고정판에 연결&lt;/h2&gt;
-
-&lt;p&gt;이 부분에서 노즐 대비 적절한 센서 높이를 맞춰줘야 베드를 긁지 않게 되니&lt;/p&gt;
-
-&lt;p&gt;수동으로 손이 가는 부분…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200729_214413.jpg&quot; alt=&quot;Attach New SN04-N&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-3핀-커넥터-재사용&quot;&gt;3. 3핀 커넥터 재사용&lt;/h2&gt;
-
-&lt;p&gt;3핀 커넥터는 여분이 없는지라 기존 센서에서 전선 채 잘라서 서로 연결 뒤&lt;/p&gt;
-
-&lt;p&gt;열수축튜브로 마감해서 재사용&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200729_214609.jpg&quot; alt=&quot;Rewire 3 Pin Connector&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-extruder-후면에-재설치&quot;&gt;4. Extruder 후면에 재설치&lt;/h2&gt;
-
-&lt;p&gt;G29 명령으로 다시 오토베드레벨링 동작이 잘되는 것에서 뿌듯함을 느끼고&lt;/p&gt;
-
-&lt;p&gt;다시 밀려있던 메이킹 재개… ;D&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200731_214703.jpg&quot; alt=&quot;Reassemble&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="3D 프린터" /><category term="오토베드레벨링" /><category term="센서교체" /><category term="3D Printer" /><category term="Auto Bed Labeling" /><category term="SN04-N Sensor Replacement" /><category term="Right to Repair" /><summary type="html">지난달부터 갑자기 오토베드레벨링을 수행하면 점점 Extruder가 하늘로 올라가는</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_004919.jpg&quot; alt=&quot;Model Number of Power Module&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="플스4 프로" /><category term="PS4 Pro CUH-7117B" /><category term="파워모듈" /><category term="PowerModule ADP-300ER" /><category term="죽음의 파란불" /><category term="Blue Light of Death" /><category term="DIY Fix" /><category term="자가수리" /><category term="Right to Repair" /><summary type="html">이번 장마를 거친 뒤 시작된 플스4 프로의 죽음의 파란불 (Blue Light of Death)</summary></entry></feed>

@@ -378,4 +378,9 @@ var store = [{
         "excerpt":"메이커 입장에서 테슬라 차량은 Arduino/RaspberryPi/ESP 등을 활용하는 실험/재미를 넘어서서 상업적인 대량생산까지 성공한 최신 IoT 기기의 끝판왕이라 할 수 있음. 특히나 제로마진을 설파했던 제러미 리프킨이 언급한 좌초자산의 관점에서 보더라도 더이상 신규 내연기관차량은 선택지가 될 수 없음 진정한 21세기 미래 디자인을 몇개월 간 경험하면서 느낀 부분은 기존 내연기관 제조사들이 뒤늦게 테슬라를 쫓아...","categories": ["tip"],
         "tags": ["Raspberry Pi","RPI","TeslaMate","MQTT","Telegram Bot","Docker","Tesla","라즈베리파이","테슬라메이트","텔레그램 봇","도커","테슬라"],
         "url": "https://nanishin.github.io/tip/howto-use-teslamate-telegram-bot/",
-        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/teslamate_telegram_bot.png"},{
+        "title": "Tesla Custom Light Show 만들기 (BTS 피땀눈물 리믹스)",
+        "excerpt":"V10 이후 2년 만에 2021년 크리스마스 선물로 월드와이드 배포된 Tesla OS V11 Introducing Software V11.0 UI 룩앤필이 전반적으로 모두 바뀐 상황이라 완전히 새로워진 차량의 경험을 매일 하고 있는 요즘 특히 메이커의 혼을 불러일으킨 가장 재밌는 기능인 라이트쇼 커스텀 지원 Tesla Light Show xLights Guide 마침 2020년 크리스마스 선물이었던 주행중 붐박스에...","categories": ["maker"],
+        "tags": ["Tesla Light Show","테슬라 라이트쇼","Custom","커스텀","Tesla","테슬라","BTS","방탄소년단","피땀눈물","Blood Sweat and Tears"],
+        "url": "https://nanishin.github.io/maker/diy-tesla-lightshow-custom/",
+        "teaser":"https://nanishin.github.io/assets/images/final_sequencer_of_bts_oh_nae_money.png"}]
