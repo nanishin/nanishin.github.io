@@ -5,7 +5,7 @@ title:  "Tesla Custom Light Show 만들기 (BTS 피땀눈물 리믹스)"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/final_sequencer_of_bts_oh_nae_money.png
+  teaser: /assets/images/final_sequencer_of_bts_oh_nae_money.jpg
 date:   2021-12-31 20:20:00 +0900
 categories:
   - maker
@@ -51,7 +51,7 @@ Tesla 리소스 파일을 풀어준 뒤 가이드 설명처럼 Show Folder로 �
 
 전면 헤드라이트의 TESLA 프로젝션 문구 역시 프로젝션 지원 모델이 아닌지라 직접 확인하진 못했지만 현재는 기능 설명 상 문구 변경 미지원...
 
-![Final Sequencer of BTS Oh Nae Money](/assets/images/final_sequencer_of_bts_oh_nae_money.png)
+![Final Sequencer of BTS Oh Nae Money](/assets/images/final_sequencer_of_bts_oh_nae_money.jpg)
 
 ## 3. 파일 로딩하고 지하주차장에서 쇼타임!
 

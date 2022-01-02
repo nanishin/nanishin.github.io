@@ -5,7 +5,7 @@ title:  "TeslaMate Telegram Bot으로 테슬라 상태 정보 얻기"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/teslamate_telegram_bot.png
+  teaser: /assets/images/teslamate_telegram_bot.jpg
 date:   2021-10-25 02:45:00 +0900
 categories:
   - tip
@@ -158,7 +158,7 @@ def on_message(client, userdata, msg):
 
 - [TeslaMate Telegram Bot - add_button_control Branch](https://github.com/nanishin/TeslaMate_Telegram_Bot/tree/add_button_control)
 
-![Tesla Vehicle Information with TeslaMate MQTT Topics](/assets/images/teslamate_telegram_bot.png)
+![Tesla Vehicle Information with TeslaMate MQTT Topics](/assets/images/teslamate_telegram_bot.jpg)
 
 ## 4. Set은 결국 Tesla API 직접 호출로...
 
