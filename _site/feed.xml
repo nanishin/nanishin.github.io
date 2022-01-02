@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2021-12-31T20:26:29+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">Tesla Custom Light Show 만들기 (BTS 피땀눈물 리믹스)</title><link href="https://nanishin.github.io/maker/diy-tesla-lightshow-custom/" rel="alternate" type="text/html" title="Tesla Custom Light Show 만들기 (BTS 피땀눈물 리믹스)" /><published>2021-12-31T20:20:00+09:00</published><updated>2021-12-31T20:20:00+09:00</updated><id>https://nanishin.github.io/maker/diy-tesla-lightshow-custom</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-tesla-lightshow-custom/">&lt;p&gt;V10 이후 2년 만에 2021년 크리스마스 선물로 월드와이드 배포된 Tesla OS V11&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2022-01-02T18:40:17+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">고령 신씨 후손이기에 풀어낼 수 있는 이야기의 시작</title><link href="https://nanishin.github.io/history/history-start-of-story/" rel="alternate" type="text/html" title="고령 신씨 후손이기에 풀어낼 수 있는 이야기의 시작" /><published>2022-01-02T18:40:00+09:00</published><updated>2022-01-02T18:40:00+09:00</updated><id>https://nanishin.github.io/history/history-start-of-story</id><content type="html" xml:base="https://nanishin.github.io/history/history-start-of-story/">&lt;p&gt;21세기 들어 기후변화, 우주로의 진출 현실화를 꿈꾸며 로켓처럼 가속화되고 있는 패러다임 변화 속에서 역으로 뉴트로에 대한 관심은 커져가는데&lt;/p&gt;
+
+&lt;p&gt;이번 옷소매 붉은 끝동에서 과함을 덜어내고 이야기를 풀어가는 담백함에 영감을 받아 어릴 때부터 들어온 고령 신씨 후손이기에 풀어낼 수 있는&lt;/p&gt;
+
+&lt;p&gt;이야기를 하나씩 하나씩 남겨보기로 함&lt;/p&gt;
+
+&lt;p&gt;역사적인 쟁점도 다양하고 판타지적이며 SF적인 상황들이 언급되겠지만 그것 역시 돌아가신 아버지에게 약속드린 정리의 실천 방향이겠지~&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="고령 신씨" /><category term="Goryeong Shin clan" /><category term="역사" /><category term="history" /><category term="이야기" /><category term="story" /><summary type="html">21세기 들어 기후변화, 우주로의 진출 현실화를 꿈꾸며 로켓처럼 가속화되고 있는 패러다임 변화 속에서 역으로 뉴트로에 대한 관심은 커져가는데</summary></entry><entry><title type="html">Tesla Custom Light Show 만들기 (BTS 피땀눈물 리믹스)</title><link href="https://nanishin.github.io/maker/diy-tesla-lightshow-custom/" rel="alternate" type="text/html" title="Tesla Custom Light Show 만들기 (BTS 피땀눈물 리믹스)" /><published>2021-12-31T20:20:00+09:00</published><updated>2021-12-31T20:20:00+09:00</updated><id>https://nanishin.github.io/maker/diy-tesla-lightshow-custom</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-tesla-lightshow-custom/">&lt;p&gt;V10 이후 2년 만에 2021년 크리스마스 선물로 월드와이드 배포된 Tesla OS V11&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.tesla.com/blog/introducing-software-v11-0&quot;&gt;Introducing Software V11.0&lt;/a&gt;&lt;/li&gt;
@@ -664,84 +670,4 @@ def on_message&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;client, userdata, ms
 
 &lt;p&gt;다행히 파워보드까지 교체가 필요한 상황은 아니었고 파워보드 내 커패시터 2개가 터져서 동일 규격 제품으로 구매해서 납땜 교체하니 예전처럼 쌩생하게 동작!!!&lt;/p&gt;
 
-&lt;p&gt;UHD 관련 콘텐츠가 FHD를 넘어서는 시점이 오기 전까지는 앞으로도 PC 모니터로 열일할 수 있게 되었다는… :D&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="LCD TV 딸깍거림" /><category term="LCD TV Clicking Error" /><category term="커패시터 교체" /><category term="Capacitor Replacement" /><category term="DIY Fix" /><category term="자가수리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><summary type="html"></summary></entry><entry><title type="html">PS4 Pro 죽음의 파란불 자가수리</title><link href="https://nanishin.github.io/maker/diy-power-module-fix-of-ps4-pro/" rel="alternate" type="text/html" title="PS4 Pro 죽음의 파란불 자가수리" /><published>2020-09-15T23:30:00+09:00</published><updated>2020-09-15T23:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-power-module-fix-of-ps4-pro</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-power-module-fix-of-ps4-pro/">&lt;p&gt;이번 장마를 거친 뒤 시작된 플스4 프로의 죽음의 파란불 (Blue Light of Death)&lt;/p&gt;
-
-&lt;p&gt;내부 파워모듈이 저온상태에서 정상적인 전원 공급을 하지 못해서 전원 버튼을&lt;/p&gt;
-
-&lt;p&gt;누르면 파란불이 1초 정도 들어왔다가 바로 꺼지기를 반복…&lt;/p&gt;
-
-&lt;p&gt;이리저리 찾아본 팁을 적용해 드라이어기로 파워모듈 송풍구 부분에 1분 정도&lt;/p&gt;
-
-&lt;p&gt;뜨거운 바람을 불어넣으니 정상 부팅 확인….&lt;/p&gt;
-
-&lt;p&gt;그러나 이걸 게임할 때마다 해줘야 하다니.. :’(&lt;/p&gt;
-
-&lt;p&gt;결국 분해해서 파워모듈을 교체할지 아니면 수리 가능한지 확인작업 돌입!!!&lt;/p&gt;
-
-&lt;h2 id=&quot;1-분해용-드라이버-확보&quot;&gt;1. 분해용 드라이버 확보&lt;/h2&gt;
-
-&lt;p&gt;다양한 사이즈 확보를 위해 유명하다는 샤오미 드라이버 세트로 주문&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200819_093043.jpg&quot; alt=&quot;Mi x Whia Precision Screwdriver - 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200915_222653.jpg&quot; alt=&quot;Mi x Whia Precision Screwdriver - 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;실제로 사용되는 사이즈는 가운데 심이 있는 별나사 T8H&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_232707.jpg&quot; alt=&quot;TORX T8H - 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_232646.jpg&quot; alt=&quot;TORX T8H - 2&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-분해는-차근차근&quot;&gt;2. 분해는 차근차근&lt;/h2&gt;
-
-&lt;p&gt;외관 플라스틱 케이스를 분해할 때 부술까 두려웠지만 언제나 친절한 레퍼런스인&lt;/p&gt;
-
-&lt;p&gt;iFixIt의 가이드대로 과감하게 뚜둑 소리나게 뜯어서 파워모듈 분리까지 완료&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ko.ifixit.com/Guide/PlayStation+4+Pro+Power+Supply+Unit+Replacement/89196&quot;&gt;PlayStation 4 Pro Power Supply Unit Replacement&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_231843.jpg&quot; alt=&quot;PS4 Pro Power Disaseemble Top - 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_232508.jpg&quot; alt=&quot;PS4 Pro Power Disaseemble Top - 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_232759.jpg&quot; alt=&quot;PS4 Pro Power Disaseemble Top - 3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이미 무상 보증기간도 지났으니 후면 봉인씰 제거 후 나사 1개도 풀어줌&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200904_233229.jpg&quot; alt=&quot;PS4 Pro Power Disaseemble Rear&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;바닥면에서 나사 2개를 풀어야 파워모듈 분리 가능&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_000013.jpg&quot; alt=&quot;PS4 Pro Power Disaseemble Back - 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_001818.jpg&quot; alt=&quot;PS4 Pro Power Disaseemble Back - 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;파워모듈 분리!!!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_000937.jpg&quot; alt=&quot;PS4 Pro Power Disaseemble Top - 4&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-역시-기계는-쓸고-닦아줘야-한다&quot;&gt;3. 역시 기계는 쓸고 닦아줘야 한다&lt;/h2&gt;
-
-&lt;p&gt;이리저리 파워모듈 내부 회로를 보다가 MOSFET 부분에 먼지 덩어리들이 붙어있는&lt;/p&gt;
-
-&lt;p&gt;상황 발견해서 진공청소기로 제거한 뒤 뒤늦게 찍어서 남진 않았지만 이 부분이&lt;/p&gt;
-
-&lt;p&gt;문제를 일으켰던 원인으로 확인됨&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_001221.jpg&quot; alt=&quot;Inside of Power Module&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_001225.jpg&quot; alt=&quot;MOSFET Close Up&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-재조립-후-찾아온-평화&quot;&gt;4. 재조립 후 찾아온 평화&lt;/h2&gt;
-
-&lt;p&gt;다시 조립하기 전 본체와의 커넥터 부분과 파워모듈 모델번호 ADP-300ER까지&lt;/p&gt;
-
-&lt;p&gt;확인 뒤 분해의 역순으로 재조립하고 문제없이 잘 부팅되는 거 확인!!!&lt;/p&gt;
-
-&lt;p&gt;코로나19 집콕에 맞춰 다시금 평화롭게 폴가이즈와 위쳐3 게임 속으로… :D&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_004800.jpg&quot; alt=&quot;Connector of Power Module&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20200905_004919.jpg&quot; alt=&quot;Model Number of Power Module&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="플스4 프로" /><category term="PS4 Pro CUH-7117B" /><category term="파워모듈" /><category term="PowerModule ADP-300ER" /><category term="죽음의 파란불" /><category term="Blue Light of Death" /><category term="DIY Fix" /><category term="자가수리" /><category term="Right to Repair" /><summary type="html">이번 장마를 거친 뒤 시작된 플스4 프로의 죽음의 파란불 (Blue Light of Death)</summary></entry></feed>
+&lt;p&gt;UHD 관련 콘텐츠가 FHD를 넘어서는 시점이 오기 전까지는 앞으로도 PC 모니터로 열일할 수 있게 되었다는… :D&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="LCD TV 딸깍거림" /><category term="LCD TV Clicking Error" /><category term="커패시터 교체" /><category term="Capacitor Replacement" /><category term="DIY Fix" /><category term="자가수리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><summary type="html"></summary></entry></feed>

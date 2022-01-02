@@ -8,6 +8,8 @@ main:
     url: "/categories/maker/"
   - title: "tip"
     url: "/categories/tip/"
+  - title: "history"
+    url: "/categories/history/"
   #- title: "posts"
   #  url: "/year-archive/"
   #- title: "categories"
