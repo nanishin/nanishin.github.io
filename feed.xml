@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2022-01-03T02:39:28+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">문화충격을 준 신숙주 할아버지와 청의동자</title><link href="https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja/" rel="alternate" type="text/html" title="문화충격을 준 신숙주 할아버지와 청의동자" /><published>2022-01-03T02:10:00+09:00</published><updated>2022-01-03T02:10:00+09:00</updated><id>https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja</id><content type="html" xml:base="https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja/">&lt;p&gt;일제 강점기 기간(1910년 8월 29일 ~ 1945년 8월 15일) 춘원 이광수가 공개적인 친일로 변절(1922년 월간 잡지 개벽 5월호에 민족개조론 발표)한 후 동아일보에서 1년 가량 연재(1928년 11월 30일 ~ 1929년 12월 1일)했던 단종애사…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2022-01-03T03:02:20+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">문화충격을 준 신숙주 할아버지와 청의동자</title><link href="https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja/" rel="alternate" type="text/html" title="문화충격을 준 신숙주 할아버지와 청의동자" /><published>2022-01-03T02:10:00+09:00</published><updated>2022-01-03T02:10:00+09:00</updated><id>https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja</id><content type="html" xml:base="https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja/">&lt;p&gt;일제 강점기 기간(1910년 8월 29일 ~ 1945년 8월 15일) 춘원 이광수가 공개적인 친일로 변절(1922년 월간 잡지 개벽 5월호에 민족개조론 발표)한 후 동아일보에서 1년 가량 연재(1928년 11월 30일 ~ 1929년 12월 1일)했던 단종애사…&lt;/p&gt;
 
 &lt;p&gt;사건의 역사적 시간 순서를 바꿔가면서까지 신숙주 할아버지에 대한 배신/변절 표현을 격렬하게 묘사한 것을 어린 시절 접하고 충격에 휩싸였는데 이후 춘원 본인의 적극적인 친일 행보를 확인하고는 역사의 아이러니한 한장면으로 느껴지게 됨&lt;/p&gt;
 
@@ -115,7 +115,7 @@
 
 &lt;p&gt;전면 헤드라이트의 TESLA 프로젝션 문구 역시 프로젝션 지원 모델이 아닌지라 직접 확인하진 못했지만 현재는 기능 설명 상 문구 변경 미지원…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/final_sequencer_of_bts_oh_nae_money.png&quot; alt=&quot;Final Sequencer of BTS Oh Nae Money&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/final_sequencer_of_bts_oh_nae_money.jpg&quot; alt=&quot;Final Sequencer of BTS Oh Nae Money&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;3-파일-로딩하고-지하주차장에서-쇼타임&quot;&gt;3. 파일 로딩하고 지하주차장에서 쇼타임!&lt;/h2&gt;
 
@@ -277,7 +277,7 @@ def on_message&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;client, userdata, ms
   &lt;li&gt;&lt;a href=&quot;https://github.com/nanishin/TeslaMate_Telegram_Bot/tree/add_button_control&quot;&gt;TeslaMate Telegram Bot - add_button_control Branch&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/teslamate_telegram_bot.png&quot; alt=&quot;Tesla Vehicle Information with TeslaMate MQTT Topics&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/teslamate_telegram_bot.jpg&quot; alt=&quot;Tesla Vehicle Information with TeslaMate MQTT Topics&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;4-set은-결국-tesla-api-직접-호출로&quot;&gt;4. Set은 결국 Tesla API 직접 호출로…&lt;/h2&gt;
 
