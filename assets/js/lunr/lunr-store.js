@@ -393,4 +393,9 @@ var store = [{
         "excerpt":"일제 강점기 기간(1910년 8월 29일 ~ 1945년 8월 15일) 춘원 이광수가 공개적인 친일로 변절(1922년 월간 잡지 개벽 5월호에 민족개조론 발표)한 후 동아일보에서 1년 가량 연재(1928년 11월 30일 ~ 1929년 12월 1일)했던 단종애사… 사건의 역사적 시간 순서를 바꿔가면서까지 신숙주 할아버지에 대한 배신/변절 표현을 격렬하게 묘사한 것을 어린 시절 접하고 충격에 휩싸였는데...","categories": ["history"],
         "tags": ["신숙주","Sukju Shin","ShinSukJu","청의동자","Cheonguidongja","Cheong-ui-dong-ja","역사","history","이야기","story","자비스","jarvis"],
         "url": "https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja/",
-        "teaser":"https://nanishin.github.io/assets/images/shinmunsegeo_cheonguidongja.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/shinmunsegeo_cheonguidongja.jpg"},{
+        "title": "세이코 티타늄 손목시계 배터리 자가교체",
+        "excerpt":"대학생 때 친형에게 생일선물로 받았던 세이코 티타늄 손목시계… 시간은 훌쩍 20년 넘게 지났고 2010년대부터는 스마트워치 경험을 위해 조금씩 착용이 줄다가 배터리까지 방전된 뒤에는 그냥 두고 있었는데… 금은방 시계수리점도 거의 없는지라 백업 차원으로 구매해뒀던 시계수리도구 생각이 나면서 마침 스마트폰으로 시간 확인하는 것에 번거로움을 느꼈던지라 결국 직접 시계 열어서 배터리 확인해서 추가...","categories": ["maker"],
+        "tags": ["Seiko V732-OP30","세이코 V732-OP30","Titanium","티타늄","Wrist Clock","손목시계","Classic","클래식","Right to Repair","수리권리","DIY Replacement","자가교체"],
+        "url": "https://nanishin.github.io/maker/diy-old-wrist-clock-battery-replacement/",
+        "teaser":"https://nanishin.github.io/assets/images/20220210_114857.jpg"}]
