@@ -398,4 +398,9 @@ var store = [{
         "excerpt":"대학생 때 친형에게 생일선물로 받았던 세이코 티타늄 손목시계… 시간은 훌쩍 20년 넘게 지났고 2010년대부터는 스마트워치 경험을 위해 조금씩 착용이 줄다가 배터리까지 방전된 뒤에는 그냥 두고 있었는데… 금은방 시계수리점도 거의 없는지라 백업 차원으로 구매해뒀던 시계수리도구 생각이 나면서 마침 스마트폰으로 시간 확인하는 것에 번거로움을 느꼈던지라 결국 직접 시계 열어서 배터리 확인해서 추가...","categories": ["maker"],
         "tags": ["Seiko V732-OP30","세이코 V732-OP30","Titanium","티타늄","Wrist Clock","손목시계","Classic","클래식","Right to Repair","수리권리","DIY Replacement","자가교체"],
         "url": "https://nanishin.github.io/maker/diy-old-wrist-clock-battery-replacement/",
-        "teaser":"https://nanishin.github.io/assets/images/20220210_114857.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/20220210_114857.jpg"},{
+        "title": "맥북프로 13인치 Early 2015 배터리 자가교체",
+        "excerpt":"남들에 맞춘 쓸모를 쫓다가 스트레스로 결국 쓸개를 잃었던 2015년 가을 “쓸개 빠진 X”이 된 김에 오히려 더이상 눈치 안보고 주체적인 창의성을 발현시킬 도구로 퇴원하고 집에 온 뒤 바로 주문했던 맥북프로 13인치 Early 2015 이후 보컬/통기타 홈레코딩, 블로깅, 메이킹, 동영상 편집 등 다양한 분야에서 사방팔방 활약을 펼치다 메이커페어서울2018/2019 2년 연속 외부...","categories": ["maker"],
+        "tags": ["MacBook Pro 13 Inch Early 2015","맥북프로 13인치 Early 2015","A1502","배터리","Battery","Right to Repair","수리권리","DIY Replacement","자가교체"],
+        "url": "https://nanishin.github.io/maker/diy-macbook-pro-13inch-early-2015-battery-replacement/",
+        "teaser":"https://nanishin.github.io/assets/images/20220520_181841.jpg"}]
