@@ -142,7 +142,7 @@ I/O 케이블 분리
 
 ![remove up plastic cover of new battery pouch](/assets/images/20220520_185646.jpg)
 
-트랙패트 케이블 재연결
+트랙패드 케이블 재연결
 
 ![attach trackpad connector](/assets/images/20220520_190123.jpg)
 
