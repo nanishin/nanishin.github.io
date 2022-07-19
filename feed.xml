@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2022-05-23T01:37:01+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">맥북프로 13인치 Early 2015 배터리 자가교체</title><link href="https://nanishin.github.io/maker/diy-macbook-pro-13inch-early-2015-battery-replacement/" rel="alternate" type="text/html" title="맥북프로 13인치 Early 2015 배터리 자가교체" /><published>2022-05-20T23:40:00+09:00</published><updated>2022-05-20T23:40:00+09:00</updated><id>https://nanishin.github.io/maker/diy-macbook-pro-13inch-early-2015-battery-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-macbook-pro-13inch-early-2015-battery-replacement/">&lt;p&gt;남들에 맞춘 쓸모를 쫓다가 스트레스로 결국 쓸개를 잃었던 2015년 가을&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2022-07-19T13:48:27+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기</title><link href="https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/" rel="alternate" type="text/html" title="부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기" /><published>2022-07-15T23:45:00+09:00</published><updated>2022-07-15T23:45:00+09:00</updated><id>https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3</id><content type="html" xml:base="https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/">&lt;p&gt;한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구 시작!!!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://platfrastructure.life/post/rpi_boot_repair/&quot;&gt;Repairing a Raspberry Pi Boot Partition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;1-rootfs-ext4-파일시스템-복구&quot;&gt;1. rootfs ext4 파일시스템 복구&lt;/h2&gt;
+
+&lt;p&gt;다른 RPI3에 USB 스토리지로 연결한 상태인지라 dev 디바이스 이름 확인한 뒤 우선 rootfs ext4 파티션의 파일시스템 복구&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pi@rpi-aquarium:~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;e2fsck &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; /dev/sda2 
+e2fsck 1.46.2 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;28-Feb-2021&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+e2fsck: Permission denied &lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;trying to open /dev/sda2
+You must have r/w access to the filesystem or be root
+pi@rpi-aquarium:~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;e2fsck &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; /dev/sda2 
+e2fsck 1.46.2 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;28-Feb-2021&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+Pass 1: Checking inodes, blocks, and sizes
+Inode 809 extent tree &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;at level 1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; could be shorter.  Optimize? &lt;span class=&quot;nb&quot;&gt;yes
+
+&lt;/span&gt;Inodes that were part of a corrupted orphan linked list found.  Fix? &lt;span class=&quot;nb&quot;&gt;yes
+
+&lt;/span&gt;Inode 19015 was part of the orphaned inode list.  FIXED.
+Inode 19097 was part of the orphaned inode list.  FIXED.
+Pass 1E: Optimizing extent trees
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+Block bitmap differences:  -&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1683010--1683011&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; +1688072 +1701533
+Fix? &lt;span class=&quot;nb&quot;&gt;yes
+
+
+&lt;/span&gt;rootfs: &lt;span class=&quot;k&quot;&gt;*****&lt;/span&gt; FILE SYSTEM WAS MODIFIED &lt;span class=&quot;k&quot;&gt;*****&lt;/span&gt;
+rootfs: 180253/1865344 files &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;0.2% non-contiguous&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;, 2155412/7725184 blocks
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;2-boot-vfat-파일시스템-복구&quot;&gt;2. boot vfat 파일시스템 복구&lt;/h2&gt;
+
+&lt;p&gt;다음으로 boot vfat 파티션의 파일시스템 복구&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pi@rpi-aquarium:~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;dosfsck &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; /dev/sda1
+fsck.fat 4.2 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2021-01-31&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+There are differences between boot sector and its backup.
+This is mostly harmless. Differences: &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;offset:original/backup&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  65:01/00
+  Not automatically fixing this.
+Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+ Automatically removing dirty bit.
+/dev/sda1: 402 files, 120815/516190 clusters
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;3-다시금-rpi3는-힘차게-돌기-시작하고&quot;&gt;3. 다시금 RPI3는 힘차게 돌기 시작하고…&lt;/h2&gt;
+
+&lt;p&gt;이후 원래 사용하던 RPI3에 sdcard 꽂고 무사히 부팅에 성공해서 3D프린팅도 하고 테슬라메이트도 업데이트 시킴… 얼쑤~ :D&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="Raspberry Pi 3 Model B+" /><category term="RPI3" /><category term="라즈베리파이3" /><summary type="html">한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구 시작!!!</summary></entry><entry><title type="html">맥북프로 13인치 Early 2015 배터리 자가교체</title><link href="https://nanishin.github.io/maker/diy-macbook-pro-13inch-early-2015-battery-replacement/" rel="alternate" type="text/html" title="맥북프로 13인치 Early 2015 배터리 자가교체" /><published>2022-05-20T23:40:00+09:00</published><updated>2022-05-20T23:40:00+09:00</updated><id>https://nanishin.github.io/maker/diy-macbook-pro-13inch-early-2015-battery-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-macbook-pro-13inch-early-2015-battery-replacement/">&lt;p&gt;남들에 맞춘 쓸모를 쫓다가 스트레스로 결국 쓸개를 잃었던 2015년 가을&lt;/p&gt;
 
 &lt;p&gt;“쓸개 빠진 X”이 된 김에 오히려 더이상 눈치 안보고 주체적인 창의성을 발현시킬 도구로 퇴원하고 집에 온 뒤 바로 주문했던 맥북프로 13인치 Early 2015&lt;/p&gt;
 
@@ -601,88 +654,4 @@ def on_message&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;client, userdata, ms
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/20210726_221231.jpg&quot; alt=&quot;New Wash Basin Plumbing - 1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_221235.jpg&quot; alt=&quot;New Wash Basin Plumbing - 2&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="세면대 배관" /><category term="Bath Wash Basin Plumbing" /><category term="DIY Replacement" /><category term="자가교체" /><category term="Right to Repair" /><summary type="html">메이커 활동을 시작한 2017년 초기 직접 교체했던 화장실 세면대 배관…</summary></entry><entry><title type="html">부러진 헤드셋을 3D 프린팅으로 업사이클링</title><link href="https://nanishin.github.io/maker/upcycling-headphone/" rel="alternate" type="text/html" title="부러진 헤드셋을 3D 프린팅으로 업사이클링" /><published>2021-07-13T12:00:00+09:00</published><updated>2021-07-13T12:00:00+09:00</updated><id>https://nanishin.github.io/maker/upcycling-headphone</id><content type="html" xml:base="https://nanishin.github.io/maker/upcycling-headphone/">&lt;p&gt;8년 가까이 잘 사용하던 자브라 헤드셋… 중간에 이어패드도 바꿔서 계속 수명을 연장하다가 결국 헤드밴드까지 부러지고 한동안 방치…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_110816.jpg&quot; alt=&quot;Broken Jabra Headset&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;그러다 Thingiverse에서 BOSE 헤드셋 유사 디자인을 발견해서 업사이클링 결정!!!&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thingiverse.com/thing:2120892&quot;&gt;3D Printed Headphones&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;1-헤드밴드-및-이어패드-지지대-출력&quot;&gt;1. 헤드밴드 및 이어패드 지지대 출력&lt;/h2&gt;
-
-&lt;p&gt;우드 PLM이 남아있어서 나무 느낌으로 해봤으나 여전히 순수 PLM 대비 낙하 충격에 약해 바로 깨져서 2번째 출력으로 다시 준비… 이어패드 지지대는 카본 PLM 사용&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210519_152503.jpg&quot; alt=&quot;Head Band&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210519_214417.jpg&quot; alt=&quot;Ear Pad Bottom Support&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210520_073117.jpg&quot; alt=&quot;Ear Pad Top Support&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-자브라-헤드셋-드라이버와-회로-분리&quot;&gt;2. 자브라 헤드셋 드라이버와 회로 분리&lt;/h2&gt;
-
-&lt;p&gt;헤드셋 드라이버 지름이 40mm 였는데 대략 기존 자브라 헤드셋 드라이버는 30mm 정도였으나 플라스틱 지지대가 있다 보니 얼추 비슷하게 적절히 자르면 될 듯 보여 열심히 니퍼와 커터를 사용해서 다듬기~&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_133602.jpg&quot; alt=&quot;Jabra Driver Back&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_133608.jpg&quot; alt=&quot;Jabra Driver Front&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_133844.jpg&quot; alt=&quot;Cutting Jabra Driver&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_142410.jpg&quot; alt=&quot;Cutting Jabra Driver&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_155529.jpg&quot; alt=&quot;Cutting Right Driver&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_161129.jpg&quot; alt=&quot;Right Driver and Mic&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-1차-몸통-연결&quot;&gt;3. 1차 몸통 연결&lt;/h2&gt;
-
-&lt;p&gt;드라이버 고정과 소리 새는 부분을 최소화하기 위해 실리콘으로 메꿔주고 하나씩 조립하다 보니 L과 R을 연결하는 선은 그대로 쓸 수 없어서 남는 철사로 연결하고 몸통 조립 후 알리발 이어패드까지 조립~&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_163817.jpg&quot; alt=&quot;Left Driver Fitting&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_163843.jpg&quot; alt=&quot;Left Driver Fitting&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_172543.jpg&quot; alt=&quot;Left Driver Fitting&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_172937.jpg&quot; alt=&quot;Left Driver Fitting&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_173118.jpg&quot; alt=&quot;Left Driver Fitting&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_164351.jpg&quot; alt=&quot;Right Driver Fitting&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_174538.jpg&quot; alt=&quot;Right Driver Fitting&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_180241.jpg&quot; alt=&quot;Right Driver Fitting&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_180324.jpg&quot; alt=&quot;Ear Pad&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210601_181045.jpg&quot; alt=&quot;Ear Pad&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210602_094714.jpg&quot; alt=&quot;Ear Pad&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-2차-마이크-연결&quot;&gt;4. 2차 마이크 연결&lt;/h2&gt;
-
-&lt;p&gt;기존 마이크 부분도 최대한 재사용하기 위해 마이크 지지대 부분만 추가 프린팅해서 결합&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210602_001038.jpg&quot; alt=&quot;Mic Support&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210602_232718.jpg&quot; alt=&quot;Mic Support&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210603_074433.jpg&quot; alt=&quot;Mic Support&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210603_081150.jpg&quot; alt=&quot;Mic Support&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210603_085936.jpg&quot; alt=&quot;Mic Support&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210603_092146.jpg&quot; alt=&quot;Mic Support&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;5-최종-완성&quot;&gt;5. 최종 완성!!!&lt;/h2&gt;
-
-&lt;p&gt;PC에서 사용 가능한 헤드셋이 복구되면서 딸들 학교 줌수업에도 다시 사용~ ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210606_231705.jpg&quot; alt=&quot;Mic Support&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210713_102909.jpg&quot; alt=&quot;Real Use&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="헤드셋" /><category term="Headset" /><category term="업사이클링" /><category term="Upcycling" /><category term="3D 프린팅" /><category term="3D Printing" /><category term="고쳐쓰기" /><category term="Right to Repair" /><summary type="html">8년 가까이 잘 사용하던 자브라 헤드셋… 중간에 이어패드도 바꿔서 계속 수명을 연장하다가 결국 헤드밴드까지 부러지고 한동안 방치…</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_221235.jpg&quot; alt=&quot;New Wash Basin Plumbing - 2&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="세면대 배관" /><category term="Bath Wash Basin Plumbing" /><category term="DIY Replacement" /><category term="자가교체" /><category term="Right to Repair" /><summary type="html">메이커 활동을 시작한 2017년 초기 직접 교체했던 화장실 세면대 배관…</summary></entry></feed>

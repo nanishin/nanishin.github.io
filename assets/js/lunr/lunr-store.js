@@ -403,4 +403,9 @@ var store = [{
         "excerpt":"남들에 맞춘 쓸모를 쫓다가 스트레스로 결국 쓸개를 잃었던 2015년 가을 “쓸개 빠진 X”이 된 김에 오히려 더이상 눈치 안보고 주체적인 창의성을 발현시킬 도구로 퇴원하고 집에 온 뒤 바로 주문했던 맥북프로 13인치 Early 2015 이후 보컬/통기타 홈레코딩, 블로깅, 메이킹, 동영상 편집 등 다양한 분야에서 사방팔방 활약을 펼치다 메이커페어서울2018/2019 2년 연속 외부...","categories": ["maker"],
         "tags": ["MacBook Pro 13 Inch Early 2015","맥북프로 13인치 Early 2015","A1502","배터리","Battery","Right to Repair","수리권리","DIY Replacement","자가교체"],
         "url": "https://nanishin.github.io/maker/diy-macbook-pro-13inch-early-2015-battery-replacement/",
-        "teaser":"https://nanishin.github.io/assets/images/20220520_181841.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/20220520_181841.jpg"},{
+        "title": "부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기",
+        "excerpt":"한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구...","categories": ["tip"],
+        "tags": ["Raspberry Pi 3 Model B+","RPI3","라즈베리파이3"],
+        "url": "https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/",
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"}]
