@@ -408,4 +408,9 @@ var store = [{
         "excerpt":"한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구...","categories": ["tip"],
         "tags": ["Raspberry Pi 3 Model B+","RPI3","라즈베리파이3"],
         "url": "https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/",
-        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
+        "title": "Tesla Light Show 만들기 (N.EX.T - Lazenca Save Us)",
+        "excerpt":"지난 2022년 크리스마스 선물 펌웨어에서 1년 만에 라이트쇼 기능도 업데이트되면서 동작 안정성과 메뉴 구성이 개선되었기에 미루고 미루던 장엄한 곡 기반 작업 결심을 이번에 실천! N.EX.T - Lazenca Save Us (넥스트 - 라젠카 세이브 어스) 1. 모든 마법은 xLights 설치와 Tesla 3D 모델 리소스 로딩으로 시작 Windows/Mac/Linux OS 환경에 맞는 xLights...","categories": ["maker"],
+        "tags": ["Tesla Light Show","테슬라 라이트쇼","Custom","커스텀","Tesla","테슬라","N.EX.T","넥스트","Lazenca Save Us","라젠카 세이브 어스"],
+        "url": "https://nanishin.github.io/maker/diy-tesla-lightshow-lazenca-save-us/",
+        "teaser":"https://nanishin.github.io/assets/images/tesla_lightshow_next_lazenca_save_us.jpg"}]

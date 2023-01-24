@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2022-07-19T13:48:27+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기</title><link href="https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/" rel="alternate" type="text/html" title="부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기" /><published>2022-07-15T23:45:00+09:00</published><updated>2022-07-15T23:45:00+09:00</updated><id>https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3</id><content type="html" xml:base="https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/">&lt;p&gt;한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구 시작!!!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2023-01-25T00:07:06+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">Tesla Light Show 만들기 (N.EX.T - Lazenca Save Us)</title><link href="https://nanishin.github.io/maker/diy-tesla-lightshow-lazenca-save-us/" rel="alternate" type="text/html" title="Tesla Light Show 만들기 (N.EX.T - Lazenca Save Us)" /><published>2023-01-18T22:30:00+09:00</published><updated>2023-01-18T22:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-tesla-lightshow-lazenca-save-us</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-tesla-lightshow-lazenca-save-us/">&lt;p&gt;지난 2022년 크리스마스 선물 펌웨어에서 1년 만에 라이트쇼 기능도 업데이트되면서 동작 안정성과 메뉴 구성이 개선되었기에 미루고 미루던 장엄한 곡 기반 작업 결심을 이번에 실천!&lt;/p&gt;
+
+&lt;p&gt;N.EX.T - Lazenca Save Us (넥스트 - 라젠카 세이브 어스)&lt;/p&gt;
+
+&lt;h2 id=&quot;1-모든-마법은-xlights-설치와-tesla-3d-모델-리소스-로딩으로-시작&quot;&gt;1. 모든 마법은 xLights 설치와 Tesla 3D 모델 리소스 로딩으로 시작&lt;/h2&gt;
+
+&lt;p&gt;Windows/Mac/Linux OS 환경에 맞는 xLights 최신버전을 설치해야 하는데 작업 시점 2023년 첫 릴리즈인 2023.01으로 다운로드 가능&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://xlights.org/releases/&quot;&gt;xLights Releases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;1년 사이에 xLights도 많이 개선되어 전반적인 작업 환경이 안정화되었다는…&lt;/p&gt;
+
+&lt;p&gt;Tesla 리소스 파일을 풀어준 뒤 가이드 설명처럼 Show Folder로 지정해주면 Tesla S 외관의 3D 모델 리소스 로딩은 작년과 동일&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/teslamotors/light-show#tesla-light-show-xlights-guide&quot;&gt;Telse Light Show xLights Guide&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/teslamotors/light-show/blob/master/xlights/tesla_xlights_show_folder.zip?raw=true&quot;&gt;Tesla xLights Show Folder Zip File&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-라젠카-세이브-어스-음원-로딩하고-여러-레이어로-박자-쪼개며-싱크로율-올리기&quot;&gt;2. 라젠카 세이브 어스 음원 로딩하고 여러 레이어로 박자 쪼개며 싱크로율 올리기&lt;/h2&gt;
+
+&lt;p&gt;작년과 달라진 부분은 이번 테슬라 샘플 레퍼런스를 참고하니 한곡 내 여러 악기들에 맞춰 Timing 라인을 구분해서 별도로 박자를 쪼깨는 걸 확인함…&lt;/p&gt;
+
+&lt;p&gt;이에 맞춰 라젠카 세이버 어스의 베이스/드럼/기타/보컬 에 따라 쪼개서 진행하니 좀 더 다양한 표현이 가능해짐&lt;/p&gt;
+
+&lt;p&gt;그리고 창문 닫고 여는 동작은 소리가 줄어들기에 사용하지 않고 트렁크/좌우사이드미러/충전구덮개는 곡 전개 상황에 맞춰 사용!!!&lt;/p&gt;
+
+&lt;p&gt;헤드라이트 프로젝션 문구 조정은 이번에도 지원하지 않는다고 하는데 우리집 테슬라는 프로젝션 지원 모델이 아닌지라 이부분은 그대로 스킵…&lt;/p&gt;
+
+&lt;p&gt;시퀀스와 차량 전후 라이트 싱크 맛보기 1분 영상은 Instagram에도 남겨둠~ :)&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/CnhqzZLPEA6/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;14&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/CnhqzZLPEA6/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt;Instagram에서 이 게시물 보기&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/CnhqzZLPEA6/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;Nani Shin(@nanishin)님의 공유 게시물&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;3-무결성-체크-뒤-주차장에서-쇼타임&quot;&gt;3. 무결성 체크 뒤 주차장에서 쇼타임!!!&lt;/h2&gt;
+
+&lt;p&gt;USB 메모리에 최종 복사 전 시퀀스 파일 로딩에 문제가 없을 지 사전 무결성 체크!!!&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python3.9 ~/github/light-show/validator.py lightshow.fseq
+Found 5825 frames, step &lt;span class=&quot;nb&quot;&gt;time &lt;/span&gt;of 20 ms &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;a total duration of 0:01:56.500000.
+Used 20.57% of the available memory
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/VDFZY52ZMeU&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;마지막으로 다른 테슬라 차주들도 사용할 수 있게 글로벌 테슬라 라이트쇼 공유 사이트에 등록 완료!!! ;P&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://teslalightshare.io/light-show/566&quot;&gt;TeslaLightShare.io N.EX.T - Lazenca Save Us&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nani Shin</name></author><category term="Tesla Light Show" /><category term="테슬라 라이트쇼" /><category term="Custom" /><category term="커스텀" /><category term="Tesla" /><category term="테슬라" /><category term="N.EX.T" /><category term="넥스트" /><category term="Lazenca Save Us" /><category term="라젠카 세이브 어스" /><summary type="html">지난 2022년 크리스마스 선물 펌웨어에서 1년 만에 라이트쇼 기능도 업데이트되면서 동작 안정성과 메뉴 구성이 개선되었기에 미루고 미루던 장엄한 곡 기반 작업 결심을 이번에 실천!</summary></entry><entry><title type="html">부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기</title><link href="https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/" rel="alternate" type="text/html" title="부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기" /><published>2022-07-15T23:45:00+09:00</published><updated>2022-07-15T23:45:00+09:00</updated><id>https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3</id><content type="html" xml:base="https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/">&lt;p&gt;한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구 시작!!!&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://platfrastructure.life/post/rpi_boot_repair/&quot;&gt;Repairing a Raspberry Pi Boot Partition&lt;/a&gt;&lt;/li&gt;
@@ -600,58 +655,4 @@ def on_message&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;client, userdata, ms
 /opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Other.h
 /opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Types.h
 /opt/vc/include/interface/vmcs_host/khronos/IL/OMX_Video.h
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Nani Shin</name></author><category term="Raspberry Pi" /><category term="RPI" /><category term="FFmpeg" /><category term="Docker" /><category term="라즈베리파이" /><category term="도커" /><summary type="html">2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년…</summary></entry><entry><title type="html">세면대 배관 자가교체</title><link href="https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement/" rel="alternate" type="text/html" title="세면대 배관 자가교체" /><published>2021-07-26T23:00:00+09:00</published><updated>2021-07-26T23:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-bath-wash-basin-plumbing-replacement/">&lt;p&gt;메이커 활동을 시작한 2017년 초기 직접 교체했던 화장실 세면대 배관…&lt;/p&gt;
-
-&lt;p&gt;그당시 배관 조절 방법이 익숙치 않아서 세면대에 직접 연결하는 일자 배관은&lt;/p&gt;
-
-&lt;p&gt;플라스틱 부품 쓰고 P자 금속배관은 아파트 기계실에서 자른 뒤 연결했었는데&lt;/p&gt;
-
-&lt;p&gt;올해 조금씩 부서지더니 결국 세면대 아래쪽으로 물이 새기 시작해서 동네&lt;/p&gt;
-
-&lt;p&gt;철물점에서 모두 금속 배관으로 사다가 2차 교체 진행!!!&lt;/p&gt;
-
-&lt;h2 id=&quot;1-기존-세면대-배관-헤체&quot;&gt;1. 기존 세면대 배관 헤체&lt;/h2&gt;
-
-&lt;p&gt;배관을 가리던 도기 부분을 빼고 보니 플라스틱 배관 부품이 부러진 걸 확인…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_180740.jpg&quot; alt=&quot;Broken Wash Basin Plumbing - 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_180808.jpg&quot; alt=&quot;Broken Wash Basin Plumbing - 2&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-세면대-도기-배관-우선-조립&quot;&gt;2. 세면대 도기 배관 우선 조립&lt;/h2&gt;
-
-&lt;p&gt;세면대 도기 연결부 주변 청소 후 금속 배관에 테프론 테이핑 단단히 하고 조립…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_193731.jpg&quot; alt=&quot;Assembling Wash Basin Plumbing - 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_194810.jpg&quot; alt=&quot;Assembling Wash Basin Plumbing - 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_194953.jpg&quot; alt=&quot;Assembling Wash Basin Plumbing - 3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_195613.jpg&quot; alt=&quot;Assembling Wash Basin Plumbing - 4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_202028.jpg&quot; alt=&quot;Assembling Wash Basin Plumbing - 5&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-배관-깎기-신공&quot;&gt;3. 배관 깎기 신공&lt;/h2&gt;
-
-&lt;p&gt;기본적으로 철물점 세면대용 일자 및 P자 금속배관은 원사이즈인지라 설치 상황에&lt;/p&gt;
-
-&lt;p&gt;맞게 길이 조절 후 사용이 필수… 이번에도 기계실 갈까 하다가 금속배관 두께가&lt;/p&gt;
-
-&lt;p&gt;워낙 얇아 보여 전지가위로 해봤는데 잘리길래 그걸로 하나하나 깎기 신공 발휘!!!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_202513.jpg&quot; alt=&quot;Assembling Wash Basin Plumbing - 6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_214055.jpg&quot; alt=&quot;Assembling Wash Basin Plumbing - 7&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-세면대-배관-조립-완료-후-누수-여부-확인&quot;&gt;4. 세면대 배관 조립 완료 후 누수 여부 확인&lt;/h2&gt;
-
-&lt;p&gt;방망이 깎는 노인 심정으로 열심히 깎은 금속배관들을 무사히 설치하고 누수 여부&lt;/p&gt;
-
-&lt;p&gt;확인까지 완료!!! 이제 모두 금속배관이니 좀 더 오래 사용하겠지 생각하고 도기로&lt;/p&gt;
-
-&lt;p&gt;가려주고 미션 클리어~&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_221231.jpg&quot; alt=&quot;New Wash Basin Plumbing - 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20210726_221235.jpg&quot; alt=&quot;New Wash Basin Plumbing - 2&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="세면대 배관" /><category term="Bath Wash Basin Plumbing" /><category term="DIY Replacement" /><category term="자가교체" /><category term="Right to Repair" /><summary type="html">메이커 활동을 시작한 2017년 초기 직접 교체했던 화장실 세면대 배관…</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Nani Shin</name></author><category term="Raspberry Pi" /><category term="RPI" /><category term="FFmpeg" /><category term="Docker" /><category term="라즈베리파이" /><category term="도커" /><summary type="html">2018년 중반 메이커 활동을 본격화하면서 라즈베리파이3 내 ffmpeg 환경으로 어항방송 구축한 뒤 큰 업데이트 없이 소소한 튜닝 정도만 적용하면서 그대로 SmartThings 자동화와 연동해서 사용한 지 어언 3년…</summary></entry></feed>
