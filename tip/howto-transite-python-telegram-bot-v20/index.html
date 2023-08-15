@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기 - 申Nani?</title>
-<meta name="description" content="한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구 시작!!! ">
+<!-- begin _includes/seo.html --><title>python-telegram-bot v20 전환하기 - 申Nani?</title>
+<meta name="description" content="작년에 python-telegram-bot으로 여러 봇 서비스들을 도커 컨테이너로 생성 뒤 사용했는데 주로 라즈베리파이4 시스템의 패키지 업데이트만 진행하고 봇 서비스 중인 컨테이너 내 코드 변화는 따라가고 있지 않았음 ">
 
 
   <meta name="author" content="Nani Shin">
@@ -19,11 +19,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="申Nani?">
-<meta property="og:title" content="부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기">
-<meta property="og:url" content="https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/">
+<meta property="og:title" content="python-telegram-bot v20 전환하기">
+<meta property="og:url" content="https://nanishin.github.io/tip/howto-transite-python-telegram-bot-v20/">
 
 
-  <meta property="og:description" content="한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구 시작!!! ">
+  <meta property="og:description" content="작년에 python-telegram-bot으로 여러 봇 서비스들을 도커 컨테이너로 생성 뒤 사용했는데 주로 라즈베리파이4 시스템의 패키지 업데이트만 진행하고 봇 서비스 중인 컨테이너 내 코드 변화는 따라가고 있지 않았음 ">
 
 
 
@@ -33,7 +33,7 @@
 
 
 
-  <meta property="article:published_time" content="2022-07-15T23:45:00+09:00">
+  <meta property="article:published_time" content="2023-08-16T02:10:00+09:00">
 
 
 
@@ -44,7 +44,7 @@
   
 
 
-<link rel="canonical" href="https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/">
+<link rel="canonical" href="https://nanishin.github.io/tip/howto-transite-python-telegram-bot-v20/">
 
 
 
@@ -285,15 +285,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기">
-    <meta itemprop="description" content="한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구 시작!!!">
-    <meta itemprop="datePublished" content="2022-07-15T23:45:00+09:00">
+    <meta itemprop="headline" content="python-telegram-bot v20 전환하기">
+    <meta itemprop="description" content="작년에 python-telegram-bot으로 여러 봇 서비스들을 도커 컨테이너로 생성 뒤 사용했는데 주로 라즈베리파이4 시스템의 패키지 업데이트만 진행하고 봇 서비스 중인 컨테이너 내 코드 변화는 따라가고 있지 않았음">
+    <meta itemprop="datePublished" content="2023-08-16T02:10:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기
+          <h1 id="page-title" class="page__title" itemprop="headline">python-telegram-bot v20 전환하기
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -315,9 +315,9 @@
               
                 <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
                 <ul class="toc__menu">
-  <li><a href="#1-rootfs-ext4-파일시스템-복구">1. rootfs ext4 파일시스템 복구</a></li>
-  <li><a href="#2-boot-vfat-파일시스템-복구">2. boot vfat 파일시스템 복구</a></li>
-  <li><a href="#3-다시금-rpi3는-힘차게-돌기-시작하고">3. 다시금 RPI3는 힘차게 돌기 시작하고…</a></li>
+  <li><a href="#1-모듈-이름은-telegrambot-대신-telegram-사용">1. 모듈 이름은 telegram.bot 대신 telegram 사용</a></li>
+  <li><a href="#2-bot-동작은-updater-대신-application-사용">2. Bot 동작은 Updater 대신 Application 사용</a></li>
+  <li><a href="#3-async-상태-적용-후-다시금-봇-서비스-재개">3. async 상태 적용 후 다시금 봇 서비스 재개</a></li>
 </ul>
 
               
@@ -340,60 +340,65 @@
             </nav>
           </aside>
         
-        <p>한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간이 필요하기에 기도하는 마음으로 sdcard를 USB 리더기 사용해서 어항방송용 다른 RPI3에 연결하고 아래 사이트를 참고해서 복구 시작!!!</p>
+        <p>작년에 python-telegram-bot으로 여러 봇 서비스들을 도커 컨테이너로 생성 뒤 사용했는데 주로 라즈베리파이4 시스템의 패키지 업데이트만 진행하고 봇 서비스 중인 컨테이너 내 코드 변화는 따라가고 있지 않았음</p>
+
+<p>올해 상반기부터 트위터 개발자 권한 축소 (Elevated access에서 통폐합된 Free access로 강등) 여파였는지 API 호출도 몇번 막히고 이후 봇 서비스도 잘 동작하지 않아서 1년 만에 도커 컨테이너 이미지 리빌드 후 동작 시험하다가 모듈 에러들이 연이어 발생…</p>
+
+<p>마침 그당시 업무로 바쁘기도 했던 상황이라 그냥 냅두고 몇개월 방치하다가 이제서야 수정 작업 돌입!!!</p>
+
+<p>분석 결과 주원인은 2023년부터 python-telegram-bot 기본 버전이 v13에서 v20으로 올라가면서 대규모 리팩토링이 발생했는데 그로 인해 코드 하위 호환성이 모두 깨진 상황…</p>
+
+<p>결국 아래 가이드를 바탕으로 하나하나 수정 삽질을 반복하며 최종 전환 완료 후 내용 정리</p>
 
 <ul>
-  <li><a href="https://platfrastructure.life/post/rpi_boot_repair/">Repairing a Raspberry Pi Boot Partition</a></li>
+  <li><a href="https://github.com/python-telegram-bot/python-telegram-bot/wiki/Transition-guide-to-Version-20.0">Transition guide to Version 20.0</a></li>
 </ul>
 
-<h2 id="1-rootfs-ext4-파일시스템-복구">1. rootfs ext4 파일시스템 복구</h2>
+<h2 id="1-모듈-이름은-telegrambot-대신-telegram-사용">1. 모듈 이름은 telegram.bot 대신 telegram 사용</h2>
 
-<p>다른 RPI3에 USB 스토리지로 연결한 상태인지라 dev 디바이스 이름 확인한 뒤 우선 rootfs ext4 파티션의 파일시스템 복구</p>
+<p>Bot 모듈을 위해 사용하던 telegram.bot 대신 telegram 사용</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pi@rpi-aquarium:~ <span class="nv">$ </span>e2fsck <span class="nt">-f</span> <span class="nt">-y</span> /dev/sda2 
-e2fsck 1.46.2 <span class="o">(</span>28-Feb-2021<span class="o">)</span>
-e2fsck: Permission denied <span class="k">while </span>trying to open /dev/sda2
-You must have r/w access to the filesystem or be root
-pi@rpi-aquarium:~ <span class="nv">$ </span><span class="nb">sudo </span>e2fsck <span class="nt">-f</span> <span class="nt">-y</span> /dev/sda2 
-e2fsck 1.46.2 <span class="o">(</span>28-Feb-2021<span class="o">)</span>
-Pass 1: Checking inodes, blocks, and sizes
-Inode 809 extent tree <span class="o">(</span>at level 1<span class="o">)</span> could be shorter.  Optimize? <span class="nb">yes
-
-</span>Inodes that were part of a corrupted orphan linked list found.  Fix? <span class="nb">yes
-
-</span>Inode 19015 was part of the orphaned inode list.  FIXED.
-Inode 19097 was part of the orphaned inode list.  FIXED.
-Pass 1E: Optimizing extent trees
-Pass 2: Checking directory structure
-Pass 3: Checking directory connectivity
-Pass 4: Checking reference counts
-Pass 5: Checking group summary information
-Block bitmap differences:  -<span class="o">(</span>1683010--1683011<span class="o">)</span> +1688072 +1701533
-Fix? <span class="nb">yes
-
-
-</span>rootfs: <span class="k">*****</span> FILE SYSTEM WAS MODIFIED <span class="k">*****</span>
-rootfs: 180253/1865344 files <span class="o">(</span>0.2% non-contiguous<span class="o">)</span>, 2155412/7725184 blocks
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># from telegram.bot import Bot
+</span><span class="kn">from</span> <span class="nn">telegram</span> <span class="kn">import</span> <span class="n">Bot</span>
 </code></pre></div></div>
 
-<h2 id="2-boot-vfat-파일시스템-복구">2. boot vfat 파일시스템 복구</h2>
+<h2 id="2-bot-동작은-updater-대신-application-사용">2. Bot 동작은 Updater 대신 Application 사용</h2>
 
-<p>다음으로 boot vfat 파티션의 파일시스템 복구</p>
+<p>main 함수에서 Bot 동작을 위해 사용하던 Updater 대신 v20 버전부터 새로운 구조 핵심인 Application 사용. 이 여파로 dispatcher 통해 핸들러 붙이던 방식은 직접 연결로 간결해짐</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pi@rpi-aquarium:~ <span class="nv">$ </span><span class="nb">sudo </span>dosfsck <span class="nt">-t</span> <span class="nt">-a</span> <span class="nt">-w</span> /dev/sda1
-fsck.fat 4.2 <span class="o">(</span>2021-01-31<span class="o">)</span>
-There are differences between boot sector and its backup.
-This is mostly harmless. Differences: <span class="o">(</span>offset:original/backup<span class="o">)</span>
-  65:01/00
-  Not automatically fixing this.
-Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
- Automatically removing dirty bit.
-/dev/sda1: 402 files, 120815/516190 clusters
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">telegram.ext</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">Application</span><span class="p">,</span>
+    <span class="c1"># Updater,
+</span>    <span class="n">CommandHandler</span><span class="p">,</span>
+    <span class="n">CallbackQueryHandler</span><span class="p">,</span>
+    <span class="n">CallbackContext</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+    <span class="s">"""Run the bot."""</span>
+    <span class="n">application</span> <span class="o">=</span> <span class="n">Application</span><span class="o">.</span><span class="n">builder</span><span class="p">()</span><span class="o">.</span><span class="n">token</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s">'TELEGRAM_BOT_API_KEY'</span><span class="p">))</span><span class="o">.</span><span class="n">build</span><span class="p">()</span>
+    <span class="n">application</span><span class="o">.</span><span class="n">add_handler</span><span class="p">(</span><span class="n">CommandHandler</span><span class="p">(</span><span class="s">'start'</span><span class="p">,</span> <span class="n">start</span><span class="p">))</span>
+    <span class="c1"># updater = Updater(os.getenv('TELEGRAM_BOT_API_KEY'))
+</span>    <span class="c1"># updater.dispatcher.add_handler(CommandHandler('start', start))
+</span>
+    <span class="c1"># Start the Bot
+</span>    <span class="n">application</span><span class="o">.</span><span class="n">run_polling</span><span class="p">(</span><span class="n">allowed_updates</span><span class="o">=</span><span class="n">Update</span><span class="o">.</span><span class="n">ALL_TYPES</span><span class="p">)</span>
+    <span class="c1"># updater.start_polling()
+</span></code></pre></div></div>
+
+<h2 id="3-async-상태-적용-후-다시금-봇-서비스-재개">3. async 상태 적용 후 다시금 봇 서비스 재개</h2>
+
+<p>동작 시험 과정에서 warning 메시지 확인 후 Application 기반 동작 시 내부에 신규 추가된 asyncio 모듈 영향으로 코드 내 async나 await 적절히 추가 후 봇 서비스 다시 재개~ :D</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># def start(update: Update, context: CallbackContext) -&gt; None:
+</span><span class="k">async</span> <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="n">update</span><span class="p">:</span> <span class="n">Update</span><span class="p">,</span> <span class="n">context</span><span class="p">:</span> <span class="n">CallbackContext</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+
+    <span class="c1"># logic blah blah blah
+</span>
+    <span class="n">reply_markup</span> <span class="o">=</span> <span class="n">InlineKeyboardMarkup</span><span class="p">(</span><span class="n">keyboard</span><span class="p">)</span>
+    <span class="c1"># update.message.reply_text('What do you want to do? :', reply_markup=reply_markup)
+</span>    <span class="k">await</span> <span class="n">update</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">reply_text</span><span class="p">(</span><span class="s">'What do you want to do? :'</span><span class="p">,</span> <span class="n">reply_markup</span><span class="o">=</span><span class="n">reply_markup</span><span class="p">)</span>
 </code></pre></div></div>
-
-<h2 id="3-다시금-rpi3는-힘차게-돌기-시작하고">3. 다시금 RPI3는 힘차게 돌기 시작하고…</h2>
-
-<p>이후 원래 사용하던 RPI3에 sdcard 꽂고 무사히 부팅에 성공해서 3D프린팅도 하고 테슬라메이트도 업데이트 시킴… 얼쑤~ :D</p>
 
         
       </section>
@@ -414,15 +419,15 @@ Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
     
       
       
-      <a href="/tags/#raspberry-pi-3-model-b" class="page__taxonomy-item" rel="tag">Raspberry Pi 3 Model B+</a><span class="sep">, </span>
+      <a href="/tags/#ptb" class="page__taxonomy-item" rel="tag">PTB</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#rpi3" class="page__taxonomy-item" rel="tag">RPI3</a><span class="sep">, </span>
+      <a href="/tags/#python-telegram-bot" class="page__taxonomy-item" rel="tag">Python Telegram Bot</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B43" class="page__taxonomy-item" rel="tag">라즈베리파이3</a>
+      <a href="/tags/#%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8-%EB%B4%87" class="page__taxonomy-item" rel="tag">파이썬 텔레그램 봇</a>
     
     </span>
   </p>
@@ -450,7 +455,7 @@ Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-07-15T23:45:00+09:00">July 15, 2022</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2023-08-16T02:10:00+09:00">August 16, 2023</time></p>
         
       </footer>
 
@@ -459,23 +464,22 @@ Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=%EB%B6%80%ED%8C%85+%EC%95%88%EB%90%98%EB%8A%94+RPI3%2C+sdcard+%ED%8C%8C%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C+%EC%88%98%EC%A0%95%EC%9C%BC%EB%A1%9C+%EB%90%98%EC%82%B4%EB%A6%AC%EA%B8%B0%20https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-fix-not-booted-sdcard-of-rpi3%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=python-telegram-bot+v20+%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0%20https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-transite-python-telegram-bot-v20%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-fix-not-booted-sdcard-of-rpi3%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-transite-python-telegram-bot-v20%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-fix-not-booted-sdcard-of-rpi3%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnanishin.github.io%2Ftip%2Fhowto-transite-python-telegram-bot-v20%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/maker/diy-macbook-pro-13inch-early-2015-battery-replacement/" class="pagination--pager" title="맥북프로 13인치 Early 2015 배터리 자가교체
+      <a href="/maker/diy-tesla-lightshow-lazenca-save-us/" class="pagination--pager" title="Tesla Light Show 만들기 (N.EX.T - Lazenca Save Us)
 ">Previous</a>
     
     
-      <a href="/maker/diy-tesla-lightshow-lazenca-save-us/" class="pagination--pager" title="Tesla Light Show 만들기 (N.EX.T - Lazenca Save Us)
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -498,46 +502,6 @@ Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
     <div class="page__related">
       <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/nanishin.jpg"
-          
-          alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/tip/howto-transite-python-telegram-bot-v20/" rel="permalink">python-telegram-bot v20 전환하기
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> August 16 2023</p>
-    
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  1 minute read
-
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">작년에 python-telegram-bot으로 여러 봇 서비스들을 도커 컨테이너로 생성 뒤 사용했는데 주로 라즈베리파이4 시스템의 패키지 업데이트만 진행하고 봇 서비스 중인 컨테이너 내 코드 변화는 따라가고 있지 않았음
-</p>
-  </article>
-</div>
-
         
           
 
@@ -575,6 +539,45 @@ Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
     
     <p class="archive__item-excerpt" itemprop="description">지난 2022년 크리스마스 선물 펌웨어에서 1년 만에 라이트쇼 기능도 업데이트되면서 동작 안정성과 메뉴 구성이 개선되었기에 미루고 미루던 장엄한 곡 기반 작업 결심을 이번에 실천!
 </p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/nanishin.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/tip/howto-fix-not-booted-sdcard-of-rpi3/" rel="permalink">부팅 안되는 RPI3, sdcard 파일시스템 수정으로 되살리기
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> July 15 2022</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">한동안 RPI3로 돌리고 있는 서비스들(3D프린팅, 테슬라메이트 등)을 사용하지 않고 방치해둔 지 1개월 가량 지나 오랜만에 3D프린팅을 하려고 보니 RPI3가 부팅안되는 현상 확인… 복구가 안되면 예전처럼 수동으로 데이터 백업시킨 뒤 라즈베리안 최신 이미지 재설치까지 고난의 시간...</p>
   </article>
 </div>
 
@@ -746,8 +749,8 @@ Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
     
   <script>
     var disqus_config = function () {
-      this.page.url = "https://nanishin.github.io/tip/howto-fix-not-booted-sdcard-of-rpi3/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/tip/howto-fix-not-booted-sdcard-of-rpi3"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "https://nanishin.github.io/tip/howto-transite-python-telegram-bot-v20/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tip/howto-transite-python-telegram-bot-v20"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');
