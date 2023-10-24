@@ -68,3 +68,7 @@ Used 20.57% of the available memory
 마지막으로 다른 테슬라 차주들도 사용할 수 있게 글로벌 테슬라 라이트쇼 공유 사이트에 등록 완료!!! ;P
 
 - [TeslaLightShare.io N.EX.T - Lazenca Save Us](https://teslalightshare.io/light-show/566)
+
+P.S. 제 추천 링크를 사용하여 Tesla 차량을 구매하고 할인 혜택(최대 ₩660,000) 및 리워드(향상된 오토파일럿 90일 이용)를 받으세요. :)
+
+- http://ts.la/taeksu53570
