@@ -418,4 +418,9 @@ var store = [{
         "excerpt":"작년에 python-telegram-bot으로 여러 봇 서비스들을 도커 컨테이너로 생성 뒤 사용했는데 주로 라즈베리파이4 시스템의 패키지 업데이트만 진행하고 봇 서비스 중인 컨테이너 내 코드 변화는 따라가고 있지 않았음 올해 상반기부터 트위터 개발자 권한 축소 (Elevated access에서 통폐합된 Free access로 강등) 여파였는지 API 호출도 몇번 막히고 이후 봇 서비스도 잘 동작하지 않아서 1년...","categories": ["tip"],
         "tags": ["Python Telegram Bot","PTB","파이썬 텔레그램 봇"],
         "url": "https://nanishin.github.io/tip/howto-transite-python-telegram-bot-v20/",
-        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/nanishin.jpg"},{
+        "title": "테니스 볼머신(SKARO TNR-200F) 리모콘 안테나 자가 수리",
+        "excerpt":"2023년 3월부터 코로나19 엔데믹에 맞춰 본격적인 운동을 재개하기로 마음먹으면서 다시금 선택한 테니스 (왼손잡이 롤모델 나달을 동경하며 시작했던 2008년을 되돌아보니 어느새 타임워프급 시간 이동…+_+) 7~8년 전 마지막 야외 클레이 코트 레슨받던 시절과는 확 달라진 실내 테니스 문명을 접하고 문화 충격을 경험!!! 해외와 달리 국내에선 늙다리 운동 취급받던 테니스가 코로나 팬데믹 기간...","categories": ["maker"],
+        "tags": ["Tennis","테니스","Ball Machine","볼머신","SKARO","스카로","TNR-200F","Remocon","리모콘","Remote Control","리모트 콘트롤","TNR-200R","Self Repair","자가수리","Right to Repair","수리권리"],
+        "url": "https://nanishin.github.io/maker/diy-repair-skaro-tnr-200f-remocon/",
+        "teaser":"https://nanishin.github.io/assets/images/20230831_123334.jpg"}]
