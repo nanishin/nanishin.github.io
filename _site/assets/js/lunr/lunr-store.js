@@ -423,4 +423,9 @@ var store = [{
         "excerpt":"2023년 3월부터 코로나19 엔데믹에 맞춰 본격적인 운동을 재개하기로 마음먹으면서 다시금 선택한 테니스 (왼손잡이 롤모델 나달을 동경하며 시작했던 2008년을 되돌아보니 어느새 타임워프급 시간 이동…+_+) 7~8년 전 마지막 야외 클레이 코트 레슨받던 시절과는 확 달라진 실내 테니스 문명을 접하고 문화 충격을 경험!!! 해외와 달리 국내에선 늙다리 운동 취급받던 테니스가 코로나 팬데믹 기간...","categories": ["maker"],
         "tags": ["Tennis","테니스","Ball Machine","볼머신","SKARO","스카로","TNR-200F","Remocon","리모콘","Remote Control","리모트 콘트롤","TNR-200R","Self Repair","자가수리","Right to Repair","수리권리"],
         "url": "https://nanishin.github.io/maker/diy-repair-skaro-tnr-200f-remocon/",
-        "teaser":"https://nanishin.github.io/assets/images/20230831_123334.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/20230831_123334.jpg"},{
+        "title": "지멘스 온도조절기 버튼 자가수리 (윈터 이즈 커밍)",
+        "excerpt":"겨울이 다가오고 있다… 알리에서 교체 부품만 사두고 묵혀둔 지 어느새 몇년… 오락가락 버튼 인식과 인내를 시험하는 온도 무한 루프 설정에 가족들의 짜증은 점점 커져가는데… 아파트 단지 내 온도조절기 수리 안내 공지를 보고서야 드디어 마음 먹고 자가수리 실천 완료!!! 제품 정보 : 지멘스 (SIEMENS) 온도조절기 (RDD91/KR) BGM 정보 : Kevin MacLeod의...","categories": ["maker"],
+        "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability","지멘스","SIEMENS","RDD91/KR","온도조절기","Thermostat"],
+        "url": "https://nanishin.github.io/maker/diy-repair-siemens-thermostat-buttons-for-warm-winter/",
+        "teaser":"https://nanishin.github.io/assets/images/diy-repair-siemens-thermostat-buttons-for-warm-winter.png"}]
