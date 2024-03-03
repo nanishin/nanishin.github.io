@@ -428,4 +428,9 @@ var store = [{
         "excerpt":"겨울이 다가오고 있다… 알리에서 교체 부품만 사두고 묵혀둔 지 어느새 몇년… 오락가락 버튼 인식과 인내를 시험하는 온도 무한 루프 설정에 가족들의 짜증은 점점 커져가는데… 아파트 단지 내 온도조절기 수리 안내 공지를 보고서야 드디어 마음 먹고 자가수리 실천 완료!!! 제품 정보 : 지멘스 (SIEMENS) 온도조절기 (RDD91/KR) BGM 정보 : Kevin MacLeod의...","categories": ["maker"],
         "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability","지멘스","SIEMENS","RDD91/KR","온도조절기","Thermostat"],
         "url": "https://nanishin.github.io/maker/diy-repair-siemens-thermostat-buttons-for-warm-winter/",
-        "teaser":"https://nanishin.github.io/assets/images/diy-repair-siemens-thermostat-buttons-for-warm-winter.png"}]
+        "teaser":"https://nanishin.github.io/assets/images/diy-repair-siemens-thermostat-buttons-for-warm-winter.png"},{
+        "title": "아버지 유품 몽블랑146 잉크샘 자가수리",
+        "excerpt":"생전에 사용하실 때부터 그립부 잉크샘을 불평하셨다고 어머니에게 이야기 들었던 아버지 유품 몽블랑146 만년필 월말 김어준 만년필편을 처음엔 가볍게 청취하다가 결국 몇년 지나 만년필에 본격 입문하고 나서야 아버지 만년필들이 20세기를 대표하던 모델들이라는 걸 뒤늦게 깨닫고 국내외 수리 글/영상들을 참고한 뒤 본격 잉크샘 수리 작업 돌입!!! 1. 수리 준비물 실리콘 구리스 (슈퍼루브,...","categories": ["maker"],
+        "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability","몽블랑","Monblanc","몽블랑146","Monblanc146","실리콘 구리스","Silicone Grease","슈퍼 루브","Super Lube","Silicone Dielectric Grease","분해도구","Disassembly Tool","셀락 플레이크","Shellac Flakes","에탄올","Ethanol","매니큐어 공병","Nail Polish Bottle"],
+        "url": "https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/",
+        "teaser":"https://nanishin.github.io/assets/images/diy-repair-ink-leakage-of-father-monblanc146.jpg"}]
