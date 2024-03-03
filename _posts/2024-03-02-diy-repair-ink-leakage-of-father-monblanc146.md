@@ -25,6 +25,8 @@ tags:
   - Monblanc
   - 몽블랑146
   - Monblanc146
+  - 만년필
+  - Fountain Pen
   - 실리콘 구리스
   - Silicone Grease
   - 슈퍼 루브
