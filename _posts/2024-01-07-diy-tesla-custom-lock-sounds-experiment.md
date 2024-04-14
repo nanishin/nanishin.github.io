@@ -21,6 +21,7 @@ tags:
   - Experiment
   - 실험
 ---
+
 지난 2023년 크리스마스 선물 펌웨어는 국내 리콜 업데이트까지 포함하면서 해를 넘겨 2024년 1월 초에 배포가 진행됨
 
 - [국내 배포된 2023 홀리데이 업데이트 버전 - 2023.44.30.8](https://www.notateslaapp.com/software-updates/version/2023.44.30.8/release-notes)
@@ -53,3 +54,4 @@ tags:
 P.S. 제 추천 링크를 사용하여 Tesla를 구매하세요. :)
 
 - http://ts.la/taeksu53570
+
