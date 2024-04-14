@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2024-04-14T22:07:53+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">아버지 유품 몽블랑146 잉크샘 자가수리</title><link href="https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/" rel="alternate" type="text/html" title="아버지 유품 몽블랑146 잉크샘 자가수리" /><published>2024-03-02T20:30:00+09:00</published><updated>2024-03-02T20:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/">&lt;p&gt;생전에 사용하실 때부터 그립부 잉크샘을 불평하셨다고 어머니에게 이야기 들었던 아버지 유품 몽블랑146 만년필&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2024-04-14T23:22:47+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">테슬라 커스텀 라이트쇼 만들기 (세븐틴 - Left &amp;amp; Right)</title><link href="https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/" rel="alternate" type="text/html" title="테슬라 커스텀 라이트쇼 만들기 (세븐틴 - Left &amp; Right)" /><published>2024-03-27T21:30:00+09:00</published><updated>2024-03-27T21:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/">&lt;p&gt;지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업&lt;/p&gt;
+
+&lt;p&gt;선정곡은 작은딸이 제일 좋아하는 아이돌인 세븐틴 노래 중 어느새 4월 총선이 다가오고 있어 내맘대로 고름 ;P&lt;/p&gt;
+
+&lt;p&gt;SEVENTEEN - Left &amp;amp; Right&lt;/p&gt;
+
+&lt;h2 id=&quot;1-최신-버전-xlights-설치와-업데이트된-가이드-재확인&quot;&gt;1. 최신 버전 xLights 설치와 업데이트된 가이드 재확인&lt;/h2&gt;
+
+&lt;p&gt;Windows/Mac/Linux OS 환경에 맞는 xLights 최신버전 설치&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://xlights.org/releases/&quot;&gt;xLights Releases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;작년 작업 진행과정 복기&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nanishin.github.io/maker/diy-tesla-lightshow-lazenca-save-us/&quot;&gt;Tesla Light Show 만들기 (N.EX.T - Lazenca Save Us)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;특이사항은 이번 노래 특성에 맞게 좌우 라이트 온오프를 명확하게 구분하려고 보니 오동작이 계속 발생해서 원인을 찾다가 결국 가이드에 있는 아래 제약사항 확인하고 제어 수정해서 해결 :)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/teslamotors/light-show?tab=readme-ov-file#light-channel-mapping-details&quot;&gt;Light channel mapping details&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;On Model 3/Y, all aux park and side markers operate together. They will activate during (Left side marker || Left aux park || Right side marker || Right aux park) requests from xLights.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-다시-한번-주차장에서-쇼타임&quot;&gt;2. 다시 한번 주차장에서 쇼타임!!!&lt;/h2&gt;
+
+&lt;p&gt;이제 라이트쇼 기능도 고도화되어 여러 파일들을 지원하기에 파일이름 구분해서 USB 메모리스틱에 넣고 주차장 쇼타임 시작!!!&lt;/p&gt;
+
+&lt;p&gt;인스타그램 및 유튜브 모두 등록 완료!!!&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/C5BWxFuPz77/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;14&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/C5BWxFuPz77/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt;Instagram에서 이 게시물 보기&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/C5BWxFuPz77/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;Nani Shin(@nanishin)님의 공유 게시물&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/JRckyASkGpk&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;글로벌 테슬라 라이트쇼 공유 사이트인 TeslaLightShare.io에도 등록 완료!!! :D&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://teslalightshare.io/light-show/978&quot;&gt;[K-pop] SEVENTEEN - Left &amp;amp; Right Remix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;P.S. 제 추천 링크를 사용하여 Tesla를 구매하세요. :)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http://ts.la/taeksu53570&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nani Shin</name></author><category term="Tesla Light Show" /><category term="테슬라 라이트쇼" /><category term="Custom" /><category term="커스텀" /><category term="Tesla" /><category term="테슬라" /><category term="SEVENTEEN" /><category term="세븐틴" /><category term="Left &amp; Right" /><category term="레프트 앤드 라이트" /><summary type="html">지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업</summary></entry><entry><title type="html">아버지 유품 몽블랑146 잉크샘 자가수리</title><link href="https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/" rel="alternate" type="text/html" title="아버지 유품 몽블랑146 잉크샘 자가수리" /><published>2024-03-02T20:30:00+09:00</published><updated>2024-03-02T20:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/">&lt;p&gt;생전에 사용하실 때부터 그립부 잉크샘을 불평하셨다고 어머니에게 이야기 들었던 아버지 유품 몽블랑146 만년필&lt;/p&gt;
 
 &lt;p&gt;월말 김어준 만년필편을 처음엔 가볍게 청취하다가 결국 몇년 지나 만년필에 본격 입문하고 나서야 아버지 만년필들이&lt;/p&gt;
 
@@ -543,77 +596,4 @@ Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
 
 &lt;p&gt;매력과 의미를 다시금 생각하며 자가수리로 오래 쓰기 오늘도 실천 완료!!!&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/9hRsO1Ww39Y&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Nani Shin</name></author><category term="Seiko V732-OP30" /><category term="세이코 V732-OP30" /><category term="Titanium" /><category term="티타늄" /><category term="Wrist Clock" /><category term="손목시계" /><category term="Classic" /><category term="클래식" /><category term="Right to Repair" /><category term="수리권리" /><category term="DIY Replacement" /><category term="자가교체" /><summary type="html">대학생 때 친형에게 생일선물로 받았던 세이코 티타늄 손목시계…</summary></entry><entry><title type="html">문화충격을 준 신숙주 할아버지와 청의동자</title><link href="https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja/" rel="alternate" type="text/html" title="문화충격을 준 신숙주 할아버지와 청의동자" /><published>2022-01-03T02:10:00+09:00</published><updated>2022-01-03T02:10:00+09:00</updated><id>https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja</id><content type="html" xml:base="https://nanishin.github.io/history/history-culture-shock-by-cheonguidongja/">&lt;p&gt;일제 강점기 기간(1910년 8월 29일 ~ 1945년 8월 15일) 춘원 이광수가 공개적인 친일로 변절(1922년 월간 잡지 개벽 5월호에 민족개조론 발표)한 후 동아일보에서 1년 가량 연재(1928년 11월 30일 ~ 1929년 12월 1일)했던 단종애사…&lt;/p&gt;
-
-&lt;p&gt;사건의 역사적 시간 순서를 바꿔가면서까지 신숙주 할아버지에 대한 배신/변절 표현을 격렬하게 묘사한 것을 어린 시절 접하고 충격에 휩싸였는데 이후 춘원 본인의 적극적인 친일 행보를 확인하고는 역사의 아이러니한 한장면으로 느껴지게 됨&lt;/p&gt;
-
-&lt;p&gt;사실 현대화된 시점에 해석되는 왕조시대 충성 관점은 일본의 천황이라 자칭하는 왕과 신의 일체화된 관념(신과 동격인 왕에 대한 불충은 허용되지 않음)과 달리 기회의 운과 때가 맞춰진 지역 호족 출신이 신흥 국가를 건설하면서 자기 씨족을 왕족화시킨 행태였기에 신하들은 바뀐 왕조를 새롭게 따를 것인가 아니면 대항할 것인가로 단순화시키면 그이상 그이하도 아니었음&lt;/p&gt;
-
-&lt;p&gt;조선 초기 세종대부터 안정화되었다고 하지만 여전히 야성의 호족 시절 세력화 구축이 익숙하던 상황이었기에 각 신하들은 신흥국가 조선에서 국가 안정화를 위한 각자의 해석에 따라 충성 대상을 결정하고 인생의 방향을 선택했음&lt;/p&gt;
-
-&lt;p&gt;이러한 역사적인 사실을 넘어서 추가 해석이 환타지 세상까지 확장될 수 밖에 없었던 신숙주 할아버지의 전생애 걸친 선택에 영향을 끼친 걸로 보이는 청의동자…&lt;/p&gt;
-
-&lt;p&gt;지금 세대에서 익숙한 마블 어벤져스로 비교하자면 아이언맨 토니 스타크의 AI 비서였던 자비스 역할을 충실히 수행했다고 볼 수 있음&lt;/p&gt;
-
-&lt;p&gt;마치 몇단계 앞선 최신 기술력을 선보이는 IT기업들에게 ‘저 회사는 외계인이 참여해 개발하고 있다’와 같은 과장된 묘사처럼 그당시 민중들이 신숙주 할아버지가 다방면에서 펼쳤던 비범한 능력들에 대해 납득할 만한 해석을 위해 곁들여진 상상력의 산출물이 아니었을까 생각되기도 함&lt;/p&gt;
-
-&lt;p&gt;재밌는 사실은 전국에 나뉘어진 집성촌 중 조선 중기에 낙향해 정착한 곳 중 하나인 경기도 평택시 청북읍 내 신숙주 선생 사당에서는 신숙주 할아버지의 유언이 있었기에 실제로 매년 공식 제사를 지낼 때 청의동자 제사도 같이 지내고 있다 보니 이 이야기는 여전히 현재진행 중인 상황임&lt;/p&gt;
-
-&lt;h2 id=&quot;1-고령-신씨-경기도-평택시-집성촌-이력&quot;&gt;1. 고령 신씨 경기도 평택시 집성촌 이력&lt;/h2&gt;
-&lt;p&gt;경기토 평택시 집성촌 마을인 원고잔은 원래 주변 산들에 둘러쌓여 노출되지 않았고 산업화 시대에 주변이 농토로 간척되기 전까지는 바로 앞까지 바다가 흐르던 지형이었음&lt;/p&gt;
-
-&lt;p&gt;일제 시대에는 그 앞바다를 통해 쌀을 수탈해 갔다고 하고 한국전쟁 당시에는 산에 가려져서 북한군도 마을 안까지 들어오지 않았다고 할머니가 생전에 해주신 이야기가 기억남&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://sisa.pyeongtaek.go.kr/bbs/board.php?bo_table=ca09&amp;amp;wr_id=111&quot;&gt;고령신씨 동족마을로 시작된 원고잔&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-어우야담-속-신숙주-할아버지와-청의동자-이력&quot;&gt;2. 어우야담 속 신숙주 할아버지와 청의동자 이력&lt;/h2&gt;
-&lt;p&gt;조선시대판 기묘한 이야기 모음집인 어우야담&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=867688&quot;&gt;어우야담 원본/완역본&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;어우야담 원본 타이틀&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/eouyadam_original_title.jpg&quot; alt=&quot;어우야담 원본 타이틀&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;어우야담 번역본 타이틀&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/eouyadam_translation_title.jpg&quot; alt=&quot;어우야담 완역본 타이틀&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;어우야담 원본 - 신숙주와 청의동자&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/eouyadam_original.jpg&quot; alt=&quot;신숙주와 청의동자 - 원본&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;어우야담 번역본 - 신숙주와 청의동자&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/eouyadam_translation_1.jpg&quot; alt=&quot;신숙주와 청의동자 - 완역본&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/eouyadam_translation_2.jpg&quot; alt=&quot;신숙주와 청의동자 - 완역본&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-신문세거-400년사-속-신숙주-할아버지와-청의동자-이력&quot;&gt;3. 신문세거 400년사 속 신숙주 할아버지와 청의동자 이력&lt;/h2&gt;
-&lt;p&gt;고령신씨 문충공파 삼괴당 종친회에서 편찬한 신문세거 400년사&lt;/p&gt;
-
-&lt;p&gt;아버지가 돌아가시기 전 종친회 일원으로 정리에 참여하셨던 자료인지라 가끔씩 펼쳐보게 됨&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/shinmunsegeo.jpg&quot; alt=&quot;신문세거 400년사&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;신숙주 할아버지 영정 소개 (원래 의정부 사당에 있다가 리뉴얼된 평택 사당으로 옮겨와 모셔짐)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/shinmunsegeo_sukju_shin.jpg&quot; alt=&quot;신숙주 소개&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;평택 사당 내 청의동자비 소개&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/shinmunsegeo_cheonguidongja.jpg&quot; alt=&quot;청의동자 소개&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-실제-평택-사당-내-청의동자비-실물&quot;&gt;4. 실제 평택 사당 내 청의동자비 실물&lt;/h2&gt;
-&lt;p&gt;예전 아버지와 일가친척이 모두 모여 한식날 선산 성묘한 뒤 아이들에게 청의동자 이야기를 들려주며&lt;/p&gt;
-
-&lt;p&gt;동네에 있는 평택 사당에 방문했는데 공식 제사 일정 외에는 잠겨있어서 담 넘어로만 확인했던 사당 내 조촐하게 자리한 청의동자비&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/shinsukju_shrine_1.jpg&quot; alt=&quot;신숙주 선생 사당 전경 1 &quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/shinsukju_shrine_2.jpg&quot; alt=&quot;신숙주 선생 사당 전경 2 &quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/cheonguidongja_memorial_stone.jpg&quot; alt=&quot;평택 사당 내 청의동자비 실물&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="신숙주" /><category term="Sukju Shin" /><category term="ShinSukJu" /><category term="청의동자" /><category term="Cheonguidongja" /><category term="Cheong-ui-dong-ja" /><category term="역사" /><category term="history" /><category term="이야기" /><category term="story" /><category term="자비스" /><category term="jarvis" /><summary type="html">일제 강점기 기간(1910년 8월 29일 ~ 1945년 8월 15일) 춘원 이광수가 공개적인 친일로 변절(1922년 월간 잡지 개벽 5월호에 민족개조론 발표)한 후 동아일보에서 1년 가량 연재(1928년 11월 30일 ~ 1929년 12월 1일)했던 단종애사…</summary></entry></feed>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/9hRsO1Ww39Y&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Nani Shin</name></author><category term="Seiko V732-OP30" /><category term="세이코 V732-OP30" /><category term="Titanium" /><category term="티타늄" /><category term="Wrist Clock" /><category term="손목시계" /><category term="Classic" /><category term="클래식" /><category term="Right to Repair" /><category term="수리권리" /><category term="DIY Replacement" /><category term="자가교체" /><summary type="html">대학생 때 친형에게 생일선물로 받았던 세이코 티타늄 손목시계…</summary></entry></feed>

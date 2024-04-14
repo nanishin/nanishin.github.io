@@ -438,4 +438,9 @@ var store = [{
         "excerpt":"생전에 사용하실 때부터 그립부 잉크샘을 불평하셨다고 어머니에게 이야기 들었던 아버지 유품 몽블랑146 만년필 월말 김어준 만년필편을 처음엔 가볍게 청취하다가 결국 몇년 지나 만년필에 본격 입문하고 나서야 아버지 만년필들이 20세기를 대표하던 모델들이라는 걸 뒤늦게 깨닫고 국내외 수리 글/영상들을 참고한 뒤 본격 잉크샘 수리 작업 돌입!!! 1. 수리 준비물 실리콘 구리스 (슈퍼루브,...","categories": ["maker"],
         "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability","몽블랑","Monblanc","몽블랑146","Monblanc146","만년필","Fountain Pen","실리콘 구리스","Silicone Grease","슈퍼 루브","Super Lube","Silicone Dielectric Grease","분해도구","Disassembly Tool","셀락 플레이크","Shellac Flakes","에탄올","Ethanol","매니큐어 공병","Nail Polish Bottle"],
         "url": "https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/",
-        "teaser":"https://nanishin.github.io/assets/images/diy-repair-ink-leakage-of-father-monblanc146.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/diy-repair-ink-leakage-of-father-monblanc146.jpg"},{
+        "title": "테슬라 커스텀 라이트쇼 만들기 (세븐틴 - Left & Right)",
+        "excerpt":"지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업 선정곡은 작은딸이 제일 좋아하는 아이돌인 세븐틴 노래 중 어느새 4월 총선이 다가오고 있어 내맘대로 고름 ;P SEVENTEEN - Left &amp; Right 1. 최신 버전 xLights 설치와 업데이트된 가이드 재확인 Windows/Mac/Linux OS 환경에 맞는 xLights...","categories": ["maker"],
+        "tags": ["Tesla Light Show","테슬라 라이트쇼","Custom","커스텀","Tesla","테슬라","SEVENTEEN","세븐틴","Left & Right","레프트 앤드 라이트"],
+        "url": "https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/",
+        "teaser":"https://nanishin.github.io/assets/images/tesla_lightshow_seventeen_left_and_right.jpg"}]
