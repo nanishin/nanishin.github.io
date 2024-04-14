@@ -432,7 +432,7 @@ var store = [{
         "title": "테슬라 커스텀 잠김음 실험",
         "excerpt":"지난 2023년 크리스마스 선물 펌웨어는 국내 리콜 업데이트까지 포함하면서 해를 넘겨 2024년 1월 초에 배포가 진행됨 국내 배포된 2023 홀리데이 업데이트 버전 - 2023.44.30.8 그중 가장 눈에 띄었던 테슬라 커스텀 잠김음 기능 홀리데이 업데이트 받으면 새로운 노래 선정해서 커스텀 라이트쇼 작업하던 루틴을 일단 뒤로 미루고 잠김음 실험 우선 시작!!! 1....","categories": ["maker"],
         "tags": ["Tesla Lock Sound","테슬라 잠김음","Tesla","테슬라","Custom","커스텀","Lock Sound","잠김음","Experiment","실험"],
-        "url": "https://nanishin.github.io/maker/diy-tesla-custom-lock-sound/",
+        "url": "https://nanishin.github.io/maker/diy-tesla-custom-lock-sounds-experiment/",
         "teaser":"https://nanishin.github.io/assets/images/tesla_custom_lock_sounds_experiment.jpg"},{
         "title": "아버지 유품 몽블랑146 잉크샘 자가수리",
         "excerpt":"생전에 사용하실 때부터 그립부 잉크샘을 불평하셨다고 어머니에게 이야기 들었던 아버지 유품 몽블랑146 만년필 월말 김어준 만년필편을 처음엔 가볍게 청취하다가 결국 몇년 지나 만년필에 본격 입문하고 나서야 아버지 만년필들이 20세기를 대표하던 모델들이라는 걸 뒤늦게 깨닫고 국내외 수리 글/영상들을 참고한 뒤 본격 잉크샘 수리 작업 돌입!!! 1. 수리 준비물 실리콘 구리스 (슈퍼루브,...","categories": ["maker"],
