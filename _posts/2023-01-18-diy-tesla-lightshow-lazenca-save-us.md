@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 header:
   teaser: /assets/images/tesla_lightshow_next_lazenca_save_us.jpg
-date:   2023-01-18 22:30:00 +0900
+date: 2023-01-18 22:30:00 +0900
 categories:
   - maker
 tags:
