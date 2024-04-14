@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 header:
   teaser: /assets/images/diy-repair-ink-leakage-of-father-monblanc146.jpg
-date:   2024-03-02 10:30:00 +0900
+date:   2024-03-02 20:30:00 +0900
 categories:
   - maker
 tags:
