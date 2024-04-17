@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 header:
   teaser: /assets/images/tesla_lightshow_seventeen_left_and_right.jpg
-date:   2024-03-27 21:30:00 +0900
+date:   2024-03-27 23:40:00 +0900
 categories:
   - maker
 tags:
@@ -24,7 +24,7 @@ tags:
 
 지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업
 
-선정곡은 작은딸이 제일 좋아하는 아이돌인 세븐틴 노래 중 어느새 4월 총선이 다가오고 있어 내맘대로 고름 ;P
+작은딸이 제일 좋아하는 아이돌인 세븐틴 노래 중 어느새 4월 총선이 다가오고 있어 내맘대로 한곡 선정 ;P
 
 SEVENTEEN - Left & Right
 

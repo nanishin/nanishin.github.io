@@ -440,7 +440,7 @@ var store = [{
         "url": "https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/",
         "teaser":"https://nanishin.github.io/assets/images/diy-repair-ink-leakage-of-father-monblanc146.jpg"},{
         "title": "테슬라 커스텀 라이트쇼 만들기 (세븐틴 - Left & Right)",
-        "excerpt":"지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업 선정곡은 작은딸이 제일 좋아하는 아이돌인 세븐틴 노래 중 어느새 4월 총선이 다가오고 있어 내맘대로 고름 ;P SEVENTEEN - Left &amp; Right 1. 최신 버전 xLights 설치와 업데이트된 가이드 재확인 Windows/Mac/Linux OS 환경에 맞는 xLights...","categories": ["maker"],
+        "excerpt":"지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업 작은딸이 제일 좋아하는 아이돌인 세븐틴 노래 중 어느새 4월 총선이 다가오고 있어 내맘대로 한곡 선정 ;P SEVENTEEN - Left &amp; Right 1. 최신 버전 xLights 설치와 업데이트된 가이드 재확인 Windows/Mac/Linux OS 환경에 맞는 xLights...","categories": ["maker"],
         "tags": ["Tesla Light Show","테슬라 라이트쇼","Custom","커스텀","Tesla","테슬라","SEVENTEEN","세븐틴","Left & Right","레프트 앤드 라이트"],
         "url": "https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/",
         "teaser":"https://nanishin.github.io/assets/images/tesla_lightshow_seventeen_left_and_right.jpg"}]
