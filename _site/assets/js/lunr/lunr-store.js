@@ -445,7 +445,7 @@ var store = [{
         "url": "https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/",
         "teaser":"https://nanishin.github.io/assets/images/tesla_lightshow_seventeen_left_and_right.jpg"},{
         "title": "신숙주 할아버지의 해동제국기와 21세기 외교 전략",
-        "excerpt":"1. 2024년은 역사 퇴행으로 어느새 다시 일제강점기? 0.73% 통계적 선택 사고로 발생한 대한민국 20대 대통령의 폭정 상황이지만 그래도 공화정 시스템은 유지될 거라 생각했으나 그건 착각이었음… 퇴행의 속도가 4~50년이 아닌 100년을 훌쩍 뛰어넘어 어느새 다시 일제강점기로 되돌아 갔고 정부는 조선총독부 역할을 하고 있는 열불나는 2024년 임진왜란 후 유승룡이 징비록 서문에서 소개한...","categories": ["history"],
+        "excerpt":"1. 2024년은 역사 퇴행으로 어느새 다시 일제강점기? 0.73% 통계적 선택 사고로 발생한 대한민국 20대 대통령의 폭정 상황이지만 그래도 공화정 시스템은 유지될 거라 생각했으나 그건 착각이었음… 퇴행의 속도가 4~50년이 아닌 100년을 훌쩍 뛰어넘어 어느새 다시 일제강점기로 되돌아 갔고 정부는 조선총독부 역할을 하고 있는 열불나는 2024년 임진왜란 후 류성룡이 징비록(1633, 조선 인조...","categories": ["history"],
         "tags": ["신숙주","Sukju Shin","ShinSukJu","해동제국기","Haedongjegukgi","Hae-dong-je-guk-gi","역사","history","이야기","story"],
         "url": "https://nanishin.github.io/history/history-need-21st-century-haedongjegukgi/",
         "teaser":"https://nanishin.github.io/assets/images/20240825_184411.jpg"}]
