@@ -444,6 +444,11 @@ var store = [{
         "tags": ["Tesla Light Show","테슬라 라이트쇼","Custom","커스텀","Tesla","테슬라","SEVENTEEN","세븐틴","Left & Right","레프트 앤드 라이트"],
         "url": "https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/",
         "teaser":"https://nanishin.github.io/assets/images/tesla_lightshow_seventeen_left_and_right.jpg"},{
+        "title": "3D펜으로 내연차 인포디스플레이 재고정 수리",
+        "excerpt":"큰딸이 태어난 뒤 출고했던 첫 패밀리카인 내연차… 현재 주력은 전기차이지만 첫 패밀리카라는 추억이 있기에 이리저리 수리해서 백업 용도로 사용 2024년 6월 말 주행 중 인포디스플레이가 떨어지는 상황 발생하여 뜯어보니 내부 고정밴드가 삭아서 끊어짐 대체 부품을 발견하지 못해서 결국 7월 중순 작은딸이 사용하던 3D펜으로 재고정 수리 진행! 최종 정리 영상 기록...","categories": ["maker"],
+        "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability"],
+        "url": "https://nanishin.github.io/maker/diy-repair-infodisplay-housing-of-old-gasoline-car/",
+        "teaser":"https://nanishin.github.io/assets/images/20240712_133344.jpg"},{
         "title": "신숙주 할아버지의 해동제국기와 21세기 외교 전략",
         "excerpt":"1. 2024년은 역사 퇴행으로 어느새 다시 일제강점기? 0.73% 통계적 선택 사고로 발생한 대한민국 20대 대통령의 폭정 상황이지만 그래도 공화정 시스템은 유지될 거라 생각했으나 그건 착각이었음… 퇴행의 속도가 4~50년이 아닌 100년을 훌쩍 뛰어넘어 어느새 다시 일제강점기로 되돌아 갔고 정부는 조선총독부 역할을 하고 있는 열불나는 2024년 임진왜란 후 류성룡이 징비록(1633, 조선 인조...","categories": ["history"],
         "tags": ["신숙주","Sukju Shin","ShinSukJu","해동제국기","Haedongjegukgi","Hae-dong-je-guk-gi","역사","history","이야기","story"],
