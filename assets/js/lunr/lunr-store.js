@@ -453,4 +453,9 @@ var store = [{
         "excerpt":"1. 2024년은 역사 퇴행으로 어느새 다시 일제강점기? 0.73% 통계적 선택 사고로 발생한 대한민국 20대 대통령의 폭정 상황이지만 그래도 공화정 시스템은 유지될 거라 생각했으나 그건 착각이었음… 퇴행의 속도가 4~50년이 아닌 100년을 훌쩍 뛰어넘어 어느새 다시 일제강점기로 되돌아 갔고 정부는 조선총독부 역할을 하고 있는 열불나는 2024년 임진왜란 후 류성룡이 징비록(1633, 조선 인조...","categories": ["history"],
         "tags": ["신숙주","Sukju Shin","ShinSukJu","해동제국기","Haedongjegukgi","Hae-dong-je-guk-gi","역사","history","이야기","story"],
         "url": "https://nanishin.github.io/history/history-need-21st-century-haedongjegukgi/",
-        "teaser":"https://nanishin.github.io/assets/images/20240825_184411.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/20240825_184411.jpg"},{
+        "title": "마우스 더블클릭 오동작을 스위치 교체로 자가수리",
+        "excerpt":"큰딸도 집안 피씨로 동영상 작업을 하면서 최근 마우스 더블클릭 오동작이 심해졌다고 불평…ㅠㅡㅠ 미루고 미루다가 다양한 수리기들을 참고해서 알리에서 80M(팔천만번 클릭 수명) 칼리 스위치 주문 완료! 어제 도착해서 개천절 공휴일에 후다닥 스위치 교체하니 가족 숙제 해결해서 마음 한켠이 편안해짐 :D 최종 영상 정리 스위치도 바꿨으니 이 마우스도 10년은 넘게 사용할 것으로...","categories": ["maker"],
+        "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability","마우스","Mouse","옴론 스위치","Omron Switch","카일 스위치","Kailh Switch"],
+        "url": "https://nanishin.github.io/maker/diy-repair-mouse-double-click-malfuntion-by-switch-replacement/",
+        "teaser":"https://nanishin.github.io/assets/images/20241003_173842.jpg"}]
