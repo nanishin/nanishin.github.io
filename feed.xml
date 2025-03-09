@@ -1,383 +1,351 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2024-10-08T23:50:21+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let's live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">3D프린터 색바랜 LCD 모듈 교체 자가수리</title><link href="https://nanishin.github.io/maker/diy-repair-faded-lcd-module-of-3dprinter-by-lcd2004-replacement/" rel="alternate" type="text/html" title="3D프린터 색바랜 LCD 모듈 교체 자가수리" /><published>2024-10-06T03:00:00+09:00</published><updated>2024-10-06T03:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-faded-lcd-module-of-3dprinter-by-lcd2004-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-faded-lcd-module-of-3dprinter-by-lcd2004-replacement/">&lt;p&gt;2018년 말 조립 후 이리저리 고쳐가며 잘 쓰고 있는 6년차 3D프린터 Anet A8&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nanishin.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nanishin.github.io/" rel="alternate" type="text/html" /><updated>2025-03-09T23:00:43+09:00</updated><id>https://nanishin.github.io/feed.xml</id><title type="html">申Nani?</title><subtitle>Daddy of two daughters, Action for sustainable life, Maker with upcycling, Let&apos;s live a life to reach spiritual enlightenment</subtitle><author><name>Nani Shin</name></author><entry><title type="html">맥세이프3 간단 접지 수리</title><link href="https://nanishin.github.io/maker/diy-macsafe3-earth-by-3dprinted-adapter-housing-and-thin-wire/" rel="alternate" type="text/html" title="맥세이프3 간단 접지 수리" /><published>2025-03-09T03:00:00+09:00</published><updated>2025-03-09T03:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-macsafe3-earth-by-3dprinted-adapter-housing-and-thin-wire</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-macsafe3-earth-by-3dprinted-adapter-housing-and-thin-wire/"><![CDATA[<p>2015년 업무 스트레스가 극에 달하다가 결국 하반기 쓸개를 떼고 그동안 납입만 했던 종합보험에서 수술비 지원 보험금을 받은 뒤 떠올랐던 결심</p>
 
-&lt;p&gt;그중 LCD 모듈은 몇년 전부터 색이 바래져서 옥토프린트나 큐라에서 원격으로 상태 확인하다가&lt;/p&gt;
+<p>“그래, 회사에 쓸모를 보이려고 애쓰다가 쓸개를 잃었으니 이제부터라도 내가 하고픈 걸 적극적으로 병행해보자!!!”</p>
 
-&lt;p&gt;결국 알리에서 동일한 LCD2004 Blue 모듈 주문해서 도착 후 자가 교체 수리 진행&lt;/p&gt;
+<p>무언가를 만들기 위해서 도구가 필요하니 맥북을 사자 하고 바로 구입했던 2015 Early MacBook Pro 13</p>
 
-&lt;p&gt;그런데 16개 핀커넥터 납땜을 전용 열풍기 없이 일반 인두기 1개로 제거하자니 거의 뜯어내기로&lt;/p&gt;
+<p>10년 간 정말 홈레코딩/영상편집/메이킹 등 다양하게 사용하면서 메이커 활동의 중추적인 역할을 수행했다.</p>
 
-&lt;p&gt;진행하다 보드에 흠집이 생겨 신규 모듈 납땜하면서 동작 안하나 걱정했는데 처음엔&lt;/p&gt;
+<p>그러나 몇년 전 OS 업그레이드 지원도 끝나고 점점 느려지고 용량도 부족하고 결정적으로 오토데스크 퓨전360도 구형 OS 지원이 2월로 최종 종료 :’(</p>
 
-&lt;p&gt;깨진 문자들 나오다가 몇번 껐다 켜니 정상동작 시작 :D&lt;/p&gt;
+<p>이에 코로나 팬데믹 이후 멈춰있던 커버곡 홈레코딩과 영상편집, 메이킹 작업을 재개하기 위해 10년 만에 2024 MacBook Pro 14로 교체!</p>
 
-&lt;h2 id=&quot;최종-영상-정리&quot;&gt;최종 영상 정리&lt;/h2&gt;
+<p>그런데 10년의 기간 동안 맥세이프는 2에서 3으로 진화했음에도 기본접지가 되지 않아서 흐르는 잔류 전류로 맥북 금속 표면이 따끔거리는 증상은 여전</p>
 
-&lt;p&gt;다시 3D프린터에서 로컬 상태 확인이 가능해졌으니 좀 더 오래 사용하는 것으로~ :D&lt;/p&gt;
+<p>결국 예전 해결방식 그대로 대한민국 플러그 규격 어댑터 하우징을 3D프린터로 출력하고 빵봉투 묶던 가는 철사를 결합해서 접지 경로 연결!!!</p>
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/Eb9J0Vwa6FE&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Nani Shin</name></author><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><category term="LCD모듈" /><category term="LCD Module" /><category term="LCD2004" /><summary type="html">2018년 말 조립 후 이리저리 고쳐가며 잘 쓰고 있는 6년차 3D프린터 Anet A8</summary></entry><entry><title type="html">마우스 더블클릭 오동작을 스위치 교체로 자가수리</title><link href="https://nanishin.github.io/maker/diy-repair-mouse-double-click-malfuntion-by-switch-replacement/" rel="alternate" type="text/html" title="마우스 더블클릭 오동작을 스위치 교체로 자가수리" /><published>2024-10-03T23:00:00+09:00</published><updated>2024-10-03T23:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-mouse-double-click-malfuntion-by-switch-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-mouse-double-click-malfuntion-by-switch-replacement/">&lt;p&gt;큰딸도 집안 피씨로 동영상 작업을 하면서 최근 마우스 더블클릭 오동작이 심해졌다고 불평…ㅠㅡㅠ&lt;/p&gt;
+<p>따끔거림이 사라지니 다시 마음의 평화가 찾아오며 작업에 집중하기 좋아짐~ :D</p>
 
-&lt;p&gt;미루고 미루다가 다양한 수리기들을 참고해서 알리에서 80M(팔천만번 클릭 수명) 칼리 스위치 주문 완료!&lt;/p&gt;
+<ul>
+  <li><a href="https://www.thingiverse.com/thing:2920142">KR Plug Socket Adapter</a></li>
+</ul>
 
-&lt;p&gt;어제 도착해서 개천절 공휴일에 후다닥 스위치 교체하니 가족 숙제 해결해서 마음 한켠이 편안해짐 :D&lt;/p&gt;
+<h2 id="최종-영상-정리">최종 영상 정리</h2>
 
-&lt;h2 id=&quot;최종-영상-정리&quot;&gt;최종 영상 정리&lt;/h2&gt;
+<p>이번에는 제대로 기록도 남기기 위해 새 맥북에서 4K 영상 편집도 완료!</p>
 
-&lt;p&gt;스위치도 바꿨으니 이 마우스도 10년은 넘게 사용할 것으로 예상~ ;P&lt;/p&gt;
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yh9jz0hmQbs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>]]></content><author><name>Nani Shin</name></author><category term="maker" /><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><category term="MacSafe3" /><category term="맥세이프3" /><category term="3D Printed Adapter Housing" /><category term="3D프린팅 어댑터 하우징" /><category term="Earth" /><category term="접지" /><summary type="html"><![CDATA[2015년 업무 스트레스가 극에 달하다가 결국 하반기 쓸개를 떼고 그동안 납입만 했던 종합보험에서 수술비 지원 보험금을 받은 뒤 떠올랐던 결심]]></summary></entry><entry><title type="html">3D프린터 색바랜 LCD 모듈 교체 자가수리</title><link href="https://nanishin.github.io/maker/diy-repair-faded-lcd-module-of-3dprinter-by-lcd2004-replacement/" rel="alternate" type="text/html" title="3D프린터 색바랜 LCD 모듈 교체 자가수리" /><published>2024-10-06T03:00:00+09:00</published><updated>2024-10-06T03:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-faded-lcd-module-of-3dprinter-by-lcd2004-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-faded-lcd-module-of-3dprinter-by-lcd2004-replacement/"><![CDATA[<p>2018년 말 조립 후 이리저리 고쳐가며 잘 쓰고 있는 6년차 3D프린터 Anet A8</p>
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/uibLhw-qynM&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Nani Shin</name></author><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><category term="마우스" /><category term="Mouse" /><category term="옴론 스위치" /><category term="Omron Switch" /><category term="카일 스위치" /><category term="Kailh Switch" /><summary type="html">큰딸도 집안 피씨로 동영상 작업을 하면서 최근 마우스 더블클릭 오동작이 심해졌다고 불평…ㅠㅡㅠ</summary></entry><entry><title type="html">신숙주 할아버지의 해동제국기와 21세기 외교 전략</title><link href="https://nanishin.github.io/history/history-need-21st-century-haedongjegukgi/" rel="alternate" type="text/html" title="신숙주 할아버지의 해동제국기와 21세기 외교 전략" /><published>2024-08-25T23:30:00+09:00</published><updated>2024-08-25T23:30:00+09:00</updated><id>https://nanishin.github.io/history/history-need-21st-century-haedongjegukgi</id><content type="html" xml:base="https://nanishin.github.io/history/history-need-21st-century-haedongjegukgi/">&lt;h2 id=&quot;1-2024년은-역사-퇴행으로-어느새-다시-일제강점기&quot;&gt;1. 2024년은 역사 퇴행으로 어느새 다시 일제강점기?&lt;/h2&gt;
+<p>그중 LCD 모듈은 몇년 전부터 색이 바래져서 옥토프린트나 큐라에서 원격으로 상태 확인하다가</p>
 
-&lt;p&gt;0.73% 통계적 선택 사고로 발생한 대한민국 20대 대통령의 폭정 상황이지만 그래도 공화정 시스템은 유지될 거라 생각했으나 그건 착각이었음…&lt;/p&gt;
+<p>결국 알리에서 동일한 LCD2004 Blue 모듈 주문해서 도착 후 자가 교체 수리 진행</p>
 
-&lt;p&gt;퇴행의 속도가 4~50년이 아닌 100년을 훌쩍 뛰어넘어 어느새 다시 일제강점기로 되돌아 갔고 정부는 조선총독부 역할을 하고 있는 열불나는 2024년&lt;/p&gt;
+<p>그런데 16개 핀커넥터 납땜을 전용 열풍기 없이 일반 인두기 1개로 제거하자니 거의 뜯어내기로</p>
 
-&lt;p&gt;임진왜란 후 류성룡이 징비록(1633, 조선 인조 11년 아들 류진이 간행) 서문에서 소개한 신숙주 할아버지가 성종에게 남긴 유언으로 대표되는 대일본 외교론…&lt;/p&gt;
+<p>진행하다 보드에 흠집이 생겨 신규 모듈 납땜하면서 동작 안하나 걱정했는데 처음엔</p>
 
-&lt;p&gt;“일본과 잘 지내셔야 합니다…”&lt;/p&gt;
+<p>깨진 문자들 나오다가 몇번 껐다 켜니 정상동작 시작 :D</p>
 
-&lt;p&gt;그러나 그 말에 담긴 복잡한 속내는 신숙주 할아버지가 저술한 해동제국기(1471, 조선 성종 2년 간행) 서문에 좀 더 자세히 언급되어 있어서 다시 확인!!!&lt;/p&gt;
+<h2 id="최종-영상-정리">최종 영상 정리</h2>
 
-&lt;h2 id=&quot;2-해동제국기-출판본&quot;&gt;2. 해동제국기 출판본&lt;/h2&gt;
+<p>다시 3D프린터에서 로컬 상태 확인이 가능해졌으니 좀 더 오래 사용하는 것으로~ :D</p>
 
-&lt;p&gt;해동제국기 출판본 2개 참고&lt;/p&gt;
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Eb9J0Vwa6FE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>]]></content><author><name>Nani Shin</name></author><category term="maker" /><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><category term="LCD모듈" /><category term="LCD Module" /><category term="LCD2004" /><summary type="html"><![CDATA[2018년 말 조립 후 이리저리 고쳐가며 잘 쓰고 있는 6년차 3D프린터 Anet A8]]></summary></entry><entry><title type="html">마우스 더블클릭 오동작을 스위치 교체로 자가수리</title><link href="https://nanishin.github.io/maker/diy-repair-mouse-double-click-malfuntion-by-switch-replacement/" rel="alternate" type="text/html" title="마우스 더블클릭 오동작을 스위치 교체로 자가수리" /><published>2024-10-03T23:00:00+09:00</published><updated>2024-10-03T23:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-mouse-double-click-malfuntion-by-switch-replacement</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-mouse-double-click-malfuntion-by-switch-replacement/"><![CDATA[<p>큰딸도 집안 피씨로 동영상 작업을 하면서 최근 마우스 더블클릭 오동작이 심해졌다고 불평…ㅠㅡㅠ</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.aladin.co.kr/m/mproduct.aspx?ItemId=458301&quot;&gt;해동제국기 완역본 (범우사)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>미루고 미루다가 다양한 수리기들을 참고해서 알리에서 80M(팔천만번 클릭 수명) 칼리 스위치 주문 완료!</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_184411.jpg&quot; alt=&quot;해동제국기 완역본 (범우사&quot; /&gt;&lt;/p&gt;
+<p>어제 도착해서 개천절 공휴일에 후다닥 스위치 교체하니 가족 숙제 해결해서 마음 한켠이 편안해짐 :D</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.aladin.co.kr/m/mproduct.aspx?ItemId=122595528&amp;amp;srsltid=AfmBOoqM-2m6RzrdQjcIay0qDYbqSTQeFgQN2gdtoqxw1RCxjFQv-IHR&quot;&gt;해동제국기 원본/완역본 (보고사)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<h2 id="최종-영상-정리">최종 영상 정리</h2>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_184438.jpg&quot; alt=&quot;해동제국기 원본/완역본 (보고사&quot; /&gt;&lt;/p&gt;
+<p>스위치도 바꿨으니 이 마우스도 10년은 넘게 사용할 것으로 예상~ ;P</p>
 
-&lt;h2 id=&quot;3-해동제국기-서문에서-밝힌-일본에-대한-평가&quot;&gt;3. 해동제국기 서문에서 밝힌 일본에 대한 평가&lt;/h2&gt;
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uibLhw-qynM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>]]></content><author><name>Nani Shin</name></author><category term="maker" /><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><category term="마우스" /><category term="Mouse" /><category term="옴론 스위치" /><category term="Omron Switch" /><category term="카일 스위치" /><category term="Kailh Switch" /><summary type="html"><![CDATA[큰딸도 집안 피씨로 동영상 작업을 하면서 최근 마우스 더블클릭 오동작이 심해졌다고 불평…ㅠㅡㅠ]]></summary></entry><entry><title type="html">신숙주 할아버지의 해동제국기와 21세기 외교 전략</title><link href="https://nanishin.github.io/history/history-need-21st-century-haedongjegukgi/" rel="alternate" type="text/html" title="신숙주 할아버지의 해동제국기와 21세기 외교 전략" /><published>2024-08-25T23:30:00+09:00</published><updated>2024-08-25T23:30:00+09:00</updated><id>https://nanishin.github.io/history/history-need-21st-century-haedongjegukgi</id><content type="html" xml:base="https://nanishin.github.io/history/history-need-21st-century-haedongjegukgi/"><![CDATA[<h2 id="1-2024년은-역사-퇴행으로-어느새-다시-일제강점기">1. 2024년은 역사 퇴행으로 어느새 다시 일제강점기?</h2>
 
-&lt;p&gt;원본 언급 1 (해동제국기 영인본)&lt;/p&gt;
+<p>0.73% 통계적 선택 사고로 발생한 대한민국 20대 대통령의 폭정 상황이지만 그래도 공화정 시스템은 유지될 거라 생각했으나 그건 착각이었음…</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_185624.jpg&quot; alt=&quot;해동제국기 원본 서문 1&quot; /&gt;&lt;/p&gt;
+<p>퇴행의 속도가 4~50년이 아닌 100년을 훌쩍 뛰어넘어 어느새 다시 일제강점기로 되돌아 갔고 정부는 조선총독부 역할을 하고 있는 열불나는 2024년</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_192714.jpg&quot; alt=&quot;해동제국기 원본 서문 1&quot; /&gt;&lt;/p&gt;
+<p>임진왜란 후 류성룡이 징비록(1633, 조선 인조 11년 아들 류진이 간행) 서문에서 소개한 신숙주 할아버지가 성종에게 남긴 유언으로 대표되는 대일본 외교론…</p>
 
-&lt;p&gt;완역본(보고사) 언급 1&lt;/p&gt;
+<p>“일본과 잘 지내셔야 합니다…”</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_185521.jpg&quot; alt=&quot;해동제국기 완역본(보고사) 서문 1&quot; /&gt;&lt;/p&gt;
+<p>그러나 그 말에 담긴 복잡한 속내는 신숙주 할아버지가 저술한 해동제국기(1471, 조선 성종 2년 간행) 서문에 좀 더 자세히 언급되어 있어서 다시 확인!!!</p>
 
-&lt;p&gt;완역본(범우사) 언급 1&lt;/p&gt;
+<h2 id="2-해동제국기-출판본">2. 해동제국기 출판본</h2>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_185215.jpg&quot; alt=&quot;해동제국기 완역본(범우사) 서문 1&quot; /&gt;&lt;/p&gt;
+<p>해동제국기 출판본 2개 참고</p>
 
-&lt;p&gt;원본 언급 2 (해동제국기 영인본)&lt;/p&gt;
+<ul>
+  <li><a href="https://www.aladin.co.kr/m/mproduct.aspx?ItemId=458301">해동제국기 완역본 (범우사)</a></li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_185658.jpg&quot; alt=&quot;해동제국기 원본 서문 2&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/20240825_184411.jpg" alt="해동제국기 완역본 (범우사" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_192734.jpg&quot; alt=&quot;해동제국기 원본 서문 2&quot; /&gt;&lt;/p&gt;
+<ul>
+  <li><a href="https://www.aladin.co.kr/m/mproduct.aspx?ItemId=122595528&amp;srsltid=AfmBOoqM-2m6RzrdQjcIay0qDYbqSTQeFgQN2gdtoqxw1RCxjFQv-IHR">해동제국기 원본/완역본 (보고사)</a></li>
+</ul>
 
-&lt;p&gt;완역본(보고사) 언급 2&lt;/p&gt;
+<p><img src="/assets/images/20240825_184438.jpg" alt="해동제국기 원본/완역본 (보고사" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_185544.jpg&quot; alt=&quot;해동제국기 완역본(보고사) 서문 2&quot; /&gt;&lt;/p&gt;
+<h2 id="3-해동제국기-서문에서-밝힌-일본에-대한-평가">3. 해동제국기 서문에서 밝힌 일본에 대한 평가</h2>
 
-&lt;p&gt;완역본(범우사) 언급 2&lt;/p&gt;
+<p>원본 언급 1 (해동제국기 영인본)</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_185136.jpg&quot; alt=&quot;해동제국기 완역본(범우사) 서문 2&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/20240825_185624.jpg" alt="해동제국기 원본 서문 1" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20240825_185328.jpg&quot; alt=&quot;해동제국기 완역본(범우사) 서문 2&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/20240825_192714.jpg" alt="해동제국기 원본 서문 1" /></p>
 
-&lt;h2 id=&quot;4-21세기-해동제국기-같은-외교백서-재정비-필요&quot;&gt;4. 21세기 해동제국기 같은 외교백서 재정비 필요!!!&lt;/h2&gt;
+<p>완역본(보고사) 언급 1</p>
 
-&lt;p&gt;정리하면 신숙주 할아버지의 서문 속내는 조선 반도를 빈번히 수탈하려는 욕망과 호전적인 성향의 일본을 무력으로 다스려도 그때 뿐인지라&lt;/p&gt;
+<p><img src="/assets/images/20240825_185521.jpg" alt="해동제국기 완역본(보고사) 서문 1" /></p>
 
-&lt;p&gt;결국 문화적인 왕래 속에 그들의 정치 문화 상황을 속속들이 파악한 상태에서 조선 주도로 교류를 이끌어 가야 전쟁을 미연에 방지 가능&lt;/p&gt;
+<p>완역본(범우사) 언급 1</p>
 
-&lt;p&gt;&lt;strong&gt;전쟁을 발생시키지 않고 문화적 평화를 지키는 것이 상책 중의 상책!!!&lt;/strong&gt;&lt;/p&gt;
+<p><img src="/assets/images/20240825_185215.jpg" alt="해동제국기 완역본(범우사) 서문 1" /></p>
 
-&lt;p&gt;그러나 21세기 대한민국 현실은 일본의 정치체제가 2차세계대전 패망 후에도 다시 군국주의 우익에 점령되고 정치가 바뀌지 않는 후진적인 상황임을 알았지만 결과적으론 그냥 외교적 방치…&lt;/p&gt;
+<p>원본 언급 2 (해동제국기 영인본)</p>
 
-&lt;p&gt;일본은 역으로 대한민국 시스템을 분석하고 곳곳에 일본 우익과 100% 싱크되는 의식공동체 상태의 간첩/반역자들을 지속적으로 지원하고 성장시켜서 심리적 내전을 유발시킨 상황!!!&lt;/p&gt;
+<p><img src="/assets/images/20240825_185658.jpg" alt="해동제국기 원본 서문 2" /></p>
 
-&lt;p&gt;대한민국은 전쟁 공포를 통한 긴장감 조성으로 일부의 사적 이익만을 추구하는 국내외 세력에 대항해 3.1 독립운동과 1919년 임시정부 수립 정신이 담긴 헌법을 기반으로 자랑스러운 역사의식을 재정비하고&lt;/p&gt;
+<p><img src="/assets/images/20240825_192734.jpg" alt="해동제국기 원본 서문 2" /></p>
 
-&lt;p&gt;내치를 강화하면서 동시에 일본 상황을 제대로 파악(재일동포들과 일본 민주세력 지원 및 협력, 외교백서 재정비)하면서 당한 만큼 그대로 하나하나 따박따박 되돌려주는 실천 필요!!!&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="신숙주" /><category term="Sukju Shin" /><category term="ShinSukJu" /><category term="해동제국기" /><category term="Haedongjegukgi" /><category term="Hae-dong-je-guk-gi" /><category term="역사" /><category term="history" /><category term="이야기" /><category term="story" /><summary type="html">1. 2024년은 역사 퇴행으로 어느새 다시 일제강점기?</summary></entry><entry><title type="html">3D펜으로 내연차 인포디스플레이 재고정 수리</title><link href="https://nanishin.github.io/maker/diy-repair-infodisplay-housing-of-old-gasoline-car/" rel="alternate" type="text/html" title="3D펜으로 내연차 인포디스플레이 재고정 수리" /><published>2024-07-12T23:30:00+09:00</published><updated>2024-07-12T23:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-infodisplay-housing-of-old-gasoline-car</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-infodisplay-housing-of-old-gasoline-car/">&lt;p&gt;큰딸이 태어난 뒤 출고했던 첫 패밀리카인 내연차…&lt;/p&gt;
+<p>완역본(보고사) 언급 2</p>
 
-&lt;p&gt;현재 주력은 전기차이지만 첫 패밀리카라는 추억이 있기에 이리저리 수리해서 백업 용도로 사용&lt;/p&gt;
+<p><img src="/assets/images/20240825_185544.jpg" alt="해동제국기 완역본(보고사) 서문 2" /></p>
 
-&lt;p&gt;2024년 6월 말 주행 중 인포디스플레이가 떨어지는 상황 발생하여 뜯어보니 내부 고정밴드가 삭아서 끊어짐&lt;/p&gt;
+<p>완역본(범우사) 언급 2</p>
 
-&lt;p&gt;대체 부품을 발견하지 못해서 결국 7월 중순 작은딸이 사용하던 3D펜으로 재고정 수리 진행!&lt;/p&gt;
+<p><img src="/assets/images/20240825_185136.jpg" alt="해동제국기 완역본(범우사) 서문 2" /></p>
 
-&lt;h2 id=&quot;최종-정리-영상-기록&quot;&gt;최종 정리 영상 기록&lt;/h2&gt;
+<p><img src="/assets/images/20240825_185328.jpg" alt="해동제국기 완역본(범우사) 서문 2" /></p>
 
-&lt;p&gt;재설치 후 이전처럼 잘 고정된 상태로 동작하고 있어서 뿌듯~ ;P&lt;/p&gt;
+<h2 id="4-21세기-해동제국기-같은-외교백서-재정비-필요">4. 21세기 해동제국기 같은 외교백서 재정비 필요!!!</h2>
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/PzGSuH0aE0c&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Nani Shin</name></author><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><summary type="html">큰딸이 태어난 뒤 출고했던 첫 패밀리카인 내연차…</summary></entry><entry><title type="html">테슬라 커스텀 라이트쇼 만들기 (세븐틴 - Left &amp;amp; Right)</title><link href="https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/" rel="alternate" type="text/html" title="테슬라 커스텀 라이트쇼 만들기 (세븐틴 - Left &amp; Right)" /><published>2024-03-27T23:40:00+09:00</published><updated>2024-03-27T23:40:00+09:00</updated><id>https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/">&lt;p&gt;지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업&lt;/p&gt;
+<p>정리하면 신숙주 할아버지의 서문 속내는 조선 반도를 빈번히 수탈하려는 욕망과 호전적인 성향의 일본을 무력으로 다스려도 그때 뿐인지라</p>
 
-&lt;p&gt;작은딸이 제일 좋아하는 아이돌인 세븐틴 노래 중 어느새 4월 총선이 다가오고 있어 내맘대로 한곡 선정 ;P&lt;/p&gt;
+<p>결국 문화적인 왕래 속에 그들의 정치 문화 상황을 속속들이 파악한 상태에서 조선 주도로 교류를 이끌어 가야 전쟁을 미연에 방지 가능</p>
 
-&lt;p&gt;SEVENTEEN - Left &amp;amp; Right&lt;/p&gt;
+<p><strong>전쟁을 발생시키지 않고 문화적 평화를 지키는 것이 상책 중의 상책!!!</strong></p>
 
-&lt;h2 id=&quot;1-최신-버전-xlights-설치와-업데이트된-가이드-재확인&quot;&gt;1. 최신 버전 xLights 설치와 업데이트된 가이드 재확인&lt;/h2&gt;
+<p>그러나 21세기 대한민국 현실은 일본의 정치체제가 2차세계대전 패망 후에도 다시 군국주의 우익에 점령되고 정치가 바뀌지 않는 후진적인 상황임을 알았지만 결과적으론 그냥 외교적 방치…</p>
 
-&lt;p&gt;Windows/Mac/Linux OS 환경에 맞는 xLights 최신버전 설치&lt;/p&gt;
+<p>일본은 역으로 대한민국 시스템을 분석하고 곳곳에 일본 우익과 100% 싱크되는 의식공동체 상태의 간첩/반역자들을 지속적으로 지원하고 성장시켜서 심리적 내전을 유발시킨 상황!!!</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://xlights.org/releases/&quot;&gt;xLights Releases&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>대한민국은 전쟁 공포를 통한 긴장감 조성으로 일부의 사적 이익만을 추구하는 국내외 세력에 대항해 3.1 독립운동과 1919년 임시정부 수립 정신이 담긴 헌법을 기반으로 자랑스러운 역사의식을 재정비하고</p>
 
-&lt;p&gt;작년 작업 진행과정 복기&lt;/p&gt;
+<p>내치를 강화하면서 동시에 일본 상황을 제대로 파악(재일동포들과 일본 민주세력 지원 및 협력, 외교백서 재정비)하면서 당한 만큼 그대로 하나하나 따박따박 되돌려주는 실천 필요!!!</p>]]></content><author><name>Nani Shin</name></author><category term="history" /><category term="신숙주" /><category term="Sukju Shin" /><category term="ShinSukJu" /><category term="해동제국기" /><category term="Haedongjegukgi" /><category term="Hae-dong-je-guk-gi" /><category term="역사" /><category term="history" /><category term="이야기" /><category term="story" /><summary type="html"><![CDATA[1. 2024년은 역사 퇴행으로 어느새 다시 일제강점기?]]></summary></entry><entry><title type="html">3D펜으로 내연차 인포디스플레이 재고정 수리</title><link href="https://nanishin.github.io/maker/diy-repair-infodisplay-housing-of-old-gasoline-car/" rel="alternate" type="text/html" title="3D펜으로 내연차 인포디스플레이 재고정 수리" /><published>2024-07-12T23:30:00+09:00</published><updated>2024-07-12T23:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-infodisplay-housing-of-old-gasoline-car</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-infodisplay-housing-of-old-gasoline-car/"><![CDATA[<p>큰딸이 태어난 뒤 출고했던 첫 패밀리카인 내연차…</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nanishin.github.io/maker/diy-tesla-lightshow-lazenca-save-us/&quot;&gt;Tesla Light Show 만들기 (N.EX.T - Lazenca Save Us)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>현재 주력은 전기차이지만 첫 패밀리카라는 추억이 있기에 이리저리 수리해서 백업 용도로 사용</p>
 
-&lt;p&gt;특이사항은 이번 노래 특성에 맞게 좌우 라이트 온오프를 명확하게 구분하려고 보니 오동작이 계속 발생해서 원인을 찾다가 결국 가이드에 있는 아래 제약사항 확인하고 제어 수정해서 해결 :)&lt;/p&gt;
+<p>2024년 6월 말 주행 중 인포디스플레이가 떨어지는 상황 발생하여 뜯어보니 내부 고정밴드가 삭아서 끊어짐</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/teslamotors/light-show?tab=readme-ov-file#light-channel-mapping-details&quot;&gt;Light channel mapping details&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>대체 부품을 발견하지 못해서 결국 7월 중순 작은딸이 사용하던 3D펜으로 재고정 수리 진행!</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;On Model 3/Y, all aux park and side markers operate together. They will activate during (Left side marker || Left aux park || Right side marker || Right aux park) requests from xLights.&lt;/p&gt;
-&lt;/blockquote&gt;
+<h2 id="최종-정리-영상-기록">최종 정리 영상 기록</h2>
 
-&lt;h2 id=&quot;2-다시-한번-주차장에서-쇼타임&quot;&gt;2. 다시 한번 주차장에서 쇼타임!!!&lt;/h2&gt;
+<p>재설치 후 이전처럼 잘 고정된 상태로 동작하고 있어서 뿌듯~ ;P</p>
 
-&lt;p&gt;이제 라이트쇼 기능도 고도화되어 여러 파일들을 지원하기에 파일이름 구분해서 USB 메모리스틱에 넣고 주차장 쇼타임 시작!!!&lt;/p&gt;
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PzGSuH0aE0c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>]]></content><author><name>Nani Shin</name></author><category term="maker" /><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><summary type="html"><![CDATA[큰딸이 태어난 뒤 출고했던 첫 패밀리카인 내연차…]]></summary></entry><entry><title type="html">테슬라 커스텀 라이트쇼 만들기 (세븐틴 - Left &amp;amp; Right)</title><link href="https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/" rel="alternate" type="text/html" title="테슬라 커스텀 라이트쇼 만들기 (세븐틴 - Left &amp;amp; Right)" /><published>2024-03-27T23:40:00+09:00</published><updated>2024-03-27T23:40:00+09:00</updated><id>https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-tesla-lightshow-seventeen-left-and-right/"><![CDATA[<p>지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업</p>
 
-&lt;p&gt;인스타그램 및 유튜브 모두 등록 완료!!!&lt;/p&gt;
+<p>작은딸이 제일 좋아하는 아이돌인 세븐틴 노래 중 어느새 4월 총선이 다가오고 있어 내맘대로 한곡 선정 ;P</p>
 
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/C5BWxFuPz77/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;14&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/C5BWxFuPz77/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt;Instagram에서 이 게시물 보기&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/C5BWxFuPz77/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;Nani Shin(@nanishin)님의 공유 게시물&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+<p>SEVENTEEN - Left &amp; Right</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<h2 id="1-최신-버전-xlights-설치와-업데이트된-가이드-재확인">1. 최신 버전 xLights 설치와 업데이트된 가이드 재확인</h2>
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/JRckyASkGpk&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+<p>Windows/Mac/Linux OS 환경에 맞는 xLights 최신버전 설치</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<ul>
+  <li><a href="https://xlights.org/releases/">xLights Releases</a></li>
+</ul>
 
-&lt;p&gt;글로벌 테슬라 라이트쇼 공유 사이트인 TeslaLightShare.io에도 등록 완료!!! :D&lt;/p&gt;
+<p>작년 작업 진행과정 복기</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://teslalightshare.io/light-show/978&quot;&gt;[K-pop] SEVENTEEN - Left &amp;amp; Right Remix&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://nanishin.github.io/maker/diy-tesla-lightshow-lazenca-save-us/">Tesla Light Show 만들기 (N.EX.T - Lazenca Save Us)</a></li>
+</ul>
 
-&lt;p&gt;P.S. 제 추천 링크를 사용하여 Tesla를 구매하세요. :)&lt;/p&gt;
+<p>특이사항은 이번 노래 특성에 맞게 좌우 라이트 온오프를 명확하게 구분하려고 보니 오동작이 계속 발생해서 원인을 찾다가 결국 가이드에 있는 아래 제약사항 확인하고 제어 수정해서 해결 :)</p>
 
-&lt;ul&gt;
-  &lt;li&gt;http://ts.la/taeksu53570&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nani Shin</name></author><category term="Tesla Light Show" /><category term="테슬라 라이트쇼" /><category term="Custom" /><category term="커스텀" /><category term="Tesla" /><category term="테슬라" /><category term="SEVENTEEN" /><category term="세븐틴" /><category term="Left &amp; Right" /><category term="레프트 앤드 라이트" /><summary type="html">지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업</summary></entry><entry><title type="html">아버지 유품 몽블랑146 잉크샘 자가수리</title><link href="https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/" rel="alternate" type="text/html" title="아버지 유품 몽블랑146 잉크샘 자가수리" /><published>2024-03-02T20:30:00+09:00</published><updated>2024-03-02T20:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/">&lt;p&gt;생전에 사용하실 때부터 그립부 잉크샘을 불평하셨다고 어머니에게 이야기 들었던 아버지 유품 몽블랑146 만년필&lt;/p&gt;
+<ul>
+  <li><a href="https://github.com/teslamotors/light-show?tab=readme-ov-file#light-channel-mapping-details">Light channel mapping details</a></li>
+</ul>
 
-&lt;p&gt;월말 김어준 만년필편을 처음엔 가볍게 청취하다가 결국 몇년 지나 만년필에 본격 입문하고 나서야 아버지 만년필들이&lt;/p&gt;
+<blockquote>
+  <p>On Model 3/Y, all aux park and side markers operate together. They will activate during (Left side marker || Left aux park || Right side marker || Right aux park) requests from xLights.</p>
+</blockquote>
 
-&lt;p&gt;20세기를 대표하던 모델들이라는 걸 뒤늦게 깨닫고 국내외 수리 글/영상들을 참고한 뒤 본격 잉크샘 수리 작업 돌입!!!&lt;/p&gt;
+<h2 id="2-다시-한번-주차장에서-쇼타임">2. 다시 한번 주차장에서 쇼타임!!!</h2>
 
-&lt;h2 id=&quot;1-수리-준비물&quot;&gt;1. 수리 준비물&lt;/h2&gt;
+<p>이제 라이트쇼 기능도 고도화되어 여러 파일들을 지원하기에 파일이름 구분해서 USB 메모리스틱에 넣고 주차장 쇼타임 시작!!!</p>
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;실리콘 구리스 (슈퍼루브, 테프론 포함되지 않은 Silicone Dielectric Grease 85g 제품으로 국내 주문)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;몽블랑146 분해도구 (다이소 핀셋 휘어서 사용 가능하지만 유품에 상처날까 봐 정품 호환 제품으로 알리 주문)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;셀락 플레이크 (색상이 가장 밝고 투명도가 높아보이는 50g 제품으로 알리 주문)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;에탄올 (약국에서 예전에 구매해둔 83% 소독용 에탄올 사용)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;매니큐어 공병 (처음 제조하며 양이 가늠이 되질 않아서 5/8/10/15ml 사이즈 별 국내 주문)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p>인스타그램 및 유튜브 모두 등록 완료!!!</p>
 
-&lt;h2 id=&quot;2-셀락-마감재-제조-지원&quot;&gt;2. 셀락 마감재 제조 지원&lt;/h2&gt;
+<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/p/C5BWxFuPz77/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C5BWxFuPz77/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Instagram에서 이 게시물 보기</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C5BWxFuPz77/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Nani Shin(@nanishin)님의 공유 게시물</a></p></div></blockquote>
+<script async="" src="//www.instagram.com/embed.js"></script>
 
-&lt;ul&gt;
-  &lt;li&gt;둘째딸&lt;/li&gt;
-&lt;/ul&gt;
+<p><br /></p>
 
-&lt;h2 id=&quot;3-2024년-2월-한달-여정-정리&quot;&gt;3. 2024년 2월 한달 여정 정리&lt;/h2&gt;
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JRckyASkGpk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 
-&lt;p&gt;수리를 완료하니 아버지에게 가졌던 부채감 때문이었을까? 알 수 없지만 조금이나마 후련해지는 기분 :D&lt;/p&gt;
+<p><br /></p>
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/XidgIwW8b5o&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Nani Shin</name></author><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><category term="몽블랑" /><category term="Monblanc" /><category term="몽블랑146" /><category term="Monblanc146" /><category term="만년필" /><category term="Fountain Pen" /><category term="실리콘 구리스" /><category term="Silicone Grease" /><category term="슈퍼 루브" /><category term="Super Lube" /><category term="Silicone Dielectric Grease" /><category term="분해도구" /><category term="Disassembly Tool" /><category term="셀락 플레이크" /><category term="Shellac Flakes" /><category term="에탄올" /><category term="Ethanol" /><category term="매니큐어 공병" /><category term="Nail Polish Bottle" /><summary type="html">생전에 사용하실 때부터 그립부 잉크샘을 불평하셨다고 어머니에게 이야기 들었던 아버지 유품 몽블랑146 만년필</summary></entry><entry><title type="html">테슬라 커스텀 잠김음 실험</title><link href="https://nanishin.github.io/maker/diy-tesla-custom-lock-sounds-experiment/" rel="alternate" type="text/html" title="테슬라 커스텀 잠김음 실험" /><published>2024-01-07T23:30:00+09:00</published><updated>2024-01-07T23:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-tesla-custom-lock-sounds-experiment</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-tesla-custom-lock-sounds-experiment/">&lt;p&gt;지난 2023년 크리스마스 선물 펌웨어는 국내 리콜 업데이트까지 포함하면서 해를 넘겨 2024년 1월 초에 배포가 진행됨&lt;/p&gt;
+<p>글로벌 테슬라 라이트쇼 공유 사이트인 TeslaLightShare.io에도 등록 완료!!! :D</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.notateslaapp.com/software-updates/version/2023.44.30.8/release-notes&quot;&gt;국내 배포된 2023 홀리데이 업데이트 버전 - 2023.44.30.8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li><a href="https://teslalightshare.io/light-show/978">[K-pop] SEVENTEEN - Left &amp; Right Remix</a></li>
+</ul>
 
-&lt;p&gt;그중 가장 눈에 띄었던 테슬라 커스텀 잠김음 기능&lt;/p&gt;
+<p>P.S. 제 추천 링크를 사용하여 Tesla를 구매하세요. :)</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/tesla_custom_lock_sounds_release_notes.jpg&quot; alt=&quot;Tesl Custom Lock Sounds&quot; /&gt;&lt;/p&gt;
+<ul>
+  <li>http://ts.la/taeksu53570</li>
+</ul>]]></content><author><name>Nani Shin</name></author><category term="maker" /><category term="Tesla Light Show" /><category term="테슬라 라이트쇼" /><category term="Custom" /><category term="커스텀" /><category term="Tesla" /><category term="테슬라" /><category term="SEVENTEEN" /><category term="세븐틴" /><category term="Left &amp; Right" /><category term="레프트 앤드 라이트" /><summary type="html"><![CDATA[지난 2023년 홀리데이 펌웨어 업데이트 후 거의 3개월이 지나서야 진행한 2024년 첫번째 테슬라 커스텀 라이트쇼 작업]]></summary></entry><entry><title type="html">아버지 유품 몽블랑146 잉크샘 자가수리</title><link href="https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/" rel="alternate" type="text/html" title="아버지 유품 몽블랑146 잉크샘 자가수리" /><published>2024-03-02T20:30:00+09:00</published><updated>2024-03-02T20:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-ink-leakage-of-father-monblanc146/"><![CDATA[<p>생전에 사용하실 때부터 그립부 잉크샘을 불평하셨다고 어머니에게 이야기 들었던 아버지 유품 몽블랑146 만년필</p>
 
-&lt;p&gt;홀리데이 업데이트 받으면 새로운 노래 선정해서 커스텀 라이트쇼 작업하던 루틴을 일단 뒤로 미루고 잠김음 실험 우선 시작!!!&lt;/p&gt;
+<p>월말 김어준 만년필편을 처음엔 가볍게 청취하다가 결국 몇년 지나 만년필에 본격 입문하고 나서야 아버지 만년필들이</p>
 
-&lt;h2 id=&quot;1-잠김음-사용할-음원부터-다운로드&quot;&gt;1. 잠김음 사용할 음원부터 다운로드&lt;/h2&gt;
+<p>20세기를 대표하던 모델들이라는 걸 뒤늦게 깨닫고 국내외 수리 글/영상들을 참고한 뒤 본격 잉크샘 수리 작업 돌입!!!</p>
 
-&lt;p&gt;인터넷 상에 잠김음으로 사용할 수 있는 다양한 음원 소스들이 있는데 아래 사이트는 테슬라용으로 정리가 잘되어 있음&lt;/p&gt;
+<h2 id="1-수리-준비물">1. 수리 준비물</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.notateslaapp.com/tesla-custom-lock-sounds/&quot;&gt;Tesl Custom Lock Sounds&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>
+    <p>실리콘 구리스 (슈퍼루브, 테프론 포함되지 않은 Silicone Dielectric Grease 85g 제품으로 국내 주문)</p>
+  </li>
+  <li>
+    <p>몽블랑146 분해도구 (다이소 핀셋 휘어서 사용 가능하지만 유품에 상처날까 봐 정품 호환 제품으로 알리 주문)</p>
+  </li>
+  <li>
+    <p>셀락 플레이크 (색상이 가장 밝고 투명도가 높아보이는 50g 제품으로 알리 주문)</p>
+  </li>
+  <li>
+    <p>에탄올 (약국에서 예전에 구매해둔 83% 소독용 에탄올 사용)</p>
+  </li>
+  <li>
+    <p>매니큐어 공병 (처음 제조하며 양이 가늠이 되질 않아서 5/8/10/15ml 사이즈 별 국내 주문)</p>
+  </li>
+</ul>
 
-&lt;p&gt;그런데 최종적으로 내가 원하는 사운드 실험을 위해 직접 녹음과 다른 사이트들에서 하나하나 수집해서 최종 구성 완료!!!&lt;/p&gt;
+<h2 id="2-셀락-마감재-제조-지원">2. 셀락 마감재 제조 지원</h2>
 
-&lt;h2 id=&quot;2-맥북들고-주차장-내려가서-하나하나-실험하기&quot;&gt;2. 맥북들고 주차장 내려가서 하나하나 실험하기!!!&lt;/h2&gt;
+<ul>
+  <li>둘째딸</li>
+</ul>
 
-&lt;p&gt;처음 추가된 기능이다 보니 고도화된 라이트쇼 기능처럼 여러 파일 동시 인식은 아직 안되고 LockChime.wav 파일 이름 하나로 매번 바꿔가며 실험하다 보니 꽤 귀찮았지만 그래도 재미있음~ :D&lt;/p&gt;
+<h2 id="3-2024년-2월-한달-여정-정리">3. 2024년 2월 한달 여정 정리</h2>
 
-&lt;p&gt;실험 완료 후 커스텀 잠김음은 무작위 재생으로 설정해두고 인스타그램 및 유튜브 모두 등록 완료!!!&lt;/p&gt;
+<p>수리를 완료하니 아버지에게 가졌던 부채감 때문이었을까? 알 수 없지만 조금이나마 후련해지는 기분 :D</p>
 
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/C1zwdQZPrLj/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;14&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/C1zwdQZPrLj/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt;Instagram에서 이 게시물 보기&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/C1zwdQZPrLj/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;Nani Shin(@nanishin)님의 공유 게시물&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XidgIwW8b5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>]]></content><author><name>Nani Shin</name></author><category term="maker" /><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><category term="몽블랑" /><category term="Monblanc" /><category term="몽블랑146" /><category term="Monblanc146" /><category term="만년필" /><category term="Fountain Pen" /><category term="실리콘 구리스" /><category term="Silicone Grease" /><category term="슈퍼 루브" /><category term="Super Lube" /><category term="Silicone Dielectric Grease" /><category term="분해도구" /><category term="Disassembly Tool" /><category term="셀락 플레이크" /><category term="Shellac Flakes" /><category term="에탄올" /><category term="Ethanol" /><category term="매니큐어 공병" /><category term="Nail Polish Bottle" /><summary type="html"><![CDATA[생전에 사용하실 때부터 그립부 잉크샘을 불평하셨다고 어머니에게 이야기 들었던 아버지 유품 몽블랑146 만년필]]></summary></entry><entry><title type="html">테슬라 커스텀 잠김음 실험</title><link href="https://nanishin.github.io/maker/diy-tesla-custom-lock-sounds-experiment/" rel="alternate" type="text/html" title="테슬라 커스텀 잠김음 실험" /><published>2024-01-07T23:30:00+09:00</published><updated>2024-01-07T23:30:00+09:00</updated><id>https://nanishin.github.io/maker/diy-tesla-custom-lock-sounds-experiment</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-tesla-custom-lock-sounds-experiment/"><![CDATA[<p>지난 2023년 크리스마스 선물 펌웨어는 국내 리콜 업데이트까지 포함하면서 해를 넘겨 2024년 1월 초에 배포가 진행됨</p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/k2WdKZ-EWoE&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<ul>
+  <li><a href="https://www.notateslaapp.com/software-updates/version/2023.44.30.8/release-notes">국내 배포된 2023 홀리데이 업데이트 버전 - 2023.44.30.8</a></li>
+</ul>
 
-&lt;p&gt;P.S. 제 추천 링크를 사용하여 Tesla를 구매하세요. :)&lt;/p&gt;
+<p>그중 가장 눈에 띄었던 테슬라 커스텀 잠김음 기능</p>
 
-&lt;ul&gt;
-  &lt;li&gt;http://ts.la/taeksu53570&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nani Shin</name></author><category term="Tesla Lock Sound" /><category term="테슬라 잠김음" /><category term="Tesla" /><category term="테슬라" /><category term="Custom" /><category term="커스텀" /><category term="Lock Sound" /><category term="잠김음" /><category term="Experiment" /><category term="실험" /><summary type="html">지난 2023년 크리스마스 선물 펌웨어는 국내 리콜 업데이트까지 포함하면서 해를 넘겨 2024년 1월 초에 배포가 진행됨</summary></entry><entry><title type="html">지멘스 온도조절기 버튼 자가수리 (윈터 이즈 커밍)</title><link href="https://nanishin.github.io/maker/diy-repair-siemens-thermostat-buttons-for-warm-winter/" rel="alternate" type="text/html" title="지멘스 온도조절기 버튼 자가수리 (윈터 이즈 커밍)" /><published>2023-10-29T18:00:00+09:00</published><updated>2023-10-29T18:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-siemens-thermostat-buttons-for-warm-winter</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-siemens-thermostat-buttons-for-warm-winter/">&lt;p&gt;겨울이 다가오고 있다…&lt;/p&gt;
+<p><img src="/assets/images/tesla_custom_lock_sounds_release_notes.jpg" alt="Tesl Custom Lock Sounds" /></p>
 
-&lt;p&gt;알리에서 교체 부품만 사두고 묵혀둔 지 어느새 몇년…&lt;/p&gt;
+<p>홀리데이 업데이트 받으면 새로운 노래 선정해서 커스텀 라이트쇼 작업하던 루틴을 일단 뒤로 미루고 잠김음 실험 우선 시작!!!</p>
 
-&lt;p&gt;오락가락 버튼 인식과 인내를 시험하는 온도 무한 루프 설정에&lt;/p&gt;
+<h2 id="1-잠김음-사용할-음원부터-다운로드">1. 잠김음 사용할 음원부터 다운로드</h2>
 
-&lt;p&gt;가족들의 짜증은 점점 커져가는데…&lt;/p&gt;
+<p>인터넷 상에 잠김음으로 사용할 수 있는 다양한 음원 소스들이 있는데 아래 사이트는 테슬라용으로 정리가 잘되어 있음</p>
 
-&lt;p&gt;아파트 단지 내 온도조절기 수리 안내 공지를 보고서야&lt;/p&gt;
+<ul>
+  <li><a href="https://www.notateslaapp.com/tesla-custom-lock-sounds/">Tesl Custom Lock Sounds</a></li>
+</ul>
 
-&lt;p&gt;드디어 마음 먹고 자가수리 실천 완료!!!&lt;/p&gt;
+<p>그런데 최종적으로 내가 원하는 사운드 실험을 위해 직접 녹음과 다른 사이트들에서 하나하나 수집해서 최종 구성 완료!!!</p>
 
-&lt;p&gt;제품 정보 : 지멘스 (SIEMENS) 온도조절기 (RDD91/KR)&lt;/p&gt;
+<h2 id="2-맥북들고-주차장-내려가서-하나하나-실험하기">2. 맥북들고 주차장 내려가서 하나하나 실험하기!!!</h2>
 
-&lt;p&gt;BGM 정보 :&lt;/p&gt;
+<p>처음 추가된 기능이다 보니 고도화된 라이트쇼 기능처럼 여러 파일 동시 인식은 아직 안되고 LockChime.wav 파일 이름 하나로 매번 바꿔가며 실험하다 보니 꽤 귀찮았지만 그래도 재미있음~ :D</p>
 
-&lt;p&gt;Kevin MacLeod의 Heavy Interlude에는 크리에이티브 커먼즈 저작자 표시 4.0 라이선스가 적용됩니다.&lt;/p&gt;
+<p>실험 완료 후 커스텀 잠김음은 무작위 재생으로 설정해두고 인스타그램 및 유튜브 모두 등록 완료!!!</p>
 
-&lt;p&gt;https://creativecommons.org/licenses/by/4.0/&lt;/p&gt;
+<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/p/C1zwdQZPrLj/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C1zwdQZPrLj/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Instagram에서 이 게시물 보기</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C1zwdQZPrLj/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Nani Shin(@nanishin)님의 공유 게시물</a></p></div></blockquote>
+<script async="" src="//www.instagram.com/embed.js"></script>
 
-&lt;p&gt;출처: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100515&lt;/p&gt;
+<p><br /></p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/k2WdKZ-EWoE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<p><br /></p>
 
-&lt;p&gt;아티스트: http://incompetech.com/&lt;/p&gt;
+<p>P.S. 제 추천 링크를 사용하여 Tesla를 구매하세요. :)</p>
 
-&lt;h2 id=&quot;온도조절기-버튼-자가수리로-따뜻한-겨울나기-준비-완료-&quot;&gt;온도조절기 버튼 자가수리로 따뜻한 겨울나기 준비 완료~ :)&lt;/h2&gt;
+<ul>
+  <li>http://ts.la/taeksu53570</li>
+</ul>]]></content><author><name>Nani Shin</name></author><category term="maker" /><category term="Tesla Lock Sound" /><category term="테슬라 잠김음" /><category term="Tesla" /><category term="테슬라" /><category term="Custom" /><category term="커스텀" /><category term="Lock Sound" /><category term="잠김음" /><category term="Experiment" /><category term="실험" /><summary type="html"><![CDATA[지난 2023년 크리스마스 선물 펌웨어는 국내 리콜 업데이트까지 포함하면서 해를 넘겨 2024년 1월 초에 배포가 진행됨]]></summary></entry><entry><title type="html">지멘스 온도조절기 버튼 자가수리 (윈터 이즈 커밍)</title><link href="https://nanishin.github.io/maker/diy-repair-siemens-thermostat-buttons-for-warm-winter/" rel="alternate" type="text/html" title="지멘스 온도조절기 버튼 자가수리 (윈터 이즈 커밍)" /><published>2023-10-29T18:00:00+09:00</published><updated>2023-10-29T18:00:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-siemens-thermostat-buttons-for-warm-winter</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-siemens-thermostat-buttons-for-warm-winter/"><![CDATA[<p>겨울이 다가오고 있다…</p>
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/nwMTnSCHuSg&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Nani Shin</name></author><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><category term="지멘스" /><category term="SIEMENS" /><category term="RDD91/KR" /><category term="온도조절기" /><category term="Thermostat" /><summary type="html">겨울이 다가오고 있다…</summary></entry><entry><title type="html">테니스 볼머신(SKARO TNR-200F) 리모콘 안테나 자가 수리</title><link href="https://nanishin.github.io/maker/diy-repair-skaro-tnr-200f-remocon/" rel="alternate" type="text/html" title="테니스 볼머신(SKARO TNR-200F) 리모콘 안테나 자가 수리" /><published>2023-09-05T23:40:00+09:00</published><updated>2023-09-05T23:40:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-skaro-tnr-200f-remocon</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-skaro-tnr-200f-remocon/">&lt;p&gt;2023년 3월부터 코로나19 엔데믹에 맞춰 본격적인 운동을 재개하기로 마음먹으면서 다시금 선택한 테니스 (왼손잡이 롤모델 나달을 동경하며 시작했던 2008년을 되돌아보니 어느새 타임워프급 시간 이동…+_+)&lt;/p&gt;
+<p>알리에서 교체 부품만 사두고 묵혀둔 지 어느새 몇년…</p>
 
-&lt;p&gt;7~8년 전 마지막 야외 클레이 코트 레슨받던 시절과는 확 달라진 실내 테니스 문명을 접하고 문화 충격을 경험!!!&lt;/p&gt;
+<p>오락가락 버튼 인식과 인내를 시험하는 온도 무한 루프 설정에</p>
 
-&lt;p&gt;해외와 달리 국내에선 늙다리 운동 취급받던 테니스가 코로나 팬데믹 기간 절묘하게 2030 세대에게 언택트 운동 열기와 어우러져 다시금 인기를 얻었고 그에 힘입어 실내 테니스장이 전국에 몇백개가 생겼다고 함. 당연히 그 여파로 우리집 주변 상가 건물에도 여러 실내 테니스장이 입주하였는데 여러군데 둘러보고 결국 가장 가까운 곳으로 선택한 뒤 바로 레슨 고!!!&lt;/p&gt;
+<p>가족들의 짜증은 점점 커져가는데…</p>
 
-&lt;p&gt;예전 테니스 연습 때는 벽치기 제외하곤 난타 상대방을 매번 구해야 해서 연습 제약이 있었는데 실내 테니스로 오면서 기후(눈, 비) 신경 안쓰고 흙먼지 없는 깔끔한 하드코트에 볼머신까지 마련되니까 마치 실내 골프연습장 드라이브 1박스 치는 것과 유사하게 테니스 볼머신으로 포핸드 1박스, 백핸드 1박스 연습을 레슨 후 루틴으로 가져갈 수 있게 되어서 대만족!!! :)&lt;/p&gt;
+<p>아파트 단지 내 온도조절기 수리 안내 공지를 보고서야</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230212_150650.jpg&quot; alt=&quot;SKARO TNR-200F Full Shot&quot; /&gt;&lt;/p&gt;
+<p>드디어 마음 먹고 자가수리 실천 완료!!!</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230212_150716.jpg&quot; alt=&quot;SKARO TNR-200F Close Up Shot 1&quot; /&gt;&lt;/p&gt;
+<p>제품 정보 : 지멘스 (SIEMENS) 온도조절기 (RDD91/KR)</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230212_154855.jpg&quot; alt=&quot;SKARO TNR-200F Close Up Shot 2&quot; /&gt;&lt;/p&gt;
+<p>BGM 정보 :</p>
 
-&lt;p&gt;그런데 8월 말 레슨장에서 사용하던 볼머신 리모콘이 갑자기 동작하지 않는 상황 발생. 코치에게 바로 알렸으나 도구 부족으로 수리가 계속 안되길래 결국 레슨가는 길에 멀티미터, 십자 드라이버, 납땜 인두기 세트도 같이 들고 가서 리모콘 분해 후 직접 수리 돌입!!!&lt;/p&gt;
+<p>Kevin MacLeod의 Heavy Interlude에는 크리에이티브 커먼즈 저작자 표시 4.0 라이선스가 적용됩니다.</p>
 
-&lt;p&gt;목 마른 자가 직접 우물파는 심정으로~ 나는 그저 쾌적하게 스트로크 연습을 하고프니까~&lt;/p&gt;
+<p>https://creativecommons.org/licenses/by/4.0/</p>
 
-&lt;h2 id=&quot;1-외관을-톺아보며-고장을-유발한-이상-부분-찾기&quot;&gt;1. 외관을 톺아보며 고장을 유발한 이상 부분 찾기&lt;/h2&gt;
+<p>출처: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100515</p>
 
-&lt;p&gt;분해 후 내부 회로와 기구 상태를 점검했는데 우선 멀티미터로 배터리 체크하니 12V 정상으로 나와서 방전 시나리오는 패스~&lt;/p&gt;
+<p>아티스트: http://incompetech.com/</p>
 
-&lt;p&gt;회로 기판에도 특별히 탄 흔적은 없었으나 접이식 안테나를 고정해주는 기구 부분이 부러져 있었고 회로 본체와 안테나 간 연결선도 끊어진 상태 확인&lt;/p&gt;
+<h2 id="온도조절기-버튼-자가수리로-따뜻한-겨울나기-준비-완료-">온도조절기 버튼 자가수리로 따뜻한 겨울나기 준비 완료~ :)</h2>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230831_123136.jpg&quot; alt=&quot;SKARO TNR-200F Remocon Disassembley 1&quot; /&gt;&lt;/p&gt;
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nwMTnSCHuSg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>]]></content><author><name>Nani Shin</name></author><category term="maker" /><category term="DIY" /><category term="자가수리" /><category term="Self Repair" /><category term="수리권리" /><category term="Right to Repair" /><category term="재사용" /><category term="Reuse" /><category term="순환경제" /><category term="Circular Economy" /><category term="지속가능성" /><category term="Sustainability" /><category term="지멘스" /><category term="SIEMENS" /><category term="RDD91/KR" /><category term="온도조절기" /><category term="Thermostat" /><summary type="html"><![CDATA[겨울이 다가오고 있다…]]></summary></entry><entry><title type="html">테니스 볼머신(SKARO TNR-200F) 리모콘 안테나 자가 수리</title><link href="https://nanishin.github.io/maker/diy-repair-skaro-tnr-200f-remocon/" rel="alternate" type="text/html" title="테니스 볼머신(SKARO TNR-200F) 리모콘 안테나 자가 수리" /><published>2023-09-05T23:40:00+09:00</published><updated>2023-09-05T23:40:00+09:00</updated><id>https://nanishin.github.io/maker/diy-repair-skaro-tnr-200f-remocon</id><content type="html" xml:base="https://nanishin.github.io/maker/diy-repair-skaro-tnr-200f-remocon/"><![CDATA[<p>2023년 3월부터 코로나19 엔데믹에 맞춰 본격적인 운동을 재개하기로 마음먹으면서 다시금 선택한 테니스 (왼손잡이 롤모델 나달을 동경하며 시작했던 2008년을 되돌아보니 어느새 타임워프급 시간 이동…+_+)</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230831_123141.jpg&quot; alt=&quot;SKARO TNR-200F Remocon Disassembley 2&quot; /&gt;&lt;/p&gt;
+<p>7~8년 전 마지막 야외 클레이 코트 레슨받던 시절과는 확 달라진 실내 테니스 문명을 접하고 문화 충격을 경험!!!</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230831_123203.jpg&quot; alt=&quot;SKARO TNR-200F Remocon Disassembley 3&quot; /&gt;&lt;/p&gt;
+<p>해외와 달리 국내에선 늙다리 운동 취급받던 테니스가 코로나 팬데믹 기간 절묘하게 2030 세대에게 언택트 운동 열기와 어우러져 다시금 인기를 얻었고 그에 힘입어 실내 테니스장이 전국에 몇백개가 생겼다고 함. 당연히 그 여파로 우리집 주변 상가 건물에도 여러 실내 테니스장이 입주하였는데 여러군데 둘러보고 결국 가장 가까운 곳으로 선택한 뒤 바로 레슨 고!!!</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230831_123334.jpg&quot; alt=&quot;SKARO TNR-200F Remocon Disassembley 4&quot; /&gt;&lt;/p&gt;
+<p>예전 테니스 연습 때는 벽치기 제외하곤 난타 상대방을 매번 구해야 해서 연습 제약이 있었는데 실내 테니스로 오면서 기후(눈, 비) 신경 안쓰고 흙먼지 없는 깔끔한 하드코트에 볼머신까지 마련되니까 마치 실내 골프연습장 드라이브 1박스 치는 것과 유사하게 테니스 볼머신으로 포핸드 1박스, 백핸드 1박스 연습을 레슨 후 루틴으로 가져갈 수 있게 되어서 대만족!!! :)</p>
 
-&lt;p&gt;실내 테니스장 개장 후 1년 넘게 회원들이 볼머신을 사용하면서 리모콘 안테나를 뺐다가 집어넣는 과정이 반복되다가 어느 순간 고정 기구 부분이 부러지면서 안테나 연결선까지 같이 끊어진 것으로 추정…&lt;/p&gt;
+<p><img src="/assets/images/20230212_150650.jpg" alt="SKARO TNR-200F Full Shot" /></p>
 
-&lt;p&gt;수동으로 안테나와 회로 본체를 접촉시키고 버튼 눌렀을 때 정상적으로 볼머신이 제어되는 것 확인하고 납땜 작업 시작~&lt;/p&gt;
+<p><img src="/assets/images/20230212_150716.jpg" alt="SKARO TNR-200F Close Up Shot 1" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230831_130326.jpg&quot; alt=&quot;SKARO TNR-200F Remocon Manual Anntena Test&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/20230212_154855.jpg" alt="SKARO TNR-200F Close Up Shot 2" /></p>
 
-&lt;h2 id=&quot;2-회로-본체와-안테나-간-납땜으로-재연결&quot;&gt;2. 회로 본체와 안테나 간 납땜으로 재연결&lt;/h2&gt;
+<p>그런데 8월 말 레슨장에서 사용하던 볼머신 리모콘이 갑자기 동작하지 않는 상황 발생. 코치에게 바로 알렸으나 도구 부족으로 수리가 계속 안되길래 결국 레슨가는 길에 멀티미터, 십자 드라이버, 납땜 인두기 세트도 같이 들고 가서 리모콘 분해 후 직접 수리 돌입!!!</p>
 
-&lt;p&gt;회로 본체와 접이식 안테나 간 연결할 리드선은 따로 챙겨오지 않아서 납땜 자체를 길게 늘여서 직접 연결시켰고 기구 부러진 부분을 순간접착제로 복원시킬까 하다가 기존 구조로는 다시 부러지는 상황이 반복될 걸로 보인다는 코치 아이디어를 받아들여 절연테이프를 아주 작게 돌돌 감아 안테나 뒷부분 공간에 밀리지 않도록 추가 보강!!!&lt;/p&gt;
+<p>목 마른 자가 직접 우물파는 심정으로~ 나는 그저 쾌적하게 스트로크 연습을 하고프니까~</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230905_123559.jpg&quot; alt=&quot;SKARO TNR-200F Remocon Disassembley to Repair&quot; /&gt;&lt;/p&gt;
+<h2 id="1-외관을-톺아보며-고장을-유발한-이상-부분-찾기">1. 외관을 톺아보며 고장을 유발한 이상 부분 찾기</h2>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230905_125020.jpg&quot; alt=&quot;SKARO TNR-200F Remocon Anntena Soldering&quot; /&gt;&lt;/p&gt;
+<p>분해 후 내부 회로와 기구 상태를 점검했는데 우선 멀티미터로 배터리 체크하니 12V 정상으로 나와서 방전 시나리오는 패스~</p>
 
-&lt;h2 id=&quot;3-리모콘-재조립-후-안테나-추가-파손-방지-조치&quot;&gt;3. 리모콘 재조립 후 안테나 추가 파손 방지 조치&lt;/h2&gt;
+<p>회로 기판에도 특별히 탄 흔적은 없었으나 접이식 안테나를 고정해주는 기구 부분이 부러져 있었고 회로 본체와 안테나 간 연결선도 끊어진 상태 확인</p>
 
-&lt;p&gt;재조립하고 실내 테니스장 거리 상 안테나 길이를 조절할 일이 없기에 안테나를 일부 펼친 상태에서 절연 테이프로 고정해서 더이상 접히면서 내부 회로 연결선에 충격이 가지 않게 조치하고 최종 마무리~&lt;/p&gt;
+<p><img src="/assets/images/20230831_123136.jpg" alt="SKARO TNR-200F Remocon Disassembley 1" /></p>
 
-&lt;p&gt;다시금 볼머신과 함께 포핸드&amp;amp;백핸드 스트로크 연습하며 즐테!!! ;P&lt;/p&gt;
+<p><img src="/assets/images/20230831_123141.jpg" alt="SKARO TNR-200F Remocon Disassembley 2" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20230905_125512.jpg&quot; alt=&quot;SKARO TNR-200F Remocon Reassembly&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/20230831_123203.jpg" alt="SKARO TNR-200F Remocon Disassembley 3" /></p>
 
-&lt;p&gt;P.S. 혹시나 해서 해당 제품(TNR-200 시리즈 전용 리모컨) 찾아보니 가격이 5만원…와우… &amp;gt;_&amp;lt;&lt;/p&gt;
+<p><img src="/assets/images/20230831_123334.jpg" alt="SKARO TNR-200F Remocon Disassembley 4" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/skaro_tnr-200r_remocon.jpg&quot; alt=&quot;SKARO TNR-200F Remocon Price&quot; /&gt;&lt;/p&gt;</content><author><name>Nani Shin</name></author><category term="Tennis" /><category term="테니스" /><category term="Ball Machine" /><category term="볼머신" /><category term="SKARO" /><category term="스카로" /><category term="TNR-200F" /><category term="Remocon" /><category term="리모콘" /><category term="Remote Control" /><category term="리모트 콘트롤" /><category term="TNR-200R" /><category term="Self Repair" /><category term="자가수리" /><category term="Right to Repair" /><category term="수리권리" /><summary type="html">2023년 3월부터 코로나19 엔데믹에 맞춰 본격적인 운동을 재개하기로 마음먹으면서 다시금 선택한 테니스 (왼손잡이 롤모델 나달을 동경하며 시작했던 2008년을 되돌아보니 어느새 타임워프급 시간 이동…+_+)</summary></entry><entry><title type="html">python-telegram-bot v20 전환하기</title><link href="https://nanishin.github.io/tip/howto-transite-python-telegram-bot-v20/" rel="alternate" type="text/html" title="python-telegram-bot v20 전환하기" /><published>2023-08-16T02:10:00+09:00</published><updated>2023-08-16T02:10:00+09:00</updated><id>https://nanishin.github.io/tip/howto-transite-python-telegram-bot-v20</id><content type="html" xml:base="https://nanishin.github.io/tip/howto-transite-python-telegram-bot-v20/">&lt;p&gt;작년에 python-telegram-bot으로 여러 봇 서비스들을 도커 컨테이너로 생성 뒤 사용했는데 주로 라즈베리파이4 시스템의 패키지 업데이트만 진행하고 봇 서비스 중인 컨테이너 내 코드 변화는 따라가고 있지 않았음&lt;/p&gt;
+<p>실내 테니스장 개장 후 1년 넘게 회원들이 볼머신을 사용하면서 리모콘 안테나를 뺐다가 집어넣는 과정이 반복되다가 어느 순간 고정 기구 부분이 부러지면서 안테나 연결선까지 같이 끊어진 것으로 추정…</p>
 
-&lt;p&gt;올해 상반기부터 트위터 개발자 권한 축소 (Elevated access에서 통폐합된 Free access로 강등) 여파였는지 API 호출도 몇번 막히고 이후 봇 서비스도 잘 동작하지 않아서 1년 만에 도커 컨테이너 이미지 리빌드 후 동작 시험하다가 모듈 에러들이 연이어 발생…&lt;/p&gt;
+<p>수동으로 안테나와 회로 본체를 접촉시키고 버튼 눌렀을 때 정상적으로 볼머신이 제어되는 것 확인하고 납땜 작업 시작~</p>
 
-&lt;p&gt;마침 그당시 업무로 바쁘기도 했던 상황이라 그냥 냅두고 몇개월 방치하다가 이제서야 수정 작업 돌입!!!&lt;/p&gt;
+<p><img src="/assets/images/20230831_130326.jpg" alt="SKARO TNR-200F Remocon Manual Anntena Test" /></p>
 
-&lt;p&gt;분석 결과 주원인은 2023년부터 python-telegram-bot 기본 버전이 v13에서 v20으로 올라가면서 대규모 리팩토링이 발생했는데 그로 인해 코드 하위 호환성이 모두 깨진 상황…&lt;/p&gt;
+<h2 id="2-회로-본체와-안테나-간-납땜으로-재연결">2. 회로 본체와 안테나 간 납땜으로 재연결</h2>
 
-&lt;p&gt;결국 아래 가이드를 바탕으로 하나하나 수정 삽질을 반복하며 최종 전환 완료 후 내용 정리&lt;/p&gt;
+<p>회로 본체와 접이식 안테나 간 연결할 리드선은 따로 챙겨오지 않아서 납땜 자체를 길게 늘여서 직접 연결시켰고 기구 부러진 부분을 순간접착제로 복원시킬까 하다가 기존 구조로는 다시 부러지는 상황이 반복될 걸로 보인다는 코치 아이디어를 받아들여 절연테이프를 아주 작게 돌돌 감아 안테나 뒷부분 공간에 밀리지 않도록 추가 보강!!!</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/python-telegram-bot/python-telegram-bot/wiki/Transition-guide-to-Version-20.0&quot;&gt;Transition guide to Version 20.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p><img src="/assets/images/20230905_123559.jpg" alt="SKARO TNR-200F Remocon Disassembley to Repair" /></p>
 
-&lt;h2 id=&quot;1-모듈-이름은-telegrambot-대신-telegram-사용&quot;&gt;1. 모듈 이름은 telegram.bot 대신 telegram 사용&lt;/h2&gt;
+<p><img src="/assets/images/20230905_125020.jpg" alt="SKARO TNR-200F Remocon Anntena Soldering" /></p>
 
-&lt;p&gt;Bot 모듈을 위해 사용하던 telegram.bot 대신 telegram 사용&lt;/p&gt;
+<h2 id="3-리모콘-재조립-후-안테나-추가-파손-방지-조치">3. 리모콘 재조립 후 안테나 추가 파손 방지 조치</h2>
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# from telegram.bot import Bot
-&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;telegram&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bot&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<p>재조립하고 실내 테니스장 거리 상 안테나 길이를 조절할 일이 없기에 안테나를 일부 펼친 상태에서 절연 테이프로 고정해서 더이상 접히면서 내부 회로 연결선에 충격이 가지 않게 조치하고 최종 마무리~</p>
 
-&lt;h2 id=&quot;2-bot-동작은-updater-대신-application-사용&quot;&gt;2. Bot 동작은 Updater 대신 Application 사용&lt;/h2&gt;
+<p>다시금 볼머신과 함께 포핸드&amp;백핸드 스트로크 연습하며 즐테!!! ;P</p>
 
-&lt;p&gt;main 함수에서 Bot 동작을 위해 사용하던 Updater 대신 v20 버전부터 새로운 구조 핵심인 Application 사용. 이 여파로 dispatcher 통해 핸들러 붙이던 방식은 직접 연결로 간결해짐&lt;/p&gt;
+<p><img src="/assets/images/20230905_125512.jpg" alt="SKARO TNR-200F Remocon Reassembly" /></p>
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;telegram.ext&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Application&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# Updater,
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;CommandHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;CallbackQueryHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;CallbackContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+<p>P.S. 혹시나 해서 해당 제품(TNR-200 시리즈 전용 리모컨) 찾아보니 가격이 5만원…와우… &gt;_&lt;</p>
 
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Run the bot.&quot;&quot;&quot;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;builder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getenv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'TELEGRAM_BOT_API_KEY'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_handler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CommandHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'start'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# updater = Updater(os.getenv('TELEGRAM_BOT_API_KEY'))
-&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# updater.dispatcher.add_handler(CommandHandler('start', start))
-&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# Start the Bot
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_polling&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;allowed_updates&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Update&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ALL_TYPES&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# updater.start_polling()
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;3-async-상태-적용-후-다시금-봇-서비스-재개&quot;&gt;3. async 상태 적용 후 다시금 봇 서비스 재개&lt;/h2&gt;
-
-&lt;p&gt;동작 시험 과정에서 warning 메시지 확인 후 Application 기반 동작 시 내부에 신규 추가된 asyncio 모듈 영향으로 코드 내 async나 await 적절히 추가 후 봇 서비스 다시 재개~ :D&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# def start(update: Update, context: CallbackContext) -&amp;gt; None:
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CallbackContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;# logic blah blah blah
-&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;reply_markup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;InlineKeyboardMarkup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keyboard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# update.message.reply_text('What do you want to do? :', reply_markup=reply_markup)
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reply_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'What do you want to do? :'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reply_markup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reply_markup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Nani Shin</name></author><category term="Python Telegram Bot" /><category term="PTB" /><category term="파이썬 텔레그램 봇" /><summary type="html">작년에 python-telegram-bot으로 여러 봇 서비스들을 도커 컨테이너로 생성 뒤 사용했는데 주로 라즈베리파이4 시스템의 패키지 업데이트만 진행하고 봇 서비스 중인 컨테이너 내 코드 변화는 따라가고 있지 않았음</summary></entry></feed>
+<p><img src="/assets/images/skaro_tnr-200r_remocon.jpg" alt="SKARO TNR-200F Remocon Price" /></p>]]></content><author><name>Nani Shin</name></author><category term="maker" /><category term="Tennis" /><category term="테니스" /><category term="Ball Machine" /><category term="볼머신" /><category term="SKARO" /><category term="스카로" /><category term="TNR-200F" /><category term="Remocon" /><category term="리모콘" /><category term="Remote Control" /><category term="리모트 콘트롤" /><category term="TNR-200R" /><category term="Self Repair" /><category term="자가수리" /><category term="Right to Repair" /><category term="수리권리" /><summary type="html"><![CDATA[2023년 3월부터 코로나19 엔데믹에 맞춰 본격적인 운동을 재개하기로 마음먹으면서 다시금 선택한 테니스 (왼손잡이 롤모델 나달을 동경하며 시작했던 2008년을 되돌아보니 어느새 타임워프급 시간 이동…+_+)]]></summary></entry></feed>

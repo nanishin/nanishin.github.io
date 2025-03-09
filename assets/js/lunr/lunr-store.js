@@ -463,4 +463,9 @@ var store = [{
         "excerpt":"2018년 말 조립 후 이리저리 고쳐가며 잘 쓰고 있는 6년차 3D프린터 Anet A8 그중 LCD 모듈은 몇년 전부터 색이 바래져서 옥토프린트나 큐라에서 원격으로 상태 확인하다가 결국 알리에서 동일한 LCD2004 Blue 모듈 주문해서 도착 후 자가 교체 수리 진행 그런데 16개 핀커넥터 납땜을 전용 열풍기 없이 일반 인두기 1개로 제거하자니 거의...","categories": ["maker"],
         "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability","LCD모듈","LCD Module","LCD2004"],
         "url": "https://nanishin.github.io/maker/diy-repair-faded-lcd-module-of-3dprinter-by-lcd2004-replacement/",
-        "teaser":"https://nanishin.github.io/assets/images/20241005_221151.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/20241005_221151.jpg"},{
+        "title": "맥세이프3 간단 접지 수리",
+        "excerpt":"2015년 업무 스트레스가 극에 달하다가 결국 하반기 쓸개를 떼고 그동안 납입만 했던 종합보험에서 수술비 지원 보험금을 받은 뒤 떠올랐던 결심 “그래, 회사에 쓸모를 보이려고 애쓰다가 쓸개를 잃었으니 이제부터라도 내가 하고픈 걸 적극적으로 병행해보자!!!” 무언가를 만들기 위해서 도구가 필요하니 맥북을 사자 하고 바로 구입했던 2015 Early MacBook Pro 13 10년 간...","categories": ["maker"],
+        "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability","MacSafe3","맥세이프3","3D Printed Adapter Housing","3D프린팅 어댑터 하우징","Earth","접지"],
+        "url": "https://nanishin.github.io/maker/diy-macsafe3-earth-by-3dprinted-adapter-housing-and-thin-wire/",
+        "teaser":"https://nanishin.github.io/assets/images/20250308_221220.jpg"}]

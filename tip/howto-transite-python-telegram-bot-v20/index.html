@@ -359,14 +359,14 @@
 <p>Bot 모듈을 위해 사용하던 telegram.bot 대신 telegram 사용</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># from telegram.bot import Bot
-</span><span class="kn">from</span> <span class="nn">telegram</span> <span class="kn">import</span> <span class="n">Bot</span>
+</span><span class="kn">from</span> <span class="n">telegram</span> <span class="kn">import</span> <span class="n">Bot</span>
 </code></pre></div></div>
 
 <h2 id="2-bot-동작은-updater-대신-application-사용">2. Bot 동작은 Updater 대신 Application 사용</h2>
 
 <p>main 함수에서 Bot 동작을 위해 사용하던 Updater 대신 v20 버전부터 새로운 구조 핵심인 Application 사용. 이 여파로 dispatcher 통해 핸들러 붙이던 방식은 직접 연결로 간결해짐</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">telegram.ext</span> <span class="kn">import</span> <span class="p">(</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">telegram.ext</span> <span class="kn">import</span> <span class="p">(</span>
     <span class="n">Application</span><span class="p">,</span>
     <span class="c1"># Updater,
 </span>    <span class="n">CommandHandler</span><span class="p">,</span>
@@ -375,14 +375,14 @@
 <span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
-    <span class="s">"""Run the bot."""</span>
-    <span class="n">application</span> <span class="o">=</span> <span class="n">Application</span><span class="o">.</span><span class="n">builder</span><span class="p">()</span><span class="o">.</span><span class="n">token</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s">'TELEGRAM_BOT_API_KEY'</span><span class="p">))</span><span class="o">.</span><span class="n">build</span><span class="p">()</span>
-    <span class="n">application</span><span class="o">.</span><span class="n">add_handler</span><span class="p">(</span><span class="n">CommandHandler</span><span class="p">(</span><span class="s">'start'</span><span class="p">,</span> <span class="n">start</span><span class="p">))</span>
+    <span class="sh">"""</span><span class="s">Run the bot.</span><span class="sh">"""</span>
+    <span class="n">application</span> <span class="o">=</span> <span class="n">Application</span><span class="p">.</span><span class="nf">builder</span><span class="p">().</span><span class="nf">token</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="nf">getenv</span><span class="p">(</span><span class="sh">'</span><span class="s">TELEGRAM_BOT_API_KEY</span><span class="sh">'</span><span class="p">)).</span><span class="nf">build</span><span class="p">()</span>
+    <span class="n">application</span><span class="p">.</span><span class="nf">add_handler</span><span class="p">(</span><span class="nc">CommandHandler</span><span class="p">(</span><span class="sh">'</span><span class="s">start</span><span class="sh">'</span><span class="p">,</span> <span class="n">start</span><span class="p">))</span>
     <span class="c1"># updater = Updater(os.getenv('TELEGRAM_BOT_API_KEY'))
 </span>    <span class="c1"># updater.dispatcher.add_handler(CommandHandler('start', start))
 </span>
     <span class="c1"># Start the Bot
-</span>    <span class="n">application</span><span class="o">.</span><span class="n">run_polling</span><span class="p">(</span><span class="n">allowed_updates</span><span class="o">=</span><span class="n">Update</span><span class="o">.</span><span class="n">ALL_TYPES</span><span class="p">)</span>
+</span>    <span class="n">application</span><span class="p">.</span><span class="nf">run_polling</span><span class="p">(</span><span class="n">allowed_updates</span><span class="o">=</span><span class="n">Update</span><span class="p">.</span><span class="n">ALL_TYPES</span><span class="p">)</span>
     <span class="c1"># updater.start_polling()
 </span></code></pre></div></div>
 
@@ -395,9 +395,9 @@
 
     <span class="c1"># logic blah blah blah
 </span>
-    <span class="n">reply_markup</span> <span class="o">=</span> <span class="n">InlineKeyboardMarkup</span><span class="p">(</span><span class="n">keyboard</span><span class="p">)</span>
+    <span class="n">reply_markup</span> <span class="o">=</span> <span class="nc">InlineKeyboardMarkup</span><span class="p">(</span><span class="n">keyboard</span><span class="p">)</span>
     <span class="c1"># update.message.reply_text('What do you want to do? :', reply_markup=reply_markup)
-</span>    <span class="k">await</span> <span class="n">update</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">reply_text</span><span class="p">(</span><span class="s">'What do you want to do? :'</span><span class="p">,</span> <span class="n">reply_markup</span><span class="o">=</span><span class="n">reply_markup</span><span class="p">)</span>
+</span>    <span class="k">await</span> <span class="n">update</span><span class="p">.</span><span class="n">message</span><span class="p">.</span><span class="nf">reply_text</span><span class="p">(</span><span class="sh">'</span><span class="s">What do you want to do? :</span><span class="sh">'</span><span class="p">,</span> <span class="n">reply_markup</span><span class="o">=</span><span class="n">reply_markup</span><span class="p">)</span>
 </code></pre></div></div>
 
         
@@ -503,6 +503,46 @@
     <div class="page__related">
       <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/20250308_221220.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/maker/diy-macsafe3-earth-by-3dprinted-adapter-housing-and-thin-wire/" rel="permalink">맥세이프3 간단 접지 수리
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> March 09 2025</p>
+    
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">2015년 업무 스트레스가 극에 달하다가 결국 하반기 쓸개를 떼고 그동안 납입만 했던 종합보험에서 수술비 지원 보험금을 받은 뒤 떠올랐던 결심
+</p>
+  </article>
+</div>
+
         
           
 
@@ -624,46 +664,6 @@
 </div>
 
         
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/20240712_133344.jpg"
-          
-          alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/maker/diy-repair-infodisplay-housing-of-old-gasoline-car/" rel="permalink">3D펜으로 내연차 인포디스플레이 재고정 수리
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> July 12 2024</p>
-    
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">큰딸이 태어난 뒤 출고했던 첫 패밀리카인 내연차…
-</p>
-  </article>
-</div>
-
-        
       </div>
     </div>
   
@@ -718,7 +718,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 Nani Shin. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 Nani Shin. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
