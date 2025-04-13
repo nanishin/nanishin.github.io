@@ -468,4 +468,9 @@ var store = [{
         "excerpt":"2015년 업무 스트레스가 극에 달하다가 결국 하반기 쓸개를 떼고 그동안 납입만 했던 종합보험에서 수술비 지원 보험금을 받은 뒤 떠올랐던 결심 “그래, 회사에 쓸모를 보이려고 애쓰다가 쓸개를 잃었으니 이제부터라도 내가 하고픈 걸 적극적으로 병행해보자!!!” 무언가를 만들기 위해서 도구가 필요하니 맥북을 사자 하고 바로 구입했던 2015 Early MacBook Pro 13 10년 간...","categories": ["maker"],
         "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability","MacSafe3","맥세이프3","3D Printed Adapter Housing","3D프린팅 어댑터 하우징","Earth","접지"],
         "url": "https://nanishin.github.io/maker/diy-macsafe3-earth-by-3dprinted-adapter-housing-and-thin-wire/",
-        "teaser":"https://nanishin.github.io/assets/images/20250308_221220.jpg"}]
+        "teaser":"https://nanishin.github.io/assets/images/20250308_221220.jpg"},{
+        "title": "2차 작업 후 세면대 수전 교체기",
+        "excerpt":"2008년 아파트 준공 때 기본 설치된 17년 넘은 세면대 수전 교체기 처음에는 수전 내부 호환 카트리지만 교체해서 레버가 부드럽게 동작하는 걸 확인 그러나 레버가 뻑뻑해진 상태로 몇년 간 사용했더니 그 반복된 상향 압력이 부식된 걸쇠에 영향을 주어 일부가 깨지고 휘어져서 더이상 정상적으로 고정이 안됨 ㅠ_ㅠ 결국 신형 수전으로 전면 교체하고...","categories": ["maker"],
+        "tags": ["DIY","자가수리","Self Repair","수리권리","Right to Repair","재사용","Reuse","순환경제","Circular Economy","지속가능성","Sustainability","Washbasin Faucet","세면대 수전","Faucet Cartridge","수전 카트리지"],
+        "url": "https://nanishin.github.io/maker/diy-repair-washbasin-faucet-replacement/",
+        "teaser":"https://nanishin.github.io/assets/images/washbasin_faucet_replacement.jpg"}]
