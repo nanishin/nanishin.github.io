@@ -4,7 +4,8 @@ _site/
 .jekyll-metadata
 vendor
 .bundle
-Gemfile.lock
+# Gemfile.lock은 커밋해야 합니다 (GitHub Actions frozen mode를 위해)
+# Gemfile.lock
 *.gem
 .DS_Store
 private/
